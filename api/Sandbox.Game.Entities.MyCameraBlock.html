@@ -135,6 +135,9 @@
       <a class="xref" href="Sandbox.Game.Entities.MyCubeBlock.html#Sandbox_Game_Entities_MyCubeBlock_UsedUpdateEveryFrame">MyCubeBlock.UsedUpdateEveryFrame</a>
     </div>
     <div>
+      <a class="xref" href="Sandbox.Game.Entities.MyCubeBlock.html#Sandbox_Game_Entities_MyCubeBlock_HandleEmissiveStateChange">MyCubeBlock.HandleEmissiveStateChange</a>
+    </div>
+    <div>
       <a class="xref" href="Sandbox.Game.Entities.MyCubeBlock.html#Sandbox_Game_Entities_MyCubeBlock_SubBlocks">MyCubeBlock.SubBlocks</a>
     </div>
     <div>
@@ -175,6 +178,9 @@
     </div>
     <div>
       <a class="xref" href="Sandbox.Game.Entities.MyCubeBlock.html#Sandbox_Game_Entities_MyCubeBlock_Init">MyCubeBlock.Init()</a>
+    </div>
+    <div>
+      <a class="xref" href="Sandbox.Game.Entities.MyCubeBlock.html#Sandbox_Game_Entities_MyCubeBlock_HasUnparentedSubpart">MyCubeBlock.HasUnparentedSubpart()</a>
     </div>
     <div>
       <a class="xref" href="Sandbox.Game.Entities.MyCubeBlock.html#Sandbox_Game_Entities_MyCubeBlock_GetLocalMatrix_VRageMath_Matrix__">MyCubeBlock.GetLocalMatrix(Matrix)</a>
@@ -552,13 +558,22 @@
       <a class="xref" href="Sandbox.Game.Entities.MyCubeBlock.html#Sandbox_Game_Entities_MyCubeBlock_IsWorkingChanged">MyCubeBlock.IsWorkingChanged</a>
     </div>
     <div>
+      <a class="xref" href="Sandbox.Game.Entities.MyCubeBlock.html#Sandbox_Game_Entities_MyCubeBlock_GetEmissiveStateHashFromComponent">MyCubeBlock.GetEmissiveStateHashFromComponent</a>
+    </div>
+    <div>
       <a class="xref" href="Sandbox.Game.Entities.MyCubeBlock.html#Sandbox_Game_Entities_MyCubeBlock_CanContinueBuildCheck">MyCubeBlock.CanContinueBuildCheck</a>
+    </div>
+    <div>
+      <a class="xref" href="Sandbox.Game.Entities.MyCubeBlock.html#Sandbox_Game_Entities_MyCubeBlock_OnUpdateBeforenextFrame">MyCubeBlock.OnUpdateBeforenextFrame</a>
     </div>
     <div>
       <a class="xref" href="Sandbox.Game.Entities.MyCubeBlock.html#Sandbox_Game_Entities_MyCubeBlock_OnUpgradeValuesChanged">MyCubeBlock.OnUpgradeValuesChanged</a>
     </div>
     <div>
       <a class="xref" href="Sandbox.Game.Entities.MyCubeBlock.html#Sandbox_Game_Entities_MyCubeBlock_VRage_Game_ModAPI_IMyCubeBlock_IsWorkingChanged">MyCubeBlock.IMyCubeBlock.IsWorkingChanged</a>
+    </div>
+    <div>
+      <a class="xref" href="Sandbox.Game.Entities.MyCubeBlock.html#Sandbox_Game_Entities_MyCubeBlock_CubeGridChanged">MyCubeBlock.CubeGridChanged</a>
     </div>
     <div>
       <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_m_contactPoint">MyEntity.m_contactPoint</a>
@@ -604,6 +619,9 @@
     </div>
     <div>
       <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_OnEntityCloseRequest">MyEntity.OnEntityCloseRequest</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_InstantiateSubpartOverrideFunc">MyEntity.InstantiateSubpartOverrideFunc</a>
     </div>
     <div>
       <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_AddToGamePruningStructureExtCallBack">MyEntity.AddToGamePruningStructureExtCallBack</a>
@@ -1191,6 +1209,9 @@
       <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_VRage_Game_ModAPI_Ingame_IMyEntity_WorldVolumeHr">MyEntity.IMyEntity.WorldVolumeHr</a>
     </div>
     <div>
+      <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_StopPhysicsActivation">MyEntity.StopPhysicsActivation</a>
+    </div>
+    <div>
       <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_OnMarkForClose">MyEntity.OnMarkForClose</a>
     </div>
     <div>
@@ -1198,6 +1219,12 @@
     </div>
     <div>
       <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_OnClosing">MyEntity.OnClosing</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_OnModelRefresh">MyEntity.OnModelRefresh</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_OnUpdateOnceBeforeNextFrame">MyEntity.OnUpdateOnceBeforeNextFrame</a>
     </div>
     <div>
       <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_OnPhysicsChanged">MyEntity.OnPhysicsChanged</a>
@@ -1249,6 +1276,54 @@ public class MyCameraBlock : MyFunctionalBlock, IMyComponentOwner&lt;MyIDModule&
   </div>
   <h3 id="fields">Fields
   </h3>
+  
+  
+  <h4 id="Sandbox_Game_Entities_MyCameraBlock_DUMMY_NAME_POSITION" data-uid="Sandbox.Game.Entities.MyCameraBlock.DUMMY_NAME_POSITION">DUMMY_NAME_POSITION</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const string DUMMY_NAME_POSITION = &quot;camera&quot;</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Sandbox_Game_Entities_MyCameraBlock_ID_VIEW" data-uid="Sandbox.Game.Entities.MyCameraBlock.ID_VIEW">ID_VIEW</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const string ID_VIEW = &quot;View&quot;</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <h4 id="Sandbox_Game_Entities_MyCameraBlock_m_activeViewers" data-uid="Sandbox.Game.Entities.MyCameraBlock.m_activeViewers">m_activeViewers</h4>

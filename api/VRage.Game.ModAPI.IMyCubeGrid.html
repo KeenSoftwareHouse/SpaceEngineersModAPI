@@ -342,6 +342,9 @@ Player created ships, can consist of many grids.</p>
       <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_DisplayName">IMyEntity.DisplayName</a>
     </div>
     <div>
+      <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_StopPhysicsActivation">IMyEntity.StopPhysicsActivation</a>
+    </div>
+    <div>
       <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_OnClose">IMyEntity.OnClose</a>
     </div>
     <div>
@@ -376,6 +379,12 @@ Player created ships, can consist of many grids.</p>
     </div>
     <div>
       <a class="xref" href="VRage.Game.ModAPI.Ingame.IMyCubeGrid.html#VRage_Game_ModAPI_Ingame_IMyCubeGrid_Min">IMyCubeGrid.Min</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.ModAPI.Ingame.IMyCubeGrid.html#VRage_Game_ModAPI_Ingame_IMyCubeGrid_LinearVelocity">IMyCubeGrid.LinearVelocity</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.ModAPI.Ingame.IMyCubeGrid.html#VRage_Game_ModAPI_Ingame_IMyCubeGrid_Speed">IMyCubeGrid.Speed</a>
     </div>
     <div>
       <a class="xref" href="VRage.Game.ModAPI.Ingame.IMyEntity.html#VRage_Game_ModAPI_Ingame_IMyEntity_GetPosition">IMyEntity.GetPosition()</a>
@@ -568,6 +577,32 @@ Player created ships, can consist of many grids.</p>
   </table>
   
   
+  <a id="VRage_Game_ModAPI_IMyCubeGrid_IsBlockTrasferInProgress_" data-uid="VRage.Game.ModAPI.IMyCubeGrid.IsBlockTrasferInProgress*"></a>
+  <h4 id="VRage_Game_ModAPI_IMyCubeGrid_IsBlockTrasferInProgress" data-uid="VRage.Game.ModAPI.IMyCubeGrid.IsBlockTrasferInProgress">IsBlockTrasferInProgress</h4>
+  <div class="markdown level1 summary"><p>Gets whether the move block transfer from one grid to another is in progress. This happens during the split operation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool IsBlockTrasferInProgress { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="VRage_Game_ModAPI_IMyCubeGrid_IsRespawnGrid_" data-uid="VRage.Game.ModAPI.IMyCubeGrid.IsRespawnGrid*"></a>
   <h4 id="VRage_Game_ModAPI_IMyCubeGrid_IsRespawnGrid" data-uid="VRage.Game.ModAPI.IMyCubeGrid.IsRespawnGrid">IsRespawnGrid</h4>
   <div class="markdown level1 summary"><p>Gets or sets if this grid is a respawn grid (can be cleaned up automatically when player leaves)</p>
@@ -649,6 +684,32 @@ Player created ships, can consist of many grids.</p>
   </table>
   
   
+  <a id="VRage_Game_ModAPI_IMyCubeGrid_NaturalGravity_" data-uid="VRage.Game.ModAPI.IMyCubeGrid.NaturalGravity*"></a>
+  <h4 id="VRage_Game_ModAPI_IMyCubeGrid_NaturalGravity" data-uid="VRage.Game.ModAPI.IMyCubeGrid.NaturalGravity">NaturalGravity</h4>
+  <div class="markdown level1 summary"><p>Gets natural gravity around the grid</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Vector3 NaturalGravity { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRageMath.Vector3.html">Vector3</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="VRage_Game_ModAPI_IMyCubeGrid_PlayerPresenceTier_" data-uid="VRage.Game.ModAPI.IMyCubeGrid.PlayerPresenceTier*"></a>
   <h4 id="VRage_Game_ModAPI_IMyCubeGrid_PlayerPresenceTier" data-uid="VRage.Game.ModAPI.IMyCubeGrid.PlayerPresenceTier">PlayerPresenceTier</h4>
   <div class="markdown level1 summary"><p>Gets player presence tier</p>
@@ -695,6 +756,32 @@ Player created ships, can consist of many grids.</p>
     <tbody>
       <tr>
         <td><a class="xref" href="VRage.Game.ModAPI.IMyResourceDistributorComponent.html">IMyResourceDistributorComponent</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VRage_Game_ModAPI_IMyCubeGrid_RvoAgentId_" data-uid="VRage.Game.ModAPI.IMyCubeGrid.RvoAgentId*"></a>
+  <h4 id="VRage_Game_ModAPI_IMyCubeGrid_RvoAgentId" data-uid="VRage.Game.ModAPI.IMyCubeGrid.RvoAgentId">RvoAgentId</h4>
+  <div class="markdown level1 summary"><p>Gets RVO Agent ID used for collision avoidance algorithm</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int RvoAgentId { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -1789,6 +1876,85 @@ Call only on server!</p>
   </table>
   
   
+  <a id="VRage_Game_ModAPI_IMyCubeGrid_GetMaxThrustInDirection_" data-uid="VRage.Game.ModAPI.IMyCubeGrid.GetMaxThrustInDirection*"></a>
+  <h4 id="VRage_Game_ModAPI_IMyCubeGrid_GetMaxThrustInDirection_VRageMath_Base6Directions_Direction_" data-uid="VRage.Game.ModAPI.IMyCubeGrid.GetMaxThrustInDirection(VRageMath.Base6Directions.Direction)">GetMaxThrustInDirection(Base6Directions.Direction)</h4>
+  <div class="markdown level1 summary"><p>Gets max thrust (Newtons) in direction.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">float GetMaxThrustInDirection(Base6Directions.Direction direction)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRageMath.Base6Directions.Direction.html">Base6Directions.Direction</a></td>
+        <td><span class="parametername">direction</span></td>
+        <td><p>Direction of thrust, based on grid direction</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VRage_Game_ModAPI_IMyCubeGrid_InvokeDepressurizeEffect_" data-uid="VRage.Game.ModAPI.IMyCubeGrid.InvokeDepressurizeEffect*"></a>
+  <h4 id="VRage_Game_ModAPI_IMyCubeGrid_InvokeDepressurizeEffect_VRageMath_Vector3I_VRageMath_Vector3I_" data-uid="VRage.Game.ModAPI.IMyCubeGrid.InvokeDepressurizeEffect(VRageMath.Vector3I,VRageMath.Vector3I)">InvokeDepressurizeEffect(Vector3I, Vector3I)</h4>
+  <div class="markdown level1 summary"><p>Invokes de-pressurize effect on clients</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void InvokeDepressurizeEffect(Vector3I from, Vector3I to)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRageMath.Vector3I.html">Vector3I</a></td>
+        <td><span class="parametername">from</span></td>
+        <td><p>from cube vector</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="VRageMath.Vector3I.html">Vector3I</a></td>
+        <td><span class="parametername">to</span></td>
+        <td><p>to cube vector</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="VRage_Game_ModAPI_IMyCubeGrid_IsInSameLogicalGroupAs_" data-uid="VRage.Game.ModAPI.IMyCubeGrid.IsInSameLogicalGroupAs*"></a>
   <h4 id="VRage_Game_ModAPI_IMyCubeGrid_IsInSameLogicalGroupAs_VRage_Game_ModAPI_IMyCubeGrid_" data-uid="VRage.Game.ModAPI.IMyCubeGrid.IsInSameLogicalGroupAs(VRage.Game.ModAPI.IMyCubeGrid)">IsInSameLogicalGroupAs(IMyCubeGrid)</h4>
   <div class="markdown level1 summary"><p>Determines whether this grid is in the same logical group as the other, meaning they're connected
@@ -2688,6 +2854,31 @@ Triggers, grid ownership recalculation</p>
   </table>
   
   
+  <h4 id="VRage_Game_ModAPI_IMyCubeGrid_OnGridBlockDamaged" data-uid="VRage.Game.ModAPI.IMyCubeGrid.OnGridBlockDamaged">OnGridBlockDamaged</h4>
+  <div class="markdown level1 summary"><p>Called when one of blocks on grid is taking damage</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event Action&lt;IMySlimBlock, float, Nullable&lt;MyHitInfo&gt;, long&gt; OnGridBlockDamaged</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="VRage.Game.ModAPI.IMySlimBlock.html">IMySlimBlock</a>, <span class="xref">System.Single</span>, <span class="xref">System.Nullable</span>&lt;<a class="xref" href="VRage.Game.ModAPI.MyHitInfo.html">MyHitInfo</a>&gt;, <span class="xref">System.Int64</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <h4 id="VRage_Game_ModAPI_IMyCubeGrid_OnGridChanged" data-uid="VRage.Game.ModAPI.IMyCubeGrid.OnGridChanged">OnGridChanged</h4>
   <div class="markdown level1 summary"><p>Called when a grid is taken control of by a player</p>
 </div>
@@ -2789,6 +2980,82 @@ Called for both grids</p>
   </table>
   
   
+  <h4 id="VRage_Game_ModAPI_IMyCubeGrid_OnMaxThrustChanged" data-uid="VRage.Game.ModAPI.IMyCubeGrid.OnMaxThrustChanged">OnMaxThrustChanged</h4>
+  <div class="markdown level1 summary"><p>Triggered when max thrust in one of directions was changed.
+Maybe called from parralel thread</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event Action&lt;IMyCubeGrid&gt; OnMaxThrustChanged</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="VRage.Game.ModAPI.IMyCubeGrid.html">IMyCubeGrid</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="VRage_Game_ModAPI_IMyCubeGrid_OnNaturalGravityChanged" data-uid="VRage.Game.ModAPI.IMyCubeGrid.OnNaturalGravityChanged">OnNaturalGravityChanged</h4>
+  <div class="markdown level1 summary"><p>Triggered when natural gravity changes around the grid</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event Action&lt;IMyCubeGrid&gt; OnNaturalGravityChanged</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="VRage.Game.ModAPI.IMyCubeGrid.html">IMyCubeGrid</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="VRage_Game_ModAPI_IMyCubeGrid_OnTargetLocked" data-uid="VRage.Game.ModAPI.IMyCubeGrid.OnTargetLocked">OnTargetLocked</h4>
+  <div class="markdown level1 summary"><p>Called when grid was target locked</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event Action&lt;IMyCharacter&gt; OnTargetLocked</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="VRage.Game.ModAPI.IMyCharacter.html">IMyCharacter</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <h4 id="VRage_Game_ModAPI_IMyCubeGrid_PlayerPresenceTierChanged" data-uid="VRage.Game.ModAPI.IMyCubeGrid.PlayerPresenceTierChanged">PlayerPresenceTierChanged</h4>
   <div class="markdown level1 summary"><p>Triggered when player presence tier is changed</p>
 </div>
@@ -2796,6 +3063,31 @@ Called for both grids</p>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">event Action&lt;IMyCubeGrid&gt; PlayerPresenceTierChanged</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="VRage.Game.ModAPI.IMyCubeGrid.html">IMyCubeGrid</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="VRage_Game_ModAPI_IMyCubeGrid_SpeedChanged" data-uid="VRage.Game.ModAPI.IMyCubeGrid.SpeedChanged">SpeedChanged</h4>
+  <div class="markdown level1 summary"><p>Triggered when speed of the grid is changed</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event Action&lt;IMyCubeGrid&gt; SpeedChanged</code></pre>
   </div>
   <h5 class="eventType">Event Type</h5>
   <table class="table table-bordered table-striped table-condensed">

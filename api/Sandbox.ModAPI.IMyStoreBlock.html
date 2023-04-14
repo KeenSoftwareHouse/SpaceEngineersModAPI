@@ -96,10 +96,22 @@
       <a class="xref" href="Sandbox.ModAPI.IMyTerminalBlock.html#Sandbox_ModAPI_IMyTerminalBlock_RefreshCustomInfo">IMyTerminalBlock.RefreshCustomInfo()</a>
     </div>
     <div>
+      <a class="xref" href="Sandbox.ModAPI.IMyTerminalBlock.html#Sandbox_ModAPI_IMyTerminalBlock_SetDetailedInfoDirty">IMyTerminalBlock.SetDetailedInfoDirty()</a>
+    </div>
+    <div>
+      <a class="xref" href="Sandbox.ModAPI.IMyTerminalBlock.html#Sandbox_ModAPI_IMyTerminalBlock_GetDetailedInfo">IMyTerminalBlock.GetDetailedInfo()</a>
+    </div>
+    <div>
+      <a class="xref" href="Sandbox.ModAPI.IMyTerminalBlock.html#Sandbox_ModAPI_IMyTerminalBlock_ClearDetailedInfo">IMyTerminalBlock.ClearDetailedInfo()</a>
+    </div>
+    <div>
       <a class="xref" href="Sandbox.ModAPI.IMyTerminalBlock.html#Sandbox_ModAPI_IMyTerminalBlock_IsInSameLogicalGroupAs_Sandbox_ModAPI_IMyTerminalBlock_">IMyTerminalBlock.IsInSameLogicalGroupAs(IMyTerminalBlock)</a>
     </div>
     <div>
       <a class="xref" href="Sandbox.ModAPI.IMyTerminalBlock.html#Sandbox_ModAPI_IMyTerminalBlock_IsSameConstructAs_Sandbox_ModAPI_IMyTerminalBlock_">IMyTerminalBlock.IsSameConstructAs(IMyTerminalBlock)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sandbox.ModAPI.IMyTerminalBlock.html#Sandbox_ModAPI_IMyTerminalBlock_IsDetailedInfoDirty">IMyTerminalBlock.IsDetailedInfoDirty</a>
     </div>
     <div>
       <a class="xref" href="Sandbox.ModAPI.IMyTerminalBlock.html#Sandbox_ModAPI_IMyTerminalBlock_CustomDataChanged">IMyTerminalBlock.CustomDataChanged</a>
@@ -199,6 +211,9 @@
     </div>
     <div>
       <a class="xref" href="VRage.Game.ModAPI.IMyCubeBlock.html#VRage_Game_ModAPI_IMyCubeBlock_OnUpgradeValuesChanged">IMyCubeBlock.OnUpgradeValuesChanged</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.ModAPI.IMyCubeBlock.html#VRage_Game_ModAPI_IMyCubeBlock_CubeGridChanged">IMyCubeBlock.CubeGridChanged</a>
     </div>
     <div>
       <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_GetFriendlyName">IMyEntity.GetFriendlyName()</a>
@@ -462,6 +477,9 @@
       <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_DisplayName">IMyEntity.DisplayName</a>
     </div>
     <div>
+      <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_StopPhysicsActivation">IMyEntity.StopPhysicsActivation</a>
+    </div>
+    <div>
       <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_OnClose">IMyEntity.OnClose</a>
     </div>
     <div>
@@ -640,6 +658,313 @@
   </h3>
   
   
+  <a id="Sandbox_ModAPI_IMyStoreBlock_CreateStoreItem_" data-uid="Sandbox.ModAPI.IMyStoreBlock.CreateStoreItem*"></a>
+  <h4 id="Sandbox_ModAPI_IMyStoreBlock_CreateStoreItem_System_Int32_System_Int32_VRage_Game_ObjectBuilders_Definitions_StoreItemTypes_VRage_Game_ObjectBuilders_Definitions_ItemTypes_" data-uid="Sandbox.ModAPI.IMyStoreBlock.CreateStoreItem(System.Int32,System.Int32,VRage.Game.ObjectBuilders.Definitions.StoreItemTypes,VRage.Game.ObjectBuilders.Definitions.ItemTypes)">CreateStoreItem(Int32, Int32, StoreItemTypes, ItemTypes)</h4>
+  <div class="markdown level1 summary"><p>Creates a store item that allows more control over how the item is setup. This method is suitable for Hydrogen and Oxygen types.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IMyStoreItem CreateStoreItem(int amount, int pricePerUnit, StoreItemTypes storeItemType, ItemTypes itemType)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">amount</span></td>
+        <td><p>Amount that should be available to buy/sell</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">pricePerUnit</span></td>
+        <td><p>Individual cost per item</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="VRage.Game.ObjectBuilders.Definitions.StoreItemTypes.html">StoreItemTypes</a></td>
+        <td><span class="parametername">storeItemType</span></td>
+        <td><p>Offer (store is selling) or Order (store is buying)</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="VRage.Game.ObjectBuilders.Definitions.ItemTypes.html">ItemTypes</a></td>
+        <td><span class="parametername">itemType</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRage.Game.ModAPI.IMyStoreItem.html">IMyStoreItem</a></td>
+        <td><p>Result of the creation of the store item.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_ModAPI_IMyStoreBlock_CreateStoreItem_" data-uid="Sandbox.ModAPI.IMyStoreBlock.CreateStoreItem*"></a>
+  <h4 id="Sandbox_ModAPI_IMyStoreBlock_CreateStoreItem_System_String_System_Int32_System_Int32_System_Int32_" data-uid="Sandbox.ModAPI.IMyStoreBlock.CreateStoreItem(System.String,System.Int32,System.Int32,System.Int32)">CreateStoreItem(String, Int32, Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>Creates a store item that sells a Prefab / Grid.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IMyStoreItem CreateStoreItem(string prefabName, int amount, int pricePerUnit, int totalPcu)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">prefabName</span></td>
+        <td><p>The SubtypeId of a prefab that is being sold</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">amount</span></td>
+        <td><p>Amount that should be available to buy/sell</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">pricePerUnit</span></td>
+        <td><p>Individual cost per item</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">totalPcu</span></td>
+        <td><p>The prefab PCU value</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRage.Game.ModAPI.IMyStoreItem.html">IMyStoreItem</a></td>
+        <td><p>Result of the creation of the store item.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_ModAPI_IMyStoreBlock_CreateStoreItem_" data-uid="Sandbox.ModAPI.IMyStoreBlock.CreateStoreItem*"></a>
+  <h4 id="Sandbox_ModAPI_IMyStoreBlock_CreateStoreItem_VRage_Game_MyDefinitionId_System_Int32_System_Int32_VRage_Game_ObjectBuilders_Definitions_StoreItemTypes_" data-uid="Sandbox.ModAPI.IMyStoreBlock.CreateStoreItem(VRage.Game.MyDefinitionId,System.Int32,System.Int32,VRage.Game.ObjectBuilders.Definitions.StoreItemTypes)">CreateStoreItem(MyDefinitionId, Int32, Int32, StoreItemTypes)</h4>
+  <div class="markdown level1 summary"><p>Creates a store item that allows more control over how the item is setup. This method is suitable for PhysicalItem types.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IMyStoreItem CreateStoreItem(MyDefinitionId itemId, int amount, int pricePerUnit, StoreItemTypes storeItemType)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRage.Game.MyDefinitionId.html">MyDefinitionId</a></td>
+        <td><span class="parametername">itemId</span></td>
+        <td><p>Item definition id</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">amount</span></td>
+        <td><p>Amount that should be available to buy/sell</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">pricePerUnit</span></td>
+        <td><p>Individual cost per item</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="VRage.Game.ObjectBuilders.Definitions.StoreItemTypes.html">StoreItemTypes</a></td>
+        <td><span class="parametername">storeItemType</span></td>
+        <td><p>Offer (store is selling) or Order (store is buying)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRage.Game.ModAPI.IMyStoreItem.html">IMyStoreItem</a></td>
+        <td><p>Result of the creation of the store item.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_ModAPI_IMyStoreBlock_CreateStoreItem_" data-uid="Sandbox.ModAPI.IMyStoreBlock.CreateStoreItem*"></a>
+  <h4 id="Sandbox_ModAPI_IMyStoreBlock_CreateStoreItem_VRage_Game_ObjectBuilders_Definitions_MyObjectBuilder_StoreItem_" data-uid="Sandbox.ModAPI.IMyStoreBlock.CreateStoreItem(VRage.Game.ObjectBuilders.Definitions.MyObjectBuilder_StoreItem)">CreateStoreItem(MyObjectBuilder_StoreItem)</h4>
+  <div class="markdown level1 summary"><p>Creates a store item that allows more control over how the item is setup by using an object builder to initialize the item.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IMyStoreItem CreateStoreItem(MyObjectBuilder_StoreItem builder)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRage.Game.ObjectBuilders.Definitions.MyObjectBuilder_StoreItem.html">MyObjectBuilder_StoreItem</a></td>
+        <td><span class="parametername">builder</span></td>
+        <td><p>The object builder used to init the store item</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRage.Game.ModAPI.IMyStoreItem.html">IMyStoreItem</a></td>
+        <td><p>Result of the creation of the store item.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_ModAPI_IMyStoreBlock_GetStoreItemById_" data-uid="Sandbox.ModAPI.IMyStoreBlock.GetStoreItemById*"></a>
+  <h4 id="Sandbox_ModAPI_IMyStoreBlock_GetStoreItemById_System_Int64_" data-uid="Sandbox.ModAPI.IMyStoreBlock.GetStoreItemById(System.Int64)">GetStoreItemById(Int64)</h4>
+  <div class="markdown level1 summary"><p>Gets a store item using a provided id.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IMyStoreItem GetStoreItemById(long id)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">id</span></td>
+        <td><p>The id of the store item being sold</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRage.Game.ModAPI.IMyStoreItem.html">IMyStoreItem</a></td>
+        <td><p>Store item matching provided id. Returns null if not found</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_ModAPI_IMyStoreBlock_GetStoreItems_" data-uid="Sandbox.ModAPI.IMyStoreBlock.GetStoreItems*"></a>
+  <h4 id="Sandbox_ModAPI_IMyStoreBlock_GetStoreItems_System_Collections_Generic_List_VRage_Game_ModAPI_IMyStoreItem__" data-uid="Sandbox.ModAPI.IMyStoreBlock.GetStoreItems(System.Collections.Generic.List{VRage.Game.ModAPI.IMyStoreItem})">GetStoreItems(List&lt;IMyStoreItem&gt;)</h4>
+  <div class="markdown level1 summary"><p>Gets all the current items in a store block</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void GetStoreItems(List&lt;IMyStoreItem&gt; items)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="VRage.Game.ModAPI.IMyStoreItem.html">IMyStoreItem</a>&gt;</td>
+        <td><span class="parametername">items</span></td>
+        <td><p>A provided list that will be populated with the items in the store</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="Sandbox_ModAPI_IMyStoreBlock_InsertOffer_" data-uid="Sandbox.ModAPI.IMyStoreBlock.InsertOffer*"></a>
   <h4 id="Sandbox_ModAPI_IMyStoreBlock_InsertOffer_VRage_Game_ModAPI_MyStoreItemData_System_Int64__" data-uid="Sandbox.ModAPI.IMyStoreBlock.InsertOffer(VRage.Game.ModAPI.MyStoreItemData,System.Int64@)">InsertOffer(MyStoreItemData, out Int64)</h4>
   <div class="markdown level1 summary"><p>Creates store item and returns its id.</p>
@@ -736,6 +1061,64 @@
       <tr>
         <td><a class="xref" href="Sandbox.ModAPI.Ingame.MyStoreInsertResults.html">MyStoreInsertResults</a></td>
         <td><p>Result of the creation of the store item.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_ModAPI_IMyStoreBlock_InsertStoreItem_" data-uid="Sandbox.ModAPI.IMyStoreBlock.InsertStoreItem*"></a>
+  <h4 id="Sandbox_ModAPI_IMyStoreBlock_InsertStoreItem_VRage_Game_ModAPI_IMyStoreItem_" data-uid="Sandbox.ModAPI.IMyStoreBlock.InsertStoreItem(VRage.Game.ModAPI.IMyStoreItem)">InsertStoreItem(IMyStoreItem)</h4>
+  <div class="markdown level1 summary"><p>Allows you to add an item to a store block. This is a direct add and does not involve any listing fees, etc.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void InsertStoreItem(IMyStoreItem item)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRage.Game.ModAPI.IMyStoreItem.html">IMyStoreItem</a></td>
+        <td><span class="parametername">item</span></td>
+        <td><p>The item you want to add</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_ModAPI_IMyStoreBlock_RemoveStoreItem_" data-uid="Sandbox.ModAPI.IMyStoreBlock.RemoveStoreItem*"></a>
+  <h4 id="Sandbox_ModAPI_IMyStoreBlock_RemoveStoreItem_VRage_Game_ModAPI_IMyStoreItem_" data-uid="Sandbox.ModAPI.IMyStoreBlock.RemoveStoreItem(VRage.Game.ModAPI.IMyStoreItem)">RemoveStoreItem(IMyStoreItem)</h4>
+  <div class="markdown level1 summary"><p>Allows you to remove an item to a store block.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void RemoveStoreItem(IMyStoreItem item)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRage.Game.ModAPI.IMyStoreItem.html">IMyStoreItem</a></td>
+        <td><span class="parametername">item</span></td>
+        <td><p>The item you want to remove</p>
 </td>
       </tr>
     </tbody>

@@ -144,6 +144,9 @@
       <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_OnEntityCloseRequest">MyEntity.OnEntityCloseRequest</a>
     </div>
     <div>
+      <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_InstantiateSubpartOverrideFunc">MyEntity.InstantiateSubpartOverrideFunc</a>
+    </div>
+    <div>
       <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_AddToGamePruningStructureExtCallBack">MyEntity.AddToGamePruningStructureExtCallBack</a>
     </div>
     <div>
@@ -738,6 +741,9 @@
       <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_VRage_Game_ModAPI_Ingame_IMyEntity_WorldVolumeHr">MyEntity.IMyEntity.WorldVolumeHr</a>
     </div>
     <div>
+      <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_StopPhysicsActivation">MyEntity.StopPhysicsActivation</a>
+    </div>
+    <div>
       <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_OnMarkForClose">MyEntity.OnMarkForClose</a>
     </div>
     <div>
@@ -745,6 +751,12 @@
     </div>
     <div>
       <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_OnClosing">MyEntity.OnClosing</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_OnModelRefresh">MyEntity.OnModelRefresh</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_OnUpdateOnceBeforeNextFrame">MyEntity.OnUpdateOnceBeforeNextFrame</a>
     </div>
     <div>
       <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_OnPhysicsChanged">MyEntity.OnPhysicsChanged</a>
@@ -844,6 +856,30 @@
   </table>
   
   
+  <h4 id="Sandbox_Game_Entities_MyCubeBlock_HandleEmissiveStateChange" data-uid="Sandbox.Game.Entities.MyCubeBlock.HandleEmissiveStateChange">HandleEmissiveStateChange</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HandleEmissiveStateChange</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <h4 id="Sandbox_Game_Entities_MyCubeBlock_IsBeingRemoved" data-uid="Sandbox.Game.Entities.MyCubeBlock.IsBeingRemoved">IsBeingRemoved</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
@@ -921,7 +957,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected static MyCubeBlock.EmissiveNames m_emissiveNames</code></pre>
+    <pre><code class="lang-csharp hljs">public static MyCubeBlock.EmissiveNames m_emissiveNames</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1695,7 +1731,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public MyResourceSinkComponent ResourceSink { get; protected set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public MyResourceSinkComponent ResourceSink { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -3068,6 +3104,31 @@ Override this in a subclass if this is not needed (for example, because all call
   </table>
   
   
+  <a id="Sandbox_Game_Entities_MyCubeBlock_HasUnparentedSubpart_" data-uid="Sandbox.Game.Entities.MyCubeBlock.HasUnparentedSubpart*"></a>
+  <h4 id="Sandbox_Game_Entities_MyCubeBlock_HasUnparentedSubpart" data-uid="Sandbox.Game.Entities.MyCubeBlock.HasUnparentedSubpart">HasUnparentedSubpart()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected bool HasUnparentedSubpart()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="Sandbox_Game_Entities_MyCubeBlock_Init_" data-uid="Sandbox.Game.Entities.MyCubeBlock.Init*"></a>
   <h4 id="Sandbox_Game_Entities_MyCubeBlock_Init" data-uid="Sandbox.Game.Entities.MyCubeBlock.Init">Init()</h4>
   <div class="markdown level1 summary"></div>
@@ -4296,6 +4357,54 @@ has to remove some other attached block (like motors).</p>
   </table>
   
   
+  <h4 id="Sandbox_Game_Entities_MyCubeBlock_CubeGridChanged" data-uid="Sandbox.Game.Entities.MyCubeBlock.CubeGridChanged">CubeGridChanged</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action&lt;IMyCubeGrid&gt; CubeGridChanged</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="VRage.Game.ModAPI.IMyCubeGrid.html">IMyCubeGrid</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Sandbox_Game_Entities_MyCubeBlock_GetEmissiveStateHashFromComponent" data-uid="Sandbox.Game.Entities.MyCubeBlock.GetEmissiveStateHashFromComponent">GetEmissiveStateHashFromComponent</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Func&lt;Nullable&lt;MyStringHash&gt;&gt; GetEmissiveStateHashFromComponent</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<span class="xref">System.Nullable</span>&lt;<a class="xref" href="VRage.Utils.MyStringHash.html">MyStringHash</a>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <h4 id="Sandbox_Game_Entities_MyCubeBlock_IsWorkingChanged" data-uid="Sandbox.Game.Entities.MyCubeBlock.IsWorkingChanged">IsWorkingChanged</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
@@ -4314,6 +4423,30 @@ has to remove some other attached block (like motors).</p>
     <tbody>
       <tr>
         <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Sandbox.Game.Entities.MyCubeBlock.html">MyCubeBlock</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Sandbox_Game_Entities_MyCubeBlock_OnUpdateBeforenextFrame" data-uid="Sandbox.Game.Entities.MyCubeBlock.OnUpdateBeforenextFrame">OnUpdateBeforenextFrame</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action OnUpdateBeforenextFrame</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span></td>
         <td></td>
       </tr>
     </tbody>

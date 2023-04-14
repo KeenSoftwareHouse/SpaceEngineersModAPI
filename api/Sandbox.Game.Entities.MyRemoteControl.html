@@ -104,6 +104,7 @@
     <div><a class="xref" href="Sandbox.Game.Entities.IMyParallelUpdateable.html">IMyParallelUpdateable</a></div>
     <div><a class="xref" href="VRage.ModAPI.IMyEntity.html">IMyEntity</a></div>
     <div><a class="xref" href="VRage.Game.ModAPI.Ingame.IMyEntity.html">IMyEntity</a></div>
+    <div><a class="xref" href="VRage.Game.Components.IMyComponentOwner-1.html">IMyComponentOwner</a>&lt;<a class="xref" href="Sandbox.Game.EntityComponents.MyAutopilotComponent.html">MyAutopilotComponent</a>&gt;</div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -552,6 +553,9 @@
       <a class="xref" href="Sandbox.Game.Entities.MyShipController.html#Sandbox_Game_Entities_MyShipController_ShootOrigin">MyShipController.ShootOrigin</a>
     </div>
     <div>
+      <a class="xref" href="Sandbox.Game.Entities.MyShipController.html#Sandbox_Game_Entities_MyShipController_IsAutopilotControlled">MyShipController.IsAutopilotControlled</a>
+    </div>
+    <div>
       <a class="xref" href="Sandbox.Game.Entities.MyShipController.html#Sandbox_Game_Entities_MyShipController_PrimaryLookaround">MyShipController.PrimaryLookaround</a>
     </div>
     <div>
@@ -681,6 +685,12 @@
       <a class="xref" href="Sandbox.Game.Entities.MyShipController.html#Sandbox_Game_Entities_MyShipController_VRage_Game_ModAPI_Interfaces_IMyControllableEntity_Entity">MyShipController.IMyControllableEntity.Entity</a>
     </div>
     <div>
+      <a class="xref" href="Sandbox.Game.Entities.MyShipController.html#Sandbox_Game_Entities_MyShipController_RelativeDampeningDistance">MyShipController.RelativeDampeningDistance</a>
+    </div>
+    <div>
+      <a class="xref" href="Sandbox.Game.Entities.MyShipController.html#Sandbox_Game_Entities_MyShipController_VRage_Game_ModAPI_Interfaces_IMyControllableEntity_RelativeDampeningTarget">MyShipController.IMyControllableEntity.RelativeDampeningTarget</a>
+    </div>
+    <div>
       <a class="xref" href="Sandbox.Game.Entities.MyShipController.html#Sandbox_Game_Entities_MyShipController_LastMotionIndicator">MyShipController.LastMotionIndicator</a>
     </div>
     <div>
@@ -750,6 +760,9 @@
       <a class="xref" href="Sandbox.Game.Entities.MyCubeBlock.html#Sandbox_Game_Entities_MyCubeBlock_UsedUpdateEveryFrame">MyCubeBlock.UsedUpdateEveryFrame</a>
     </div>
     <div>
+      <a class="xref" href="Sandbox.Game.Entities.MyCubeBlock.html#Sandbox_Game_Entities_MyCubeBlock_HandleEmissiveStateChange">MyCubeBlock.HandleEmissiveStateChange</a>
+    </div>
+    <div>
       <a class="xref" href="Sandbox.Game.Entities.MyCubeBlock.html#Sandbox_Game_Entities_MyCubeBlock_SubBlocks">MyCubeBlock.SubBlocks</a>
     </div>
     <div>
@@ -790,6 +803,9 @@
     </div>
     <div>
       <a class="xref" href="Sandbox.Game.Entities.MyCubeBlock.html#Sandbox_Game_Entities_MyCubeBlock_Init">MyCubeBlock.Init()</a>
+    </div>
+    <div>
+      <a class="xref" href="Sandbox.Game.Entities.MyCubeBlock.html#Sandbox_Game_Entities_MyCubeBlock_HasUnparentedSubpart">MyCubeBlock.HasUnparentedSubpart()</a>
     </div>
     <div>
       <a class="xref" href="Sandbox.Game.Entities.MyCubeBlock.html#Sandbox_Game_Entities_MyCubeBlock_GetLocalMatrix_VRageMath_Matrix__">MyCubeBlock.GetLocalMatrix(Matrix)</a>
@@ -1140,13 +1156,22 @@
       <a class="xref" href="Sandbox.Game.Entities.MyCubeBlock.html#Sandbox_Game_Entities_MyCubeBlock_IsWorkingChanged">MyCubeBlock.IsWorkingChanged</a>
     </div>
     <div>
+      <a class="xref" href="Sandbox.Game.Entities.MyCubeBlock.html#Sandbox_Game_Entities_MyCubeBlock_GetEmissiveStateHashFromComponent">MyCubeBlock.GetEmissiveStateHashFromComponent</a>
+    </div>
+    <div>
       <a class="xref" href="Sandbox.Game.Entities.MyCubeBlock.html#Sandbox_Game_Entities_MyCubeBlock_CanContinueBuildCheck">MyCubeBlock.CanContinueBuildCheck</a>
+    </div>
+    <div>
+      <a class="xref" href="Sandbox.Game.Entities.MyCubeBlock.html#Sandbox_Game_Entities_MyCubeBlock_OnUpdateBeforenextFrame">MyCubeBlock.OnUpdateBeforenextFrame</a>
     </div>
     <div>
       <a class="xref" href="Sandbox.Game.Entities.MyCubeBlock.html#Sandbox_Game_Entities_MyCubeBlock_OnUpgradeValuesChanged">MyCubeBlock.OnUpgradeValuesChanged</a>
     </div>
     <div>
       <a class="xref" href="Sandbox.Game.Entities.MyCubeBlock.html#Sandbox_Game_Entities_MyCubeBlock_VRage_Game_ModAPI_IMyCubeBlock_IsWorkingChanged">MyCubeBlock.IMyCubeBlock.IsWorkingChanged</a>
+    </div>
+    <div>
+      <a class="xref" href="Sandbox.Game.Entities.MyCubeBlock.html#Sandbox_Game_Entities_MyCubeBlock_CubeGridChanged">MyCubeBlock.CubeGridChanged</a>
     </div>
     <div>
       <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_m_contactPoint">MyEntity.m_contactPoint</a>
@@ -1192,6 +1217,9 @@
     </div>
     <div>
       <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_OnEntityCloseRequest">MyEntity.OnEntityCloseRequest</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_InstantiateSubpartOverrideFunc">MyEntity.InstantiateSubpartOverrideFunc</a>
     </div>
     <div>
       <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_AddToGamePruningStructureExtCallBack">MyEntity.AddToGamePruningStructureExtCallBack</a>
@@ -1770,6 +1798,9 @@
       <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_VRage_Game_ModAPI_Ingame_IMyEntity_WorldVolumeHr">MyEntity.IMyEntity.WorldVolumeHr</a>
     </div>
     <div>
+      <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_StopPhysicsActivation">MyEntity.StopPhysicsActivation</a>
+    </div>
+    <div>
       <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_OnMarkForClose">MyEntity.OnMarkForClose</a>
     </div>
     <div>
@@ -1777,6 +1808,12 @@
     </div>
     <div>
       <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_OnClosing">MyEntity.OnClosing</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_OnModelRefresh">MyEntity.OnModelRefresh</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_OnUpdateOnceBeforeNextFrame">MyEntity.OnUpdateOnceBeforeNextFrame</a>
     </div>
     <div>
       <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_OnPhysicsChanged">MyEntity.OnPhysicsChanged</a>
@@ -1812,7 +1849,7 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[MyCubeBlockType]
 [MyTerminalInterface]
-public class MyRemoteControl : MyShipController, IMyComponentOwner&lt;MyIDModule&gt;, IMyUpgradableBlock, IMyUpgradableBlock, IMyEventProxy, IMyEventOwner, IMySyncedEntity, IMyControllableEntity, IMyRechargeSocketOwner, IMyShootOrigin, IMyPilotable, IMyUsableEntity, IMyRemoteControl, IMyShipController, IMyTerminalBlock, IMyCubeBlock, IMyControllableEntity, IMyTargetingCapableBlock, IMyRemoteControl, IMyShipController, IMyTerminalBlock, IMyCubeBlock, IMyParallelUpdateable, IMyEntity, IMyEntity</code></pre>
+public class MyRemoteControl : MyShipController, IMyComponentOwner&lt;MyIDModule&gt;, IMyUpgradableBlock, IMyUpgradableBlock, IMyEventProxy, IMyEventOwner, IMySyncedEntity, IMyControllableEntity, IMyRechargeSocketOwner, IMyShootOrigin, IMyPilotable, IMyShipControl, IMyUsableEntity, IMyRemoteControl, IMyShipController, IMyTerminalBlock, IMyCubeBlock, IMyControllableEntity, IMyTargetingCapableBlock, IMyRemoteControl, IMyShipController, IMyTerminalBlock, IMyCubeBlock, IMyParallelUpdateable, IMyEntity, IMyEntity, IMyComponentOwner&lt;MyAutopilotComponent&gt;, IMyAutopilotable</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
@@ -1836,7 +1873,7 @@ public class MyRemoteControl : MyShipController, IMyComponentOwner&lt;MyIDModule
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public MyRemoteControl.IRemoteControlAutomaticBehaviour AutomaticBehaviour { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public IRemoteControlAutomaticBehaviour AutomaticBehaviour { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1848,7 +1885,7 @@ public class MyRemoteControl : MyShipController, IMyComponentOwner&lt;MyIDModule
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Sandbox.Game.Entities.MyRemoteControl.IRemoteControlAutomaticBehaviour.html">MyRemoteControl.IRemoteControlAutomaticBehaviour</a></td>
+        <td><a class="xref" href="Sandbox.Game.Entities.IRemoteControlAutomaticBehaviour.html">IRemoteControlAutomaticBehaviour</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -1915,7 +1952,7 @@ public class MyRemoteControl : MyShipController, IMyComponentOwner&lt;MyIDModule
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public MyRemoteControl.MyAutopilotWaypoint CurrentWaypoint { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public MyAutopilotWaypoint CurrentWaypoint { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1927,7 +1964,7 @@ public class MyRemoteControl : MyShipController, IMyComponentOwner&lt;MyIDModule
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Sandbox.Game.Entities.MyRemoteControl.MyAutopilotWaypoint.html">MyRemoteControl.MyAutopilotWaypoint</a></td>
+        <td><a class="xref" href="Sandbox.Game.Entities.MyAutopilotWaypoint.html">MyAutopilotWaypoint</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -2046,7 +2083,7 @@ public class MyRemoteControl : MyShipController, IMyComponentOwner&lt;MyIDModule
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override ControllerPriority Priority { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public override ControllerPriority Priority { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2065,56 +2102,6 @@ public class MyRemoteControl : MyShipController, IMyComponentOwner&lt;MyIDModule
   </table>
   <h5 class="overrides">Overrides</h5>
   <div><a class="xref" href="Sandbox.Game.Entities.MyShipController.html#Sandbox_Game_Entities_MyShipController_Priority">MyShipController.Priority</a></div>
-  
-  
-  <a id="Sandbox_Game_Entities_MyRemoteControl_RotateBetweenWaypoints_" data-uid="Sandbox.Game.Entities.MyRemoteControl.RotateBetweenWaypoints*"></a>
-  <h4 id="Sandbox_Game_Entities_MyRemoteControl_RotateBetweenWaypoints" data-uid="Sandbox.Game.Entities.MyRemoteControl.RotateBetweenWaypoints">RotateBetweenWaypoints</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool RotateBetweenWaypoints { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Sandbox_Game_Entities_MyRemoteControl_TargettingAimDelta_" data-uid="Sandbox.Game.Entities.MyRemoteControl.TargettingAimDelta*"></a>
-  <h4 id="Sandbox_Game_Entities_MyRemoteControl_TargettingAimDelta" data-uid="Sandbox.Game.Entities.MyRemoteControl.TargettingAimDelta">TargettingAimDelta</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public double TargettingAimDelta { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Double</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   
   
   <a id="Sandbox_Game_Entities_MyRemoteControl_UpdateFlags_" data-uid="Sandbox.Game.Entities.MyRemoteControl.UpdateFlags*"></a>
@@ -2177,7 +2164,7 @@ public class MyRemoteControl : MyShipController, IMyComponentOwner&lt;MyIDModule
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void AddWaypoint(Vector3D point, string name)</code></pre>
+    <pre><code class="lang-csharp hljs">public void AddWaypoint(Vector3D coords, string name)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2191,49 +2178,12 @@ public class MyRemoteControl : MyShipController, IMyComponentOwner&lt;MyIDModule
     <tbody>
       <tr>
         <td><a class="xref" href="VRageMath.Vector3D.html">Vector3D</a></td>
-        <td><span class="parametername">point</span></td>
+        <td><span class="parametername">coords</span></td>
         <td></td>
       </tr>
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">name</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Sandbox_Game_Entities_MyRemoteControl_AddWaypoint_" data-uid="Sandbox.Game.Entities.MyRemoteControl.AddWaypoint*"></a>
-  <h4 id="Sandbox_Game_Entities_MyRemoteControl_AddWaypoint_VRageMath_Vector3D_System_String_System_Collections_Generic_List_VRage_Game_MyObjectBuilder_ToolbarItem__" data-uid="Sandbox.Game.Entities.MyRemoteControl.AddWaypoint(VRageMath.Vector3D,System.String,System.Collections.Generic.List{VRage.Game.MyObjectBuilder_ToolbarItem})">AddWaypoint(Vector3D, String, List&lt;MyObjectBuilder_ToolbarItem&gt;)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void AddWaypoint(Vector3D point, string name, List&lt;MyObjectBuilder_ToolbarItem&gt; actionBuilders)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="VRageMath.Vector3D.html">Vector3D</a></td>
-        <td><span class="parametername">point</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">name</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="VRage.Game.MyObjectBuilder_ToolbarItem.html">MyObjectBuilder_ToolbarItem</a>&gt;</td>
-        <td><span class="parametername">actionBuilders</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -2478,6 +2428,48 @@ public class MyRemoteControl : MyShipController, IMyComponentOwner&lt;MyIDModule
   <div><a class="xref" href="Sandbox.Game.Entities.MyShipController.html#Sandbox_Game_Entities_MyShipController_ForceReleaseControl">MyShipController.ForceReleaseControl()</a></div>
   
   
+  <a id="Sandbox_Game_Entities_MyRemoteControl_GetComponent_" data-uid="Sandbox.Game.Entities.MyRemoteControl.GetComponent*"></a>
+  <h4 id="Sandbox_Game_Entities_MyRemoteControl_GetComponent_Sandbox_Game_EntityComponents_MyAutopilotComponent__" data-uid="Sandbox.Game.Entities.MyRemoteControl.GetComponent(Sandbox.Game.EntityComponents.MyAutopilotComponent@)">GetComponent(out MyAutopilotComponent)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool GetComponent(out MyAutopilotComponent component)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Sandbox.Game.EntityComponents.MyAutopilotComponent.html">MyAutopilotComponent</a></td>
+        <td><span class="parametername">component</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="Sandbox_Game_Entities_MyRemoteControl_GetHeadMatrix_" data-uid="Sandbox.Game.Entities.MyRemoteControl.GetHeadMatrix*"></a>
   <h4 id="Sandbox_Game_Entities_MyRemoteControl_GetHeadMatrix_System_Boolean_System_Boolean_System_Boolean_System_Boolean_" data-uid="Sandbox.Game.Entities.MyRemoteControl.GetHeadMatrix(System.Boolean,System.Boolean,System.Boolean,System.Boolean)">GetHeadMatrix(Boolean, Boolean, Boolean, Boolean)</h4>
   <div class="markdown level1 summary"></div>
@@ -2653,31 +2645,6 @@ public class MyRemoteControl : MyShipController, IMyComponentOwner&lt;MyIDModule
   <div><a class="xref" href="Sandbox.Game.Entities.MyShipController.html#Sandbox_Game_Entities_MyShipController_GetObjectBuilderCubeBlock_System_Boolean_">MyShipController.GetObjectBuilderCubeBlock(Boolean)</a></div>
   
   
-  <a id="Sandbox_Game_Entities_MyRemoteControl_HasWaypoints_" data-uid="Sandbox.Game.Entities.MyRemoteControl.HasWaypoints*"></a>
-  <h4 id="Sandbox_Game_Entities_MyRemoteControl_HasWaypoints" data-uid="Sandbox.Game.Entities.MyRemoteControl.HasWaypoints">HasWaypoints()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool HasWaypoints()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
   <a id="Sandbox_Game_Entities_MyRemoteControl_Init_" data-uid="Sandbox.Game.Entities.MyRemoteControl.Init*"></a>
   <h4 id="Sandbox_Game_Entities_MyRemoteControl_Init_VRage_Game_MyObjectBuilder_CubeBlock_Sandbox_Game_Entities_MyCubeGrid_" data-uid="Sandbox.Game.Entities.MyRemoteControl.Init(VRage.Game.MyObjectBuilder_CubeBlock,Sandbox.Game.Entities.MyCubeGrid)">Init(MyObjectBuilder_CubeBlock, MyCubeGrid)</h4>
   <div class="markdown level1 summary"></div>
@@ -2839,16 +2806,6 @@ public class MyRemoteControl : MyShipController, IMyComponentOwner&lt;MyIDModule
   <div><a class="xref" href="Sandbox.Game.Entities.MyShipController.html#Sandbox_Game_Entities_MyShipController_OnUnregisteredFromGridSystems">MyShipController.OnUnregisteredFromGridSystems()</a></div>
   
   
-  <a id="Sandbox_Game_Entities_MyRemoteControl_RemoveAutomaticBehaviour_" data-uid="Sandbox.Game.Entities.MyRemoteControl.RemoveAutomaticBehaviour*"></a>
-  <h4 id="Sandbox_Game_Entities_MyRemoteControl_RemoveAutomaticBehaviour" data-uid="Sandbox.Game.Entities.MyRemoteControl.RemoveAutomaticBehaviour">RemoveAutomaticBehaviour()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void RemoveAutomaticBehaviour()</code></pre>
-  </div>
-  
-  
   <a id="Sandbox_Game_Entities_MyRemoteControl_RequestControl_" data-uid="Sandbox.Game.Entities.MyRemoteControl.RequestControl*"></a>
   <h4 id="Sandbox_Game_Entities_MyRemoteControl_RequestControl" data-uid="Sandbox.Game.Entities.MyRemoteControl.RequestControl">RequestControl()</h4>
   <div class="markdown level1 summary"></div>
@@ -2856,16 +2813,6 @@ public class MyRemoteControl : MyShipController, IMyComponentOwner&lt;MyIDModule
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void RequestControl()</code></pre>
-  </div>
-  
-  
-  <a id="Sandbox_Game_Entities_MyRemoteControl_RequestControlFromLoad_" data-uid="Sandbox.Game.Entities.MyRemoteControl.RequestControlFromLoad*"></a>
-  <h4 id="Sandbox_Game_Entities_MyRemoteControl_RequestControlFromLoad" data-uid="Sandbox.Game.Entities.MyRemoteControl.RequestControlFromLoad">RequestControlFromLoad()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void RequestControlFromLoad()</code></pre>
   </div>
   
   
@@ -2902,12 +2849,12 @@ public class MyRemoteControl : MyShipController, IMyComponentOwner&lt;MyIDModule
   
   
   <a id="Sandbox_Game_Entities_MyRemoteControl_SetAutomaticBehaviour_" data-uid="Sandbox.Game.Entities.MyRemoteControl.SetAutomaticBehaviour*"></a>
-  <h4 id="Sandbox_Game_Entities_MyRemoteControl_SetAutomaticBehaviour_Sandbox_Game_Entities_MyRemoteControl_IRemoteControlAutomaticBehaviour_" data-uid="Sandbox.Game.Entities.MyRemoteControl.SetAutomaticBehaviour(Sandbox.Game.Entities.MyRemoteControl.IRemoteControlAutomaticBehaviour)">SetAutomaticBehaviour(MyRemoteControl.IRemoteControlAutomaticBehaviour)</h4>
+  <h4 id="Sandbox_Game_Entities_MyRemoteControl_SetAutomaticBehaviour_Sandbox_Game_Entities_IRemoteControlAutomaticBehaviour_" data-uid="Sandbox.Game.Entities.MyRemoteControl.SetAutomaticBehaviour(Sandbox.Game.Entities.IRemoteControlAutomaticBehaviour)">SetAutomaticBehaviour(IRemoteControlAutomaticBehaviour)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SetAutomaticBehaviour(MyRemoteControl.IRemoteControlAutomaticBehaviour automaticBehaviour)</code></pre>
+    <pre><code class="lang-csharp hljs">public void SetAutomaticBehaviour(IRemoteControlAutomaticBehaviour automaticBehaviour)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2920,7 +2867,7 @@ public class MyRemoteControl : MyShipController, IMyComponentOwner&lt;MyIDModule
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Sandbox.Game.Entities.MyRemoteControl.IRemoteControlAutomaticBehaviour.html">MyRemoteControl.IRemoteControlAutomaticBehaviour</a></td>
+        <td><a class="xref" href="Sandbox.Game.Entities.IRemoteControlAutomaticBehaviour.html">IRemoteControlAutomaticBehaviour</a></td>
         <td><span class="parametername">automaticBehaviour</span></td>
         <td></td>
       </tr>
@@ -3650,6 +3597,9 @@ public class MyRemoteControl : MyShipController, IMyComponentOwner&lt;MyIDModule
   </div>
   <div>
       <a class="xref" href="VRage.Game.ModAPI.Ingame.IMyEntity.html">IMyEntity</a>
+  </div>
+  <div>
+      <a class="xref" href="VRage.Game.Components.IMyComponentOwner-1.html">IMyComponentOwner&lt;T&gt;</a>
   </div>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>

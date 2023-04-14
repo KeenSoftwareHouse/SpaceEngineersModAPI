@@ -89,50 +89,15 @@
   </h3>
   
   
-  <a id="VRage_Library_Utils_PathUtils_GetfGetFilesRecursively_" data-uid="VRage.Library.Utils.PathUtils.GetfGetFilesRecursively*"></a>
-  <h4 id="VRage_Library_Utils_PathUtils_GetfGetFilesRecursively_System_String_System_String_System_Collections_Generic_List_System_String__" data-uid="VRage.Library.Utils.PathUtils.GetfGetFilesRecursively(System.String,System.String,System.Collections.Generic.List{System.String})">GetfGetFilesRecursively(String, String, List&lt;String&gt;)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void GetfGetFilesRecursively(string path, string searchPath, List&lt;string&gt; paths)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">path</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">searchPath</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">System.String</span>&gt;</td>
-        <td><span class="parametername">paths</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
   <a id="VRage_Library_Utils_PathUtils_GetFilesRecursively_" data-uid="VRage.Library.Utils.PathUtils.GetFilesRecursively*"></a>
   <h4 id="VRage_Library_Utils_PathUtils_GetFilesRecursively_System_String_System_String_" data-uid="VRage.Library.Utils.PathUtils.GetFilesRecursively(System.String,System.String)">GetFilesRecursively(String, String)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Gets Files Recursively from specified path with specified search pattern.
+Method gives access only to sub-folders of User Data Path or Mods Path.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string[] GetFilesRecursively(string path, string searchPath)</code></pre>
+    <pre><code class="lang-csharp hljs">public static string[] GetFilesRecursively(string path, string searchPattern)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -147,12 +112,14 @@
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">path</span></td>
-        <td></td>
+        <td><p>relative path to Mods or User Data Path</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">searchPath</span></td>
-        <td></td>
+        <td><span class="parametername">searchPattern</span></td>
+        <td><p>search pattern</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -167,7 +134,24 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span>[]</td>
-        <td></td>
+        <td><p>array of names of the files</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Security.SecurityException</span></td>
+        <td><p>Thrown when path is outside of scope</p>
+</td>
       </tr>
     </tbody>
   </table>

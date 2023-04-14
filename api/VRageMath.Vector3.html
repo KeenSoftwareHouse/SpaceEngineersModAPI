@@ -1088,6 +1088,57 @@
   </table>
   
   
+  <a id="VRageMath_Vector3_Angle_" data-uid="VRageMath.Vector3.Angle*"></a>
+  <h4 id="VRageMath_Vector3_Angle_VRageMath_Vector3_VRageMath_Vector3_" data-uid="VRageMath.Vector3.Angle(VRageMath.Vector3,VRageMath.Vector3)">Angle(Vector3, Vector3)</h4>
+  <div class="markdown level1 summary"><p>Gets angle between 2 vectors in radians</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double Angle(Vector3 a, Vector3 b)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRageMath.Vector3.html">Vector3</a></td>
+        <td><span class="parametername">a</span></td>
+        <td><p>Vector A</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="VRageMath.Vector3.html">Vector3</a></td>
+        <td><span class="parametername">b</span></td>
+        <td><p>Vector B</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>Angle in radians</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="VRageMath_Vector3_ArePerpendicular_" data-uid="VRageMath.Vector3.ArePerpendicular*"></a>
   <h4 id="VRageMath_Vector3_ArePerpendicular_VRageMath_Vector3_VRageMath_Vector3_" data-uid="VRageMath.Vector3.ArePerpendicular(VRageMath.Vector3,VRageMath.Vector3)">ArePerpendicular(Vector3, Vector3)</h4>
   <div class="markdown level1 summary"></div>
@@ -1652,6 +1703,80 @@ From : Real-Time Collision Detection, Christer Ericson, CRC Press
         <td><a class="xref" href="VRageMath.Vector3.html">Vector3</a></td>
         <td><span class="parametername">max</span></td>
         <td><p>The maximum value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRageMath.Vector3.html">Vector3</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VRageMath_Vector3_Clamp_" data-uid="VRageMath.Vector3.Clamp*"></a>
+  <h4 id="VRageMath_Vector3_Clamp_VRageMath_Vector3_VRageMath_Vector3_VRageMath_Vector3_VRageMath_Vector3__VRageMath_Vector3__VRageMath_Vector3__" data-uid="VRageMath.Vector3.Clamp(VRageMath.Vector3,VRageMath.Vector3,VRageMath.Vector3,VRageMath.Vector3@,VRageMath.Vector3@,VRageMath.Vector3@)">Clamp(Vector3, Vector3, Vector3, out Vector3, out Vector3, out Vector3)</h4>
+  <div class="markdown level1 summary"><p>Restricts a value to be within a specified range.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector3 Clamp(Vector3 value1, Vector3 min, Vector3 max, out Vector3 clampedBy, out Vector3 minRemaining, out Vector3 maxRemaining)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRageMath.Vector3.html">Vector3</a></td>
+        <td><span class="parametername">value1</span></td>
+        <td><p>The value to clamp.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="VRageMath.Vector3.html">Vector3</a></td>
+        <td><span class="parametername">min</span></td>
+        <td><p>The minimum value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="VRageMath.Vector3.html">Vector3</a></td>
+        <td><span class="parametername">max</span></td>
+        <td><p>The maximum value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="VRageMath.Vector3.html">Vector3</a></td>
+        <td><span class="parametername">clampedBy</span></td>
+        <td><p>Value was clamped by this amount</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="VRageMath.Vector3.html">Vector3</a></td>
+        <td><span class="parametername">minRemaining</span></td>
+        <td><p>Remaining min tolerance</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="VRageMath.Vector3.html">Vector3</a></td>
+        <td><span class="parametername">maxRemaining</span></td>
+        <td><p>Remaining max tolerance</p>
 </td>
       </tr>
     </tbody>
@@ -4343,6 +4468,33 @@ to the original vector's largest value. The result is saved into a user-specifie
       <tr>
         <td><a class="xref" href="VRageMath.Vector3.html">Vector3</a></td>
         <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VRageMath_Vector3_Normalized_" data-uid="VRageMath.Vector3.Normalized*"></a>
+  <h4 id="VRageMath_Vector3_Normalized" data-uid="VRageMath.Vector3.Normalized">Normalized()</h4>
+  <div class="markdown level1 summary"><p>Creates a unit vector from the specified vector. The result is a vector one unit in length pointing in the same direction as the original vector.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 Normalized()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRageMath.Vector3.html">Vector3</a></td>
+        <td><p>Normalized vector</p>
+</td>
       </tr>
     </tbody>
   </table>

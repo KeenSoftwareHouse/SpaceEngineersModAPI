@@ -377,6 +377,32 @@ Second - starts with <code>STEAM_0:</code></p>
   </table>
   
   
+  <a id="VRage_Game_ModAPI_IMyConfigDedicated_ChatAntiSpamEnabled_" data-uid="VRage.Game.ModAPI.IMyConfigDedicated.ChatAntiSpamEnabled*"></a>
+  <h4 id="VRage_Game_ModAPI_IMyConfigDedicated_ChatAntiSpamEnabled" data-uid="VRage.Game.ModAPI.IMyConfigDedicated.ChatAntiSpamEnabled">ChatAntiSpamEnabled</h4>
+  <div class="markdown level1 summary"><p>Gets or sets whether chat anti spam is enabled</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool ChatAntiSpamEnabled { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="VRage_Game_ModAPI_IMyConfigDedicated_ConsoleCompatibility_" data-uid="VRage.Game.ModAPI.IMyConfigDedicated.ConsoleCompatibility*"></a>
   <h4 id="VRage_Game_ModAPI_IMyConfigDedicated_ConsoleCompatibility" data-uid="VRage.Game.ModAPI.IMyConfigDedicated.ConsoleCompatibility">ConsoleCompatibility</h4>
   <div class="markdown level1 summary"><p>Not used</p>
@@ -397,6 +423,32 @@ Second - starts with <code>STEAM_0:</code></p>
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VRage_Game_ModAPI_IMyConfigDedicated_DedicatedId_" data-uid="VRage.Game.ModAPI.IMyConfigDedicated.DedicatedId*"></a>
+  <h4 id="VRage_Game_ModAPI_IMyConfigDedicated_DedicatedId" data-uid="VRage.Game.ModAPI.IMyConfigDedicated.DedicatedId">DedicatedId</h4>
+  <div class="markdown level1 summary"><p>Id of a dedicated server</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">long DedicatedId { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -892,6 +944,32 @@ Second - starts with <code>STEAM_0:</code></p>
   </table>
   
   
+  <a id="VRage_Game_ModAPI_IMyConfigDedicated_SameMessageTimeout_" data-uid="VRage.Game.ModAPI.IMyConfigDedicated.SameMessageTimeout*"></a>
+  <h4 id="VRage_Game_ModAPI_IMyConfigDedicated_SameMessageTimeout" data-uid="VRage.Game.ModAPI.IMyConfigDedicated.SameMessageTimeout">SameMessageTimeout</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the timeout for the same message, it cannot be sent again sooner than this (seconds)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int SameMessageTimeout { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="VRage_Game_ModAPI_IMyConfigDedicated_SaveChatToLog_" data-uid="VRage.Game.ModAPI.IMyConfigDedicated.SaveChatToLog*"></a>
   <h4 id="VRage_Game_ModAPI_IMyConfigDedicated_SaveChatToLog" data-uid="VRage.Game.ModAPI.IMyConfigDedicated.SaveChatToLog">SaveChatToLog</h4>
   <div class="markdown level1 summary"><p>Gets or sets if game should automatically add dependency mods in mods list</p>
@@ -1074,6 +1152,58 @@ Second - starts with <code>STEAM_0:</code></p>
     <tbody>
       <tr>
         <td><a class="xref" href="VRage.Game.MyObjectBuilder_SessionSettings.html">MyObjectBuilder_SessionSettings</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VRage_Game_ModAPI_IMyConfigDedicated_SpamMessagesTime_" data-uid="VRage.Game.ModAPI.IMyConfigDedicated.SpamMessagesTime*"></a>
+  <h4 id="VRage_Game_ModAPI_IMyConfigDedicated_SpamMessagesTime" data-uid="VRage.Game.ModAPI.IMyConfigDedicated.SpamMessagesTime">SpamMessagesTime</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the time threshold for spam. If elapsed time between messages is less they are considered spam (seconds)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">float SpamMessagesTime { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VRage_Game_ModAPI_IMyConfigDedicated_SpamMessagesTimeout_" data-uid="VRage.Game.ModAPI.IMyConfigDedicated.SpamMessagesTimeout*"></a>
+  <h4 id="VRage_Game_ModAPI_IMyConfigDedicated_SpamMessagesTimeout" data-uid="VRage.Game.ModAPI.IMyConfigDedicated.SpamMessagesTimeout">SpamMessagesTimeout</h4>
+  <div class="markdown level1 summary"><p>If player is considered a spammer based on SpamMessagesTime they cannot send any messages for the duration of this timeout (seconds)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int SpamMessagesTimeout { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
         <td></td>
       </tr>
     </tbody>

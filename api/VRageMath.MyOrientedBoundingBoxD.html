@@ -83,7 +83,7 @@
   <h6><strong>Assembly</strong>: VRage.Math.dll</h6>
   <h5 id="VRageMath_MyOrientedBoundingBoxD_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public sealed class MyOrientedBoundingBoxD : ValueType, IEquatable&lt;MyOrientedBoundingBox&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public sealed class MyOrientedBoundingBoxD : ValueType, IEquatable&lt;MyOrientedBoundingBoxD&gt;</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
@@ -123,7 +123,7 @@
   
   <a id="VRageMath_MyOrientedBoundingBoxD__ctor_" data-uid="VRageMath.MyOrientedBoundingBoxD.#ctor*"></a>
   <h4 id="VRageMath_MyOrientedBoundingBoxD__ctor_VRageMath_MatrixD_" data-uid="VRageMath.MyOrientedBoundingBoxD.#ctor(VRageMath.MatrixD)">MyOrientedBoundingBoxD(MatrixD)</h4>
-  <div class="markdown level1 summary"><p>Initializes a new instance of the MyOrientedBoundingBox.
+  <div class="markdown level1 summary"><p>Initializes a new instance of the MyOrientedBoundingBoxD.
 Scale of matrix is size of box</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -1309,12 +1309,12 @@ Scale of matrix is size of box</p>
   
   
   <a id="VRageMath_MyOrientedBoundingBoxD_Equals_" data-uid="VRageMath.MyOrientedBoundingBoxD.Equals*"></a>
-  <h4 id="VRageMath_MyOrientedBoundingBoxD_Equals_VRageMath_MyOrientedBoundingBox_" data-uid="VRageMath.MyOrientedBoundingBoxD.Equals(VRageMath.MyOrientedBoundingBox)">Equals(MyOrientedBoundingBox)</h4>
+  <h4 id="VRageMath_MyOrientedBoundingBoxD_Equals_VRageMath_MyOrientedBoundingBoxD_" data-uid="VRageMath.MyOrientedBoundingBoxD.Equals(VRageMath.MyOrientedBoundingBoxD)">Equals(MyOrientedBoundingBoxD)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool Equals(MyOrientedBoundingBox other)</code></pre>
+    <pre><code class="lang-csharp hljs">public bool Equals(MyOrientedBoundingBoxD other)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1327,7 +1327,7 @@ Scale of matrix is size of box</p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="VRageMath.MyOrientedBoundingBox.html">MyOrientedBoundingBox</a></td>
+        <td><a class="xref" href="VRageMath.MyOrientedBoundingBoxD.html">MyOrientedBoundingBoxD</a></td>
         <td><span class="parametername">other</span></td>
         <td></td>
       </tr>
@@ -1370,6 +1370,51 @@ Scale of matrix is size of box</p>
       <tr>
         <td><a class="xref" href="VRageMath.BoundingBoxD.html">BoundingBoxD</a></td>
         <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VRageMath_MyOrientedBoundingBoxD_GetCorner_" data-uid="VRageMath.MyOrientedBoundingBoxD.GetCorner*"></a>
+  <h4 id="VRageMath_MyOrientedBoundingBoxD_GetCorner_System_Int32_" data-uid="VRageMath.MyOrientedBoundingBoxD.GetCorner(System.Int32)">GetCorner(Int32)</h4>
+  <div class="markdown level1 summary"><p>Gets corner of the BB by index</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3D GetCorner(int index)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>index of the corner</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRageMath.Vector3D.html">Vector3D</a></td>
+        <td><p>corner position</p>
+</td>
       </tr>
     </tbody>
   </table>

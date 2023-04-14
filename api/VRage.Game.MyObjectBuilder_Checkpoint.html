@@ -86,9 +86,6 @@
       <a class="xref" href="VRage.ObjectBuilders.MyObjectBuilder_Base.html#VRage_ObjectBuilders_MyObjectBuilder_Base_ShouldSerializeSubtypeId">MyObjectBuilder_Base.ShouldSerializeSubtypeId()</a>
     </div>
     <div>
-      <a class="xref" href="VRage.ObjectBuilders.MyObjectBuilder_Base.html#VRage_ObjectBuilders_MyObjectBuilder_Base_Save_System_String_">MyObjectBuilder_Base.Save(String)</a>
-    </div>
-    <div>
       <a class="xref" href="VRage.ObjectBuilders.MyObjectBuilder_Base.html#VRage_ObjectBuilders_MyObjectBuilder_Base_Clone">MyObjectBuilder_Base.Clone()</a>
     </div>
     <div>
@@ -367,6 +364,30 @@ public class MyObjectBuilder_Checkpoint : MyObjectBuilder_Base</code></pre>
   </table>
   
   
+  <h4 id="VRage_Game_MyObjectBuilder_Checkpoint_ContainerGridIds" data-uid="VRage.Game.MyObjectBuilder_Checkpoint.ContainerGridIds">ContainerGridIds</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SerializableDictionary&lt;ulong, List&lt;long&gt;&gt; ContainerGridIds</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">VRage.Serialization.SerializableDictionary</span>&lt;<span class="xref">System.UInt64</span>, <span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">System.Int64</span>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <h4 id="VRage_Game_MyObjectBuilder_Checkpoint_ControlledEntities" data-uid="VRage.Game.MyObjectBuilder_Checkpoint.ControlledEntities">ControlledEntities</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
@@ -456,7 +477,7 @@ public class MyObjectBuilder_Checkpoint : MyObjectBuilder_Base</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="VRage.SerializableVector3I.html">SerializableVector3I</a></td>
+        <td><span class="xref">VRage.SerializableVector3I</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -1249,7 +1270,7 @@ public class MyObjectBuilder_Checkpoint : MyObjectBuilder_Base</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="VRage.MyPositionAndOrientation.html">MyPositionAndOrientation</a></td>
+        <td><span class="xref">VRage.MyPositionAndOrientation</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -1273,7 +1294,7 @@ public class MyObjectBuilder_Checkpoint : MyObjectBuilder_Base</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="VRage.SerializableVector2.html">SerializableVector2</a></td>
+        <td><span class="xref">VRage.SerializableVector2</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -1465,7 +1486,32 @@ public class MyObjectBuilder_Checkpoint : MyObjectBuilder_Base</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<a class="xref" href="VRage.SerializableBoundingBoxD.html">SerializableBoundingBoxD</a>&gt;</td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">VRage.SerializableBoundingBoxD</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="VRage_Game_MyObjectBuilder_Checkpoint_WorldId" data-uid="VRage.Game.MyObjectBuilder_Checkpoint.WorldId">WorldId</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Serialize]
+public Guid WorldId</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Guid</span></td>
         <td></td>
       </tr>
     </tbody>

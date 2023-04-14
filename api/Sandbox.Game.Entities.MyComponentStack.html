@@ -79,11 +79,15 @@
     <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><span class="xref">MyComponentStack</span></div>
   </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="VRage.Game.ModAPI.IMyComponentStack.html">IMyComponentStack</a></div>
+  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Sandbox.Game.Entities.html">Sandbox.Game.Entities</a></h6>
   <h6><strong>Assembly</strong>: Sandbox.Game.dll</h6>
   <h5 id="Sandbox_Game_Entities_MyComponentStack_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class MyComponentStack : Object</code></pre>
+    <pre><code class="lang-csharp hljs">public class MyComponentStack : Object, IMyComponentStack</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
@@ -133,7 +137,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Action&lt;float, float&gt; IntegrityChanged</code></pre>
+    <pre><code class="lang-csharp hljs">public Action&lt;MyComponentStack, float, float&gt; IntegrityChanged</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -145,7 +149,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Action</span>&lt;<span class="xref">System.Single</span>, <span class="xref">System.Single</span>&gt;</td>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Sandbox.Game.Entities.MyComponentStack.html">MyComponentStack</a>, <span class="xref">System.Single</span>, <span class="xref">System.Single</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -676,6 +680,75 @@ build level at the original value and also the parts that are put into the outpu
   </div>
   
   
+  <a id="Sandbox_Game_Entities_MyComponentStack_GetAllMissingComponents_" data-uid="Sandbox.Game.Entities.MyComponentStack.GetAllMissingComponents*"></a>
+  <h4 id="Sandbox_Game_Entities_MyComponentStack_GetAllMissingComponents_System_Collections_Generic_Dictionary_System_String_System_Int32__" data-uid="Sandbox.Game.Entities.MyComponentStack.GetAllMissingComponents(System.Collections.Generic.Dictionary{System.String,System.Int32})">GetAllMissingComponents(Dictionary&lt;String, Int32&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GetAllMissingComponents(Dictionary&lt;string, int&gt; addToDictionary)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.Dictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="parametername">addToDictionary</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_Entities_MyComponentStack_GetComponentStackInfo_" data-uid="Sandbox.Game.Entities.MyComponentStack.GetComponentStackInfo*"></a>
+  <h4 id="Sandbox_Game_Entities_MyComponentStack_GetComponentStackInfo_System_Int32_" data-uid="Sandbox.Game.Entities.MyComponentStack.GetComponentStackInfo(System.Int32)">GetComponentStackInfo(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MyComponentStackInfo GetComponentStackInfo(int index)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRage.Game.ModAPI.MyComponentStackInfo.html">MyComponentStackInfo</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="Sandbox_Game_Entities_MyComponentStack_GetGroupInfo_" data-uid="Sandbox.Game.Entities.MyComponentStack.GetGroupInfo*"></a>
   <h4 id="Sandbox_Game_Entities_MyComponentStack_GetGroupInfo_System_Int32_" data-uid="Sandbox.Game.Entities.MyComponentStack.GetGroupInfo(System.Int32)">GetGroupInfo(Int32)</h4>
   <div class="markdown level1 summary"></div>
@@ -951,6 +1024,36 @@ build level at the original value and also the parts that are put into the outpu
       </tr>
     </tbody>
   </table>
+  <h3 id="eii">Explicit Interface Implementations
+  </h3>
+  
+  
+  <h4 id="Sandbox_Game_Entities_MyComponentStack_VRage_Game_ModAPI_IMyComponentStack_IntegrityChanged" data-uid="Sandbox.Game.Entities.MyComponentStack.VRage#Game#ModAPI#IMyComponentStack#IntegrityChanged">IMyComponentStack.IntegrityChanged</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event Action&lt;IMyComponentStack, float, float&gt; IMyComponentStack.IntegrityChanged</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="VRage.Game.ModAPI.IMyComponentStack.html">IMyComponentStack</a>, <span class="xref">System.Single</span>, <span class="xref">System.Single</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="VRage.Game.ModAPI.IMyComponentStack.html">IMyComponentStack</a>
+  </div>
 </article>
           </div>
           

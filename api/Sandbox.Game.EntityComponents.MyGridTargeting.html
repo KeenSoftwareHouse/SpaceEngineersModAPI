@@ -102,6 +102,9 @@
       <a class="xref" href="VRage.Game.Components.MyEntityComponentBase.html#VRage_Game_Components_MyEntityComponentBase_BeforeRemovedFromContainer">MyEntityComponentBase.BeforeRemovedFromContainer</a>
     </div>
     <div>
+      <a class="xref" href="VRage.Game.Components.MyComponentBase.html#VRage_Game_Components_MyComponentBase_RemoveExistingComponentOnNewInsert">MyComponentBase.RemoveExistingComponentOnNewInsert</a>
+    </div>
+    <div>
       <a class="xref" href="VRage.Game.Components.MyComponentBase.html#VRage_Game_Components_MyComponentBase_SetContainer_VRage_Game_Components_MyComponentContainer_">MyComponentBase.SetContainer(MyComponentContainer)</a>
     </div>
     <div>
@@ -222,7 +225,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="VRage.FastResourceLock.html">FastResourceLock</a></td>
+        <td><span class="xref">VRage.FastResourceLock</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -252,42 +255,17 @@
       </tr>
     </tbody>
   </table>
-  
-  
-  <a id="Sandbox_Game_EntityComponents_MyGridTargeting_TargetRoots_" data-uid="Sandbox.Game.EntityComponents.MyGridTargeting.TargetRoots*"></a>
-  <h4 id="Sandbox_Game_EntityComponents_MyGridTargeting_TargetRoots" data-uid="Sandbox.Game.EntityComponents.MyGridTargeting.TargetRoots">TargetRoots</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public List&lt;MyEntity&gt; TargetRoots { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="VRage.Game.Entity.MyEntity.html">MyEntity</a>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="methods">Methods
   </h3>
   
   
-  <a id="Sandbox_Game_EntityComponents_MyGridTargeting_IsValidTarget_" data-uid="Sandbox.Game.EntityComponents.MyGridTargeting.IsValidTarget*"></a>
-  <h4 id="Sandbox_Game_EntityComponents_MyGridTargeting_IsValidTarget_System_Int64_System_Int64_" data-uid="Sandbox.Game.EntityComponents.MyGridTargeting.IsValidTarget(System.Int64,System.Int64)">IsValidTarget(Int64, Int64)</h4>
+  <a id="Sandbox_Game_EntityComponents_MyGridTargeting_GetTargetRoots_" data-uid="Sandbox.Game.EntityComponents.MyGridTargeting.GetTargetRoots*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyGridTargeting_GetTargetRoots_System_Boolean_System_Boolean_System_Boolean_System_Collections_Generic_List_VRage_Game_Entity_MyEntity__" data-uid="Sandbox.Game.EntityComponents.MyGridTargeting.GetTargetRoots(System.Boolean,System.Boolean,System.Boolean,System.Collections.Generic.List{VRage.Game.Entity.MyEntity})">GetTargetRoots(Boolean, Boolean, Boolean, List&lt;MyEntity&gt;)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool IsValidTarget(long owner, long other)</code></pre>
+    <pre><code class="lang-csharp hljs">public void GetTargetRoots(bool enemies, bool neutrals, bool friends, List&lt;MyEntity&gt; buffer)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -300,13 +278,50 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int64</span></td>
-        <td><span class="parametername">owner</span></td>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">enemies</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">System.Int64</span></td>
-        <td><span class="parametername">other</span></td>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">neutrals</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">friends</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="VRage.Game.Entity.MyEntity.html">MyEntity</a>&gt;</td>
+        <td><span class="parametername">buffer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyGridTargeting_IsTargetLocked_" data-uid="Sandbox.Game.EntityComponents.MyGridTargeting.IsTargetLocked*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyGridTargeting_IsTargetLocked_VRage_Game_Entity_MyEntity_" data-uid="Sandbox.Game.EntityComponents.MyGridTargeting.IsTargetLocked(VRage.Game.Entity.MyEntity)">IsTargetLocked(MyEntity)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsTargetLocked(MyEntity target)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRage.Game.Entity.MyEntity.html">MyEntity</a></td>
+        <td><span class="parametername">target</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -340,85 +355,6 @@
   <div><a class="xref" href="VRage.Game.Components.MyEntityComponentBase.html#VRage_Game_Components_MyEntityComponentBase_OnAddedToContainer">MyEntityComponentBase.OnAddedToContainer()</a></div>
   
   
-  <a id="Sandbox_Game_EntityComponents_MyGridTargeting_ProcessGrid_" data-uid="Sandbox.Game.EntityComponents.MyGridTargeting.ProcessGrid*"></a>
-  <h4 id="Sandbox_Game_EntityComponents_MyGridTargeting_ProcessGrid_Sandbox_Game_Entities_MyCubeGrid_System_Collections_Generic_List_System_Int64___VRageMath_BoundingSphereD__System_Collections_Generic_List_VRage_Game_Entity_MyEntity___" data-uid="Sandbox.Game.EntityComponents.MyGridTargeting.ProcessGrid(Sandbox.Game.Entities.MyCubeGrid,System.Collections.Generic.List{System.Int64}@,VRageMath.BoundingSphereD@,System.Collections.Generic.List{VRage.Game.Entity.MyEntity}@)">ProcessGrid(MyCubeGrid, ref List&lt;Int64&gt;, ref BoundingSphereD, ref List&lt;MyEntity&gt;)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void ProcessGrid(MyCubeGrid grid, ref List&lt;long&gt; owners, ref BoundingSphereD query, ref List&lt;MyEntity&gt; output)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Sandbox.Game.Entities.MyCubeGrid.html">MyCubeGrid</a></td>
-        <td><span class="parametername">grid</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">System.Int64</span>&gt;</td>
-        <td><span class="parametername">owners</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="VRageMath.BoundingSphereD.html">BoundingSphereD</a></td>
-        <td><span class="parametername">query</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="VRage.Game.Entity.MyEntity.html">MyEntity</a>&gt;</td>
-        <td><span class="parametername">output</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Sandbox_Game_EntityComponents_MyGridTargeting_ProcessGrid_" data-uid="Sandbox.Game.EntityComponents.MyGridTargeting.ProcessGrid*"></a>
-  <h4 id="Sandbox_Game_EntityComponents_MyGridTargeting_ProcessGrid_Sandbox_Game_Entities_MyCubeGrid_System_Single_System_Collections_Generic_List_VRage_Game_Entity_MyEntity___" data-uid="Sandbox.Game.EntityComponents.MyGridTargeting.ProcessGrid(Sandbox.Game.Entities.MyCubeGrid,System.Single,System.Collections.Generic.List{VRage.Game.Entity.MyEntity}@)">ProcessGrid(MyCubeGrid, Single, ref List&lt;MyEntity&gt;)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void ProcessGrid(MyCubeGrid grid, float range, ref List&lt;MyEntity&gt; output)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Sandbox.Game.Entities.MyCubeGrid.html">MyCubeGrid</a></td>
-        <td><span class="parametername">grid</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Single</span></td>
-        <td><span class="parametername">range</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="VRage.Game.Entity.MyEntity.html">MyEntity</a>&gt;</td>
-        <td><span class="parametername">output</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
   <a id="Sandbox_Game_EntityComponents_MyGridTargeting_RescanIfNeeded_" data-uid="Sandbox.Game.EntityComponents.MyGridTargeting.RescanIfNeeded*"></a>
   <h4 id="Sandbox_Game_EntityComponents_MyGridTargeting_RescanIfNeeded" data-uid="Sandbox.Game.EntityComponents.MyGridTargeting.RescanIfNeeded">RescanIfNeeded()</h4>
   <div class="markdown level1 summary"></div>
@@ -427,6 +363,33 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void RescanIfNeeded()</code></pre>
   </div>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyGridTargeting_SetLockedGrids_" data-uid="Sandbox.Game.EntityComponents.MyGridTargeting.SetLockedGrids*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyGridTargeting_SetLockedGrids_System_Collections_Generic_ICollection_System_Int64__" data-uid="Sandbox.Game.EntityComponents.MyGridTargeting.SetLockedGrids(System.Collections.Generic.ICollection{System.Int64})">SetLockedGrids(ICollection&lt;Int64&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetLockedGrids(ICollection&lt;long&gt; lockedGrids)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.ICollection</span>&lt;<span class="xref">System.Int64</span>&gt;</td>
+        <td><span class="parametername">lockedGrids</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
       <a class="xref" href="VRage.Game.Components.MyEntityContainerEventExtensions.html#VRage_Game_Components_MyEntityContainerEventExtensions_RegisterForEntityEvent_VRage_Game_Components_MyEntityComponentBase_VRage_Utils_MyStringHash_VRage_Game_Components_MyEntityContainerEventExtensions_EntityEventHandler_">MyEntityContainerEventExtensions.RegisterForEntityEvent(MyEntityComponentBase, MyStringHash, MyEntityContainerEventExtensions.EntityEventHandler)</a>

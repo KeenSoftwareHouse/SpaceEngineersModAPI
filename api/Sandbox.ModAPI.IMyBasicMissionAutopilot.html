@@ -1,0 +1,337 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface IMyBasicMissionAutopilot
+   | Space Engineers ModAPI </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface IMyBasicMissionAutopilot
+   | Space Engineers ModAPI ">
+    <meta name="generator" content="docfx 2.58.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Sandbox.ModAPI.IMyBasicMissionAutopilot">
+  
+  
+  <h1 id="Sandbox_ModAPI_IMyBasicMissionAutopilot" data-uid="Sandbox.ModAPI.IMyBasicMissionAutopilot" class="text-break">Interface IMyBasicMissionAutopilot
+  </h1>
+  <div class="markdown level0 summary"><p>Describes autopilot mission for the Basic AI block</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Sandbox.ModAPI.IMyBasicMissionComponent.html#Sandbox_ModAPI_IMyBasicMissionComponent_CreateTerminalInterfaceControls__1">IMyBasicMissionComponent.CreateTerminalInterfaceControls&lt;T&gt;()</a>
+    </div>
+    <div>
+      <a class="xref" href="Sandbox.ModAPI.Ingame.IMyBasicMissionComponent.html#Sandbox_ModAPI_Ingame_IMyBasicMissionComponent_MissionName">IMyBasicMissionComponent.MissionName</a>
+    </div>
+    <div>
+      <a class="xref" href="Sandbox.ModAPI.Ingame.IMyBasicMissionComponent.html#Sandbox_ModAPI_Ingame_IMyBasicMissionComponent_UniqueSelectionId">IMyBasicMissionComponent.UniqueSelectionId</a>
+    </div>
+    <div>
+      <a class="xref" href="Sandbox.ModAPI.Ingame.IMyBasicMissionComponent.html#Sandbox_ModAPI_Ingame_IMyBasicMissionComponent_IsSelected">IMyBasicMissionComponent.IsSelected</a>
+    </div>
+    <div>
+      <a class="xref" href="Sandbox.ModAPI.Ingame.IMyBasicMissionComponent.html#Sandbox_ModAPI_Ingame_IMyBasicMissionComponent_DetailedInfo">IMyBasicMissionComponent.DetailedInfo</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Sandbox.ModAPI.html">Sandbox.ModAPI</a></h6>
+  <h6><strong>Assembly</strong>: Sandbox.Common.dll</h6>
+  <h5 id="Sandbox_ModAPI_IMyBasicMissionAutopilot_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IMyBasicMissionAutopilot : IMyBasicMissionComponent, IMyBasicMissionComponent</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="Sandbox_ModAPI_IMyBasicMissionAutopilot_Mode_" data-uid="Sandbox.ModAPI.IMyBasicMissionAutopilot.Mode*"></a>
+  <h4 id="Sandbox_ModAPI_IMyBasicMissionAutopilot_Mode" data-uid="Sandbox.ModAPI.IMyBasicMissionAutopilot.Mode">Mode</h4>
+  <div class="markdown level1 summary"><p>Current FlightMode</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">FlightMode Mode { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Sandbox.ModAPI.Ingame.FlightMode.html">FlightMode</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Sandbox_ModAPI_IMyBasicMissionAutopilot_AddWaypoint_" data-uid="Sandbox.ModAPI.IMyBasicMissionAutopilot.AddWaypoint*"></a>
+  <h4 id="Sandbox_ModAPI_IMyBasicMissionAutopilot_AddWaypoint_Sandbox_ModAPI_Ingame_IMyAutopilotWaypoint_" data-uid="Sandbox.ModAPI.IMyBasicMissionAutopilot.AddWaypoint(Sandbox.ModAPI.Ingame.IMyAutopilotWaypoint)">AddWaypoint(IMyAutopilotWaypoint)</h4>
+  <div class="markdown level1 summary"><p>Adds waypoint</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void AddWaypoint(IMyAutopilotWaypoint waypoint)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Sandbox.ModAPI.Ingame.IMyAutopilotWaypoint.html">IMyAutopilotWaypoint</a></td>
+        <td><span class="parametername">waypoint</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_ModAPI_IMyBasicMissionAutopilot_AddWaypoint_" data-uid="Sandbox.ModAPI.IMyBasicMissionAutopilot.AddWaypoint*"></a>
+  <h4 id="Sandbox_ModAPI_IMyBasicMissionAutopilot_AddWaypoint_VRage_Game_ModAPI_IMyGps_" data-uid="Sandbox.ModAPI.IMyBasicMissionAutopilot.AddWaypoint(VRage.Game.ModAPI.IMyGps)">AddWaypoint(IMyGps)</h4>
+  <div class="markdown level1 summary"><p>Adds waypoint from gps</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void AddWaypoint(IMyGps gps)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRage.Game.ModAPI.IMyGps.html">IMyGps</a></td>
+        <td><span class="parametername">gps</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_ModAPI_IMyBasicMissionAutopilot_GetWaypoints_" data-uid="Sandbox.ModAPI.IMyBasicMissionAutopilot.GetWaypoints*"></a>
+  <h4 id="Sandbox_ModAPI_IMyBasicMissionAutopilot_GetWaypoints_System_Collections_Generic_List_Sandbox_ModAPI_Ingame_IMyAutopilotWaypoint__" data-uid="Sandbox.ModAPI.IMyBasicMissionAutopilot.GetWaypoints(System.Collections.Generic.List{Sandbox.ModAPI.Ingame.IMyAutopilotWaypoint})">GetWaypoints(List&lt;IMyAutopilotWaypoint&gt;)</h4>
+  <div class="markdown level1 summary"><p>Gets list of waypoints in this component</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void GetWaypoints(List&lt;IMyAutopilotWaypoint&gt; points)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Sandbox.ModAPI.Ingame.IMyAutopilotWaypoint.html">IMyAutopilotWaypoint</a>&gt;</td>
+        <td><span class="parametername">points</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_ModAPI_IMyBasicMissionAutopilot_RemoveWaypoint_" data-uid="Sandbox.ModAPI.IMyBasicMissionAutopilot.RemoveWaypoint*"></a>
+  <h4 id="Sandbox_ModAPI_IMyBasicMissionAutopilot_RemoveWaypoint_Sandbox_ModAPI_Ingame_IMyAutopilotWaypoint_" data-uid="Sandbox.ModAPI.IMyBasicMissionAutopilot.RemoveWaypoint(Sandbox.ModAPI.Ingame.IMyAutopilotWaypoint)">RemoveWaypoint(IMyAutopilotWaypoint)</h4>
+  <div class="markdown level1 summary"><p>Removes waypoint</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void RemoveWaypoint(IMyAutopilotWaypoint waypoint)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Sandbox.ModAPI.Ingame.IMyAutopilotWaypoint.html">IMyAutopilotWaypoint</a></td>
+        <td><span class="parametername">waypoint</span></td>
+        <td><p>Waypoint to remove</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_ModAPI_IMyBasicMissionAutopilot_SetMode_" data-uid="Sandbox.ModAPI.IMyBasicMissionAutopilot.SetMode*"></a>
+  <h4 id="Sandbox_ModAPI_IMyBasicMissionAutopilot_SetMode_Sandbox_ModAPI_Ingame_FlightMode_" data-uid="Sandbox.ModAPI.IMyBasicMissionAutopilot.SetMode(Sandbox.ModAPI.Ingame.FlightMode)">SetMode(FlightMode)</h4>
+  <div class="markdown level1 summary"><p>Sets current FlightMode</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SetMode(FlightMode mode)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Sandbox.ModAPI.Ingame.FlightMode.html">FlightMode</a></td>
+        <td><span class="parametername">mode</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <div class="toggle-mode">
+                <div class="icon">
+                  <i aria-hidden="true">☀</i>
+                </div>
+                <label class="switch">
+                  <input type="checkbox" id="switch-style">
+                  <span class="slider round"></span>
+                </label>
+                <div class="icon">
+                  <i aria-hidden="true">☾</i>
+                </div>
+              </div>
+          
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <h5>In This Article</h5>
+              <div></div>
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            <div class="pull-left">
+              
+              <span>Generated by <strong>DocFX</strong></span>
+            </div>
+            <div class="toggle-mode pull-right visible-sm visible-xs">
+              <div class="icon">
+                <i aria-hidden="true">☀</i>
+              </div>
+              <label class="switch">
+                <input type="checkbox" id="switch-style-m">
+                <span class="slider round"></span>
+              </label>
+              <div class="icon">
+                <i aria-hidden="true">☾</i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <script type="text/javascript" src="../styles/toggle-theme.js"></script>
+      </footer>    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

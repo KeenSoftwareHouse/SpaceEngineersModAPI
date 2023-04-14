@@ -96,10 +96,22 @@
       <a class="xref" href="Sandbox.ModAPI.IMyTerminalBlock.html#Sandbox_ModAPI_IMyTerminalBlock_RefreshCustomInfo">IMyTerminalBlock.RefreshCustomInfo()</a>
     </div>
     <div>
+      <a class="xref" href="Sandbox.ModAPI.IMyTerminalBlock.html#Sandbox_ModAPI_IMyTerminalBlock_SetDetailedInfoDirty">IMyTerminalBlock.SetDetailedInfoDirty()</a>
+    </div>
+    <div>
+      <a class="xref" href="Sandbox.ModAPI.IMyTerminalBlock.html#Sandbox_ModAPI_IMyTerminalBlock_GetDetailedInfo">IMyTerminalBlock.GetDetailedInfo()</a>
+    </div>
+    <div>
+      <a class="xref" href="Sandbox.ModAPI.IMyTerminalBlock.html#Sandbox_ModAPI_IMyTerminalBlock_ClearDetailedInfo">IMyTerminalBlock.ClearDetailedInfo()</a>
+    </div>
+    <div>
       <a class="xref" href="Sandbox.ModAPI.IMyTerminalBlock.html#Sandbox_ModAPI_IMyTerminalBlock_IsInSameLogicalGroupAs_Sandbox_ModAPI_IMyTerminalBlock_">IMyTerminalBlock.IsInSameLogicalGroupAs(IMyTerminalBlock)</a>
     </div>
     <div>
       <a class="xref" href="Sandbox.ModAPI.IMyTerminalBlock.html#Sandbox_ModAPI_IMyTerminalBlock_IsSameConstructAs_Sandbox_ModAPI_IMyTerminalBlock_">IMyTerminalBlock.IsSameConstructAs(IMyTerminalBlock)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sandbox.ModAPI.IMyTerminalBlock.html#Sandbox_ModAPI_IMyTerminalBlock_IsDetailedInfoDirty">IMyTerminalBlock.IsDetailedInfoDirty</a>
     </div>
     <div>
       <a class="xref" href="Sandbox.ModAPI.IMyTerminalBlock.html#Sandbox_ModAPI_IMyTerminalBlock_CustomDataChanged">IMyTerminalBlock.CustomDataChanged</a>
@@ -199,6 +211,9 @@
     </div>
     <div>
       <a class="xref" href="VRage.Game.ModAPI.IMyCubeBlock.html#VRage_Game_ModAPI_IMyCubeBlock_OnUpgradeValuesChanged">IMyCubeBlock.OnUpgradeValuesChanged</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.ModAPI.IMyCubeBlock.html#VRage_Game_ModAPI_IMyCubeBlock_CubeGridChanged">IMyCubeBlock.CubeGridChanged</a>
     </div>
     <div>
       <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_GetFriendlyName">IMyEntity.GetFriendlyName()</a>
@@ -460,6 +475,9 @@
     </div>
     <div>
       <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_DisplayName">IMyEntity.DisplayName</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_StopPhysicsActivation">IMyEntity.StopPhysicsActivation</a>
     </div>
     <div>
       <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_OnClose">IMyEntity.OnClose</a>
@@ -732,6 +750,33 @@
         <td><span class="parametername">updateGroup</span></td>
         <td><p>true to update grid groups</p>
 </td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="events">Events
+  </h3>
+  
+  
+  <h4 id="Sandbox_ModAPI_IMyMechanicalConnectionBlock_OnAttachedChanged" data-uid="Sandbox.ModAPI.IMyMechanicalConnectionBlock.OnAttachedChanged">OnAttachedChanged</h4>
+  <div class="markdown level1 summary"><p>Triggered when something is attached or detached</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event Action&lt;IMyMechanicalConnectionBlock&gt; OnAttachedChanged</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Sandbox.ModAPI.IMyMechanicalConnectionBlock.html">IMyMechanicalConnectionBlock</a>&gt;</td>
+        <td></td>
       </tr>
     </tbody>
   </table>

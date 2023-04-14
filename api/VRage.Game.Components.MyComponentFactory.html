@@ -84,8 +84,35 @@
   <h5 id="VRage_Game_Components_MyComponentFactory_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[PreloadRequired]
-public static class MyComponentFactory : Object</code></pre>
+public sealed class MyComponentFactory : Object</code></pre>
   </div>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="VRage_Game_Components_MyComponentFactory_Static_" data-uid="VRage.Game.Components.MyComponentFactory.Static*"></a>
+  <h4 id="VRage_Game_Components_MyComponentFactory_Static" data-uid="VRage.Game.Components.MyComponentFactory.Static">Static</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MyComponentFactory Static { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRage.Game.Components.MyComponentFactory.html">MyComponentFactory</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="methods">Methods
   </h3>
   
@@ -96,7 +123,7 @@ public static class MyComponentFactory : Object</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static MyComponentBase CreateInstanceByType(Type type)</code></pre>
+    <pre><code class="lang-csharp hljs">public MyComponentBase CreateInstanceByType(Type type)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -138,7 +165,7 @@ public static class MyComponentFactory : Object</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static MyComponentBase CreateInstanceByTypeId(MyObjectBuilderType type)</code></pre>
+    <pre><code class="lang-csharp hljs">public MyComponentBase CreateInstanceByTypeId(MyObjectBuilderType type)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -180,7 +207,7 @@ public static class MyComponentFactory : Object</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static MyObjectBuilder_ComponentBase CreateObjectBuilder(MyComponentBase instance)</code></pre>
+    <pre><code class="lang-csharp hljs">public MyObjectBuilder_ComponentBase CreateObjectBuilder(MyComponentBase instance)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -222,7 +249,7 @@ public static class MyComponentFactory : Object</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Type GetCreatedInstanceType(MyObjectBuilderType type)</code></pre>
+    <pre><code class="lang-csharp hljs">public Type GetCreatedInstanceType(MyObjectBuilderType type)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -252,6 +279,33 @@ public static class MyComponentFactory : Object</code></pre>
     <tbody>
       <tr>
         <td><span class="xref">System.Type</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VRage_Game_Components_MyComponentFactory_RegisterFromAssembly_" data-uid="VRage.Game.Components.MyComponentFactory.RegisterFromAssembly*"></a>
+  <h4 id="VRage_Game_Components_MyComponentFactory_RegisterFromAssembly_System_Reflection_Assembly_" data-uid="VRage.Game.Components.MyComponentFactory.RegisterFromAssembly(System.Reflection.Assembly)">RegisterFromAssembly(Assembly)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RegisterFromAssembly(Assembly assembly)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Reflection.Assembly</span></td>
+        <td><span class="parametername">assembly</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -264,7 +318,7 @@ public static class MyComponentFactory : Object</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Type TryGetCreatedInstanceType(MyObjectBuilderType type)</code></pre>
+    <pre><code class="lang-csharp hljs">public Type TryGetCreatedInstanceType(MyObjectBuilderType type)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -294,6 +348,33 @@ public static class MyComponentFactory : Object</code></pre>
     <tbody>
       <tr>
         <td><span class="xref">System.Type</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VRage_Game_Components_MyComponentFactory_UnregisterFromAssembly_" data-uid="VRage.Game.Components.MyComponentFactory.UnregisterFromAssembly*"></a>
+  <h4 id="VRage_Game_Components_MyComponentFactory_UnregisterFromAssembly_System_Reflection_Assembly_" data-uid="VRage.Game.Components.MyComponentFactory.UnregisterFromAssembly(System.Reflection.Assembly)">UnregisterFromAssembly(Assembly)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UnregisterFromAssembly(Assembly assembly)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Reflection.Assembly</span></td>
+        <td><span class="parametername">assembly</span></td>
         <td></td>
       </tr>
     </tbody>

@@ -136,6 +136,9 @@
       <a class="xref" href="Sandbox.Game.Entities.MyCubeBlock.html#Sandbox_Game_Entities_MyCubeBlock_UsedUpdateEveryFrame">MyCubeBlock.UsedUpdateEveryFrame</a>
     </div>
     <div>
+      <a class="xref" href="Sandbox.Game.Entities.MyCubeBlock.html#Sandbox_Game_Entities_MyCubeBlock_HandleEmissiveStateChange">MyCubeBlock.HandleEmissiveStateChange</a>
+    </div>
+    <div>
       <a class="xref" href="Sandbox.Game.Entities.MyCubeBlock.html#Sandbox_Game_Entities_MyCubeBlock_SubBlocks">MyCubeBlock.SubBlocks</a>
     </div>
     <div>
@@ -179,6 +182,9 @@
     </div>
     <div>
       <a class="xref" href="Sandbox.Game.Entities.MyCubeBlock.html#Sandbox_Game_Entities_MyCubeBlock_Init">MyCubeBlock.Init()</a>
+    </div>
+    <div>
+      <a class="xref" href="Sandbox.Game.Entities.MyCubeBlock.html#Sandbox_Game_Entities_MyCubeBlock_HasUnparentedSubpart">MyCubeBlock.HasUnparentedSubpart()</a>
     </div>
     <div>
       <a class="xref" href="Sandbox.Game.Entities.MyCubeBlock.html#Sandbox_Game_Entities_MyCubeBlock_GetLocalMatrix_VRageMath_Matrix__">MyCubeBlock.GetLocalMatrix(Matrix)</a>
@@ -544,13 +550,22 @@
       <a class="xref" href="Sandbox.Game.Entities.MyCubeBlock.html#Sandbox_Game_Entities_MyCubeBlock_IsWorkingChanged">MyCubeBlock.IsWorkingChanged</a>
     </div>
     <div>
+      <a class="xref" href="Sandbox.Game.Entities.MyCubeBlock.html#Sandbox_Game_Entities_MyCubeBlock_GetEmissiveStateHashFromComponent">MyCubeBlock.GetEmissiveStateHashFromComponent</a>
+    </div>
+    <div>
       <a class="xref" href="Sandbox.Game.Entities.MyCubeBlock.html#Sandbox_Game_Entities_MyCubeBlock_CanContinueBuildCheck">MyCubeBlock.CanContinueBuildCheck</a>
+    </div>
+    <div>
+      <a class="xref" href="Sandbox.Game.Entities.MyCubeBlock.html#Sandbox_Game_Entities_MyCubeBlock_OnUpdateBeforenextFrame">MyCubeBlock.OnUpdateBeforenextFrame</a>
     </div>
     <div>
       <a class="xref" href="Sandbox.Game.Entities.MyCubeBlock.html#Sandbox_Game_Entities_MyCubeBlock_OnUpgradeValuesChanged">MyCubeBlock.OnUpgradeValuesChanged</a>
     </div>
     <div>
       <a class="xref" href="Sandbox.Game.Entities.MyCubeBlock.html#Sandbox_Game_Entities_MyCubeBlock_VRage_Game_ModAPI_IMyCubeBlock_IsWorkingChanged">MyCubeBlock.IMyCubeBlock.IsWorkingChanged</a>
+    </div>
+    <div>
+      <a class="xref" href="Sandbox.Game.Entities.MyCubeBlock.html#Sandbox_Game_Entities_MyCubeBlock_CubeGridChanged">MyCubeBlock.CubeGridChanged</a>
     </div>
     <div>
       <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_m_contactPoint">MyEntity.m_contactPoint</a>
@@ -596,6 +611,9 @@
     </div>
     <div>
       <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_OnEntityCloseRequest">MyEntity.OnEntityCloseRequest</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_InstantiateSubpartOverrideFunc">MyEntity.InstantiateSubpartOverrideFunc</a>
     </div>
     <div>
       <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_AddToGamePruningStructureExtCallBack">MyEntity.AddToGamePruningStructureExtCallBack</a>
@@ -1174,6 +1192,9 @@
       <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_VRage_Game_ModAPI_Ingame_IMyEntity_WorldVolumeHr">MyEntity.IMyEntity.WorldVolumeHr</a>
     </div>
     <div>
+      <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_StopPhysicsActivation">MyEntity.StopPhysicsActivation</a>
+    </div>
+    <div>
       <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_OnMarkForClose">MyEntity.OnMarkForClose</a>
     </div>
     <div>
@@ -1181,6 +1202,12 @@
     </div>
     <div>
       <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_OnClosing">MyEntity.OnClosing</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_OnModelRefresh">MyEntity.OnModelRefresh</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_OnUpdateOnceBeforeNextFrame">MyEntity.OnUpdateOnceBeforeNextFrame</a>
     </div>
     <div>
       <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_OnPhysicsChanged">MyEntity.OnPhysicsChanged</a>
@@ -1215,7 +1242,7 @@
   <h5 id="Sandbox_Game_Entities_MyShipController_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[MyTerminalInterface]
-public class MyShipController : MyTerminalBlock, IMyComponentOwner&lt;MyIDModule&gt;, IMyUpgradableBlock, IMyUpgradableBlock, IMyEventProxy, IMyEventOwner, IMySyncedEntity, IMyControllableEntity, IMyRechargeSocketOwner, IMyShipController, IMyControllableEntity, IMyTerminalBlock, IMyCubeBlock, IMyEntity, IMyShipController, IMyTerminalBlock, IMyCubeBlock, IMyEntity, IMyTargetingCapableBlock, IMyShootOrigin, IMyPilotable</code></pre>
+public class MyShipController : MyTerminalBlock, IMyComponentOwner&lt;MyIDModule&gt;, IMyUpgradableBlock, IMyUpgradableBlock, IMyEventProxy, IMyEventOwner, IMySyncedEntity, IMyControllableEntity, IMyRechargeSocketOwner, IMyShipController, IMyControllableEntity, IMyTerminalBlock, IMyCubeBlock, IMyEntity, IMyShipController, IMyTerminalBlock, IMyCubeBlock, IMyEntity, IMyTargetingCapableBlock, IMyShootOrigin, IMyPilotable, IMyShipControl</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
@@ -2218,6 +2245,31 @@ public class MyShipController : MyTerminalBlock, IMyComponentOwner&lt;MyIDModule
   </table>
   
   
+  <a id="Sandbox_Game_Entities_MyShipController_IsAutopilotControlled_" data-uid="Sandbox.Game.Entities.MyShipController.IsAutopilotControlled*"></a>
+  <h4 id="Sandbox_Game_Entities_MyShipController_IsAutopilotControlled" data-uid="Sandbox.Game.Entities.MyShipController.IsAutopilotControlled">IsAutopilotControlled</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsAutopilotControlled { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="Sandbox_Game_Entities_MyShipController_IsDefault3rdView_" data-uid="Sandbox.Game.Entities.MyShipController.IsDefault3rdView*"></a>
   <h4 id="Sandbox_Game_Entities_MyShipController_IsDefault3rdView" data-uid="Sandbox.Game.Entities.MyShipController.IsDefault3rdView">IsDefault3rdView</h4>
   <div class="markdown level1 summary"></div>
@@ -2601,7 +2653,7 @@ public class MyShipController : MyTerminalBlock, IMyComponentOwner&lt;MyIDModule
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected virtual ControllerPriority Priority { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual ControllerPriority Priority { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2639,6 +2691,31 @@ public class MyShipController : MyTerminalBlock, IMyComponentOwner&lt;MyIDModule
     <tbody>
       <tr>
         <td><span class="xref">Sandbox.Game.Entities.Cube.MySlimBlock</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_Entities_MyShipController_RelativeDampeningDistance_" data-uid="Sandbox.Game.Entities.MyShipController.RelativeDampeningDistance*"></a>
+  <h4 id="Sandbox_Game_Entities_MyShipController_RelativeDampeningDistance" data-uid="Sandbox.Game.Entities.MyShipController.RelativeDampeningDistance">RelativeDampeningDistance</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float RelativeDampeningDistance { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -4287,7 +4364,7 @@ public class MyShipController : MyTerminalBlock, IMyComponentOwner&lt;MyIDModule
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SetLockedTarget(IMyCubeGrid target)</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual void SetLockedTarget(IMyCubeGrid target)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -4683,7 +4760,7 @@ public class MyShipController : MyTerminalBlock, IMyComponentOwner&lt;MyIDModule
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Event(null, 1963)]
+    <pre><code class="lang-csharp hljs">[Event(null, 1964)]
 [Reliable]
 [Server]
 [Broadcast]
@@ -5999,6 +6076,31 @@ protected void sync_ControlledEntity_Used()</code></pre>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">void IMyControllableEntity.PickUpContinues()</code></pre>
   </div>
+  
+  
+  <a id="Sandbox_Game_Entities_MyShipController_VRage_Game_ModAPI_Interfaces_IMyControllableEntity_RelativeDampeningTarget_" data-uid="Sandbox.Game.Entities.MyShipController.VRage#Game#ModAPI#Interfaces#IMyControllableEntity#RelativeDampeningTarget*"></a>
+  <h4 id="Sandbox_Game_Entities_MyShipController_VRage_Game_ModAPI_Interfaces_IMyControllableEntity_RelativeDampeningTarget" data-uid="Sandbox.Game.Entities.MyShipController.VRage#Game#ModAPI#Interfaces#IMyControllableEntity#RelativeDampeningTarget">IMyControllableEntity.RelativeDampeningTarget</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IMyEntity IMyControllableEntity.RelativeDampeningTarget { get; set; }</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRage.ModAPI.IMyEntity.html">IMyEntity</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <a id="Sandbox_Game_Entities_MyShipController_VRage_Game_ModAPI_Interfaces_IMyControllableEntity_ShowInventory_" data-uid="Sandbox.Game.Entities.MyShipController.VRage#Game#ModAPI#Interfaces#IMyControllableEntity#ShowInventory*"></a>

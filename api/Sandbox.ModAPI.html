@@ -96,6 +96,9 @@
 </section>
       <h4><a class="xref" href="Sandbox.ModAPI.MyAPIUtilities.html">MyAPIUtilities</a></h4>
       <section></section>
+      <h4><a class="xref" href="Sandbox.ModAPI.MyAutopilotPathfindingState.html">MyAutopilotPathfindingState</a></h4>
+      <section><p>Describes state of autopilot pathfinding</p>
+</section>
       <h4><a class="xref" href="Sandbox.ModAPI.MyEntitiesHelper_ModAPI.html">MyEntitiesHelper_ModAPI</a></h4>
       <section></section>
       <h4><a class="xref" href="Sandbox.ModAPI.MyExplosionTypeEnum.html">MyExplosionTypeEnum</a></h4>
@@ -118,7 +121,7 @@ You can change values</p>
       <section><p>Implements read-only info about existing projectile</p>
 </section>
       <h4><a class="xref" href="Sandbox.ModAPI.MySurfaceImpactEnum.html">MySurfaceImpactEnum</a></h4>
-      <section><p>Enum describes which surface projectile hitted</p>
+      <section><p>Enum describes which surface projectile hit</p>
 </section>
       <h4><a class="xref" href="Sandbox.ModAPI.MyTerminalControlFactoryHelper.html">MyTerminalControlFactoryHelper</a></h4>
       <section></section>
@@ -139,6 +142,9 @@ Projectile can change it index, when it's index == projectilesCount - 1</p>
       <h4><a class="xref" href="Sandbox.ModAPI.IMyAdvancedDoor.html">IMyAdvancedDoor</a></h4>
       <section><p>Describes advanced door block (mods interface)</p>
 </section>
+      <h4><a class="xref" href="Sandbox.ModAPI.IMyAiBlockComponent.html">IMyAiBlockComponent</a></h4>
+      <section><p>Describes AI block activator entity component. This entity component turns on/off AI Behavior.</p>
+</section>
       <h4><a class="xref" href="Sandbox.ModAPI.IMyAirtightDoorBase.html">IMyAirtightDoorBase</a></h4>
       <section><p>Describes airtight door block (mods interface)</p>
 </section>
@@ -148,11 +154,32 @@ Projectile can change it index, when it's index == projectilesCount - 1</p>
       <h4><a class="xref" href="Sandbox.ModAPI.IMyAirtightSlideDoor.html">IMyAirtightSlideDoor</a></h4>
       <section><p>Describes air tight slide block (mods interface)</p>
 </section>
+      <h4><a class="xref" href="Sandbox.ModAPI.IMyAiRvoSessionComponent.html">IMyAiRvoSessionComponent</a></h4>
+      <section><p>Describes AI RVO (Collision Avoidance) session component for dynamic grids</p>
+</section>
       <h4><a class="xref" href="Sandbox.ModAPI.IMyAssembler.html">IMyAssembler</a></h4>
       <section><p>Describes assembler block (PB scripting interface)</p>
 </section>
       <h4><a class="xref" href="Sandbox.ModAPI.IMyAttachableTopBlock.html">IMyAttachableTopBlock</a></h4>
       <section><p>Describes rotor,piston or wheel suspension attachable block (mods interface)</p>
+</section>
+      <h4><a class="xref" href="Sandbox.ModAPI.IMyAttackPatternComponent.html">IMyAttackPatternComponent</a></h4>
+      <section><p>Describes entity component for AttackPattern of offensive combat block</p>
+</section>
+      <h4><a class="xref" href="Sandbox.ModAPI.IMyBasicMissionAutopilot.html">IMyBasicMissionAutopilot</a></h4>
+      <section><p>Describes autopilot mission for the Basic AI block</p>
+</section>
+      <h4><a class="xref" href="Sandbox.ModAPI.IMyBasicMissionBlock.html">IMyBasicMissionBlock</a></h4>
+      <section><p>Describes basic mission block (mods interface)</p>
+</section>
+      <h4><a class="xref" href="Sandbox.ModAPI.IMyBasicMissionComponent.html">IMyBasicMissionComponent</a></h4>
+      <section><p>Describes entity component interface for basic mission (Basic AI block)</p>
+</section>
+      <h4><a class="xref" href="Sandbox.ModAPI.IMyBasicMissionFollowHome.html">IMyBasicMissionFollowHome</a></h4>
+      <section><p>Describes follow home mission for Basic AI block</p>
+</section>
+      <h4><a class="xref" href="Sandbox.ModAPI.IMyBasicMissionFollowPlayer.html">IMyBasicMissionFollowPlayer</a></h4>
+      <section><p>Describes follow player mission for Basic AI block</p>
 </section>
       <h4><a class="xref" href="Sandbox.ModAPI.IMyBatteryBlock.html">IMyBatteryBlock</a></h4>
       <section><p>Describes battery block (mods interface)</p>
@@ -190,14 +217,36 @@ Projectile can change it index, when it's index == projectilesCount - 1</p>
       <h4><a class="xref" href="Sandbox.ModAPI.IMyDecoy.html">IMyDecoy</a></h4>
       <section><p>Describes decoy block (mods interface)</p>
 </section>
+      <h4><a class="xref" href="Sandbox.ModAPI.IMyDefensiveCombatBlock.html">IMyDefensiveCombatBlock</a></h4>
+      <section><p>Describes defensive combat block (mods interface)
+All logic is done on server, so dont use that api on client</p>
+</section>
+      <h4><a class="xref" href="Sandbox.ModAPI.IMyDistanceToLockedTarget.html">IMyDistanceToLockedTarget</a></h4>
+      <section><p>Describes distance to locked target interface for block, which is able to target lock</p>
+</section>
       <h4><a class="xref" href="Sandbox.ModAPI.IMyDoor.html">IMyDoor</a></h4>
       <section><p>Describes door block (mods interface)</p>
+</section>
+      <h4><a class="xref" href="Sandbox.ModAPI.IMyEmotionControllerBlock.html">IMyEmotionControllerBlock</a></h4>
+      <section><p>Describes EmotionControllerBlock interface</p>
+</section>
+      <h4><a class="xref" href="Sandbox.ModAPI.IMyEventComponentWithGui.html">IMyEventComponentWithGui</a></h4>
+      <section><p>Describes interface of event controller entity component, which requires UI in the terminal panel</p>
+</section>
+      <h4><a class="xref" href="Sandbox.ModAPI.IMyEventControllerBlock.html">IMyEventControllerBlock</a></h4>
+      <section><p>Describes Event Controller Block</p>
+</section>
+      <h4><a class="xref" href="Sandbox.ModAPI.IMyEventControllerEntityComponent.html">IMyEventControllerEntityComponent</a></h4>
+      <section><p>Describes entity component for event controller with custom UI</p>
 </section>
       <h4><a class="xref" href="Sandbox.ModAPI.IMyExhaustBlock.html">IMyExhaustBlock</a></h4>
       <section><p>Describes exhaust block (mods interface)</p>
 </section>
       <h4><a class="xref" href="Sandbox.ModAPI.IMyExtendedPistonBase.html">IMyExtendedPistonBase</a></h4>
       <section><p>Describes piston block (mods interface)</p>
+</section>
+      <h4><a class="xref" href="Sandbox.ModAPI.IMyFlightMovementBlock.html">IMyFlightMovementBlock</a></h4>
+      <section><p>Describes flight movement block (mods interface)</p>
 </section>
       <h4><a class="xref" href="Sandbox.ModAPI.IMyFunctionalBlock.html">IMyFunctionalBlock</a></h4>
       <section><p>Describes functional block (block with Enabled/Disabled toggle) (mods interface)</p>
@@ -266,17 +315,38 @@ actually derive from.</p>
       <h4><a class="xref" href="Sandbox.ModAPI.IMyMotorSuspension.html">IMyMotorSuspension</a></h4>
       <section><p>Describes motor suspension block (mods interface)</p>
 </section>
+      <h4><a class="xref" href="Sandbox.ModAPI.IMyOffensiveCombatBlock.html">IMyOffensiveCombatBlock</a></h4>
+      <section><p>Describes offensive combat block (mods interface)</p>
+</section>
+      <h4><a class="xref" href="Sandbox.ModAPI.IMyOffensiveCombatCircleOrbit.html">IMyOffensiveCombatCircleOrbit</a></h4>
+      <section><p>Describes circle orbit attack pattern of offensive combat block</p>
+</section>
+      <h4><a class="xref" href="Sandbox.ModAPI.IMyOffensiveCombatHitAndRun.html">IMyOffensiveCombatHitAndRun</a></h4>
+      <section><p>Describes entity component for AttackPattern of offensive combat block</p>
+</section>
+      <h4><a class="xref" href="Sandbox.ModAPI.IMyOffensiveCombatIntercept.html">IMyOffensiveCombatIntercept</a></h4>
+      <section><p>Describes entity component for AttackPattern of offensive combat block</p>
+</section>
+      <h4><a class="xref" href="Sandbox.ModAPI.IMyOffensiveCombatStayAtRange.html">IMyOffensiveCombatStayAtRange</a></h4>
+      <section><p>Describes entity component for AttackPattern of offensive combat block</p>
+</section>
       <h4><a class="xref" href="Sandbox.ModAPI.IMyOreDetector.html">IMyOreDetector</a></h4>
       <section><p>Describes ore detector block (mods interface)</p>
 </section>
       <h4><a class="xref" href="Sandbox.ModAPI.IMyOxygenGenerator.html">IMyOxygenGenerator</a></h4>
       <section><p>Describes gas generator block interface - OBSOLETE</p>
 </section>
-      <h4><a class="xref" href="Sandbox.ModAPI.IMyOxygenTank.html">IMyOxygenTank</a></h4>
-      <section><p>Describes oxygen tank block interface - OBSOLETE</p>
-</section>
       <h4><a class="xref" href="Sandbox.ModAPI.IMyPassage.html">IMyPassage</a></h4>
       <section><p>Describes passage block (mods interface)</p>
+</section>
+      <h4><a class="xref" href="Sandbox.ModAPI.IMyPathfindingSessionComponent.html">IMyPathfindingSessionComponent</a></h4>
+      <section><p>Describes pathfinding session component</p>
+</section>
+      <h4><a class="xref" href="Sandbox.ModAPI.IMyPathRecorderBlock.html">IMyPathRecorderBlock</a></h4>
+      <section><p>PathRecorder interface</p>
+</section>
+      <h4><a class="xref" href="Sandbox.ModAPI.IMyPathRecorderComponent.html">IMyPathRecorderComponent</a></h4>
+      <section><p>Interface for modding PathRecorderComponent</p>
 </section>
       <h4><a class="xref" href="Sandbox.ModAPI.IMyPistonBase.html">IMyPistonBase</a></h4>
       <section><p>Describes piston block (mods interface)</p>
@@ -325,6 +395,12 @@ allowed by the system whitelist.</p>
       <section><p>A handle which enables adding members to the blacklist in a batch. It is highly
 recommended that you try to group your changes into as few batches as possible.</p>
 </section>
+      <h4><a class="xref" href="Sandbox.ModAPI.IMySearchEnemyComponent.html">IMySearchEnemyComponent</a></h4>
+      <section><p>Describes component that can find enemy grids and characters in range</p>
+</section>
+      <h4><a class="xref" href="Sandbox.ModAPI.IMySearchlight.html">IMySearchlight</a></h4>
+      <section><p>Describes Searchlight (mods interface)</p>
+</section>
       <h4><a class="xref" href="Sandbox.ModAPI.IMySensorBlock.html">IMySensorBlock</a></h4>
       <section><p>Describes sensor block (mods interface)</p>
 </section>
@@ -361,6 +437,9 @@ Used in detection if target is visible</p>
 </section>
       <h4><a class="xref" href="Sandbox.ModAPI.IMyStoreBlock.html">IMyStoreBlock</a></h4>
       <section><p>Describes store block (mods interface)</p>
+</section>
+      <h4><a class="xref" href="Sandbox.ModAPI.IMyStoredPowerRatio.html">IMyStoredPowerRatio</a></h4>
+      <section><p>Describes stored power ration interface for block, which are storing power</p>
 </section>
       <h4><a class="xref" href="Sandbox.ModAPI.IMyTargetDummyBlock.html">IMyTargetDummyBlock</a></h4>
       <section><p>Describes target dummy block (mods interface)</p>
@@ -407,6 +486,12 @@ in the terminal screen when you select a block.  You may add new controls, remov
 </section>
       <h4><a class="xref" href="Sandbox.ModAPI.IMyWheel.html">IMyWheel</a></h4>
       <section><p>Describes wheel block (mods interface)</p>
+</section>
+      <h4><a class="xref" href="Sandbox.ModAPI.IMyWindTurbine.html">IMyWindTurbine</a></h4>
+      <section><p>Describes wind turbine block (mod interface)</p>
+</section>
+      <h4><a class="xref" href="Sandbox.ModAPI.IMyWorkAreaTool.html">IMyWorkAreaTool</a></h4>
+      <section><p>Describes tool used by work area component</p>
 </section>
 </article>
           </div>

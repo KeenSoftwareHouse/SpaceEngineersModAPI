@@ -290,6 +290,30 @@ public class MyEntity : Object, IMyEntity, IMyEntity</code></pre>
   </table>
   
   
+  <h4 id="VRage_Game_Entity_MyEntity_InstantiateSubpartOverrideFunc" data-uid="VRage.Game.Entity.MyEntity.InstantiateSubpartOverrideFunc">InstantiateSubpartOverrideFunc</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Func&lt;MyModelDummy, MyEntitySubpart.Data, MyEntitySubpart&gt; InstantiateSubpartOverrideFunc</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<span class="xref">VRageRender.Import.MyModelDummy</span>, <a class="xref" href="VRage.Game.Entity.MyEntitySubpart.Data.html">MyEntitySubpart.Data</a>, <a class="xref" href="VRage.Game.Entity.MyEntitySubpart.html">MyEntitySubpart</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <h4 id="VRage_Game_Entity_MyEntity_IsPreviewChanged" data-uid="VRage.Game.Entity.MyEntity.IsPreviewChanged">IsPreviewChanged</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
@@ -1636,6 +1660,31 @@ Note that one aggregate inventory can contain zero simple inventories =&gt; zero
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public bool Save { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VRage_Game_Entity_MyEntity_StopPhysicsActivation_" data-uid="VRage.Game.Entity.MyEntity.StopPhysicsActivation*"></a>
+  <h4 id="VRage_Game_Entity_MyEntity_StopPhysicsActivation" data-uid="VRage.Game.Entity.MyEntity.StopPhysicsActivation">StopPhysicsActivation</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool StopPhysicsActivation { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -3876,6 +3925,30 @@ will be called after all entities are updated</p>
   </table>
   
   
+  <h4 id="VRage_Game_Entity_MyEntity_OnModelRefresh" data-uid="VRage.Game.Entity.MyEntity.OnModelRefresh">OnModelRefresh</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action&lt;MyEntity&gt; OnModelRefresh</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="VRage.Game.Entity.MyEntity.html">MyEntity</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <h4 id="VRage_Game_Entity_MyEntity_OnPhysicsChanged" data-uid="VRage.Game.Entity.MyEntity.OnPhysicsChanged">OnPhysicsChanged</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
@@ -3930,6 +4003,30 @@ will be called after all entities are updated</p>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public event Action&lt;MyEntity&gt; OnTeleported</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="VRage.Game.Entity.MyEntity.html">MyEntity</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="VRage_Game_Entity_MyEntity_OnUpdateOnceBeforeNextFrame" data-uid="VRage.Game.Entity.MyEntity.OnUpdateOnceBeforeNextFrame">OnUpdateOnceBeforeNextFrame</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action&lt;MyEntity&gt; OnUpdateOnceBeforeNextFrame</code></pre>
   </div>
   <h5 class="eventType">Event Type</h5>
   <table class="table table-bordered table-striped table-condensed">

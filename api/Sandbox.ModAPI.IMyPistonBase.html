@@ -87,6 +87,9 @@
       <a class="xref" href="Sandbox.ModAPI.IMyMechanicalConnectionBlock.html#Sandbox_ModAPI_IMyMechanicalConnectionBlock_Top">IMyMechanicalConnectionBlock.Top</a>
     </div>
     <div>
+      <a class="xref" href="Sandbox.ModAPI.IMyMechanicalConnectionBlock.html#Sandbox_ModAPI_IMyMechanicalConnectionBlock_OnAttachedChanged">IMyMechanicalConnectionBlock.OnAttachedChanged</a>
+    </div>
+    <div>
       <a class="xref" href="Sandbox.ModAPI.IMyFunctionalBlock.html#Sandbox_ModAPI_IMyFunctionalBlock_GetFramesFromLastTrigger">IMyFunctionalBlock.GetFramesFromLastTrigger()</a>
     </div>
     <div>
@@ -105,10 +108,22 @@
       <a class="xref" href="Sandbox.ModAPI.IMyTerminalBlock.html#Sandbox_ModAPI_IMyTerminalBlock_RefreshCustomInfo">IMyTerminalBlock.RefreshCustomInfo()</a>
     </div>
     <div>
+      <a class="xref" href="Sandbox.ModAPI.IMyTerminalBlock.html#Sandbox_ModAPI_IMyTerminalBlock_SetDetailedInfoDirty">IMyTerminalBlock.SetDetailedInfoDirty()</a>
+    </div>
+    <div>
+      <a class="xref" href="Sandbox.ModAPI.IMyTerminalBlock.html#Sandbox_ModAPI_IMyTerminalBlock_GetDetailedInfo">IMyTerminalBlock.GetDetailedInfo()</a>
+    </div>
+    <div>
+      <a class="xref" href="Sandbox.ModAPI.IMyTerminalBlock.html#Sandbox_ModAPI_IMyTerminalBlock_ClearDetailedInfo">IMyTerminalBlock.ClearDetailedInfo()</a>
+    </div>
+    <div>
       <a class="xref" href="Sandbox.ModAPI.IMyTerminalBlock.html#Sandbox_ModAPI_IMyTerminalBlock_IsInSameLogicalGroupAs_Sandbox_ModAPI_IMyTerminalBlock_">IMyTerminalBlock.IsInSameLogicalGroupAs(IMyTerminalBlock)</a>
     </div>
     <div>
       <a class="xref" href="Sandbox.ModAPI.IMyTerminalBlock.html#Sandbox_ModAPI_IMyTerminalBlock_IsSameConstructAs_Sandbox_ModAPI_IMyTerminalBlock_">IMyTerminalBlock.IsSameConstructAs(IMyTerminalBlock)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sandbox.ModAPI.IMyTerminalBlock.html#Sandbox_ModAPI_IMyTerminalBlock_IsDetailedInfoDirty">IMyTerminalBlock.IsDetailedInfoDirty</a>
     </div>
     <div>
       <a class="xref" href="Sandbox.ModAPI.IMyTerminalBlock.html#Sandbox_ModAPI_IMyTerminalBlock_CustomDataChanged">IMyTerminalBlock.CustomDataChanged</a>
@@ -208,6 +223,9 @@
     </div>
     <div>
       <a class="xref" href="VRage.Game.ModAPI.IMyCubeBlock.html#VRage_Game_ModAPI_IMyCubeBlock_OnUpgradeValuesChanged">IMyCubeBlock.OnUpgradeValuesChanged</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.ModAPI.IMyCubeBlock.html#VRage_Game_ModAPI_IMyCubeBlock_CubeGridChanged">IMyCubeBlock.CubeGridChanged</a>
     </div>
     <div>
       <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_GetFriendlyName">IMyEntity.GetFriendlyName()</a>
@@ -471,6 +489,9 @@
       <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_DisplayName">IMyEntity.DisplayName</a>
     </div>
     <div>
+      <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_StopPhysicsActivation">IMyEntity.StopPhysicsActivation</a>
+    </div>
+    <div>
       <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_OnClose">IMyEntity.OnClose</a>
     </div>
     <div>
@@ -514,6 +535,9 @@
     </div>
     <div>
       <a class="xref" href="Sandbox.ModAPI.Ingame.IMyPistonBase.html#Sandbox_ModAPI_Ingame_IMyPistonBase_Status">IMyPistonBase.Status</a>
+    </div>
+    <div>
+      <a class="xref" href="Sandbox.ModAPI.Ingame.IMyPistonBase.html#Sandbox_ModAPI_Ingame_IMyPistonBase_NormalizedPosition">IMyPistonBase.NormalizedPosition</a>
     </div>
     <div>
       <a class="xref" href="Sandbox.ModAPI.Ingame.IMyMechanicalConnectionBlock.html#Sandbox_ModAPI_Ingame_IMyMechanicalConnectionBlock_Attach">IMyMechanicalConnectionBlock.Attach()</a>
@@ -777,6 +801,31 @@ Argument is false, when piston is retracting</p>
     <tbody>
       <tr>
         <td><span class="xref">System.Action</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Sandbox_ModAPI_IMyPistonBase_NormalizedPositionChanged" data-uid="Sandbox.ModAPI.IMyPistonBase.NormalizedPositionChanged">NormalizedPositionChanged</h4>
+  <div class="markdown level1 summary"><p>Notifies when normalized position is changed</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event Action&lt;IMyPistonBase, float, float&gt; NormalizedPositionChanged</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Sandbox.ModAPI.IMyPistonBase.html">IMyPistonBase</a>, <span class="xref">System.Single</span>, <span class="xref">System.Single</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>

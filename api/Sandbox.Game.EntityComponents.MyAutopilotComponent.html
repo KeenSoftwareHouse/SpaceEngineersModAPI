@@ -1,0 +1,2767 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class MyAutopilotComponent
+   | Space Engineers ModAPI </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class MyAutopilotComponent
+   | Space Engineers ModAPI ">
+    <meta name="generator" content="docfx 2.58.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent">
+  
+  
+  <h1 id="Sandbox_Game_EntityComponents_MyAutopilotComponent" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent" class="text-break">Class MyAutopilotComponent
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="VRage.Game.Components.MyComponentBase.html">MyComponentBase</a></div>
+    <div class="level2"><a class="xref" href="VRage.Game.Components.MyEntityComponentBase.html">MyEntityComponentBase</a></div>
+    <div class="level3"><a class="xref" href="Sandbox.Game.EntityComponents.MyEventProxyEntityComponent.html">MyEventProxyEntityComponent</a></div>
+    <div class="level4"><span class="xref">MyAutopilotComponent</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Sandbox.Game.EntityComponents.MyEventProxyEntityComponent.html#Sandbox_Game_EntityComponents_MyEventProxyEntityComponent_SyncType">MyEventProxyEntityComponent.SyncType</a>
+    </div>
+    <div>
+      <a class="xref" href="Sandbox.Game.EntityComponents.MyEventProxyEntityComponent.html#Sandbox_Game_EntityComponents_MyEventProxyEntityComponent_AttachSyncToEntity">MyEventProxyEntityComponent.AttachSyncToEntity</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.Components.MyEntityComponentBase.html#VRage_Game_Components_MyEntityComponentBase_Container">MyEntityComponentBase.Container</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.Components.MyEntityComponentBase.html#VRage_Game_Components_MyEntityComponentBase_Entity">MyEntityComponentBase.Entity</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.Components.MyEntityComponentBase.html#VRage_Game_Components_MyEntityComponentBase_OnAfterAddedToContainer">MyEntityComponentBase.OnAfterAddedToContainer</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.Components.MyEntityComponentBase.html#VRage_Game_Components_MyEntityComponentBase_BeforeRemovedFromContainer">MyEntityComponentBase.BeforeRemovedFromContainer</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.Components.MyComponentBase.html#VRage_Game_Components_MyComponentBase_RemoveExistingComponentOnNewInsert">MyComponentBase.RemoveExistingComponentOnNewInsert</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.Components.MyComponentBase.html#VRage_Game_Components_MyComponentBase_SetContainer_VRage_Game_Components_MyComponentContainer_">MyComponentBase.SetContainer(MyComponentContainer)</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.Components.MyComponentBase.html#VRage_Game_Components_MyComponentBase_GetAs__1">MyComponentBase.GetAs&lt;T&gt;()</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.Components.MyComponentBase.html#VRage_Game_Components_MyComponentBase_OnAddedToScene">MyComponentBase.OnAddedToScene()</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.Components.MyComponentBase.html#VRage_Game_Components_MyComponentBase_OnRemovedFromScene">MyComponentBase.OnRemovedFromScene()</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.Components.MyComponentBase.html#VRage_Game_Components_MyComponentBase_ContainerBase">MyComponentBase.ContainerBase</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Sandbox.Game.EntityComponents.html">Sandbox.Game.EntityComponents</a></h6>
+  <h6><strong>Assembly</strong>: Sandbox.Game.dll</h6>
+  <h5 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[MyComponentType]
+[MyComponentBuilder]
+public class MyAutopilotComponent : MyEventProxyEntityComponent, IMyEventProxy, IMyEventOwner</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyAutopilotComponent__ctor_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.#ctor*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent__ctor" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.#ctor">MyAutopilotComponent()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MyAutopilotComponent()</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_AutoPilotEnabled" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.AutoPilotEnabled">AutoPilotEnabled</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Sync&lt;bool, SyncDirection.BothWays&gt; AutoPilotEnabled</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">VRage.Sync.Sync</span>&lt;<span class="xref">System.Boolean</span>, <span class="xref">VRage.Sync.SyncDirection.BothWays</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_ForceDisableCollisionAvoidance" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.ForceDisableCollisionAvoidance">ForceDisableCollisionAvoidance</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ForceDisableCollisionAvoidance</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_WaypointsFromPathRecorder" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.WaypointsFromPathRecorder">WaypointsFromPathRecorder</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool WaypointsFromPathRecorder</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyAutopilotComponent_AutomaticBehaviour_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.AutomaticBehaviour*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_AutomaticBehaviour" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.AutomaticBehaviour">AutomaticBehaviour</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IRemoteControlAutomaticBehaviour AutomaticBehaviour { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Sandbox.Game.Entities.IRemoteControlAutomaticBehaviour.html">IRemoteControlAutomaticBehaviour</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyAutopilotComponent_Clipboard_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.Clipboard*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_Clipboard" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.Clipboard">Clipboard</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MyObjectBuilder_AutopilotClipboard Clipboard { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Sandbox.Common.ObjectBuilders.MyObjectBuilder_AutopilotClipboard.html">MyObjectBuilder_AutopilotClipboard</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyAutopilotComponent_ComponentTypeDebugString_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.ComponentTypeDebugString*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_ComponentTypeDebugString" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.ComponentTypeDebugString">ComponentTypeDebugString</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ComponentTypeDebugString { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="VRage.Game.Components.MyEntityComponentBase.html#VRage_Game_Components_MyEntityComponentBase_ComponentTypeDebugString">MyEntityComponentBase.ComponentTypeDebugString</a></div>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyAutopilotComponent_CurrentDestination_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.CurrentDestination*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_CurrentDestination" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.CurrentDestination">CurrentDestination</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3D CurrentDestination { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRageMath.Vector3D.html">Vector3D</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyAutopilotComponent_CurrentDirection_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.CurrentDirection*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_CurrentDirection" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.CurrentDirection">CurrentDirection</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Base6Directions.Direction CurrentDirection { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRageMath.Base6Directions.Direction.html">Base6Directions.Direction</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyAutopilotComponent_CurrentFlightMode_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.CurrentFlightMode*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_CurrentFlightMode" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.CurrentFlightMode">CurrentFlightMode</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FlightMode CurrentFlightMode { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Sandbox.ModAPI.Ingame.FlightMode.html">FlightMode</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyAutopilotComponent_CurrentWaypoint_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.CurrentWaypoint*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_CurrentWaypoint" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.CurrentWaypoint">CurrentWaypoint</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MyAutopilotWaypoint CurrentWaypoint { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Sandbox.Game.Entities.MyAutopilotWaypoint.html">MyAutopilotWaypoint</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyAutopilotComponent_CurrentWaypointIndex_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.CurrentWaypointIndex*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_CurrentWaypointIndex" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.CurrentWaypointIndex">CurrentWaypointIndex</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int CurrentWaypointIndex { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyAutopilotComponent_CustomLookAtPositionInterceptor_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.CustomLookAtPositionInterceptor*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_CustomLookAtPositionInterceptor" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.CustomLookAtPositionInterceptor">CustomLookAtPositionInterceptor</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CustomLookAtInterceptor CustomLookAtPositionInterceptor { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Sandbox.Game.EntityComponents.CustomLookAtInterceptor.html">CustomLookAtInterceptor</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyAutopilotComponent_Definition_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.Definition*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_Definition" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.Definition">Definition</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MyAutopilotComponentDefinition Definition { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Sandbox.Game.EntityComponents.MyAutopilotComponentDefinition.html">MyAutopilotComponentDefinition</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyAutopilotComponent_DirectionNames_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.DirectionNames*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_DirectionNames" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.DirectionNames">DirectionNames</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Dictionary&lt;Base6Directions.Direction, MyStringId&gt; DirectionNames { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.Dictionary</span>&lt;<a class="xref" href="VRageMath.Base6Directions.Direction.html">Base6Directions.Direction</a>, <a class="xref" href="VRage.Utils.MyStringId.html">MyStringId</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyAutopilotComponent_FacingDirection_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.FacingDirection*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_FacingDirection" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.FacingDirection">FacingDirection</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Base6Directions.DirectionFlags FacingDirection { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRageMath.Base6Directions.DirectionFlags.html">Base6Directions.DirectionFlags</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyAutopilotComponent_FlightMode_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.FlightMode*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_FlightMode" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.FlightMode">FlightMode</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public FlightMode FlightMode { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Sandbox.ModAPI.Ingame.FlightMode.html">FlightMode</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyAutopilotComponent_ForceBehaviorUpdate_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.ForceBehaviorUpdate*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_ForceBehaviorUpdate" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.ForceBehaviorUpdate">ForceBehaviorUpdate</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ForceBehaviorUpdate { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyAutopilotComponent_ForcedRotation_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.ForcedRotation*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_ForcedRotation" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.ForcedRotation">ForcedRotation</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Nullable&lt;QuaternionD&gt; ForcedRotation { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<a class="xref" href="VRageMath.QuaternionD.html">QuaternionD</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyAutopilotComponent_HasWaypoints_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.HasWaypoints*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_HasWaypoints" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.HasWaypoints">HasWaypoints</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasWaypoints { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyAutopilotComponent_HeightAdjustmentWaypoint_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.HeightAdjustmentWaypoint*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_HeightAdjustmentWaypoint" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.HeightAdjustmentWaypoint">HeightAdjustmentWaypoint</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MyAutopilotWaypoint HeightAdjustmentWaypoint { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Sandbox.Game.Entities.MyAutopilotWaypoint.html">MyAutopilotWaypoint</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyAutopilotComponent_IsAlignedToGravity_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.IsAlignedToGravity*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_IsAlignedToGravity" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.IsAlignedToGravity">IsAlignedToGravity</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsAlignedToGravity { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyAutopilotComponent_IsDockingModeEnabled_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.IsDockingModeEnabled*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_IsDockingModeEnabled" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.IsDockingModeEnabled">IsDockingModeEnabled</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsDockingModeEnabled { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyAutopilotComponent_IsIdle_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.IsIdle*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_IsIdle" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.IsIdle">IsIdle</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsIdle { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyAutopilotComponent_IsMovementPaused_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.IsMovementPaused*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_IsMovementPaused" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.IsMovementPaused">IsMovementPaused</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsMovementPaused { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyAutopilotComponent_IsUsingCollisionAvoidance_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.IsUsingCollisionAvoidance*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_IsUsingCollisionAvoidance" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.IsUsingCollisionAvoidance">IsUsingCollisionAvoidance</h4>
+  <div class="markdown level1 summary"><p>Must be used in GUI Only</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsUsingCollisionAvoidance { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyAutopilotComponent_IsUsingCollisionAvoidanceForLogic_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.IsUsingCollisionAvoidanceForLogic*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_IsUsingCollisionAvoidanceForLogic" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.IsUsingCollisionAvoidanceForLogic">IsUsingCollisionAvoidanceForLogic</h4>
+  <div class="markdown level1 summary"><p>Must be used in logic</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsUsingCollisionAvoidanceForLogic { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyAutopilotComponent_IsWaypointBelowMinHeight_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.IsWaypointBelowMinHeight*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_IsWaypointBelowMinHeight" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.IsWaypointBelowMinHeight">IsWaypointBelowMinHeight</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsWaypointBelowMinHeight { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyAutopilotComponent_IsWorkAreaReturningToStart_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.IsWorkAreaReturningToStart*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_IsWorkAreaReturningToStart" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.IsWorkAreaReturningToStart">IsWorkAreaReturningToStart</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsWorkAreaReturningToStart { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyAutopilotComponent_LookAtPosition_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.LookAtPosition*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_LookAtPosition" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.LookAtPosition">LookAtPosition</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Nullable&lt;Vector3D&gt; LookAtPosition { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<a class="xref" href="VRageMath.Vector3D.html">Vector3D</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyAutopilotComponent_MaxPitchAngle_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.MaxPitchAngle*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_MaxPitchAngle" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.MaxPitchAngle">MaxPitchAngle</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float MaxPitchAngle { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyAutopilotComponent_MaxRollAngle_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.MaxRollAngle*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_MaxRollAngle" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.MaxRollAngle">MaxRollAngle</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float MaxRollAngle { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyAutopilotComponent_MinHeightAboveTerrain_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.MinHeightAboveTerrain*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_MinHeightAboveTerrain" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.MinHeightAboveTerrain">MinHeightAboveTerrain</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float MinHeightAboveTerrain { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyAutopilotComponent_MinHeightAboveTerraingRaw_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.MinHeightAboveTerraingRaw*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_MinHeightAboveTerraingRaw" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.MinHeightAboveTerraingRaw">MinHeightAboveTerraingRaw</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float MinHeightAboveTerraingRaw { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyAutopilotComponent_MinHeightAboveTerrainUnadjusted_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.MinHeightAboveTerrainUnadjusted*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_MinHeightAboveTerrainUnadjusted" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.MinHeightAboveTerrainUnadjusted">MinHeightAboveTerrainUnadjusted</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float MinHeightAboveTerrainUnadjusted { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyAutopilotComponent_PreciseRotation_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.PreciseRotation*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_PreciseRotation" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.PreciseRotation">PreciseRotation</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool PreciseRotation { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyAutopilotComponent_ReferencePosition_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.ReferencePosition*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_ReferencePosition" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.ReferencePosition">ReferencePosition</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3D ReferencePosition { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRageMath.Vector3D.html">Vector3D</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyAutopilotComponent_SelectedGpsLocations_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.SelectedGpsLocations*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_SelectedGpsLocations" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.SelectedGpsLocations">SelectedGpsLocations</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;IMyGps&gt; SelectedGpsLocations { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="VRage.Game.ModAPI.IMyGps.html">IMyGps</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyAutopilotComponent_SelectedWaypoints_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.SelectedWaypoints*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_SelectedWaypoints" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.SelectedWaypoints">SelectedWaypoints</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;MyAutopilotWaypoint&gt; SelectedWaypoints { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Sandbox.Game.Entities.MyAutopilotWaypoint.html">MyAutopilotWaypoint</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyAutopilotComponent_ShipController_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.ShipController*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_ShipController" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.ShipController">ShipController</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IMyShipControl ShipController { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Sandbox.Game.Entities.Interfaces.IMyShipControl</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyAutopilotComponent_SpeedLimit_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.SpeedLimit*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_SpeedLimit" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.SpeedLimit">SpeedLimit</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float SpeedLimit { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyAutopilotComponent_TargettingAimDelta_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.TargettingAimDelta*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_TargettingAimDelta" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.TargettingAimDelta">TargettingAimDelta</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double TargettingAimDelta { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyAutopilotComponent_WaitForFreeWay_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.WaitForFreeWay*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_WaitForFreeWay" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.WaitForFreeWay">WaitForFreeWay</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool WaitForFreeWay { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyAutopilotComponent_Waypoints_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.Waypoints*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_Waypoints" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.Waypoints">Waypoints</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;MyAutopilotWaypoint&gt; Waypoints { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Sandbox.Game.Entities.MyAutopilotWaypoint.html">MyAutopilotWaypoint</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyAutopilotComponent_WaypointThresholdDistance_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.WaypointThresholdDistance*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_WaypointThresholdDistance" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.WaypointThresholdDistance">WaypointThresholdDistance</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float WaypointThresholdDistance { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyAutopilotComponent_WorkAreaStartForward_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.WorkAreaStartForward*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_WorkAreaStartForward" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.WorkAreaStartForward">WorkAreaStartForward</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3D WorkAreaStartForward { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRageMath.Vector3D.html">Vector3D</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyAutopilotComponent_AddedToScene_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.AddedToScene*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_AddedToScene" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.AddedToScene">AddedToScene()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddedToScene()</code></pre>
+  </div>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyAutopilotComponent_AddSelectedWaypoints_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.AddSelectedWaypoints*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_AddSelectedWaypoints" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.AddSelectedWaypoints">AddSelectedWaypoints()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddSelectedWaypoints()</code></pre>
+  </div>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyAutopilotComponent_AddWaypoint_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.AddWaypoint*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_AddWaypoint_Sandbox_ModAPI_Ingame_MyWaypointInfo_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.AddWaypoint(Sandbox.ModAPI.Ingame.MyWaypointInfo)">AddWaypoint(MyWaypointInfo)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddWaypoint(MyWaypointInfo coords)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Sandbox.ModAPI.Ingame.MyWaypointInfo.html">MyWaypointInfo</a></td>
+        <td><span class="parametername">coords</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyAutopilotComponent_AddWaypoint_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.AddWaypoint*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_AddWaypoint_VRageMath_Vector3D_System_String_System_Boolean_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.AddWaypoint(VRageMath.Vector3D,System.String,System.Boolean)">AddWaypoint(Vector3D, String, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddWaypoint(Vector3D point, string name, bool setAsCurrent)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRageMath.Vector3D.html">Vector3D</a></td>
+        <td><span class="parametername">point</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">setAsCurrent</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyAutopilotComponent_AddWaypointBroadcast_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.AddWaypointBroadcast*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_AddWaypointBroadcast_VRageMath_MatrixD_System_Int64_System_String_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.AddWaypointBroadcast(VRageMath.MatrixD,System.Int64,System.String)">AddWaypointBroadcast(MatrixD, Int64, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Event(null, 3381)]
+[Reliable]
+[Server]
+[Broadcast]
+public void AddWaypointBroadcast(MatrixD Matrix, long RelatedEntityId, string Name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRageMath.MatrixD.html">MatrixD</a></td>
+        <td><span class="parametername">Matrix</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">RelatedEntityId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">Name</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyAutopilotComponent_AdvanceWaypoint_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.AdvanceWaypoint*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_AdvanceWaypoint_System_Boolean_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.AdvanceWaypoint(System.Boolean)">AdvanceWaypoint(Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AdvanceWaypoint(bool reportRemoval = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">reportRemoval</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyAutopilotComponent_AlignToMinHeight_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.AlignToMinHeight*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_AlignToMinHeight_Sandbox_Game_Entities_MyAutopilotWaypoint_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.AlignToMinHeight(Sandbox.Game.Entities.MyAutopilotWaypoint)">AlignToMinHeight(MyAutopilotWaypoint)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool AlignToMinHeight(MyAutopilotWaypoint waypoint)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Sandbox.Game.Entities.MyAutopilotWaypoint.html">MyAutopilotWaypoint</a></td>
+        <td><span class="parametername">waypoint</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyAutopilotComponent_CanAddWaypoints_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.CanAddWaypoints*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_CanAddWaypoints" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.CanAddWaypoints">CanAddWaypoints()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool CanAddWaypoints()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyAutopilotComponent_CanEnableAutoPilot_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.CanEnableAutoPilot*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_CanEnableAutoPilot" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.CanEnableAutoPilot">CanEnableAutoPilot()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool CanEnableAutoPilot()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyAutopilotComponent_CanMoveWaypointsDown_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.CanMoveWaypointsDown*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_CanMoveWaypointsDown" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.CanMoveWaypointsDown">CanMoveWaypointsDown()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool CanMoveWaypointsDown()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyAutopilotComponent_CanMoveWaypointsUp_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.CanMoveWaypointsUp*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_CanMoveWaypointsUp" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.CanMoveWaypointsUp">CanMoveWaypointsUp()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool CanMoveWaypointsUp()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyAutopilotComponent_CanRemoveWaypoints_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.CanRemoveWaypoints*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_CanRemoveWaypoints" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.CanRemoveWaypoints">CanRemoveWaypoints()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool CanRemoveWaypoints()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyAutopilotComponent_ChangeDirection_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.ChangeDirection*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_ChangeDirection_VRageMath_Base6Directions_Direction_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.ChangeDirection(VRageMath.Base6Directions.Direction)">ChangeDirection(Base6Directions.Direction)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ChangeDirection(Base6Directions.Direction direction)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRageMath.Base6Directions.Direction.html">Base6Directions.Direction</a></td>
+        <td><span class="parametername">direction</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyAutopilotComponent_ChangeFlightMode_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.ChangeFlightMode*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_ChangeFlightMode_Sandbox_ModAPI_Ingame_FlightMode_System_Boolean_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.ChangeFlightMode(Sandbox.ModAPI.Ingame.FlightMode,System.Boolean)">ChangeFlightMode(FlightMode, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ChangeFlightMode(FlightMode flightMode, bool forceEnable = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Sandbox.ModAPI.Ingame.FlightMode.html">FlightMode</a></td>
+        <td><span class="parametername">flightMode</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">forceEnable</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyAutopilotComponent_ClearWaypoints_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.ClearWaypoints*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_ClearWaypoints_System_Boolean_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.ClearWaypoints(System.Boolean)">ClearWaypoints(Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearWaypoints(bool advanceWaypoint = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">advanceWaypoint</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyAutopilotComponent_CopyAutopilotSetup_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.CopyAutopilotSetup*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_CopyAutopilotSetup" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.CopyAutopilotSetup">CopyAutopilotSetup()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void CopyAutopilotSetup()</code></pre>
+  </div>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyAutopilotComponent_Deserialize_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.Deserialize*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_Deserialize_VRage_Game_ObjectBuilders_ComponentSystem_MyObjectBuilder_ComponentBase_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.Deserialize(VRage.Game.ObjectBuilders.ComponentSystem.MyObjectBuilder_ComponentBase)">Deserialize(MyObjectBuilder_ComponentBase)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Deserialize(MyObjectBuilder_ComponentBase builder)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRage.Game.ObjectBuilders.ComponentSystem.MyObjectBuilder_ComponentBase.html">MyObjectBuilder_ComponentBase</a></td>
+        <td><span class="parametername">builder</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="VRage.Game.Components.MyComponentBase.html#VRage_Game_Components_MyComponentBase_Deserialize_VRage_Game_ObjectBuilders_ComponentSystem_MyObjectBuilder_ComponentBase_">MyComponentBase.Deserialize(MyObjectBuilder_ComponentBase)</a></div>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyAutopilotComponent_FillDirectionCombo_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.FillDirectionCombo*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_FillDirectionCombo_System_Collections_Generic_List_VRage_ModAPI_MyTerminalControlComboBoxItem__" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.FillDirectionCombo(System.Collections.Generic.List{VRage.ModAPI.MyTerminalControlComboBoxItem})">FillDirectionCombo(List&lt;MyTerminalControlComboBoxItem&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void FillDirectionCombo(List&lt;MyTerminalControlComboBoxItem&gt; list)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="VRage.ModAPI.MyTerminalControlComboBoxItem.html">MyTerminalControlComboBoxItem</a>&gt;</td>
+        <td><span class="parametername">list</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyAutopilotComponent_FillFlightModeCombo_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.FillFlightModeCombo*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_FillFlightModeCombo_System_Collections_Generic_List_VRage_ModAPI_MyTerminalControlComboBoxItem__" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.FillFlightModeCombo(System.Collections.Generic.List{VRage.ModAPI.MyTerminalControlComboBoxItem})">FillFlightModeCombo(List&lt;MyTerminalControlComboBoxItem&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void FillFlightModeCombo(List&lt;MyTerminalControlComboBoxItem&gt; list)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="VRage.ModAPI.MyTerminalControlComboBoxItem.html">MyTerminalControlComboBoxItem</a>&gt;</td>
+        <td><span class="parametername">list</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyAutopilotComponent_FillGpsList_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.FillGpsList*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_FillGpsList_System_Collections_Generic_ICollection_Sandbox_Graphics_GUI_MyGuiControlListbox_Item__System_Collections_Generic_ICollection_Sandbox_Graphics_GUI_MyGuiControlListbox_Item__" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.FillGpsList(System.Collections.Generic.ICollection{Sandbox.Graphics.GUI.MyGuiControlListbox.Item},System.Collections.Generic.ICollection{Sandbox.Graphics.GUI.MyGuiControlListbox.Item})">FillGpsList(ICollection&lt;MyGuiControlListbox.Item&gt;, ICollection&lt;MyGuiControlListbox.Item&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void FillGpsList(ICollection&lt;MyGuiControlListbox.Item&gt; gpsItemList, ICollection&lt;MyGuiControlListbox.Item&gt; selectedGpsItemList)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.ICollection</span>&lt;<span class="xref">Sandbox.Graphics.GUI.MyGuiControlListbox.Item</span>&gt;</td>
+        <td><span class="parametername">gpsItemList</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.ICollection</span>&lt;<span class="xref">Sandbox.Graphics.GUI.MyGuiControlListbox.Item</span>&gt;</td>
+        <td><span class="parametername">selectedGpsItemList</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyAutopilotComponent_FillWaypointList_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.FillWaypointList*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_FillWaypointList_System_Collections_Generic_ICollection_Sandbox_Graphics_GUI_MyGuiControlListbox_Item__System_Collections_Generic_ICollection_Sandbox_Graphics_GUI_MyGuiControlListbox_Item__" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.FillWaypointList(System.Collections.Generic.ICollection{Sandbox.Graphics.GUI.MyGuiControlListbox.Item},System.Collections.Generic.ICollection{Sandbox.Graphics.GUI.MyGuiControlListbox.Item})">FillWaypointList(ICollection&lt;MyGuiControlListbox.Item&gt;, ICollection&lt;MyGuiControlListbox.Item&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void FillWaypointList(ICollection&lt;MyGuiControlListbox.Item&gt; waypoints, ICollection&lt;MyGuiControlListbox.Item&gt; selectedWaypoints)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.ICollection</span>&lt;<span class="xref">Sandbox.Graphics.GUI.MyGuiControlListbox.Item</span>&gt;</td>
+        <td><span class="parametername">waypoints</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.ICollection</span>&lt;<span class="xref">Sandbox.Graphics.GUI.MyGuiControlListbox.Item</span>&gt;</td>
+        <td><span class="parametername">selectedWaypoints</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyAutopilotComponent_ForceRotateRequested_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.ForceRotateRequested*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_ForceRotateRequested_System_Nullable_VRageMath_QuaternionD__" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.ForceRotateRequested(System.Nullable{VRageMath.QuaternionD})">ForceRotateRequested(Nullable&lt;QuaternionD&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ForceRotateRequested(Nullable&lt;QuaternionD&gt; rotation)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<a class="xref" href="VRageMath.QuaternionD.html">QuaternionD</a>&gt;</td>
+        <td><span class="parametername">rotation</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyAutopilotComponent_ForceRotateToLookAtRequested_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.ForceRotateToLookAtRequested*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_ForceRotateToLookAtRequested_System_Boolean_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.ForceRotateToLookAtRequested(System.Boolean)">ForceRotateToLookAtRequested(Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ForceRotateToLookAtRequested(bool shouldRotate)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">shouldRotate</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyAutopilotComponent_GetCurrentLookVector_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.GetCurrentLookVector*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_GetCurrentLookVector" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.GetCurrentLookVector">GetCurrentLookVector()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Nullable&lt;Vector3D&gt; GetCurrentLookVector()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<a class="xref" href="VRageMath.Vector3D.html">Vector3D</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyAutopilotComponent_Init_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.Init*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_Init_VRage_Game_MyComponentDefinitionBase_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.Init(VRage.Game.MyComponentDefinitionBase)">Init(MyComponentDefinitionBase)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Init(MyComponentDefinitionBase definition)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRage.Game.MyComponentDefinitionBase.html">MyComponentDefinitionBase</a></td>
+        <td><span class="parametername">definition</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="VRage.Game.Components.MyComponentBase.html#VRage_Game_Components_MyComponentBase_Init_VRage_Game_MyComponentDefinitionBase_">MyComponentBase.Init(MyComponentDefinitionBase)</a></div>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyAutopilotComponent_InitWithObjectBuilder_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.InitWithObjectBuilder*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_InitWithObjectBuilder_Sandbox_Common_ObjectBuilders_MyObjectBuilder_RemoteControl_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.InitWithObjectBuilder(Sandbox.Common.ObjectBuilders.MyObjectBuilder_RemoteControl)">InitWithObjectBuilder(MyObjectBuilder_RemoteControl)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void InitWithObjectBuilder(MyObjectBuilder_RemoteControl ob)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Sandbox.Common.ObjectBuilders.MyObjectBuilder_RemoteControl.html">MyObjectBuilder_RemoteControl</a></td>
+        <td><span class="parametername">ob</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyAutopilotComponent_InitWithOwnObjectBuilder_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.InitWithOwnObjectBuilder*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_InitWithOwnObjectBuilder" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.InitWithOwnObjectBuilder">InitWithOwnObjectBuilder()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void InitWithOwnObjectBuilder()</code></pre>
+  </div>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyAutopilotComponent_IsSerialized_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.IsSerialized*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_IsSerialized" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.IsSerialized">IsSerialized()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool IsSerialized()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="VRage.Game.Components.MyComponentBase.html#VRage_Game_Components_MyComponentBase_IsSerialized">MyComponentBase.IsSerialized()</a></div>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyAutopilotComponent_MoveSelectedWaypointsDown_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.MoveSelectedWaypointsDown*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_MoveSelectedWaypointsDown" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.MoveSelectedWaypointsDown">MoveSelectedWaypointsDown()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MoveSelectedWaypointsDown()</code></pre>
+  </div>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyAutopilotComponent_MoveSelectedWaypointsUp_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.MoveSelectedWaypointsUp*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_MoveSelectedWaypointsUp" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.MoveSelectedWaypointsUp">MoveSelectedWaypointsUp()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MoveSelectedWaypointsUp()</code></pre>
+  </div>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyAutopilotComponent_OnAddedToContainer_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.OnAddedToContainer*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_OnAddedToContainer" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.OnAddedToContainer">OnAddedToContainer()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void OnAddedToContainer()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="VRage.Game.Components.MyEntityComponentBase.html#VRage_Game_Components_MyEntityComponentBase_OnAddedToContainer">MyEntityComponentBase.OnAddedToContainer()</a></div>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyAutopilotComponent_OnBeforeRemovedFromContainer_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.OnBeforeRemovedFromContainer*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_OnBeforeRemovedFromContainer" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.OnBeforeRemovedFromContainer">OnBeforeRemovedFromContainer()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void OnBeforeRemovedFromContainer()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Sandbox.Game.EntityComponents.MyEventProxyEntityComponent.html#Sandbox_Game_EntityComponents_MyEventProxyEntityComponent_OnBeforeRemovedFromContainer">MyEventProxyEntityComponent.OnBeforeRemovedFromContainer()</a></div>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyAutopilotComponent_OnRemoveWaypoints_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.OnRemoveWaypoints*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_OnRemoveWaypoints_System_Int32___" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.OnRemoveWaypoints(System.Int32[])">OnRemoveWaypoints(Int32[])</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Event(null, 3118)]
+[Reliable]
+[Server]
+[Broadcast]
+public void OnRemoveWaypoints(int[] indexes)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span>[]</td>
+        <td><span class="parametername">indexes</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyAutopilotComponent_PasteAutopilotSetup_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.PasteAutopilotSetup*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_PasteAutopilotSetup" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.PasteAutopilotSetup">PasteAutopilotSetup()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void PasteAutopilotSetup()</code></pre>
+  </div>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyAutopilotComponent_RaisePropertiesChangedRemote_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.RaisePropertiesChangedRemote*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_RaisePropertiesChangedRemote" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.RaisePropertiesChangedRemote">RaisePropertiesChangedRemote()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RaisePropertiesChangedRemote()</code></pre>
+  </div>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyAutopilotComponent_RemoveAutoPilot_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.RemoveAutoPilot*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_RemoveAutoPilot" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.RemoveAutoPilot">RemoveAutoPilot()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RemoveAutoPilot()</code></pre>
+  </div>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyAutopilotComponent_RemoveSelectedWaypoints_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.RemoveSelectedWaypoints*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_RemoveSelectedWaypoints" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.RemoveSelectedWaypoints">RemoveSelectedWaypoints()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RemoveSelectedWaypoints()</code></pre>
+  </div>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyAutopilotComponent_RemoveWaypoint_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.RemoveWaypoint*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_RemoveWaypoint_Sandbox_Game_Entities_MyAutopilotWaypoint_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.RemoveWaypoint(Sandbox.Game.Entities.MyAutopilotWaypoint)">RemoveWaypoint(MyAutopilotWaypoint)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RemoveWaypoint(MyAutopilotWaypoint waypoint)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Sandbox.Game.Entities.MyAutopilotWaypoint.html">MyAutopilotWaypoint</a></td>
+        <td><span class="parametername">waypoint</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyAutopilotComponent_ResetShipControls_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.ResetShipControls*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_ResetShipControls" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.ResetShipControls">ResetShipControls()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ResetShipControls()</code></pre>
+  </div>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyAutopilotComponent_ResetWaypoint_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.ResetWaypoint*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_ResetWaypoint" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.ResetWaypoint">ResetWaypoint()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ResetWaypoint()</code></pre>
+  </div>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyAutopilotComponent_SelectGps_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.SelectGps*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_SelectGps_System_Collections_Generic_List_Sandbox_Graphics_GUI_MyGuiControlListbox_Item__" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.SelectGps(System.Collections.Generic.List{Sandbox.Graphics.GUI.MyGuiControlListbox.Item})">SelectGps(List&lt;MyGuiControlListbox.Item&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SelectGps(List&lt;MyGuiControlListbox.Item&gt; selection)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">Sandbox.Graphics.GUI.MyGuiControlListbox.Item</span>&gt;</td>
+        <td><span class="parametername">selection</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyAutopilotComponent_SelectWaypoint_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.SelectWaypoint*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_SelectWaypoint_System_Collections_Generic_List_Sandbox_Graphics_GUI_MyGuiControlListbox_Item__" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.SelectWaypoint(System.Collections.Generic.List{Sandbox.Graphics.GUI.MyGuiControlListbox.Item})">SelectWaypoint(List&lt;MyGuiControlListbox.Item&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SelectWaypoint(List&lt;MyGuiControlListbox.Item&gt; selection)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">Sandbox.Graphics.GUI.MyGuiControlListbox.Item</span>&gt;</td>
+        <td><span class="parametername">selection</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyAutopilotComponent_Serialize_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.Serialize*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_Serialize_System_Boolean_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.Serialize(System.Boolean)">Serialize(Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override MyObjectBuilder_ComponentBase Serialize(bool copy = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">copy</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRage.Game.ObjectBuilders.ComponentSystem.MyObjectBuilder_ComponentBase.html">MyObjectBuilder_ComponentBase</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="VRage.Game.Components.MyComponentBase.html#VRage_Game_Components_MyComponentBase_Serialize_System_Boolean_">MyComponentBase.Serialize(Boolean)</a></div>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyAutopilotComponent_SetAutopilot_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.SetAutopilot*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_SetAutopilot_System_Boolean_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.SetAutopilot(System.Boolean)">SetAutopilot(Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetAutopilot(bool enabled)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">enabled</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyAutopilotComponent_SetAutoPilotEnabled_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.SetAutoPilotEnabled*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_SetAutoPilotEnabled_System_Boolean_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.SetAutoPilotEnabled(System.Boolean)">SetAutoPilotEnabled(Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetAutoPilotEnabled(bool enabled)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">enabled</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyAutopilotComponent_SetCustomAdjustWaypointAboveMinHeightFunction_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.SetCustomAdjustWaypointAboveMinHeightFunction*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_SetCustomAdjustWaypointAboveMinHeightFunction_Sandbox_Game_EntityComponents_CustomAdjustWaypointAboveMinHeightFunction_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.SetCustomAdjustWaypointAboveMinHeightFunction(Sandbox.Game.EntityComponents.CustomAdjustWaypointAboveMinHeightFunction)">SetCustomAdjustWaypointAboveMinHeightFunction(CustomAdjustWaypointAboveMinHeightFunction)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetCustomAdjustWaypointAboveMinHeightFunction(CustomAdjustWaypointAboveMinHeightFunction function)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Sandbox.Game.EntityComponents.CustomAdjustWaypointAboveMinHeightFunction.html">CustomAdjustWaypointAboveMinHeightFunction</a></td>
+        <td><span class="parametername">function</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyAutopilotComponent_SetCustomMovementFunction_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.SetCustomMovementFunction*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_SetCustomMovementFunction_Sandbox_Game_EntityComponents_CustomMovementFunction_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.SetCustomMovementFunction(Sandbox.Game.EntityComponents.CustomMovementFunction)">SetCustomMovementFunction(CustomMovementFunction)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetCustomMovementFunction(CustomMovementFunction function)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Sandbox.Game.EntityComponents.CustomMovementFunction.html">CustomMovementFunction</a></td>
+        <td><span class="parametername">function</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyAutopilotComponent_SetWaitForFreeWay_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.SetWaitForFreeWay*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_SetWaitForFreeWay_System_Boolean_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.SetWaitForFreeWay(System.Boolean)">SetWaitForFreeWay(Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetWaitForFreeWay(bool waitForFreeWay)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">waitForFreeWay</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyAutopilotComponent_SetWaypoint_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.SetWaypoint*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_SetWaypoint_Sandbox_Game_Entities_MyAutopilotWaypoint_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.SetWaypoint(Sandbox.Game.Entities.MyAutopilotWaypoint)">SetWaypoint(MyAutopilotWaypoint)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetWaypoint(MyAutopilotWaypoint waypoint)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Sandbox.Game.Entities.MyAutopilotWaypoint.html">MyAutopilotWaypoint</a></td>
+        <td><span class="parametername">waypoint</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyAutopilotComponent_SetWaypoints_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.SetWaypoints*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_SetWaypoints_System_Collections_Generic_List_Sandbox_Game_Entities_MyAutopilotWaypoint__System_Boolean_System_Boolean_System_Boolean_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.SetWaypoints(System.Collections.Generic.List{Sandbox.Game.Entities.MyAutopilotWaypoint},System.Boolean,System.Boolean,System.Boolean)">SetWaypoints(List&lt;MyAutopilotWaypoint&gt;, Boolean, Boolean, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetWaypoints(List&lt;MyAutopilotWaypoint&gt; newWaypoints, bool continueOnCurrentCourse, bool continueOnReversedCourse, bool fly)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Sandbox.Game.Entities.MyAutopilotWaypoint.html">MyAutopilotWaypoint</a>&gt;</td>
+        <td><span class="parametername">newWaypoints</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">continueOnCurrentCourse</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">continueOnReversedCourse</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">fly</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyAutopilotComponent_Toolbar_ItemChanged_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.Toolbar_ItemChanged*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_Toolbar_ItemChanged_Sandbox_Game_Screens_Helpers_MyToolbar_Sandbox_Game_Screens_Helpers_MyToolbar_IndexArgs_System_Boolean_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.Toolbar_ItemChanged(Sandbox.Game.Screens.Helpers.MyToolbar,Sandbox.Game.Screens.Helpers.MyToolbar.IndexArgs,System.Boolean)">Toolbar_ItemChanged(MyToolbar, MyToolbar.IndexArgs, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Toolbar_ItemChanged(MyToolbar self, MyToolbar.IndexArgs index, bool isGamepad)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Sandbox.Game.Screens.Helpers.MyToolbar</span></td>
+        <td><span class="parametername">self</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Sandbox.Game.Screens.Helpers.MyToolbar.IndexArgs</span></td>
+        <td><span class="parametername">index</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">isGamepad</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyAutopilotComponent_UpdateAfterSimulation10_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.UpdateAfterSimulation10*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_UpdateAfterSimulation10" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.UpdateAfterSimulation10">UpdateAfterSimulation10()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UpdateAfterSimulation10()</code></pre>
+  </div>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyAutopilotComponent_UpdateAutopilot_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.UpdateAutopilot*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_UpdateAutopilot" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.UpdateAutopilot">UpdateAutopilot()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UpdateAutopilot()</code></pre>
+  </div>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyAutopilotComponent_UpdateOnceBeforeFrame_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.UpdateOnceBeforeFrame*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_UpdateOnceBeforeFrame" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.UpdateOnceBeforeFrame">UpdateOnceBeforeFrame()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UpdateOnceBeforeFrame()</code></pre>
+  </div>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyAutopilotComponent_UpdateWaypointMatrix_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.UpdateWaypointMatrix*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_UpdateWaypointMatrix_VRageMath_MatrixD_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.UpdateWaypointMatrix(VRageMath.MatrixD)">UpdateWaypointMatrix(MatrixD)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UpdateWaypointMatrix(MatrixD matrix)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRageMath.MatrixD.html">MatrixD</a></td>
+        <td><span class="parametername">matrix</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="events">Events
+  </h3>
+  
+  
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_OnCurrentWaypointChanged" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.OnCurrentWaypointChanged">OnCurrentWaypointChanged</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action OnCurrentWaypointChanged</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_OnCurrentWaypointIndexChanged" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.OnCurrentWaypointIndexChanged">OnCurrentWaypointIndexChanged</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action OnCurrentWaypointIndexChanged</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_OnMinHeightAboveTerrainChanged" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.OnMinHeightAboveTerrainChanged">OnMinHeightAboveTerrainChanged</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action OnMinHeightAboveTerrainChanged</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_OnSpeedLimitChanged" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.OnSpeedLimitChanged">OnSpeedLimitChanged</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action&lt;float&gt; OnSpeedLimitChanged</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<span class="xref">System.Single</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_OnWaypointReached" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.OnWaypointReached">OnWaypointReached</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action&lt;MyAutopilotWaypoint&gt; OnWaypointReached</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Sandbox.Game.Entities.MyAutopilotWaypoint.html">MyAutopilotWaypoint</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="VRage.Game.Components.MyEntityContainerEventExtensions.html#VRage_Game_Components_MyEntityContainerEventExtensions_RegisterForEntityEvent_VRage_Game_Components_MyEntityComponentBase_VRage_Utils_MyStringHash_VRage_Game_Components_MyEntityContainerEventExtensions_EntityEventHandler_">MyEntityContainerEventExtensions.RegisterForEntityEvent(MyEntityComponentBase, MyStringHash, MyEntityContainerEventExtensions.EntityEventHandler)</a>
+  </div>
+  <div>
+      <a class="xref" href="VRage.Game.Components.MyEntityContainerEventExtensions.html#VRage_Game_Components_MyEntityContainerEventExtensions_RegisterForEntityEvent_VRage_Game_Components_MyEntityComponentBase_VRage_Game_Entity_MyEntity_VRage_Utils_MyStringHash_VRage_Game_Components_MyEntityContainerEventExtensions_EntityEventHandler_">MyEntityContainerEventExtensions.RegisterForEntityEvent(MyEntityComponentBase, MyEntity, MyStringHash, MyEntityContainerEventExtensions.EntityEventHandler)</a>
+  </div>
+  <div>
+      <a class="xref" href="VRage.Game.Components.MyEntityContainerEventExtensions.html#VRage_Game_Components_MyEntityContainerEventExtensions_UnregisterForEntityEvent_VRage_Game_Components_MyEntityComponentBase_VRage_Game_Entity_MyEntity_VRage_Utils_MyStringHash_">MyEntityContainerEventExtensions.UnregisterForEntityEvent(MyEntityComponentBase, MyEntity, MyStringHash)</a>
+  </div>
+  <div>
+      <a class="xref" href="VRage.Game.Components.MyEntityContainerEventExtensions.html#VRage_Game_Components_MyEntityContainerEventExtensions_RaiseEntityEvent_VRage_Game_Components_MyEntityComponentBase_VRage_Utils_MyStringHash_VRage_Game_Components_MyEntityContainerEventExtensions_EntityEventParams_">MyEntityContainerEventExtensions.RaiseEntityEvent(MyEntityComponentBase, MyStringHash, MyEntityContainerEventExtensions.EntityEventParams)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <div class="toggle-mode">
+                <div class="icon">
+                  <i aria-hidden="true">☀</i>
+                </div>
+                <label class="switch">
+                  <input type="checkbox" id="switch-style">
+                  <span class="slider round"></span>
+                </label>
+                <div class="icon">
+                  <i aria-hidden="true">☾</i>
+                </div>
+              </div>
+          
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <h5>In This Article</h5>
+              <div></div>
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            <div class="pull-left">
+              
+              <span>Generated by <strong>DocFX</strong></span>
+            </div>
+            <div class="toggle-mode pull-right visible-sm visible-xs">
+              <div class="icon">
+                <i aria-hidden="true">☀</i>
+              </div>
+              <label class="switch">
+                <input type="checkbox" id="switch-style-m">
+                <span class="slider round"></span>
+              </label>
+              <div class="icon">
+                <i aria-hidden="true">☾</i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <script type="text/javascript" src="../styles/toggle-theme.js"></script>
+      </footer>    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

@@ -8708,6 +8708,50 @@ public static bool GetPlayerControlledBlockData(out string controlType, out long
   </table>
   
   
+  <a id="Sandbox_Game_MyVisualScriptLogicProvider_GetPlayerRespawnPoints_" data-uid="Sandbox.Game.MyVisualScriptLogicProvider.GetPlayerRespawnPoints*"></a>
+  <h4 id="Sandbox_Game_MyVisualScriptLogicProvider_GetPlayerRespawnPoints_System_Int64_" data-uid="Sandbox.Game.MyVisualScriptLogicProvider.GetPlayerRespawnPoints(System.Int64)">GetPlayerRespawnPoints(Int64)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[VisualScriptingMiscData(&quot;Player&quot;, &quot;Gets the player's available respawn points&quot;, -10510688)]
+[VisualScriptingMember(true, false)]
+public static int GetPlayerRespawnPoints(long playerId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">playerId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="Sandbox_Game_MyVisualScriptLogicProvider_GetPlayers_" data-uid="Sandbox.Game.MyVisualScriptLogicProvider.GetPlayers*"></a>
   <h4 id="Sandbox_Game_MyVisualScriptLogicProvider_GetPlayers" data-uid="Sandbox.Game.MyVisualScriptLogicProvider.GetPlayers">GetPlayers()</h4>
   <div class="markdown level1 summary"></div>
@@ -10106,6 +10150,18 @@ public static float GetWeatherIntensity(Vector3D position)</code></pre>
       </tr>
     </tbody>
   </table>
+  
+  
+  <a id="Sandbox_Game_MyVisualScriptLogicProvider_GoToPostMatchState_" data-uid="Sandbox.Game.MyVisualScriptLogicProvider.GoToPostMatchState*"></a>
+  <h4 id="Sandbox_Game_MyVisualScriptLogicProvider_GoToPostMatchState" data-uid="Sandbox.Game.MyVisualScriptLogicProvider.GoToPostMatchState">GoToPostMatchState()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[VisualScriptingMiscData(&quot;Other&quot;, &quot;Go to post-match state&quot;, -10510688)]
+[VisualScriptingMember(true, false)]
+public static void GoToPostMatchState()</code></pre>
+  </div>
   
   
   <a id="Sandbox_Game_MyVisualScriptLogicProvider_HasOperationalCockpit_" data-uid="Sandbox.Game.MyVisualScriptLogicProvider.HasOperationalCockpit*"></a>
@@ -12970,7 +13026,7 @@ public static void OpenFactionVictoryScreenAll(string factionTag, float timeInSe
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Event(null, 6058)]
+    <pre><code class="lang-csharp hljs">[Event(null, 6075)]
 [Reliable]
 [ServerInvoked]
 [Broadcast]
@@ -13018,7 +13074,7 @@ public static void OpenPlayerScreenAll()</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Event(null, 6036)]
+    <pre><code class="lang-csharp hljs">[Event(null, 6053)]
 [Reliable]
 [ServerInvoked]
 [Broadcast]
@@ -14575,6 +14631,40 @@ public static void ReplaceQuestlogDetail(int id = 0, string newDetail = &quot;&q
       <tr>
         <td><span class="xref">System.Int64</span></td>
         <td><span class="parametername">playerId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_MyVisualScriptLogicProvider_ReportMatchEndToAnalytics_" data-uid="Sandbox.Game.MyVisualScriptLogicProvider.ReportMatchEndToAnalytics*"></a>
+  <h4 id="Sandbox_Game_MyVisualScriptLogicProvider_ReportMatchEndToAnalytics_System_String_System_Int32_" data-uid="Sandbox.Game.MyVisualScriptLogicProvider.ReportMatchEndToAnalytics(System.String,System.Int32)">ReportMatchEndToAnalytics(String, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[VisualScriptingMiscData(&quot;Other&quot;, &quot;Report match result and time to analytics&quot;, -10510688)]
+[VisualScriptingMember(true, false)]
+public static void ReportMatchEndToAnalytics(string result, int matchTime)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">result</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">matchTime</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -18508,6 +18598,35 @@ public static void SetRowRanking(string boardId, string rowId, int ranking, long
   </table>
   
   
+  <a id="Sandbox_Game_MyVisualScriptLogicProvider_SetScenarioWinTypeForAnalytics_" data-uid="Sandbox.Game.MyVisualScriptLogicProvider.SetScenarioWinTypeForAnalytics*"></a>
+  <h4 id="Sandbox_Game_MyVisualScriptLogicProvider_SetScenarioWinTypeForAnalytics_System_String_" data-uid="Sandbox.Game.MyVisualScriptLogicProvider.SetScenarioWinTypeForAnalytics(System.String)">SetScenarioWinTypeForAnalytics(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[VisualScriptingMiscData(&quot;Other&quot;, &quot;Set type of scenario win for analytics&quot;, -10510688)]
+[VisualScriptingMember(true, false)]
+public static void SetScenarioWinTypeForAnalytics(string winType)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">winType</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="Sandbox_Game_MyVisualScriptLogicProvider_SetTextPanelColors_" data-uid="Sandbox.Game.MyVisualScriptLogicProvider.SetTextPanelColors*"></a>
   <h4 id="Sandbox_Game_MyVisualScriptLogicProvider_SetTextPanelColors_System_String_VRageMath_Color_VRageMath_Color_" data-uid="Sandbox.Game.MyVisualScriptLogicProvider.SetTextPanelColors(System.String,VRageMath.Color,VRageMath.Color)">SetTextPanelColors(String, Color, Color)</h4>
   <div class="markdown level1 summary"></div>
@@ -18773,7 +18892,7 @@ public static void SetToolbarSlotToItem(int slot, MyDefinitionId itemId, long pl
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Event(null, 7819)]
+    <pre><code class="lang-csharp hljs">[Event(null, 7843)]
 [Reliable]
 [ServerInvoked]
 [Broadcast]
@@ -20935,7 +21054,7 @@ public static void ToggleAbilityToSprint(long playerId = 0L, bool canSprint = tr
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Event(null, 7090)]
+    <pre><code class="lang-csharp hljs">[Event(null, 7107)]
 [Reliable]
 [ServerInvoked]
 [Broadcast]
@@ -21104,6 +21223,40 @@ public static void TriggerTimerBlock(string blockName)</code></pre>
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">blockName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_MyVisualScriptLogicProvider_TriggerTimerBlockForNonFriendlyPlayer_" data-uid="Sandbox.Game.MyVisualScriptLogicProvider.TriggerTimerBlockForNonFriendlyPlayer*"></a>
+  <h4 id="Sandbox_Game_MyVisualScriptLogicProvider_TriggerTimerBlockForNonFriendlyPlayer_System_String_System_Int64_" data-uid="Sandbox.Game.MyVisualScriptLogicProvider.TriggerTimerBlockForNonFriendlyPlayer(System.String,System.Int64)">TriggerTimerBlockForNonFriendlyPlayer(String, Int64)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[VisualScriptingMiscData(&quot;Blocks Specific&quot;, &quot;Calls 'TriggerNow' action on specific functional block If PlayerId belongs to not friendly player&quot;, -10510688)]
+[VisualScriptingMember(true, false)]
+public static void TriggerTimerBlockForNonFriendlyPlayer(string blockName, long playerId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">blockName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">playerId</span></td>
         <td></td>
       </tr>
     </tbody>

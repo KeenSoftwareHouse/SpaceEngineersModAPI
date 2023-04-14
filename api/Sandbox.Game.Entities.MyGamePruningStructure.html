@@ -137,9 +137,6 @@
       <a class="xref" href="VRage.Game.Components.MySessionComponentBase.html#VRage_Game_Components_MySessionComponentBase_UpdatingStopped">MySessionComponentBase.UpdatingStopped()</a>
     </div>
     <div>
-      <a class="xref" href="VRage.Game.Components.MySessionComponentBase.html#VRage_Game_Components_MySessionComponentBase_Draw">MySessionComponentBase.Draw()</a>
-    </div>
-    <div>
       <a class="xref" href="VRage.Game.Components.MySessionComponentBase.html#VRage_Game_Components_MySessionComponentBase_HandleInput">MySessionComponentBase.HandleInput()</a>
     </div>
     <div>
@@ -181,7 +178,7 @@
   <h5 id="Sandbox_Game_Entities_MyGamePruningStructure_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[MySessionComponentDescriptor]
-public class MyGamePruningStructure : MySessionComponentBase, IMyUserInputComponent</code></pre>
+public sealed class MyGamePruningStructure : MySessionComponentBase, IMyUserInputComponent</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
@@ -195,6 +192,33 @@ public class MyGamePruningStructure : MySessionComponentBase, IMyUserInputCompon
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public MyGamePruningStructure()</code></pre>
   </div>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="Sandbox_Game_Entities_MyGamePruningStructure_Instance_" data-uid="Sandbox.Game.Entities.MyGamePruningStructure.Instance*"></a>
+  <h4 id="Sandbox_Game_Entities_MyGamePruningStructure_Instance" data-uid="Sandbox.Game.Entities.MyGamePruningStructure.Instance">Instance</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static MyGamePruningStructure Instance { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Sandbox.Game.Entities.MyGamePruningStructure.html">MyGamePruningStructure</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="methods">Methods
   </h3>
   
@@ -220,6 +244,75 @@ public class MyGamePruningStructure : MySessionComponentBase, IMyUserInputCompon
       <tr>
         <td><a class="xref" href="VRage.Game.Entity.MyEntity.html">MyEntity</a></td>
         <td><span class="parametername">entity</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_Entities_MyGamePruningStructure_AddEntity_" data-uid="Sandbox.Game.Entities.MyGamePruningStructure.AddEntity*"></a>
+  <h4 id="Sandbox_Game_Entities_MyGamePruningStructure_AddEntity_VRage_Game_Entity_MyEntity_" data-uid="Sandbox.Game.Entities.MyGamePruningStructure.AddEntity(VRage.Game.Entity.MyEntity)">AddEntity(MyEntity)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddEntity(MyEntity entity)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRage.Game.Entity.MyEntity.html">MyEntity</a></td>
+        <td><span class="parametername">entity</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_Entities_MyGamePruningStructure_AnyVoxelMap_" data-uid="Sandbox.Game.Entities.MyGamePruningStructure.AnyVoxelMap*"></a>
+  <h4 id="Sandbox_Game_Entities_MyGamePruningStructure_AnyVoxelMap_VRageMath_BoundingBoxD__" data-uid="Sandbox.Game.Entities.MyGamePruningStructure.AnyVoxelMap(VRageMath.BoundingBoxD@)">AnyVoxelMap(ref BoundingBoxD)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool AnyVoxelMap(ref BoundingBoxD box)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRageMath.BoundingBoxD.html">BoundingBoxD</a></td>
+        <td><span class="parametername">box</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -268,24 +361,164 @@ public class MyGamePruningStructure : MySessionComponentBase, IMyUserInputCompon
   </table>
   
   
-  <a id="Sandbox_Game_Entities_MyGamePruningStructure_Clear_" data-uid="Sandbox.Game.Entities.MyGamePruningStructure.Clear*"></a>
-  <h4 id="Sandbox_Game_Entities_MyGamePruningStructure_Clear" data-uid="Sandbox.Game.Entities.MyGamePruningStructure.Clear">Clear()</h4>
+  <a id="Sandbox_Game_Entities_MyGamePruningStructure_Draw_" data-uid="Sandbox.Game.Entities.MyGamePruningStructure.Draw*"></a>
+  <h4 id="Sandbox_Game_Entities_MyGamePruningStructure_Draw" data-uid="Sandbox.Game.Entities.MyGamePruningStructure.Draw">Draw()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void Clear()</code></pre>
+    <pre><code class="lang-csharp hljs">public override void Draw()</code></pre>
   </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="VRage.Game.Components.MySessionComponentBase.html#VRage_Game_Components_MySessionComponentBase_Draw">MySessionComponentBase.Draw()</a></div>
   
   
-  <a id="Sandbox_Game_Entities_MyGamePruningStructure_DebugDraw_" data-uid="Sandbox.Game.Entities.MyGamePruningStructure.DebugDraw*"></a>
-  <h4 id="Sandbox_Game_Entities_MyGamePruningStructure_DebugDraw" data-uid="Sandbox.Game.Entities.MyGamePruningStructure.DebugDraw">DebugDraw()</h4>
+  <a id="Sandbox_Game_Entities_MyGamePruningStructure_GetAllEntities_" data-uid="Sandbox.Game.Entities.MyGamePruningStructure.GetAllEntities*"></a>
+  <h4 id="Sandbox_Game_Entities_MyGamePruningStructure_GetAllEntities_VRageMath_BoundingBoxD__System_Collections_Generic_List_VRage_Game_Entity_MyEntity__Sandbox_Game_Entities_MyEntityQueryType_" data-uid="Sandbox.Game.Entities.MyGamePruningStructure.GetAllEntities(VRageMath.BoundingBoxD@,System.Collections.Generic.List{VRage.Game.Entity.MyEntity},Sandbox.Game.Entities.MyEntityQueryType)">GetAllEntities(ref BoundingBoxD, List&lt;MyEntity&gt;, MyEntityQueryType)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void DebugDraw()</code></pre>
+    <pre><code class="lang-csharp hljs">public void GetAllEntities(ref BoundingBoxD box, List&lt;MyEntity&gt; result, MyEntityQueryType qtype)</code></pre>
   </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRageMath.BoundingBoxD.html">BoundingBoxD</a></td>
+        <td><span class="parametername">box</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="VRage.Game.Entity.MyEntity.html">MyEntity</a>&gt;</td>
+        <td><span class="parametername">result</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Sandbox.Game.Entities.MyEntityQueryType.html">MyEntityQueryType</a></td>
+        <td><span class="parametername">qtype</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_Entities_MyGamePruningStructure_GetAllEntities_" data-uid="Sandbox.Game.Entities.MyGamePruningStructure.GetAllEntities*"></a>
+  <h4 id="Sandbox_Game_Entities_MyGamePruningStructure_GetAllEntities_VRageMath_BoundingSphereD__System_Collections_Generic_List_VRage_Game_Entity_MyEntity__Sandbox_Game_Entities_MyEntityQueryType_" data-uid="Sandbox.Game.Entities.MyGamePruningStructure.GetAllEntities(VRageMath.BoundingSphereD@,System.Collections.Generic.List{VRage.Game.Entity.MyEntity},Sandbox.Game.Entities.MyEntityQueryType)">GetAllEntities(ref BoundingSphereD, List&lt;MyEntity&gt;, MyEntityQueryType)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GetAllEntities(ref BoundingSphereD sphere, List&lt;MyEntity&gt; result, MyEntityQueryType qtype)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRageMath.BoundingSphereD.html">BoundingSphereD</a></td>
+        <td><span class="parametername">sphere</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="VRage.Game.Entity.MyEntity.html">MyEntity</a>&gt;</td>
+        <td><span class="parametername">result</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Sandbox.Game.Entities.MyEntityQueryType.html">MyEntityQueryType</a></td>
+        <td><span class="parametername">qtype</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_Entities_MyGamePruningStructure_GetAllEntities_" data-uid="Sandbox.Game.Entities.MyGamePruningStructure.GetAllEntities*"></a>
+  <h4 id="Sandbox_Game_Entities_MyGamePruningStructure_GetAllEntities_VRageMath_LineD__System_Collections_Generic_List_VRageMath_MyLineSegmentOverlapResult_VRage_Game_Entity_MyEntity___Sandbox_Game_Entities_MyEntityQueryType_" data-uid="Sandbox.Game.Entities.MyGamePruningStructure.GetAllEntities(VRageMath.LineD@,System.Collections.Generic.List{VRageMath.MyLineSegmentOverlapResult{VRage.Game.Entity.MyEntity}},Sandbox.Game.Entities.MyEntityQueryType)">GetAllEntities(ref LineD, List&lt;MyLineSegmentOverlapResult&lt;MyEntity&gt;&gt;, MyEntityQueryType)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GetAllEntities(ref LineD ray, List&lt;MyLineSegmentOverlapResult&lt;MyEntity&gt;&gt; result, MyEntityQueryType qtype)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRageMath.LineD.html">LineD</a></td>
+        <td><span class="parametername">ray</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="VRageMath.MyLineSegmentOverlapResult-1.html">MyLineSegmentOverlapResult</a>&lt;<a class="xref" href="VRage.Game.Entity.MyEntity.html">MyEntity</a>&gt;&gt;</td>
+        <td><span class="parametername">result</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Sandbox.Game.Entities.MyEntityQueryType.html">MyEntityQueryType</a></td>
+        <td><span class="parametername">qtype</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_Entities_MyGamePruningStructure_GetAllEntities_" data-uid="Sandbox.Game.Entities.MyGamePruningStructure.GetAllEntities*"></a>
+  <h4 id="Sandbox_Game_Entities_MyGamePruningStructure_GetAllEntities_VRageMath_MyOrientedBoundingBoxD__System_Collections_Generic_List_VRage_Game_Entity_MyEntity__Sandbox_Game_Entities_MyEntityQueryType_" data-uid="Sandbox.Game.Entities.MyGamePruningStructure.GetAllEntities(VRageMath.MyOrientedBoundingBoxD@,System.Collections.Generic.List{VRage.Game.Entity.MyEntity},Sandbox.Game.Entities.MyEntityQueryType)">GetAllEntities(ref MyOrientedBoundingBoxD, List&lt;MyEntity&gt;, MyEntityQueryType)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GetAllEntities(ref MyOrientedBoundingBoxD obb, List&lt;MyEntity&gt; result, MyEntityQueryType qtype)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRageMath.MyOrientedBoundingBoxD.html">MyOrientedBoundingBoxD</a></td>
+        <td><span class="parametername">obb</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="VRage.Game.Entity.MyEntity.html">MyEntity</a>&gt;</td>
+        <td><span class="parametername">result</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Sandbox.Game.Entities.MyEntityQueryType.html">MyEntityQueryType</a></td>
+        <td><span class="parametername">qtype</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <a id="Sandbox_Game_Entities_MyGamePruningStructure_GetAllEntitiesInBox_" data-uid="Sandbox.Game.Entities.MyGamePruningStructure.GetAllEntitiesInBox*"></a>
@@ -406,43 +639,6 @@ public class MyGamePruningStructure : MySessionComponentBase, IMyUserInputCompon
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void GetAllEntitiesInSphere(ref BoundingSphereD sphere, List&lt;MyEntity&gt; result, MyEntityQueryType qtype)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="VRageMath.BoundingSphereD.html">BoundingSphereD</a></td>
-        <td><span class="parametername">sphere</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="VRage.Game.Entity.MyEntity.html">MyEntity</a>&gt;</td>
-        <td><span class="parametername">result</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="Sandbox.Game.Entities.MyEntityQueryType.html">MyEntityQueryType</a></td>
-        <td><span class="parametername">qtype</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Sandbox_Game_Entities_MyGamePruningStructure_GetAllTargetsInSphere_" data-uid="Sandbox.Game.Entities.MyGamePruningStructure.GetAllTargetsInSphere*"></a>
-  <h4 id="Sandbox_Game_Entities_MyGamePruningStructure_GetAllTargetsInSphere_VRageMath_BoundingSphereD__System_Collections_Generic_List_VRage_Game_Entity_MyEntity__Sandbox_Game_Entities_MyEntityQueryType_" data-uid="Sandbox.Game.Entities.MyGamePruningStructure.GetAllTargetsInSphere(VRageMath.BoundingSphereD@,System.Collections.Generic.List{VRage.Game.Entity.MyEntity},Sandbox.Game.Entities.MyEntityQueryType)">GetAllTargetsInSphere(ref BoundingSphereD, List&lt;MyEntity&gt;, MyEntityQueryType)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void GetAllTargetsInSphere(ref BoundingSphereD sphere, List&lt;MyEntity&gt; result, MyEntityQueryType qtype)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -611,6 +807,43 @@ public class MyGamePruningStructure : MySessionComponentBase, IMyUserInputCompon
   </table>
   
   
+  <a id="Sandbox_Game_Entities_MyGamePruningStructure_GetAproximateDynamicClusters_" data-uid="Sandbox.Game.Entities.MyGamePruningStructure.GetAproximateDynamicClusters*"></a>
+  <h4 id="Sandbox_Game_Entities_MyGamePruningStructure_GetAproximateDynamicClusters_VRageMath_BoundingBoxD__System_Double_System_Collections_Generic_List_VRageMath_BoundingBoxD__" data-uid="Sandbox.Game.Entities.MyGamePruningStructure.GetAproximateDynamicClusters(VRageMath.BoundingBoxD@,System.Double,System.Collections.Generic.List{VRageMath.BoundingBoxD})">GetAproximateDynamicClusters(ref BoundingBoxD, Double, List&lt;BoundingBoxD&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GetAproximateDynamicClusters(ref BoundingBoxD container, double clusterSize, List&lt;BoundingBoxD&gt; clusters)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRageMath.BoundingBoxD.html">BoundingBoxD</a></td>
+        <td><span class="parametername">container</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">clusterSize</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="VRageMath.BoundingBoxD.html">BoundingBoxD</a>&gt;</td>
+        <td><span class="parametername">clusters</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="Sandbox_Game_Entities_MyGamePruningStructure_GetAproximateDynamicClustersForSize_" data-uid="Sandbox.Game.Entities.MyGamePruningStructure.GetAproximateDynamicClustersForSize*"></a>
   <h4 id="Sandbox_Game_Entities_MyGamePruningStructure_GetAproximateDynamicClustersForSize_VRageMath_BoundingBoxD__System_Double_System_Collections_Generic_List_VRageMath_BoundingBoxD__" data-uid="Sandbox.Game.Entities.MyGamePruningStructure.GetAproximateDynamicClustersForSize(VRageMath.BoundingBoxD@,System.Double,System.Collections.Generic.List{VRageMath.BoundingBoxD})">GetAproximateDynamicClustersForSize(ref BoundingBoxD, Double, List&lt;BoundingBoxD&gt;)</h4>
   <div class="markdown level1 summary"></div>
@@ -692,7 +925,9 @@ public class MyGamePruningStructure : MySessionComponentBase, IMyUserInputCompon
   
   <a id="Sandbox_Game_Entities_MyGamePruningStructure_GetClosestPlanet_" data-uid="Sandbox.Game.Entities.MyGamePruningStructure.GetClosestPlanet*"></a>
   <h4 id="Sandbox_Game_Entities_MyGamePruningStructure_GetClosestPlanet_VRageMath_Vector3D_" data-uid="Sandbox.Game.Entities.MyGamePruningStructure.GetClosestPlanet(VRageMath.Vector3D)">GetClosestPlanet(Vector3D)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Get the closest planet overlapping a position.<br>
+This will not return anything if the position is not within the bounding box of the planet.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -711,7 +946,8 @@ public class MyGamePruningStructure : MySessionComponentBase, IMyUserInputCompon
       <tr>
         <td><a class="xref" href="VRageMath.Vector3D.html">Vector3D</a></td>
         <td><span class="parametername">position</span></td>
-        <td></td>
+        <td><p>position</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -768,6 +1004,201 @@ public class MyGamePruningStructure : MySessionComponentBase, IMyUserInputCompon
     <tbody>
       <tr>
         <td><a class="xref" href="VRageMath.BoundingBoxD.html">BoundingBoxD</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_Entities_MyGamePruningStructure_GetPlanet_" data-uid="Sandbox.Game.Entities.MyGamePruningStructure.GetPlanet*"></a>
+  <h4 id="Sandbox_Game_Entities_MyGamePruningStructure_GetPlanet_VRageMath_BoundingBoxD__" data-uid="Sandbox.Game.Entities.MyGamePruningStructure.GetPlanet(VRageMath.BoundingBoxD@)">GetPlanet(ref BoundingBoxD)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MyPlanet GetPlanet(ref BoundingBoxD box)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRageMath.BoundingBoxD.html">BoundingBoxD</a></td>
+        <td><span class="parametername">box</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Sandbox.Game.Entities.MyPlanet.html">MyPlanet</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_Entities_MyGamePruningStructure_GetPlanet_" data-uid="Sandbox.Game.Entities.MyGamePruningStructure.GetPlanet*"></a>
+  <h4 id="Sandbox_Game_Entities_MyGamePruningStructure_GetPlanet_VRageMath_Vector3D_" data-uid="Sandbox.Game.Entities.MyGamePruningStructure.GetPlanet(VRageMath.Vector3D)">GetPlanet(Vector3D)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MyPlanet GetPlanet(Vector3D position)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRageMath.Vector3D.html">Vector3D</a></td>
+        <td><span class="parametername">position</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Sandbox.Game.Entities.MyPlanet.html">MyPlanet</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_Entities_MyGamePruningStructure_GetTopMostEntities_" data-uid="Sandbox.Game.Entities.MyGamePruningStructure.GetTopMostEntities*"></a>
+  <h4 id="Sandbox_Game_Entities_MyGamePruningStructure_GetTopMostEntities_VRageMath_BoundingBoxD__System_Collections_Generic_List_VRage_Game_Entity_MyEntity__Sandbox_Game_Entities_MyEntityQueryType_" data-uid="Sandbox.Game.Entities.MyGamePruningStructure.GetTopMostEntities(VRageMath.BoundingBoxD@,System.Collections.Generic.List{VRage.Game.Entity.MyEntity},Sandbox.Game.Entities.MyEntityQueryType)">GetTopMostEntities(ref BoundingBoxD, List&lt;MyEntity&gt;, MyEntityQueryType)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GetTopMostEntities(ref BoundingBoxD box, List&lt;MyEntity&gt; result, MyEntityQueryType qtype)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRageMath.BoundingBoxD.html">BoundingBoxD</a></td>
+        <td><span class="parametername">box</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="VRage.Game.Entity.MyEntity.html">MyEntity</a>&gt;</td>
+        <td><span class="parametername">result</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Sandbox.Game.Entities.MyEntityQueryType.html">MyEntityQueryType</a></td>
+        <td><span class="parametername">qtype</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_Entities_MyGamePruningStructure_GetTopMostEntities_" data-uid="Sandbox.Game.Entities.MyGamePruningStructure.GetTopMostEntities*"></a>
+  <h4 id="Sandbox_Game_Entities_MyGamePruningStructure_GetTopMostEntities_VRageMath_BoundingSphereD__System_Collections_Generic_List_VRage_Game_Entity_MyEntity__Sandbox_Game_Entities_MyEntityQueryType_" data-uid="Sandbox.Game.Entities.MyGamePruningStructure.GetTopMostEntities(VRageMath.BoundingSphereD@,System.Collections.Generic.List{VRage.Game.Entity.MyEntity},Sandbox.Game.Entities.MyEntityQueryType)">GetTopMostEntities(ref BoundingSphereD, List&lt;MyEntity&gt;, MyEntityQueryType)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GetTopMostEntities(ref BoundingSphereD sphere, List&lt;MyEntity&gt; result, MyEntityQueryType qtype)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRageMath.BoundingSphereD.html">BoundingSphereD</a></td>
+        <td><span class="parametername">sphere</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="VRage.Game.Entity.MyEntity.html">MyEntity</a>&gt;</td>
+        <td><span class="parametername">result</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Sandbox.Game.Entities.MyEntityQueryType.html">MyEntityQueryType</a></td>
+        <td><span class="parametername">qtype</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_Entities_MyGamePruningStructure_GetTopMostEntities_" data-uid="Sandbox.Game.Entities.MyGamePruningStructure.GetTopMostEntities*"></a>
+  <h4 id="Sandbox_Game_Entities_MyGamePruningStructure_GetTopMostEntities_VRageMath_LineD__System_Collections_Generic_List_VRageMath_MyLineSegmentOverlapResult_VRage_Game_Entity_MyEntity___Sandbox_Game_Entities_MyEntityQueryType_" data-uid="Sandbox.Game.Entities.MyGamePruningStructure.GetTopMostEntities(VRageMath.LineD@,System.Collections.Generic.List{VRageMath.MyLineSegmentOverlapResult{VRage.Game.Entity.MyEntity}},Sandbox.Game.Entities.MyEntityQueryType)">GetTopMostEntities(ref LineD, List&lt;MyLineSegmentOverlapResult&lt;MyEntity&gt;&gt;, MyEntityQueryType)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GetTopMostEntities(ref LineD ray, List&lt;MyLineSegmentOverlapResult&lt;MyEntity&gt;&gt; result, MyEntityQueryType qtype)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRageMath.LineD.html">LineD</a></td>
+        <td><span class="parametername">ray</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="VRageMath.MyLineSegmentOverlapResult-1.html">MyLineSegmentOverlapResult</a>&lt;<a class="xref" href="VRage.Game.Entity.MyEntity.html">MyEntity</a>&gt;&gt;</td>
+        <td><span class="parametername">result</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Sandbox.Game.Entities.MyEntityQueryType.html">MyEntityQueryType</a></td>
+        <td><span class="parametername">qtype</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -885,6 +1316,102 @@ public class MyGamePruningStructure : MySessionComponentBase, IMyUserInputCompon
   </table>
   
   
+  <a id="Sandbox_Game_Entities_MyGamePruningStructure_GetVoxelMaps_" data-uid="Sandbox.Game.Entities.MyGamePruningStructure.GetVoxelMaps*"></a>
+  <h4 id="Sandbox_Game_Entities_MyGamePruningStructure_GetVoxelMaps_VRageMath_BoundingBoxD__System_Collections_Generic_List_Sandbox_Game_Entities_MyVoxelBase__" data-uid="Sandbox.Game.Entities.MyGamePruningStructure.GetVoxelMaps(VRageMath.BoundingBoxD@,System.Collections.Generic.List{Sandbox.Game.Entities.MyVoxelBase})">GetVoxelMaps(ref BoundingBoxD, List&lt;MyVoxelBase&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GetVoxelMaps(ref BoundingBoxD box, List&lt;MyVoxelBase&gt; result)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRageMath.BoundingBoxD.html">BoundingBoxD</a></td>
+        <td><span class="parametername">box</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Sandbox.Game.Entities.MyVoxelBase.html">MyVoxelBase</a>&gt;</td>
+        <td><span class="parametername">result</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_Entities_MyGamePruningStructure_GetVoxelMaps_" data-uid="Sandbox.Game.Entities.MyGamePruningStructure.GetVoxelMaps*"></a>
+  <h4 id="Sandbox_Game_Entities_MyGamePruningStructure_GetVoxelMaps_VRageMath_BoundingSphereD__System_Collections_Generic_List_Sandbox_Game_Entities_MyVoxelBase__" data-uid="Sandbox.Game.Entities.MyGamePruningStructure.GetVoxelMaps(VRageMath.BoundingSphereD@,System.Collections.Generic.List{Sandbox.Game.Entities.MyVoxelBase})">GetVoxelMaps(ref BoundingSphereD, List&lt;MyVoxelBase&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GetVoxelMaps(ref BoundingSphereD sphere, List&lt;MyVoxelBase&gt; result)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRageMath.BoundingSphereD.html">BoundingSphereD</a></td>
+        <td><span class="parametername">sphere</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Sandbox.Game.Entities.MyVoxelBase.html">MyVoxelBase</a>&gt;</td>
+        <td><span class="parametername">result</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_Entities_MyGamePruningStructure_GetVoxelMaps_" data-uid="Sandbox.Game.Entities.MyGamePruningStructure.GetVoxelMaps*"></a>
+  <h4 id="Sandbox_Game_Entities_MyGamePruningStructure_GetVoxelMaps_VRageMath_LineD__System_Collections_Generic_List_VRageMath_MyLineSegmentOverlapResult_Sandbox_Game_Entities_MyVoxelBase___" data-uid="Sandbox.Game.Entities.MyGamePruningStructure.GetVoxelMaps(VRageMath.LineD@,System.Collections.Generic.List{VRageMath.MyLineSegmentOverlapResult{Sandbox.Game.Entities.MyVoxelBase}})">GetVoxelMaps(ref LineD, List&lt;MyLineSegmentOverlapResult&lt;MyVoxelBase&gt;&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GetVoxelMaps(ref LineD ray, List&lt;MyLineSegmentOverlapResult&lt;MyVoxelBase&gt;&gt; result)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRageMath.LineD.html">LineD</a></td>
+        <td><span class="parametername">ray</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="VRageMath.MyLineSegmentOverlapResult-1.html">MyLineSegmentOverlapResult</a>&lt;<a class="xref" href="Sandbox.Game.Entities.MyVoxelBase.html">MyVoxelBase</a>&gt;&gt;</td>
+        <td><span class="parametername">result</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="Sandbox_Game_Entities_MyGamePruningStructure_GetVoxelMapsOverlappingRay_" data-uid="Sandbox.Game.Entities.MyGamePruningStructure.GetVoxelMapsOverlappingRay*"></a>
   <h4 id="Sandbox_Game_Entities_MyGamePruningStructure_GetVoxelMapsOverlappingRay_VRageMath_LineD__System_Collections_Generic_List_VRageMath_MyLineSegmentOverlapResult_Sandbox_Game_Entities_MyVoxelBase___" data-uid="Sandbox.Game.Entities.MyGamePruningStructure.GetVoxelMapsOverlappingRay(VRageMath.LineD@,System.Collections.Generic.List{VRageMath.MyLineSegmentOverlapResult{Sandbox.Game.Entities.MyVoxelBase}})">GetVoxelMapsOverlappingRay(ref LineD, List&lt;MyLineSegmentOverlapResult&lt;MyVoxelBase&gt;&gt;)</h4>
   <div class="markdown level1 summary"></div>
@@ -944,6 +1471,33 @@ public class MyGamePruningStructure : MySessionComponentBase, IMyUserInputCompon
   </table>
   
   
+  <a id="Sandbox_Game_Entities_MyGamePruningStructure_MoveEntity_" data-uid="Sandbox.Game.Entities.MyGamePruningStructure.MoveEntity*"></a>
+  <h4 id="Sandbox_Game_Entities_MyGamePruningStructure_MoveEntity_VRage_Game_Entity_MyEntity_" data-uid="Sandbox.Game.Entities.MyGamePruningStructure.MoveEntity(VRage.Game.Entity.MyEntity)">MoveEntity(MyEntity)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MoveEntity(MyEntity entity)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRage.Game.Entity.MyEntity.html">MyEntity</a></td>
+        <td><span class="parametername">entity</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="Sandbox_Game_Entities_MyGamePruningStructure_Remove_" data-uid="Sandbox.Game.Entities.MyGamePruningStructure.Remove*"></a>
   <h4 id="Sandbox_Game_Entities_MyGamePruningStructure_Remove_VRage_Game_Entity_MyEntity_" data-uid="Sandbox.Game.Entities.MyGamePruningStructure.Remove(VRage.Game.Entity.MyEntity)">Remove(MyEntity)</h4>
   <div class="markdown level1 summary"></div>
@@ -951,6 +1505,33 @@ public class MyGamePruningStructure : MySessionComponentBase, IMyUserInputCompon
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void Remove(MyEntity entity)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRage.Game.Entity.MyEntity.html">MyEntity</a></td>
+        <td><span class="parametername">entity</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_Entities_MyGamePruningStructure_RemoveEntity_" data-uid="Sandbox.Game.Entities.MyGamePruningStructure.RemoveEntity*"></a>
+  <h4 id="Sandbox_Game_Entities_MyGamePruningStructure_RemoveEntity_VRage_Game_Entity_MyEntity_" data-uid="Sandbox.Game.Entities.MyGamePruningStructure.RemoveEntity(VRage.Game.Entity.MyEntity)">RemoveEntity(MyEntity)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RemoveEntity(MyEntity entity)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">

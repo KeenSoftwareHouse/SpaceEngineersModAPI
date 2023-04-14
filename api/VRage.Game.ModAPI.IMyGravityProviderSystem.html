@@ -1,0 +1,872 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface IMyGravityProviderSystem
+   | Space Engineers ModAPI </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface IMyGravityProviderSystem
+   | Space Engineers ModAPI ">
+    <meta name="generator" content="docfx 2.58.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="VRage.Game.ModAPI.IMyGravityProviderSystem">
+  
+  
+  <h1 id="VRage_Game_ModAPI_IMyGravityProviderSystem" data-uid="VRage.Game.ModAPI.IMyGravityProviderSystem" class="text-break">Interface IMyGravityProviderSystem
+  </h1>
+  <div class="markdown level0 summary"><p>Describes gravity ModAPI</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="VRage.Game.ModAPI.html">VRage.Game.ModAPI</a></h6>
+  <h6><strong>Assembly</strong>: VRage.Game.dll</h6>
+  <h5 id="VRage_Game_ModAPI_IMyGravityProviderSystem_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IMyGravityProviderSystem</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="VRage_Game_ModAPI_IMyGravityProviderSystem_AddNaturalGravity_" data-uid="VRage.Game.ModAPI.IMyGravityProviderSystem.AddNaturalGravity*"></a>
+  <h4 id="VRage_Game_ModAPI_IMyGravityProviderSystem_AddNaturalGravity_VRageMath_Vector3D_System_Double_System_Double_System_Double_System_Double_" data-uid="VRage.Game.ModAPI.IMyGravityProviderSystem.AddNaturalGravity(VRageMath.Vector3D,System.Double,System.Double,System.Double,System.Double)">AddNaturalGravity(Vector3D, Double, Double, Double, Double)</h4>
+  <div class="markdown level1 summary"><p>Adds natural gravity to a position.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IMySphericalNaturalGravityComponent AddNaturalGravity(Vector3D position, double minRadius, double maxRadius, double falloff, double intensity)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRageMath.Vector3D.html">Vector3D</a></td>
+        <td><span class="parametername">position</span></td>
+        <td><p>Position coordinates at the center of the natural gravity</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">minRadius</span></td>
+        <td><p>Minimum gravity radius before gravity intensity begins to decrease</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">maxRadius</span></td>
+        <td><p>Max gravity radius at lowest intensity</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">falloff</span></td>
+        <td><p>Gravity falloff between minRadius and maxRadius</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">intensity</span></td>
+        <td><p>Gravity strength</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRage.Game.ModAPI.IMySphericalNaturalGravityComponent.html">IMySphericalNaturalGravityComponent</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VRage_Game_ModAPI_IMyGravityProviderSystem_AddNaturalGravityToEntity_" data-uid="VRage.Game.ModAPI.IMyGravityProviderSystem.AddNaturalGravityToEntity*"></a>
+  <h4 id="VRage_Game_ModAPI_IMyGravityProviderSystem_AddNaturalGravityToEntity_VRage_ModAPI_IMyEntity_System_Double_System_Double_System_Double_System_Double_" data-uid="VRage.Game.ModAPI.IMyGravityProviderSystem.AddNaturalGravityToEntity(VRage.ModAPI.IMyEntity,System.Double,System.Double,System.Double,System.Double)">AddNaturalGravityToEntity(IMyEntity, Double, Double, Double, Double)</h4>
+  <div class="markdown level1 summary"><p>Adds natural gravity to an entity.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IMySphericalNaturalGravityComponent AddNaturalGravityToEntity(IMyEntity entity, double minRadius, double maxRadius, double falloff, double intensity)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRage.ModAPI.IMyEntity.html">IMyEntity</a></td>
+        <td><span class="parametername">entity</span></td>
+        <td><p>The entity you're adding gravity to</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">minRadius</span></td>
+        <td><p>Minimum gravity radius before gravity intensity begins to decrease</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">maxRadius</span></td>
+        <td><p>Max gravity radius at lowest intensity</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">falloff</span></td>
+        <td><p>Gravity falloff between minRadius and maxRadius</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">intensity</span></td>
+        <td><p>Gravity strength</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRage.Game.ModAPI.IMySphericalNaturalGravityComponent.html">IMySphericalNaturalGravityComponent</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VRage_Game_ModAPI_IMyGravityProviderSystem_AddNaturalModAPI_" data-uid="VRage.Game.ModAPI.IMyGravityProviderSystem.AddNaturalModAPI*"></a>
+  <h4 id="VRage_Game_ModAPI_IMyGravityProviderSystem_AddNaturalModAPI_VRageMath_Vector3D_VRage_Game_ModAPI_IMyModAPINaturalGravityImplementation_" data-uid="VRage.Game.ModAPI.IMyGravityProviderSystem.AddNaturalModAPI(VRageMath.Vector3D,VRage.Game.ModAPI.IMyModAPINaturalGravityImplementation)">AddNaturalModAPI(Vector3D, IMyModAPINaturalGravityImplementation)</h4>
+  <div class="markdown level1 summary"><p>Adds natural gravity to a position.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IMyModAPINaturalGravityComponent AddNaturalModAPI(Vector3D position, IMyModAPINaturalGravityImplementation implementation)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRageMath.Vector3D.html">Vector3D</a></td>
+        <td><span class="parametername">position</span></td>
+        <td><p>Position coordinates at the center of the natural gravity</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="VRage.Game.ModAPI.IMyModAPINaturalGravityImplementation.html">IMyModAPINaturalGravityImplementation</a></td>
+        <td><span class="parametername">implementation</span></td>
+        <td><p>ModAPI custom gravity provider</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRage.Game.ModAPI.IMyModAPINaturalGravityComponent.html">IMyModAPINaturalGravityComponent</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VRage_Game_ModAPI_IMyGravityProviderSystem_AddNaturalModAPIGravityToEntity_" data-uid="VRage.Game.ModAPI.IMyGravityProviderSystem.AddNaturalModAPIGravityToEntity*"></a>
+  <h4 id="VRage_Game_ModAPI_IMyGravityProviderSystem_AddNaturalModAPIGravityToEntity_VRage_ModAPI_IMyEntity_VRage_Game_ModAPI_IMyModAPINaturalGravityImplementation_" data-uid="VRage.Game.ModAPI.IMyGravityProviderSystem.AddNaturalModAPIGravityToEntity(VRage.ModAPI.IMyEntity,VRage.Game.ModAPI.IMyModAPINaturalGravityImplementation)">AddNaturalModAPIGravityToEntity(IMyEntity, IMyModAPINaturalGravityImplementation)</h4>
+  <div class="markdown level1 summary"><p>Adds natural gravity to an entity.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IMyModAPINaturalGravityComponent AddNaturalModAPIGravityToEntity(IMyEntity entity, IMyModAPINaturalGravityImplementation implementation)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRage.ModAPI.IMyEntity.html">IMyEntity</a></td>
+        <td><span class="parametername">entity</span></td>
+        <td><p>The entity you're adding gravity to</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="VRage.Game.ModAPI.IMyModAPINaturalGravityImplementation.html">IMyModAPINaturalGravityImplementation</a></td>
+        <td><span class="parametername">implementation</span></td>
+        <td><p>Minimum gravity radius before gravity intensity begins to decrease</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRage.Game.ModAPI.IMyModAPINaturalGravityComponent.html">IMyModAPINaturalGravityComponent</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VRage_Game_ModAPI_IMyGravityProviderSystem_CalculateArtificialGravityInPoint_" data-uid="VRage.Game.ModAPI.IMyGravityProviderSystem.CalculateArtificialGravityInPoint*"></a>
+  <h4 id="VRage_Game_ModAPI_IMyGravityProviderSystem_CalculateArtificialGravityInPoint_VRageMath_Vector3D_" data-uid="VRage.Game.ModAPI.IMyGravityProviderSystem.CalculateArtificialGravityInPoint(VRageMath.Vector3D)">CalculateArtificialGravityInPoint(Vector3D)</h4>
+  <div class="markdown level1 summary"><p>Provides a vector of all artificial gravity at a set of coordinates.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Vector3 CalculateArtificialGravityInPoint(Vector3D worldPoint)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRageMath.Vector3D.html">Vector3D</a></td>
+        <td><span class="parametername">worldPoint</span></td>
+        <td><p>Position coordinates to check</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRageMath.Vector3.html">Vector3</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VRage_Game_ModAPI_IMyGravityProviderSystem_CalculateHighestNaturalGravityMultiplierInPoint_" data-uid="VRage.Game.ModAPI.IMyGravityProviderSystem.CalculateHighestNaturalGravityMultiplierInPoint*"></a>
+  <h4 id="VRage_Game_ModAPI_IMyGravityProviderSystem_CalculateHighestNaturalGravityMultiplierInPoint_VRageMath_Vector3D_" data-uid="VRage.Game.ModAPI.IMyGravityProviderSystem.CalculateHighestNaturalGravityMultiplierInPoint(VRageMath.Vector3D)">CalculateHighestNaturalGravityMultiplierInPoint(Vector3D)</h4>
+  <div class="markdown level1 summary"><p>Provides the highest natural gravity multiplier at a set of coordinates.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">float CalculateHighestNaturalGravityMultiplierInPoint(Vector3D worldPoint)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRageMath.Vector3D.html">Vector3D</a></td>
+        <td><span class="parametername">worldPoint</span></td>
+        <td><p>Position coordinates to check</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VRage_Game_ModAPI_IMyGravityProviderSystem_CalculateNaturalGravityInPoint_" data-uid="VRage.Game.ModAPI.IMyGravityProviderSystem.CalculateNaturalGravityInPoint*"></a>
+  <h4 id="VRage_Game_ModAPI_IMyGravityProviderSystem_CalculateNaturalGravityInPoint_VRageMath_Vector3D_" data-uid="VRage.Game.ModAPI.IMyGravityProviderSystem.CalculateNaturalGravityInPoint(VRageMath.Vector3D)">CalculateNaturalGravityInPoint(Vector3D)</h4>
+  <div class="markdown level1 summary"><p>Provides a vector of all natural gravity at a set of coordinates.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Vector3 CalculateNaturalGravityInPoint(Vector3D worldPoint)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRageMath.Vector3D.html">Vector3D</a></td>
+        <td><span class="parametername">worldPoint</span></td>
+        <td><p>Position coordinates to check</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRageMath.Vector3.html">Vector3</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VRage_Game_ModAPI_IMyGravityProviderSystem_CalculateNaturalGravityInPoint_" data-uid="VRage.Game.ModAPI.IMyGravityProviderSystem.CalculateNaturalGravityInPoint*"></a>
+  <h4 id="VRage_Game_ModAPI_IMyGravityProviderSystem_CalculateNaturalGravityInPoint_VRageMath_Vector3D_System_Single__" data-uid="VRage.Game.ModAPI.IMyGravityProviderSystem.CalculateNaturalGravityInPoint(VRageMath.Vector3D,System.Single@)">CalculateNaturalGravityInPoint(Vector3D, out Single)</h4>
+  <div class="markdown level1 summary"><p>Calculates all natural gravity at provided coordinates, returns gravity vector, and outputs gravity multiplier</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Vector3 CalculateNaturalGravityInPoint(Vector3D worldPoint, out float naturalGravityMultiplier)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRageMath.Vector3D.html">Vector3D</a></td>
+        <td><span class="parametername">worldPoint</span></td>
+        <td><p>Position coordinates to check</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">naturalGravityMultiplier</span></td>
+        <td><p>Gravity multiplier output</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRageMath.Vector3.html">Vector3</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VRage_Game_ModAPI_IMyGravityProviderSystem_CalculateTotalGravityInPoint_" data-uid="VRage.Game.ModAPI.IMyGravityProviderSystem.CalculateTotalGravityInPoint*"></a>
+  <h4 id="VRage_Game_ModAPI_IMyGravityProviderSystem_CalculateTotalGravityInPoint_VRageMath_Vector3D_" data-uid="VRage.Game.ModAPI.IMyGravityProviderSystem.CalculateTotalGravityInPoint(VRageMath.Vector3D)">CalculateTotalGravityInPoint(Vector3D)</h4>
+  <div class="markdown level1 summary"><p>Provides a vector of all natural and artificial gravity at a sec of coordinates.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Vector3 CalculateTotalGravityInPoint(Vector3D worldPoint)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRageMath.Vector3D.html">Vector3D</a></td>
+        <td><span class="parametername">worldPoint</span></td>
+        <td><p>Position coordinates to check</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRageMath.Vector3.html">Vector3</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VRage_Game_ModAPI_IMyGravityProviderSystem_DoesEntityHaveGravityProvider_" data-uid="VRage.Game.ModAPI.IMyGravityProviderSystem.DoesEntityHaveGravityProvider*"></a>
+  <h4 id="VRage_Game_ModAPI_IMyGravityProviderSystem_DoesEntityHaveGravityProvider_VRage_ModAPI_IMyEntity_" data-uid="VRage.Game.ModAPI.IMyGravityProviderSystem.DoesEntityHaveGravityProvider(VRage.ModAPI.IMyEntity)">DoesEntityHaveGravityProvider(IMyEntity)</h4>
+  <div class="markdown level1 summary"><p>Determines if a provided entity is generating gravity (artificial or natural).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool DoesEntityHaveGravityProvider(IMyEntity entity)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRage.ModAPI.IMyEntity.html">IMyEntity</a></td>
+        <td><span class="parametername">entity</span></td>
+        <td><p>Entity to check for gravity</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VRage_Game_ModAPI_IMyGravityProviderSystem_DoesTrajectoryIntersectNaturalGravity_" data-uid="VRage.Game.ModAPI.IMyGravityProviderSystem.DoesTrajectoryIntersectNaturalGravity*"></a>
+  <h4 id="VRage_Game_ModAPI_IMyGravityProviderSystem_DoesTrajectoryIntersectNaturalGravity_VRageMath_Vector3D_VRageMath_Vector3D_System_Double_" data-uid="VRage.Game.ModAPI.IMyGravityProviderSystem.DoesTrajectoryIntersectNaturalGravity(VRageMath.Vector3D,VRageMath.Vector3D,System.Double)">DoesTrajectoryIntersectNaturalGravity(Vector3D, Vector3D, Double)</h4>
+  <div class="markdown level1 summary"><p>Checks if the specified trajectory intersects any natural gravity wells.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool DoesTrajectoryIntersectNaturalGravity(Vector3D start, Vector3D end, double raySize = 0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRageMath.Vector3D.html">Vector3D</a></td>
+        <td><span class="parametername">start</span></td>
+        <td><p>Starting point of the trajectory.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="VRageMath.Vector3D.html">Vector3D</a></td>
+        <td><span class="parametername">end</span></td>
+        <td><p>Destination of the trajectory.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">raySize</span></td>
+        <td><p>Size of the ray to test with. (Cylinder test)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VRage_Game_ModAPI_IMyGravityProviderSystem_GetStrongestNaturalGravityWell_" data-uid="VRage.Game.ModAPI.IMyGravityProviderSystem.GetStrongestNaturalGravityWell*"></a>
+  <h4 id="VRage_Game_ModAPI_IMyGravityProviderSystem_GetStrongestNaturalGravityWell_VRageMath_Vector3D_VRage_Game_ModAPI_IMyNaturalGravityComponent__" data-uid="VRage.Game.ModAPI.IMyGravityProviderSystem.GetStrongestNaturalGravityWell(VRageMath.Vector3D,VRage.Game.ModAPI.IMyNaturalGravityComponent@)">GetStrongestNaturalGravityWell(Vector3D, out IMyNaturalGravityComponent)</h4>
+  <div class="markdown level1 summary"><p>Determines the strongest natural gravity source at a given set of coordinates.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">double GetStrongestNaturalGravityWell(Vector3D worldPosition, out IMyNaturalGravityComponent nearestProvider)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRageMath.Vector3D.html">Vector3D</a></td>
+        <td><span class="parametername">worldPosition</span></td>
+        <td><p>Position coordinates to check</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="VRage.Game.ModAPI.IMyNaturalGravityComponent.html">IMyNaturalGravityComponent</a></td>
+        <td><span class="parametername">nearestProvider</span></td>
+        <td><p>Outputs the strongest natural gravity component detected</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>Gravity intensity value</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VRage_Game_ModAPI_IMyGravityProviderSystem_IsPositionInNaturalGravity_" data-uid="VRage.Game.ModAPI.IMyGravityProviderSystem.IsPositionInNaturalGravity*"></a>
+  <h4 id="VRage_Game_ModAPI_IMyGravityProviderSystem_IsPositionInNaturalGravity_VRageMath_Vector3D_System_Double_" data-uid="VRage.Game.ModAPI.IMyGravityProviderSystem.IsPositionInNaturalGravity(VRageMath.Vector3D,System.Double)">IsPositionInNaturalGravity(Vector3D, Double)</h4>
+  <div class="markdown level1 summary"><p>This quickly checks if a given position is in any natural gravity.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool IsPositionInNaturalGravity(Vector3D position, double sphereSize = 0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRageMath.Vector3D.html">Vector3D</a></td>
+        <td><span class="parametername">position</span></td>
+        <td><p>Position to check</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">sphereSize</span></td>
+        <td><p>Sphere size to test with.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True if there is natural gravity at this position, false otherwise.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VRage_Game_ModAPI_IMyGravityProviderSystem_RemoveNaturalGravity_" data-uid="VRage.Game.ModAPI.IMyGravityProviderSystem.RemoveNaturalGravity*"></a>
+  <h4 id="VRage_Game_ModAPI_IMyGravityProviderSystem_RemoveNaturalGravity_VRage_Game_ModAPI_IMyNaturalGravityComponent_" data-uid="VRage.Game.ModAPI.IMyGravityProviderSystem.RemoveNaturalGravity(VRage.Game.ModAPI.IMyNaturalGravityComponent)">RemoveNaturalGravity(IMyNaturalGravityComponent)</h4>
+  <div class="markdown level1 summary"><p>Removes the natural gravity component provided.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void RemoveNaturalGravity(IMyNaturalGravityComponent gravity)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRage.Game.ModAPI.IMyNaturalGravityComponent.html">IMyNaturalGravityComponent</a></td>
+        <td><span class="parametername">gravity</span></td>
+        <td><p>Natural gravity component to remove.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VRage_Game_ModAPI_IMyGravityProviderSystem_RemoveNaturalGravityFromEntity_" data-uid="VRage.Game.ModAPI.IMyGravityProviderSystem.RemoveNaturalGravityFromEntity*"></a>
+  <h4 id="VRage_Game_ModAPI_IMyGravityProviderSystem_RemoveNaturalGravityFromEntity_VRage_ModAPI_IMyEntity_" data-uid="VRage.Game.ModAPI.IMyGravityProviderSystem.RemoveNaturalGravityFromEntity(VRage.ModAPI.IMyEntity)">RemoveNaturalGravityFromEntity(IMyEntity)</h4>
+  <div class="markdown level1 summary"><p>Removes the natural gravity from a provided entity.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void RemoveNaturalGravityFromEntity(IMyEntity entity)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRage.ModAPI.IMyEntity.html">IMyEntity</a></td>
+        <td><span class="parametername">entity</span></td>
+        <td><p>The entity you're removing natural gravity from.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <div class="toggle-mode">
+                <div class="icon">
+                  <i aria-hidden="true">☀</i>
+                </div>
+                <label class="switch">
+                  <input type="checkbox" id="switch-style">
+                  <span class="slider round"></span>
+                </label>
+                <div class="icon">
+                  <i aria-hidden="true">☾</i>
+                </div>
+              </div>
+          
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <h5>In This Article</h5>
+              <div></div>
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            <div class="pull-left">
+              
+              <span>Generated by <strong>DocFX</strong></span>
+            </div>
+            <div class="toggle-mode pull-right visible-sm visible-xs">
+              <div class="icon">
+                <i aria-hidden="true">☀</i>
+              </div>
+              <label class="switch">
+                <input type="checkbox" id="switch-style-m">
+                <span class="slider round"></span>
+              </label>
+              <div class="icon">
+                <i aria-hidden="true">☾</i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <script type="text/javascript" src="../styles/toggle-theme.js"></script>
+      </footer>    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

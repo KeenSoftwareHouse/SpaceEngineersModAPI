@@ -1146,6 +1146,57 @@
   </table>
   
   
+  <a id="VRageMath_Vector3D_Angle_" data-uid="VRageMath.Vector3D.Angle*"></a>
+  <h4 id="VRageMath_Vector3D_Angle_VRageMath_Vector3D_VRageMath_Vector3D_" data-uid="VRageMath.Vector3D.Angle(VRageMath.Vector3D,VRageMath.Vector3D)">Angle(Vector3D, Vector3D)</h4>
+  <div class="markdown level1 summary"><p>Gets angle between 2 vectors in radians</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double Angle(Vector3D a, Vector3D b)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRageMath.Vector3D.html">Vector3D</a></td>
+        <td><span class="parametername">a</span></td>
+        <td><p>Vector A</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="VRageMath.Vector3D.html">Vector3D</a></td>
+        <td><span class="parametername">b</span></td>
+        <td><p>Vector B</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>Angle in radians</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="VRageMath_Vector3D_ArePerpendicular_" data-uid="VRageMath.Vector3D.ArePerpendicular*"></a>
   <h4 id="VRageMath_Vector3D_ArePerpendicular_VRageMath_Vector3D__VRageMath_Vector3D__" data-uid="VRageMath.Vector3D.ArePerpendicular(VRageMath.Vector3D@,VRageMath.Vector3D@)">ArePerpendicular(ref Vector3D, ref Vector3D)</h4>
   <div class="markdown level1 summary"></div>
@@ -1690,12 +1741,12 @@ From : Real-Time Collision Detection, Christer Ericson, CRC Press
   
   
   <a id="VRageMath_Vector3D_ClampToSphere_" data-uid="VRageMath.Vector3D.ClampToSphere*"></a>
-  <h4 id="VRageMath_Vector3D_ClampToSphere_VRageMath_Vector3D_System_Double_" data-uid="VRageMath.Vector3D.ClampToSphere(VRageMath.Vector3D,System.Double)">ClampToSphere(Vector3D, Double)</h4>
+  <h4 id="VRageMath_Vector3D_ClampToSphere_VRageMath_Vector3D_System_Double_System_Boolean_" data-uid="VRageMath.Vector3D.ClampToSphere(VRageMath.Vector3D,System.Double,System.Boolean)">ClampToSphere(Vector3D, Double, Boolean)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Vector3D ClampToSphere(Vector3D vector, double radius)</code></pre>
+    <pre><code class="lang-csharp hljs">public static Vector3D ClampToSphere(Vector3D vector, double radius, bool force = false)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1715,6 +1766,11 @@ From : Real-Time Collision Detection, Christer Ericson, CRC Press
       <tr>
         <td><span class="xref">System.Double</span></td>
         <td><span class="parametername">radius</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">force</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -4425,6 +4481,33 @@ to the original vector's largest value. The result is saved into a user-specifie
   </table>
   
   
+  <a id="VRageMath_Vector3D_Normalized_" data-uid="VRageMath.Vector3D.Normalized*"></a>
+  <h4 id="VRageMath_Vector3D_Normalized" data-uid="VRageMath.Vector3D.Normalized">Normalized()</h4>
+  <div class="markdown level1 summary"><p>Creates a unit vector from the specified vector. The result is a vector one unit in length pointing in the same direction as the original vector.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3D Normalized()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRageMath.Vector3D.html">Vector3D</a></td>
+        <td><p>Normalized vector</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="VRageMath_Vector3D_ProjectOnPlane_" data-uid="VRageMath.Vector3D.ProjectOnPlane*"></a>
   <h4 id="VRageMath_Vector3D_ProjectOnPlane_VRageMath_Vector3D__VRageMath_Vector3D__" data-uid="VRageMath.Vector3D.ProjectOnPlane(VRageMath.Vector3D@,VRageMath.Vector3D@)">ProjectOnPlane(ref Vector3D, ref Vector3D)</h4>
   <div class="markdown level1 summary"><p>Projects given vector on plane specified by it's normal.</p>
@@ -4805,6 +4888,53 @@ to the original vector's largest value. The result is saved into a user-specifie
         <td><span class="parametername">result</span></td>
         <td><p>Rejection of the vector from the given direction</p>
 </td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VRageMath_Vector3D_Rotate_" data-uid="VRageMath.Vector3D.Rotate*"></a>
+  <h4 id="VRageMath_Vector3D_Rotate_VRageMath_Vector3D_System_Double_" data-uid="VRageMath.Vector3D.Rotate(VRageMath.Vector3D,System.Double)">Rotate(Vector3D, Double)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3D Rotate(Vector3D axis, double rotationInRadians)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRageMath.Vector3D.html">Vector3D</a></td>
+        <td><span class="parametername">axis</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">rotationInRadians</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRageMath.Vector3D.html">Vector3D</a></td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -5743,6 +5873,56 @@ Faster than Sign.</p>
       </tr>
       <tr>
         <td><a class="xref" href="VRageMath.Quaternion.html">Quaternion</a></td>
+        <td><span class="parametername">rotation</span></td>
+        <td><p>The Quaternion rotation to apply.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRageMath.Vector3D.html">Vector3D</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VRageMath_Vector3D_Transform_" data-uid="VRageMath.Vector3D.Transform*"></a>
+  <h4 id="VRageMath_Vector3D_Transform_VRageMath_Vector3D_VRageMath_QuaternionD_" data-uid="VRageMath.Vector3D.Transform(VRageMath.Vector3D,VRageMath.QuaternionD)">Transform(Vector3D, QuaternionD)</h4>
+  <div class="markdown level1 summary"><p>Transforms a Vector3 by a specified Quaternion rotation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector3D Transform(Vector3D value, QuaternionD rotation)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRageMath.Vector3D.html">Vector3D</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The Vector3 to rotate.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="VRageMath.QuaternionD.html">QuaternionD</a></td>
         <td><span class="parametername">rotation</span></td>
         <td><p>The Quaternion rotation to apply.</p>
 </td>

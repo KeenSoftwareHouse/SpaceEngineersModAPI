@@ -638,16 +638,13 @@
   </div>
   
   
-  <a id="Sandbox_Game_EntityComponents_MyTurretController_RequestUseMessage_" data-uid="Sandbox.Game.EntityComponents.MyTurretController.RequestUseMessage*"></a>
-  <h4 id="Sandbox_Game_EntityComponents_MyTurretController_RequestUseMessage_VRage_Game_Entity_UseObject_UseActionEnum_System_Int64_" data-uid="Sandbox.Game.EntityComponents.MyTurretController.RequestUseMessage(VRage.Game.Entity.UseObject.UseActionEnum,System.Int64)">RequestUseMessage(UseActionEnum, Int64)</h4>
+  <a id="Sandbox_Game_EntityComponents_MyTurretController_RequestUseMessageImplementation_" data-uid="Sandbox.Game.EntityComponents.MyTurretController.RequestUseMessageImplementation*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyTurretController_RequestUseMessageImplementation_VRage_Game_Entity_UseObject_UseActionEnum_System_Int64_" data-uid="Sandbox.Game.EntityComponents.MyTurretController.RequestUseMessageImplementation(VRage.Game.Entity.UseObject.UseActionEnum,System.Int64)">RequestUseMessageImplementation(UseActionEnum, Int64)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Event(null, 340)]
-[Reliable]
-[Server]
-public void RequestUseMessage(UseActionEnum useAction, long usedById)</code></pre>
+    <pre><code class="lang-csharp hljs">public void RequestUseMessageImplementation(UseActionEnum useAction, long usedById)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -716,7 +713,7 @@ public void RequestUseMessage(UseActionEnum useAction, long usedById)</code></pr
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Event(null, 406)]
+    <pre><code class="lang-csharp hljs">[Event(null, 418)]
 [Reliable]
 [Client]
 public void UseFailureCallback(UseActionEnum useAction, long usedById, UseActionResult useResult)</code></pre>
@@ -756,7 +753,7 @@ public void UseFailureCallback(UseActionEnum useAction, long usedById, UseAction
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Event(null, 369)]
+    <pre><code class="lang-csharp hljs">[Event(null, 381)]
 [Reliable]
 [Broadcast]
 public void UseSuccessCallback(UseActionEnum useAction, long usedById, UseActionResult useResult)</code></pre>

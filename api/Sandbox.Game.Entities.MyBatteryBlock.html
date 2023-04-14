@@ -102,6 +102,7 @@
     <div><a class="xref" href="Sandbox.ModAPI.Ingame.IMyTerminalBlock.html">IMyTerminalBlock</a></div>
     <div><a class="xref" href="VRage.Game.ModAPI.Ingame.IMyCubeBlock.html">IMyCubeBlock</a></div>
     <div><a class="xref" href="VRage.Game.ModAPI.Ingame.IMyEntity.html">IMyEntity</a></div>
+    <div><a class="xref" href="Sandbox.ModAPI.IMyStoredPowerRatio.html">IMyStoredPowerRatio</a></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -134,6 +135,9 @@
     </div>
     <div>
       <a class="xref" href="Sandbox.Game.Entities.MyCubeBlock.html#Sandbox_Game_Entities_MyCubeBlock_UsedUpdateEveryFrame">MyCubeBlock.UsedUpdateEveryFrame</a>
+    </div>
+    <div>
+      <a class="xref" href="Sandbox.Game.Entities.MyCubeBlock.html#Sandbox_Game_Entities_MyCubeBlock_HandleEmissiveStateChange">MyCubeBlock.HandleEmissiveStateChange</a>
     </div>
     <div>
       <a class="xref" href="Sandbox.Game.Entities.MyCubeBlock.html#Sandbox_Game_Entities_MyCubeBlock_SubBlocks">MyCubeBlock.SubBlocks</a>
@@ -176,6 +180,9 @@
     </div>
     <div>
       <a class="xref" href="Sandbox.Game.Entities.MyCubeBlock.html#Sandbox_Game_Entities_MyCubeBlock_Init">MyCubeBlock.Init()</a>
+    </div>
+    <div>
+      <a class="xref" href="Sandbox.Game.Entities.MyCubeBlock.html#Sandbox_Game_Entities_MyCubeBlock_HasUnparentedSubpart">MyCubeBlock.HasUnparentedSubpart()</a>
     </div>
     <div>
       <a class="xref" href="Sandbox.Game.Entities.MyCubeBlock.html#Sandbox_Game_Entities_MyCubeBlock_GetLocalMatrix_VRageMath_Matrix__">MyCubeBlock.GetLocalMatrix(Matrix)</a>
@@ -538,13 +545,22 @@
       <a class="xref" href="Sandbox.Game.Entities.MyCubeBlock.html#Sandbox_Game_Entities_MyCubeBlock_IsWorkingChanged">MyCubeBlock.IsWorkingChanged</a>
     </div>
     <div>
+      <a class="xref" href="Sandbox.Game.Entities.MyCubeBlock.html#Sandbox_Game_Entities_MyCubeBlock_GetEmissiveStateHashFromComponent">MyCubeBlock.GetEmissiveStateHashFromComponent</a>
+    </div>
+    <div>
       <a class="xref" href="Sandbox.Game.Entities.MyCubeBlock.html#Sandbox_Game_Entities_MyCubeBlock_CanContinueBuildCheck">MyCubeBlock.CanContinueBuildCheck</a>
+    </div>
+    <div>
+      <a class="xref" href="Sandbox.Game.Entities.MyCubeBlock.html#Sandbox_Game_Entities_MyCubeBlock_OnUpdateBeforenextFrame">MyCubeBlock.OnUpdateBeforenextFrame</a>
     </div>
     <div>
       <a class="xref" href="Sandbox.Game.Entities.MyCubeBlock.html#Sandbox_Game_Entities_MyCubeBlock_OnUpgradeValuesChanged">MyCubeBlock.OnUpgradeValuesChanged</a>
     </div>
     <div>
       <a class="xref" href="Sandbox.Game.Entities.MyCubeBlock.html#Sandbox_Game_Entities_MyCubeBlock_VRage_Game_ModAPI_IMyCubeBlock_IsWorkingChanged">MyCubeBlock.IMyCubeBlock.IsWorkingChanged</a>
+    </div>
+    <div>
+      <a class="xref" href="Sandbox.Game.Entities.MyCubeBlock.html#Sandbox_Game_Entities_MyCubeBlock_CubeGridChanged">MyCubeBlock.CubeGridChanged</a>
     </div>
     <div>
       <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_m_contactPoint">MyEntity.m_contactPoint</a>
@@ -590,6 +606,9 @@
     </div>
     <div>
       <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_OnEntityCloseRequest">MyEntity.OnEntityCloseRequest</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_InstantiateSubpartOverrideFunc">MyEntity.InstantiateSubpartOverrideFunc</a>
     </div>
     <div>
       <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_AddToGamePruningStructureExtCallBack">MyEntity.AddToGamePruningStructureExtCallBack</a>
@@ -1183,6 +1202,9 @@
       <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_VRage_Game_ModAPI_Ingame_IMyEntity_WorldVolumeHr">MyEntity.IMyEntity.WorldVolumeHr</a>
     </div>
     <div>
+      <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_StopPhysicsActivation">MyEntity.StopPhysicsActivation</a>
+    </div>
+    <div>
       <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_OnMarkForClose">MyEntity.OnMarkForClose</a>
     </div>
     <div>
@@ -1190,6 +1212,12 @@
     </div>
     <div>
       <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_OnClosing">MyEntity.OnClosing</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_OnModelRefresh">MyEntity.OnModelRefresh</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_OnUpdateOnceBeforeNextFrame">MyEntity.OnUpdateOnceBeforeNextFrame</a>
     </div>
     <div>
       <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_OnPhysicsChanged">MyEntity.OnPhysicsChanged</a>
@@ -1225,7 +1253,7 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[MyCubeBlockType]
 [MyTerminalInterface]
-public class MyBatteryBlock : MyFunctionalBlock, IMyComponentOwner&lt;MyIDModule&gt;, IMyUpgradableBlock, IMyUpgradableBlock, IMyEventProxy, IMyEventOwner, IMySyncedEntity, IMyTieredUpdateBlock, IMyUpdateTimer, IMyTextSurfaceProvider, IMyMultiTextPanelComponentOwner, IMyTextPanelComponentOwner, IMyFunctionalBlock, IMyTerminalBlock, IMyBatteryBlock, IMyPowerProducer, IMyCubeBlock, IMyEntity, IMyBatteryBlock, IMyPowerProducer, IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBlock, IMyEntity</code></pre>
+public class MyBatteryBlock : MyFunctionalBlock, IMyComponentOwner&lt;MyIDModule&gt;, IMyUpgradableBlock, IMyUpgradableBlock, IMyEventProxy, IMyEventOwner, IMySyncedEntity, IMyTieredUpdateBlock, IMyUpdateTimer, IMyTextSurfaceProvider, IMyMultiTextPanelComponentOwner, IMyTextPanelComponentOwner, IMyFunctionalBlock, IMyTerminalBlock, IMyBatteryBlock, IMyPowerProducer, IMyCubeBlock, IMyEntity, IMyBatteryBlock, IMyPowerProducer, IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBlock, IMyEntity, IMyStoredPowerRatio</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
@@ -1325,6 +1353,31 @@ public class MyBatteryBlock : MyFunctionalBlock, IMyComponentOwner&lt;MyIDModule
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public float CurrentOutput { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_Entities_MyBatteryBlock_CurrentOutputRatio_" data-uid="Sandbox.Game.Entities.MyBatteryBlock.CurrentOutputRatio*"></a>
+  <h4 id="Sandbox_Game_Entities_MyBatteryBlock_CurrentOutputRatio" data-uid="Sandbox.Game.Entities.MyBatteryBlock.CurrentOutputRatio">CurrentOutputRatio</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float CurrentOutputRatio { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1593,6 +1646,31 @@ public class MyBatteryBlock : MyFunctionalBlock, IMyComponentOwner&lt;MyIDModule
   </table>
   
   
+  <a id="Sandbox_Game_Entities_MyBatteryBlock_StoredPowerRatio_" data-uid="Sandbox.Game.Entities.MyBatteryBlock.StoredPowerRatio*"></a>
+  <h4 id="Sandbox_Game_Entities_MyBatteryBlock_StoredPowerRatio" data-uid="Sandbox.Game.Entities.MyBatteryBlock.StoredPowerRatio">StoredPowerRatio</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float StoredPowerRatio { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="Sandbox_Game_Entities_MyBatteryBlock_TimeRemaining_" data-uid="Sandbox.Game.Entities.MyBatteryBlock.TimeRemaining*"></a>
   <h4 id="Sandbox_Game_Entities_MyBatteryBlock_TimeRemaining" data-uid="Sandbox.Game.Entities.MyBatteryBlock.TimeRemaining">TimeRemaining</h4>
   <div class="markdown level1 summary"></div>
@@ -1799,7 +1877,7 @@ public class MyBatteryBlock : MyFunctionalBlock, IMyComponentOwner&lt;MyIDModule
     <pre><code class="lang-csharp hljs">public override void OnModelChange()</code></pre>
   </div>
   <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="Sandbox.Game.Entities.MyCubeBlock.html#Sandbox_Game_Entities_MyCubeBlock_OnModelChange">MyCubeBlock.OnModelChange()</a></div>
+  <div><span class="xref">Sandbox.Game.Entities.Cube.MyFunctionalBlock.OnModelChange()</span></div>
   
   
   <a id="Sandbox_Game_Entities_MyBatteryBlock_SetEmissiveStateDamaged_" data-uid="Sandbox.Game.Entities.MyBatteryBlock.SetEmissiveStateDamaged*"></a>
@@ -1934,6 +2012,58 @@ public class MyBatteryBlock : MyFunctionalBlock, IMyComponentOwner&lt;MyIDModule
   </div>
   <h5 class="overrides">Overrides</h5>
   <div><a class="xref" href="Sandbox.Game.Entities.MyCubeBlock.html#Sandbox_Game_Entities_MyCubeBlock_UpdateVisual">MyCubeBlock.UpdateVisual()</a></div>
+  <h3 id="events">Events
+  </h3>
+  
+  
+  <h4 id="Sandbox_Game_Entities_MyBatteryBlock_CurrentOutputRatioChanged" data-uid="Sandbox.Game.Entities.MyBatteryBlock.CurrentOutputRatioChanged">CurrentOutputRatioChanged</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action&lt;IMyPowerProducer, float, float&gt; CurrentOutputRatioChanged</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Sandbox.ModAPI.IMyPowerProducer.html">IMyPowerProducer</a>, <span class="xref">System.Single</span>, <span class="xref">System.Single</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="eii">Explicit Interface Implementations
+  </h3>
+  
+  
+  <h4 id="Sandbox_Game_Entities_MyBatteryBlock_Sandbox_ModAPI_IMyStoredPowerRatio_StoredPowerRatioChanged" data-uid="Sandbox.Game.Entities.MyBatteryBlock.Sandbox#ModAPI#IMyStoredPowerRatio#StoredPowerRatioChanged">IMyStoredPowerRatio.StoredPowerRatioChanged</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event Action&lt;IMyStoredPowerRatio, float, float&gt; IMyStoredPowerRatio.StoredPowerRatioChanged</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Sandbox.ModAPI.IMyStoredPowerRatio.html">IMyStoredPowerRatio</a>, <span class="xref">System.Single</span>, <span class="xref">System.Single</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="implements">Implements</h3>
   <div>
       <a class="xref" href="VRage.Game.Components.IMyComponentOwner-1.html">IMyComponentOwner&lt;T&gt;</a>
@@ -1982,6 +2112,9 @@ public class MyBatteryBlock : MyFunctionalBlock, IMyComponentOwner&lt;MyIDModule
   </div>
   <div>
       <a class="xref" href="VRage.Game.ModAPI.Ingame.IMyEntity.html">IMyEntity</a>
+  </div>
+  <div>
+      <a class="xref" href="Sandbox.ModAPI.IMyStoredPowerRatio.html">IMyStoredPowerRatio</a>
   </div>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>

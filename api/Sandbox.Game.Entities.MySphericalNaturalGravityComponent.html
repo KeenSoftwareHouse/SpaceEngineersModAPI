@@ -85,6 +85,8 @@
   <div classs="implements">
     <h5>Implements</h5>
     <div><a class="xref" href="Sandbox.Game.Entities.IMyGravityProvider.html">IMyGravityProvider</a></div>
+    <div><a class="xref" href="VRage.Game.ModAPI.IMySphericalNaturalGravityComponent.html">IMySphericalNaturalGravityComponent</a></div>
+    <div><a class="xref" href="VRage.Game.ModAPI.IMyNaturalGravityComponent.html">IMyNaturalGravityComponent</a></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -105,6 +107,9 @@
     </div>
     <div>
       <a class="xref" href="VRage.Game.Components.MyEntityComponentBase.html#VRage_Game_Components_MyEntityComponentBase_BeforeRemovedFromContainer">MyEntityComponentBase.BeforeRemovedFromContainer</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.Components.MyComponentBase.html#VRage_Game_Components_MyComponentBase_RemoveExistingComponentOnNewInsert">MyComponentBase.RemoveExistingComponentOnNewInsert</a>
     </div>
     <div>
       <a class="xref" href="VRage.Game.Components.MyComponentBase.html#VRage_Game_Components_MyComponentBase_SetContainer_VRage_Game_Components_MyComponentContainer_">MyComponentBase.SetContainer(MyComponentContainer)</a>
@@ -138,7 +143,7 @@
   <h6><strong>Assembly</strong>: Sandbox.Game.dll</h6>
   <h5 id="Sandbox_Game_Entities_MySphericalNaturalGravityComponent_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class MySphericalNaturalGravityComponent : MyGravityProviderComponent, IMyGravityProvider</code></pre>
+    <pre><code class="lang-csharp hljs">public class MySphericalNaturalGravityComponent : MyGravityProviderComponent, IMyGravityProvider, IMySphericalNaturalGravityComponent, IMyNaturalGravityComponent</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
@@ -221,7 +226,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float GravityLimit { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public override float GravityLimit { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -238,6 +243,8 @@
       </tr>
     </tbody>
   </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Sandbox.Game.Entities.MyGravityProviderComponent.html#Sandbox_Game_Entities_MyGravityProviderComponent_GravityLimit">MyGravityProviderComponent.GravityLimit</a></div>
   
   
   <a id="Sandbox_Game_Entities_MySphericalNaturalGravityComponent_GravityLimitSq_" data-uid="Sandbox.Game.Entities.MySphericalNaturalGravityComponent.GravityLimitSq*"></a>
@@ -317,6 +324,65 @@
   </table>
   <h3 id="methods">Methods
   </h3>
+  
+  
+  <a id="Sandbox_Game_Entities_MySphericalNaturalGravityComponent_CalculateGravityLimit_" data-uid="Sandbox.Game.Entities.MySphericalNaturalGravityComponent.CalculateGravityLimit*"></a>
+  <h4 id="Sandbox_Game_Entities_MySphericalNaturalGravityComponent_CalculateGravityLimit" data-uid="Sandbox.Game.Entities.MySphericalNaturalGravityComponent.CalculateGravityLimit">CalculateGravityLimit()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void CalculateGravityLimit()</code></pre>
+  </div>
+  
+  
+  <a id="Sandbox_Game_Entities_MySphericalNaturalGravityComponent_DoesTrajectoryIntersectNaturalGravity_" data-uid="Sandbox.Game.Entities.MySphericalNaturalGravityComponent.DoesTrajectoryIntersectNaturalGravity*"></a>
+  <h4 id="Sandbox_Game_Entities_MySphericalNaturalGravityComponent_DoesTrajectoryIntersectNaturalGravity_VRageMath_RayD_System_Double_" data-uid="Sandbox.Game.Entities.MySphericalNaturalGravityComponent.DoesTrajectoryIntersectNaturalGravity(VRageMath.RayD,System.Double)">DoesTrajectoryIntersectNaturalGravity(RayD, Double)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override Nullable&lt;double&gt; DoesTrajectoryIntersectNaturalGravity(RayD trajectory, double raySize)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRageMath.RayD.html">RayD</a></td>
+        <td><span class="parametername">trajectory</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">raySize</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Double</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Sandbox.Game.Entities.MyGravityProviderComponent.html#Sandbox_Game_Entities_MyGravityProviderComponent_DoesTrajectoryIntersectNaturalGravity_VRageMath_RayD_System_Double_">MyGravityProviderComponent.DoesTrajectoryIntersectNaturalGravity(RayD, Double)</a></div>
   
   
   <a id="Sandbox_Game_Entities_MySphericalNaturalGravityComponent_GetGravityMultiplier_" data-uid="Sandbox.Game.Entities.MySphericalNaturalGravityComponent.GetGravityMultiplier*"></a>
@@ -442,7 +508,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Vector3 GetWorldGravityNormalized(in Vector3D worldPoint)</code></pre>
+    <pre><code class="lang-csharp hljs">public override Vector3 GetWorldGravityNormalized(in Vector3D worldPoint)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -476,6 +542,8 @@
       </tr>
     </tbody>
   </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Sandbox.Game.Entities.MyGravityProviderComponent.html#Sandbox_Game_Entities_MyGravityProviderComponent_GetWorldGravityNormalized_VRageMath_Vector3D__">MyGravityProviderComponent.GetWorldGravityNormalized(in Vector3D)</a></div>
   
   
   <a id="Sandbox_Game_Entities_MySphericalNaturalGravityComponent_IsPositionInRange_" data-uid="Sandbox.Game.Entities.MySphericalNaturalGravityComponent.IsPositionInRange*"></a>
@@ -532,9 +600,142 @@
   </div>
   <h5 class="overrides">Overrides</h5>
   <div><a class="xref" href="VRage.Game.Components.MyEntityComponentBase.html#VRage_Game_Components_MyEntityComponentBase_OnAddedToContainer">MyEntityComponentBase.OnAddedToContainer()</a></div>
+  <h3 id="eii">Explicit Interface Implementations
+  </h3>
+  
+  
+  <a id="Sandbox_Game_Entities_MySphericalNaturalGravityComponent_VRage_Game_ModAPI_IMyNaturalGravityComponent_Position_" data-uid="Sandbox.Game.Entities.MySphericalNaturalGravityComponent.VRage#Game#ModAPI#IMyNaturalGravityComponent#Position*"></a>
+  <h4 id="Sandbox_Game_Entities_MySphericalNaturalGravityComponent_VRage_Game_ModAPI_IMyNaturalGravityComponent_Position" data-uid="Sandbox.Game.Entities.MySphericalNaturalGravityComponent.VRage#Game#ModAPI#IMyNaturalGravityComponent#Position">IMyNaturalGravityComponent.Position</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Vector3D IMyNaturalGravityComponent.Position { get; set; }</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRageMath.Vector3D.html">Vector3D</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_Entities_MySphericalNaturalGravityComponent_VRage_Game_ModAPI_IMySphericalNaturalGravityComponent_Falloff_" data-uid="Sandbox.Game.Entities.MySphericalNaturalGravityComponent.VRage#Game#ModAPI#IMySphericalNaturalGravityComponent#Falloff*"></a>
+  <h4 id="Sandbox_Game_Entities_MySphericalNaturalGravityComponent_VRage_Game_ModAPI_IMySphericalNaturalGravityComponent_Falloff" data-uid="Sandbox.Game.Entities.MySphericalNaturalGravityComponent.VRage#Game#ModAPI#IMySphericalNaturalGravityComponent#Falloff">IMySphericalNaturalGravityComponent.Falloff</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">double IMySphericalNaturalGravityComponent.Falloff { get; set; }</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_Entities_MySphericalNaturalGravityComponent_VRage_Game_ModAPI_IMySphericalNaturalGravityComponent_Intensity_" data-uid="Sandbox.Game.Entities.MySphericalNaturalGravityComponent.VRage#Game#ModAPI#IMySphericalNaturalGravityComponent#Intensity*"></a>
+  <h4 id="Sandbox_Game_Entities_MySphericalNaturalGravityComponent_VRage_Game_ModAPI_IMySphericalNaturalGravityComponent_Intensity" data-uid="Sandbox.Game.Entities.MySphericalNaturalGravityComponent.VRage#Game#ModAPI#IMySphericalNaturalGravityComponent#Intensity">IMySphericalNaturalGravityComponent.Intensity</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">double IMySphericalNaturalGravityComponent.Intensity { get; set; }</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_Entities_MySphericalNaturalGravityComponent_VRage_Game_ModAPI_IMySphericalNaturalGravityComponent_MaxRadius_" data-uid="Sandbox.Game.Entities.MySphericalNaturalGravityComponent.VRage#Game#ModAPI#IMySphericalNaturalGravityComponent#MaxRadius*"></a>
+  <h4 id="Sandbox_Game_Entities_MySphericalNaturalGravityComponent_VRage_Game_ModAPI_IMySphericalNaturalGravityComponent_MaxRadius" data-uid="Sandbox.Game.Entities.MySphericalNaturalGravityComponent.VRage#Game#ModAPI#IMySphericalNaturalGravityComponent#MaxRadius">IMySphericalNaturalGravityComponent.MaxRadius</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">double IMySphericalNaturalGravityComponent.MaxRadius { get; set; }</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_Entities_MySphericalNaturalGravityComponent_VRage_Game_ModAPI_IMySphericalNaturalGravityComponent_MinRadius_" data-uid="Sandbox.Game.Entities.MySphericalNaturalGravityComponent.VRage#Game#ModAPI#IMySphericalNaturalGravityComponent#MinRadius*"></a>
+  <h4 id="Sandbox_Game_Entities_MySphericalNaturalGravityComponent_VRage_Game_ModAPI_IMySphericalNaturalGravityComponent_MinRadius" data-uid="Sandbox.Game.Entities.MySphericalNaturalGravityComponent.VRage#Game#ModAPI#IMySphericalNaturalGravityComponent#MinRadius">IMySphericalNaturalGravityComponent.MinRadius</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">double IMySphericalNaturalGravityComponent.MinRadius { get; set; }</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="implements">Implements</h3>
   <div>
       <a class="xref" href="Sandbox.Game.Entities.IMyGravityProvider.html">IMyGravityProvider</a>
+  </div>
+  <div>
+      <a class="xref" href="VRage.Game.ModAPI.IMySphericalNaturalGravityComponent.html">IMySphericalNaturalGravityComponent</a>
+  </div>
+  <div>
+      <a class="xref" href="VRage.Game.ModAPI.IMyNaturalGravityComponent.html">IMyNaturalGravityComponent</a>
   </div>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>

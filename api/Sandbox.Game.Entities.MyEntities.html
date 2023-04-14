@@ -179,7 +179,7 @@ public static class MyEntities : Object</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="VRage.FastResourceLock.html">FastResourceLock</a></td>
+        <td><span class="xref">VRage.FastResourceLock</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -203,7 +203,7 @@ public static class MyEntities : Object</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="VRage.FastResourceLock.html">FastResourceLock</a></td>
+        <td><span class="xref">VRage.FastResourceLock</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -419,7 +419,7 @@ public static class MyEntities : Object</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="VRage.FastResourceLock.html">FastResourceLock</a></td>
+        <td><span class="xref">VRage.FastResourceLock</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -1625,7 +1625,7 @@ StepSize is how fast to increase radius, 0.5f means by half radius</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Event(null, 2815)]
+    <pre><code class="lang-csharp hljs">[Event(null, 2882)]
 [Reliable]
 [Broadcast]
 public static void ForceCloseEntityOnClients(long entityId)</code></pre>
@@ -3000,6 +3000,68 @@ If you are modder, you better use IMyEntities method. It is safe to use.</p>
   
   
   <a id="Sandbox_Game_Entities_MyEntities_IsShapePenetrating_" data-uid="Sandbox.Game.Entities.MyEntities.IsShapePenetrating*"></a>
+  <h4 id="Sandbox_Game_Entities_MyEntities_IsShapePenetrating_Havok_HkShape_VRageMath_Vector3D__VRageMath_Quaternion__System_Func_VRage_ModAPI_IMyEntity_System_Boolean__System_Int32_" data-uid="Sandbox.Game.Entities.MyEntities.IsShapePenetrating(Havok.HkShape,VRageMath.Vector3D@,VRageMath.Quaternion@,System.Func{VRage.ModAPI.IMyEntity,System.Boolean},System.Int32)">IsShapePenetrating(HkShape, ref Vector3D, ref Quaternion, Func&lt;IMyEntity, Boolean&gt;, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsShapePenetrating(HkShape shape, ref Vector3D position, ref Quaternion rotation, Func&lt;IMyEntity, bool&gt; entityFilter, int filter = 15)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Havok.HkShape</span></td>
+        <td><span class="parametername">shape</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="VRageMath.Vector3D.html">Vector3D</a></td>
+        <td><span class="parametername">position</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="VRageMath.Quaternion.html">Quaternion</a></td>
+        <td><span class="parametername">rotation</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<a class="xref" href="VRage.ModAPI.IMyEntity.html">IMyEntity</a>, <span class="xref">System.Boolean</span>&gt;</td>
+        <td><span class="parametername">entityFilter</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">filter</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_Entities_MyEntities_IsShapePenetrating_" data-uid="Sandbox.Game.Entities.MyEntities.IsShapePenetrating*"></a>
   <h4 id="Sandbox_Game_Entities_MyEntities_IsShapePenetrating_Havok_HkShape_VRageMath_Vector3D__VRageMath_Quaternion__System_Int32_VRage_Game_Entity_MyEntity_" data-uid="Sandbox.Game.Entities.MyEntities.IsShapePenetrating(Havok.HkShape,VRageMath.Vector3D@,VRageMath.Quaternion@,System.Int32,VRage.Game.Entity.MyEntity)">IsShapePenetrating(HkShape, ref Vector3D, ref Quaternion, Int32, MyEntity)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
@@ -3812,12 +3874,12 @@ If you are modder, you better use IMyEntities method. It is safe to use.</p>
   
   
   <a id="Sandbox_Game_Entities_MyEntities_TestPlaceInSpace_" data-uid="Sandbox.Game.Entities.MyEntities.TestPlaceInSpace*"></a>
-  <h4 id="Sandbox_Game_Entities_MyEntities_TestPlaceInSpace_VRageMath_Vector3D_System_Single_" data-uid="Sandbox.Game.Entities.MyEntities.TestPlaceInSpace(VRageMath.Vector3D,System.Single)">TestPlaceInSpace(Vector3D, Single)</h4>
+  <h4 id="Sandbox_Game_Entities_MyEntities_TestPlaceInSpace_VRageMath_Vector3D_System_Single_System_Func_VRage_ModAPI_IMyEntity_System_Boolean__System_Boolean_" data-uid="Sandbox.Game.Entities.MyEntities.TestPlaceInSpace(VRageMath.Vector3D,System.Single,System.Func{VRage.ModAPI.IMyEntity,System.Boolean},System.Boolean)">TestPlaceInSpace(Vector3D, Single, Func&lt;IMyEntity, Boolean&gt;, Boolean)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Nullable&lt;Vector3D&gt; TestPlaceInSpace(Vector3D basePos, float radius)</code></pre>
+    <pre><code class="lang-csharp hljs">public static Nullable&lt;Vector3D&gt; TestPlaceInSpace(Vector3D basePos, float radius, Func&lt;IMyEntity, bool&gt; ignoredEntity, bool detailedVoxelsCheck = false)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -3837,6 +3899,73 @@ If you are modder, you better use IMyEntities method. It is safe to use.</p>
       <tr>
         <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">radius</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<a class="xref" href="VRage.ModAPI.IMyEntity.html">IMyEntity</a>, <span class="xref">System.Boolean</span>&gt;</td>
+        <td><span class="parametername">ignoredEntity</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">detailedVoxelsCheck</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<a class="xref" href="VRageMath.Vector3D.html">Vector3D</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_Entities_MyEntities_TestPlaceInSpace_" data-uid="Sandbox.Game.Entities.MyEntities.TestPlaceInSpace*"></a>
+  <h4 id="Sandbox_Game_Entities_MyEntities_TestPlaceInSpace_VRageMath_Vector3D_System_Single_VRage_Game_Entity_MyEntity_System_Boolean_" data-uid="Sandbox.Game.Entities.MyEntities.TestPlaceInSpace(VRageMath.Vector3D,System.Single,VRage.Game.Entity.MyEntity,System.Boolean)">TestPlaceInSpace(Vector3D, Single, MyEntity, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Nullable&lt;Vector3D&gt; TestPlaceInSpace(Vector3D basePos, float radius, MyEntity ignoredEntity = null, bool detailedVoxelsCheck = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRageMath.Vector3D.html">Vector3D</a></td>
+        <td><span class="parametername">basePos</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">radius</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="VRage.Game.Entity.MyEntity.html">MyEntity</a></td>
+        <td><span class="parametername">ignoredEntity</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">detailedVoxelsCheck</span></td>
         <td></td>
       </tr>
     </tbody>

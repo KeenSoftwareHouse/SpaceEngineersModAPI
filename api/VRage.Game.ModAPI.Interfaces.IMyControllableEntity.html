@@ -337,6 +337,32 @@
   </table>
   
   
+  <a id="VRage_Game_ModAPI_Interfaces_IMyControllableEntity_IsAutopilotControlled_" data-uid="VRage.Game.ModAPI.Interfaces.IMyControllableEntity.IsAutopilotControlled*"></a>
+  <h4 id="VRage_Game_ModAPI_Interfaces_IMyControllableEntity_IsAutopilotControlled" data-uid="VRage.Game.ModAPI.Interfaces.IMyControllableEntity.IsAutopilotControlled">IsAutopilotControlled</h4>
+  <div class="markdown level1 summary"><p>Gets whether the entity is controller by autopilot</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool IsAutopilotControlled { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="VRage_Game_ModAPI_Interfaces_IMyControllableEntity_LastMotionIndicator_" data-uid="VRage.Game.ModAPI.Interfaces.IMyControllableEntity.LastMotionIndicator*"></a>
   <h4 id="VRage_Game_ModAPI_Interfaces_IMyControllableEntity_LastMotionIndicator" data-uid="VRage.Game.ModAPI.Interfaces.IMyControllableEntity.LastMotionIndicator">LastMotionIndicator</h4>
   <div class="markdown level1 summary"><p>Gets last motion indicator. User input W/A/S/D Space/C</p>
@@ -412,6 +438,58 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VRage_Game_ModAPI_Interfaces_IMyControllableEntity_RelativeDampeningDistance_" data-uid="VRage.Game.ModAPI.Interfaces.IMyControllableEntity.RelativeDampeningDistance*"></a>
+  <h4 id="VRage_Game_ModAPI_Interfaces_IMyControllableEntity_RelativeDampeningDistance" data-uid="VRage.Game.ModAPI.Interfaces.IMyControllableEntity.RelativeDampeningDistance">RelativeDampeningDistance</h4>
+  <div class="markdown level1 summary"><p>Allows you to set a custom max distance which relative dampening to another entity will remain active.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">float RelativeDampeningDistance { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VRage_Game_ModAPI_Interfaces_IMyControllableEntity_RelativeDampeningTarget_" data-uid="VRage.Game.ModAPI.Interfaces.IMyControllableEntity.RelativeDampeningTarget*"></a>
+  <h4 id="VRage_Game_ModAPI_Interfaces_IMyControllableEntity_RelativeDampeningTarget" data-uid="VRage.Game.ModAPI.Interfaces.IMyControllableEntity.RelativeDampeningTarget">RelativeDampeningTarget</h4>
+  <div class="markdown level1 summary"><p>Allows you to get or set the relative dampening entity.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IMyEntity RelativeDampeningTarget { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRage.ModAPI.IMyEntity.html">IMyEntity</a></td>
         <td></td>
       </tr>
     </tbody>

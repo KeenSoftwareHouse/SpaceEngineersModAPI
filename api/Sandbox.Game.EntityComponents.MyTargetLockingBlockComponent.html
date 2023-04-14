@@ -1,0 +1,706 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class MyTargetLockingBlockComponent
+   | Space Engineers ModAPI </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class MyTargetLockingBlockComponent
+   | Space Engineers ModAPI ">
+    <meta name="generator" content="docfx 2.58.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Sandbox.Game.EntityComponents.MyTargetLockingBlockComponent">
+  
+  
+  <h1 id="Sandbox_Game_EntityComponents_MyTargetLockingBlockComponent" data-uid="Sandbox.Game.EntityComponents.MyTargetLockingBlockComponent" class="text-break">Class MyTargetLockingBlockComponent
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="VRage.Game.Components.MyComponentBase.html">MyComponentBase</a></div>
+    <div class="level2"><a class="xref" href="VRage.Game.Components.MyEntityComponentBase.html">MyEntityComponentBase</a></div>
+    <div class="level3"><a class="xref" href="Sandbox.Game.EntityComponents.MyEventProxyEntityComponent.html">MyEventProxyEntityComponent</a></div>
+    <div class="level4"><span class="xref">MyTargetLockingBlockComponent</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="Sandbox.Game.EntityComponents.IMyTargetLockingComponent.html">IMyTargetLockingComponent</a></div>
+    <div><a class="xref" href="Sandbox.ModAPI.IMyDistanceToLockedTarget.html">IMyDistanceToLockedTarget</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Sandbox.Game.EntityComponents.MyEventProxyEntityComponent.html#Sandbox_Game_EntityComponents_MyEventProxyEntityComponent_SyncType">MyEventProxyEntityComponent.SyncType</a>
+    </div>
+    <div>
+      <a class="xref" href="Sandbox.Game.EntityComponents.MyEventProxyEntityComponent.html#Sandbox_Game_EntityComponents_MyEventProxyEntityComponent_AttachSyncToEntity">MyEventProxyEntityComponent.AttachSyncToEntity</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.Components.MyEntityComponentBase.html#VRage_Game_Components_MyEntityComponentBase_Container">MyEntityComponentBase.Container</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.Components.MyEntityComponentBase.html#VRage_Game_Components_MyEntityComponentBase_Entity">MyEntityComponentBase.Entity</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.Components.MyEntityComponentBase.html#VRage_Game_Components_MyEntityComponentBase_OnAfterAddedToContainer">MyEntityComponentBase.OnAfterAddedToContainer</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.Components.MyEntityComponentBase.html#VRage_Game_Components_MyEntityComponentBase_BeforeRemovedFromContainer">MyEntityComponentBase.BeforeRemovedFromContainer</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.Components.MyComponentBase.html#VRage_Game_Components_MyComponentBase_RemoveExistingComponentOnNewInsert">MyComponentBase.RemoveExistingComponentOnNewInsert</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.Components.MyComponentBase.html#VRage_Game_Components_MyComponentBase_SetContainer_VRage_Game_Components_MyComponentContainer_">MyComponentBase.SetContainer(MyComponentContainer)</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.Components.MyComponentBase.html#VRage_Game_Components_MyComponentBase_GetAs__1">MyComponentBase.GetAs&lt;T&gt;()</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.Components.MyComponentBase.html#VRage_Game_Components_MyComponentBase_OnAddedToScene">MyComponentBase.OnAddedToScene()</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.Components.MyComponentBase.html#VRage_Game_Components_MyComponentBase_OnRemovedFromScene">MyComponentBase.OnRemovedFromScene()</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.Components.MyComponentBase.html#VRage_Game_Components_MyComponentBase_Serialize_System_Boolean_">MyComponentBase.Serialize(Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.Components.MyComponentBase.html#VRage_Game_Components_MyComponentBase_Deserialize_VRage_Game_ObjectBuilders_ComponentSystem_MyObjectBuilder_ComponentBase_">MyComponentBase.Deserialize(MyObjectBuilder_ComponentBase)</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.Components.MyComponentBase.html#VRage_Game_Components_MyComponentBase_IsSerialized">MyComponentBase.IsSerialized()</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.Components.MyComponentBase.html#VRage_Game_Components_MyComponentBase_ContainerBase">MyComponentBase.ContainerBase</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Sandbox.Game.EntityComponents.html">Sandbox.Game.EntityComponents</a></h6>
+  <h6><strong>Assembly</strong>: Sandbox.Game.dll</h6>
+  <h5 id="Sandbox_Game_EntityComponents_MyTargetLockingBlockComponent_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[StaticEventOwner]
+[MyComponentType]
+[MyComponentBuilder]
+public class MyTargetLockingBlockComponent : MyEventProxyEntityComponent, IMyEventProxy, IMyEventOwner, IMyTargetLockingComponent, IMyDistanceToLockedTarget</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyTargetLockingBlockComponent__ctor_" data-uid="Sandbox.Game.EntityComponents.MyTargetLockingBlockComponent.#ctor*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyTargetLockingBlockComponent__ctor" data-uid="Sandbox.Game.EntityComponents.MyTargetLockingBlockComponent.#ctor">MyTargetLockingBlockComponent()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MyTargetLockingBlockComponent()</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyTargetLockingBlockComponent_ComponentTypeDebugString_" data-uid="Sandbox.Game.EntityComponents.MyTargetLockingBlockComponent.ComponentTypeDebugString*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyTargetLockingBlockComponent_ComponentTypeDebugString" data-uid="Sandbox.Game.EntityComponents.MyTargetLockingBlockComponent.ComponentTypeDebugString">ComponentTypeDebugString</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ComponentTypeDebugString { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="VRage.Game.Components.MyEntityComponentBase.html#VRage_Game_Components_MyEntityComponentBase_ComponentTypeDebugString">MyEntityComponentBase.ComponentTypeDebugString</a></div>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyTargetLockingBlockComponent_Definition_" data-uid="Sandbox.Game.EntityComponents.MyTargetLockingBlockComponent.Definition*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyTargetLockingBlockComponent_Definition" data-uid="Sandbox.Game.EntityComponents.MyTargetLockingBlockComponent.Definition">Definition</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MyTargetLockingBlockComponentDefinition Definition { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Sandbox.Game.EntityComponents.MyTargetLockingBlockComponentDefinition.html">MyTargetLockingBlockComponentDefinition</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyTargetLockingBlockComponent_DistanceToLockedTarget_" data-uid="Sandbox.Game.EntityComponents.MyTargetLockingBlockComponent.DistanceToLockedTarget*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyTargetLockingBlockComponent_DistanceToLockedTarget" data-uid="Sandbox.Game.EntityComponents.MyTargetLockingBlockComponent.DistanceToLockedTarget">DistanceToLockedTarget</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float DistanceToLockedTarget { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyTargetLockingBlockComponent_IsLosingLock_" data-uid="Sandbox.Game.EntityComponents.MyTargetLockingBlockComponent.IsLosingLock*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyTargetLockingBlockComponent_IsLosingLock" data-uid="Sandbox.Game.EntityComponents.MyTargetLockingBlockComponent.IsLosingLock">IsLosingLock</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsLosingLock { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyTargetLockingBlockComponent_IsTargetLocked_" data-uid="Sandbox.Game.EntityComponents.MyTargetLockingBlockComponent.IsTargetLocked*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyTargetLockingBlockComponent_IsTargetLocked" data-uid="Sandbox.Game.EntityComponents.MyTargetLockingBlockComponent.IsTargetLocked">IsTargetLocked</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsTargetLocked { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyTargetLockingBlockComponent_LockingProgressMilliseconds_" data-uid="Sandbox.Game.EntityComponents.MyTargetLockingBlockComponent.LockingProgressMilliseconds*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyTargetLockingBlockComponent_LockingProgressMilliseconds" data-uid="Sandbox.Game.EntityComponents.MyTargetLockingBlockComponent.LockingProgressMilliseconds">LockingProgressMilliseconds</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float LockingProgressMilliseconds { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyTargetLockingBlockComponent_LockingProgressPercent_" data-uid="Sandbox.Game.EntityComponents.MyTargetLockingBlockComponent.LockingProgressPercent*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyTargetLockingBlockComponent_LockingProgressPercent" data-uid="Sandbox.Game.EntityComponents.MyTargetLockingBlockComponent.LockingProgressPercent">LockingProgressPercent</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float LockingProgressPercent { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyTargetLockingBlockComponent_LockingTimeRemainingMilliseconds_" data-uid="Sandbox.Game.EntityComponents.MyTargetLockingBlockComponent.LockingTimeRemainingMilliseconds*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyTargetLockingBlockComponent_LockingTimeRemainingMilliseconds" data-uid="Sandbox.Game.EntityComponents.MyTargetLockingBlockComponent.LockingTimeRemainingMilliseconds">LockingTimeRemainingMilliseconds</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float LockingTimeRemainingMilliseconds { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyTargetLockingBlockComponent_Target_" data-uid="Sandbox.Game.EntityComponents.MyTargetLockingBlockComponent.Target*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyTargetLockingBlockComponent_Target" data-uid="Sandbox.Game.EntityComponents.MyTargetLockingBlockComponent.Target">Target</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MyCubeGrid Target { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Sandbox.Game.Entities.MyCubeGrid.html">MyCubeGrid</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyTargetLockingBlockComponent_TargetData_" data-uid="Sandbox.Game.EntityComponents.MyTargetLockingBlockComponent.TargetData*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyTargetLockingBlockComponent_TargetData" data-uid="Sandbox.Game.EntityComponents.MyTargetLockingBlockComponent.TargetData">TargetData</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MyCharacter.MyTargetData TargetData { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Sandbox.Game.Entities.Character.MyCharacter.MyTargetData</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyTargetLockingBlockComponent_Init_" data-uid="Sandbox.Game.EntityComponents.MyTargetLockingBlockComponent.Init*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyTargetLockingBlockComponent_Init_VRage_Game_MyComponentDefinitionBase_" data-uid="Sandbox.Game.EntityComponents.MyTargetLockingBlockComponent.Init(VRage.Game.MyComponentDefinitionBase)">Init(MyComponentDefinitionBase)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Init(MyComponentDefinitionBase definition)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRage.Game.MyComponentDefinitionBase.html">MyComponentDefinitionBase</a></td>
+        <td><span class="parametername">definition</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="VRage.Game.Components.MyComponentBase.html#VRage_Game_Components_MyComponentBase_Init_VRage_Game_MyComponentDefinitionBase_">MyComponentBase.Init(MyComponentDefinitionBase)</a></div>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyTargetLockingBlockComponent_OnAddedToContainer_" data-uid="Sandbox.Game.EntityComponents.MyTargetLockingBlockComponent.OnAddedToContainer*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyTargetLockingBlockComponent_OnAddedToContainer" data-uid="Sandbox.Game.EntityComponents.MyTargetLockingBlockComponent.OnAddedToContainer">OnAddedToContainer()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void OnAddedToContainer()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="VRage.Game.Components.MyEntityComponentBase.html#VRage_Game_Components_MyEntityComponentBase_OnAddedToContainer">MyEntityComponentBase.OnAddedToContainer()</a></div>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyTargetLockingBlockComponent_OnBeforeRemovedFromContainer_" data-uid="Sandbox.Game.EntityComponents.MyTargetLockingBlockComponent.OnBeforeRemovedFromContainer*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyTargetLockingBlockComponent_OnBeforeRemovedFromContainer" data-uid="Sandbox.Game.EntityComponents.MyTargetLockingBlockComponent.OnBeforeRemovedFromContainer">OnBeforeRemovedFromContainer()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void OnBeforeRemovedFromContainer()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Sandbox.Game.EntityComponents.MyEventProxyEntityComponent.html#Sandbox_Game_EntityComponents_MyEventProxyEntityComponent_OnBeforeRemovedFromContainer">MyEventProxyEntityComponent.OnBeforeRemovedFromContainer()</a></div>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyTargetLockingBlockComponent_OnTargetInfoChanged_" data-uid="Sandbox.Game.EntityComponents.MyTargetLockingBlockComponent.OnTargetInfoChanged*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyTargetLockingBlockComponent_OnTargetInfoChanged_VRage_Sync_SyncBase_" data-uid="Sandbox.Game.EntityComponents.MyTargetLockingBlockComponent.OnTargetInfoChanged(VRage.Sync.SyncBase)">OnTargetInfoChanged(SyncBase)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnTargetInfoChanged(SyncBase obj)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">VRage.Sync.SyncBase</span></td>
+        <td><span class="parametername">obj</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyTargetLockingBlockComponent_OnTargetRequest_" data-uid="Sandbox.Game.EntityComponents.MyTargetLockingBlockComponent.OnTargetRequest*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyTargetLockingBlockComponent_OnTargetRequest_Sandbox_Game_Entities_MyCubeGrid_" data-uid="Sandbox.Game.EntityComponents.MyTargetLockingBlockComponent.OnTargetRequest(Sandbox.Game.Entities.MyCubeGrid)">OnTargetRequest(MyCubeGrid)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnTargetRequest(MyCubeGrid target)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Sandbox.Game.Entities.MyCubeGrid.html">MyCubeGrid</a></td>
+        <td><span class="parametername">target</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyTargetLockingBlockComponent_ReleaseTargetLock_" data-uid="Sandbox.Game.EntityComponents.MyTargetLockingBlockComponent.ReleaseTargetLock*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyTargetLockingBlockComponent_ReleaseTargetLock" data-uid="Sandbox.Game.EntityComponents.MyTargetLockingBlockComponent.ReleaseTargetLock">ReleaseTargetLock()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ReleaseTargetLock()</code></pre>
+  </div>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyTargetLockingBlockComponent_SetCanLock_" data-uid="Sandbox.Game.EntityComponents.MyTargetLockingBlockComponent.SetCanLock*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyTargetLockingBlockComponent_SetCanLock_System_Boolean_" data-uid="Sandbox.Game.EntityComponents.MyTargetLockingBlockComponent.SetCanLock(System.Boolean)">SetCanLock(Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetCanLock(bool canLock)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">canLock</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyTargetLockingBlockComponent_Update_" data-uid="Sandbox.Game.EntityComponents.MyTargetLockingBlockComponent.Update*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyTargetLockingBlockComponent_Update" data-uid="Sandbox.Game.EntityComponents.MyTargetLockingBlockComponent.Update">Update()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Update()</code></pre>
+  </div>
+  <h3 id="events">Events
+  </h3>
+  
+  
+  <h4 id="Sandbox_Game_EntityComponents_MyTargetLockingBlockComponent_DistanceToLockedTargetChanged" data-uid="Sandbox.Game.EntityComponents.MyTargetLockingBlockComponent.DistanceToLockedTargetChanged">DistanceToLockedTargetChanged</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action&lt;IMyDistanceToLockedTarget, float, float&gt; DistanceToLockedTargetChanged</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Sandbox.ModAPI.IMyDistanceToLockedTarget.html">IMyDistanceToLockedTarget</a>, <span class="xref">System.Single</span>, <span class="xref">System.Single</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="eii">Explicit Interface Implementations
+  </h3>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyTargetLockingBlockComponent_Sandbox_ModAPI_IMyDistanceToLockedTarget_get_Entity_" data-uid="Sandbox.Game.EntityComponents.MyTargetLockingBlockComponent.Sandbox#ModAPI#IMyDistanceToLockedTarget#get_Entity*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyTargetLockingBlockComponent_Sandbox_ModAPI_IMyDistanceToLockedTarget_get_Entity" data-uid="Sandbox.Game.EntityComponents.MyTargetLockingBlockComponent.Sandbox#ModAPI#IMyDistanceToLockedTarget#get_Entity">IMyDistanceToLockedTarget.get_Entity()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IMyEntity IMyDistanceToLockedTarget.get_Entity()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRage.ModAPI.IMyEntity.html">IMyEntity</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="Sandbox.Game.EntityComponents.IMyTargetLockingComponent.html">IMyTargetLockingComponent</a>
+  </div>
+  <div>
+      <a class="xref" href="Sandbox.ModAPI.IMyDistanceToLockedTarget.html">IMyDistanceToLockedTarget</a>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="VRage.Game.Components.MyEntityContainerEventExtensions.html#VRage_Game_Components_MyEntityContainerEventExtensions_RegisterForEntityEvent_VRage_Game_Components_MyEntityComponentBase_VRage_Utils_MyStringHash_VRage_Game_Components_MyEntityContainerEventExtensions_EntityEventHandler_">MyEntityContainerEventExtensions.RegisterForEntityEvent(MyEntityComponentBase, MyStringHash, MyEntityContainerEventExtensions.EntityEventHandler)</a>
+  </div>
+  <div>
+      <a class="xref" href="VRage.Game.Components.MyEntityContainerEventExtensions.html#VRage_Game_Components_MyEntityContainerEventExtensions_RegisterForEntityEvent_VRage_Game_Components_MyEntityComponentBase_VRage_Game_Entity_MyEntity_VRage_Utils_MyStringHash_VRage_Game_Components_MyEntityContainerEventExtensions_EntityEventHandler_">MyEntityContainerEventExtensions.RegisterForEntityEvent(MyEntityComponentBase, MyEntity, MyStringHash, MyEntityContainerEventExtensions.EntityEventHandler)</a>
+  </div>
+  <div>
+      <a class="xref" href="VRage.Game.Components.MyEntityContainerEventExtensions.html#VRage_Game_Components_MyEntityContainerEventExtensions_UnregisterForEntityEvent_VRage_Game_Components_MyEntityComponentBase_VRage_Game_Entity_MyEntity_VRage_Utils_MyStringHash_">MyEntityContainerEventExtensions.UnregisterForEntityEvent(MyEntityComponentBase, MyEntity, MyStringHash)</a>
+  </div>
+  <div>
+      <a class="xref" href="VRage.Game.Components.MyEntityContainerEventExtensions.html#VRage_Game_Components_MyEntityContainerEventExtensions_RaiseEntityEvent_VRage_Game_Components_MyEntityComponentBase_VRage_Utils_MyStringHash_VRage_Game_Components_MyEntityContainerEventExtensions_EntityEventParams_">MyEntityContainerEventExtensions.RaiseEntityEvent(MyEntityComponentBase, MyStringHash, MyEntityContainerEventExtensions.EntityEventParams)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <div class="toggle-mode">
+                <div class="icon">
+                  <i aria-hidden="true">☀</i>
+                </div>
+                <label class="switch">
+                  <input type="checkbox" id="switch-style">
+                  <span class="slider round"></span>
+                </label>
+                <div class="icon">
+                  <i aria-hidden="true">☾</i>
+                </div>
+              </div>
+          
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <h5>In This Article</h5>
+              <div></div>
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            <div class="pull-left">
+              
+              <span>Generated by <strong>DocFX</strong></span>
+            </div>
+            <div class="toggle-mode pull-right visible-sm visible-xs">
+              <div class="icon">
+                <i aria-hidden="true">☀</i>
+              </div>
+              <label class="switch">
+                <input type="checkbox" id="switch-style-m">
+                <span class="slider round"></span>
+              </label>
+              <div class="icon">
+                <i aria-hidden="true">☾</i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <script type="text/javascript" src="../styles/toggle-theme.js"></script>
+      </footer>    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

@@ -135,6 +135,9 @@ You can cast if MyInventory for getting more functionality</p>
     <div>
       <a class="xref" href="VRage.Game.ModAPI.Ingame.IMyInventory.html#VRage_Game_ModAPI_Ingame_IMyInventory_ItemCount">IMyInventory.ItemCount</a>
     </div>
+    <div>
+      <a class="xref" href="VRage.Game.ModAPI.Ingame.IMyInventory.html#VRage_Game_ModAPI_Ingame_IMyInventory_VolumeFillFactor">IMyInventory.VolumeFillFactor</a>
+    </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="VRage.Game.ModAPI.html">VRage.Game.ModAPI</a></h6>
   <h6><strong>Assembly</strong>: VRage.Game.dll</h6>
@@ -194,7 +197,7 @@ You can cast if MyInventory for getting more functionality</p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="VRage.MyFixedPoint.html">MyFixedPoint</a></td>
+        <td><span class="xref">VRage.MyFixedPoint</span></td>
         <td><span class="parametername">amount</span></td>
         <td><p>Amount of items</p>
 </td>
@@ -247,7 +250,7 @@ Checks:</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="VRage.MyFixedPoint.html">MyFixedPoint</a></td>
+        <td><span class="xref">VRage.MyFixedPoint</span></td>
         <td><span class="parametername">amount</span></td>
         <td><p>Amount of items</p>
 </td>
@@ -469,7 +472,7 @@ Checks:</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="VRage.MyFixedPoint.html">MyFixedPoint</a></td>
+        <td><span class="xref">VRage.MyFixedPoint</span></td>
         <td><span class="parametername">amount</span></td>
         <td><p>Amount to remove</p>
 </td>
@@ -504,7 +507,7 @@ Checks:</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<a class="xref" href="VRage.MyFixedPoint.html">MyFixedPoint</a>&gt;</td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">VRage.MyFixedPoint</span>&gt;</td>
         <td><span class="parametername">amount</span></td>
         <td><p>Amount to remove or null. When null whole item stack would be removed</p>
 </td>
@@ -551,7 +554,7 @@ Checks:</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<a class="xref" href="VRage.MyFixedPoint.html">MyFixedPoint</a>&gt;</td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">VRage.MyFixedPoint</span>&gt;</td>
         <td><span class="parametername">amount</span></td>
         <td><p>Amount to remove or null. When null whole item stack would be removed</p>
 </td>
@@ -592,7 +595,7 @@ Checks:</p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="VRage.MyFixedPoint.html">MyFixedPoint</a></td>
+        <td><span class="xref">VRage.MyFixedPoint</span></td>
         <td><span class="parametername">amount</span></td>
         <td><p>Amount of items should be removed</p>
 </td>
@@ -633,7 +636,7 @@ Checks:</p>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="VRage.MyFixedPoint.html">MyFixedPoint</a></td>
+        <td><span class="xref">VRage.MyFixedPoint</span></td>
         <td><span class="parametername">amount</span></td>
         <td><p>Amount of items</p>
 </td>
@@ -704,7 +707,7 @@ Checks:</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<a class="xref" href="VRage.MyFixedPoint.html">MyFixedPoint</a>&gt;</td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">VRage.MyFixedPoint</span>&gt;</td>
         <td><span class="parametername">amount</span></td>
         <td><p>Transferred item amount</p>
 </td>
@@ -767,7 +770,7 @@ Checks:</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="VRage.MyFixedPoint.html">MyFixedPoint</a></td>
+        <td><span class="xref">VRage.MyFixedPoint</span></td>
         <td><span class="parametername">amount</span></td>
         <td><p>Transferred item amount</p>
 </td>
@@ -839,7 +842,7 @@ Checks:</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<a class="xref" href="VRage.MyFixedPoint.html">MyFixedPoint</a>&gt;</td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">VRage.MyFixedPoint</span>&gt;</td>
         <td><span class="parametername">amount</span></td>
         <td><p>Transferred item amount</p>
 </td>
@@ -865,6 +868,33 @@ Checks:</p>
         <td><span class="xref">System.Boolean</span></td>
         <td><p>True if checkConnection is false, or inventories are connected with correct conveyor</p>
 </td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="events">Events
+  </h3>
+  
+  
+  <h4 id="VRage_Game_ModAPI_IMyInventory_OnVolumeChanged" data-uid="VRage.Game.ModAPI.IMyInventory.OnVolumeChanged">OnVolumeChanged</h4>
+  <div class="markdown level1 summary"><p>Triggers when volume of the inventory is changed</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event Action&lt;IMyInventory, float, float&gt; OnVolumeChanged</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="VRage.Game.ModAPI.IMyInventory.html">IMyInventory</a>, <span class="xref">System.Single</span>, <span class="xref">System.Single</span>&gt;</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
