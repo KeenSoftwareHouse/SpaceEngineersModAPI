@@ -142,10 +142,7 @@
       <a class="xref" href="VRage.Game.Components.MyEntityComponentBase.html#VRage_Game_Components_MyEntityComponentBase_BeforeRemovedFromContainer">MyEntityComponentBase.BeforeRemovedFromContainer</a>
     </div>
     <div>
-      <a class="xref" href="VRage.Game.Components.MyComponentBase.html#VRage_Game_Components_MyComponentBase_RemoveExistingComponentOnNewInsert">MyComponentBase.RemoveExistingComponentOnNewInsert</a>
-    </div>
-    <div>
-      <a class="xref" href="VRage.Game.Components.MyComponentBase.html#VRage_Game_Components_MyComponentBase_SetContainer_VRage_Game_Components_MyComponentContainer_">MyComponentBase.SetContainer(MyComponentContainer)</a>
+      <a class="xref" href="VRage.Game.Components.MyComponentBase.html#VRage_Game_Components_MyComponentBase_SetContainer_VRage_Game_Components_Interfaces_IMyComponentContainer_">MyComponentBase.SetContainer(IMyComponentContainer)</a>
     </div>
     <div>
       <a class="xref" href="VRage.Game.Components.MyComponentBase.html#VRage_Game_Components_MyComponentBase_GetAs__1">MyComponentBase.GetAs&lt;T&gt;()</a>
@@ -169,6 +166,9 @@
       <a class="xref" href="VRage.Game.Components.MyComponentBase.html#VRage_Game_Components_MyComponentBase_IsSerialized">MyComponentBase.IsSerialized()</a>
     </div>
     <div>
+      <a class="xref" href="VRage.Game.Components.MyComponentBase.html#VRage_Game_Components_MyComponentBase_RemoveExistingComponentOnNewInsert">MyComponentBase.RemoveExistingComponentOnNewInsert</a>
+    </div>
+    <div>
       <a class="xref" href="VRage.Game.Components.MyComponentBase.html#VRage_Game_Components_MyComponentBase_ContainerBase">MyComponentBase.ContainerBase</a>
     </div>
   </div>
@@ -176,7 +176,7 @@
   <h6><strong>Assembly</strong>: Sandbox.Game.dll</h6>
   <h5 id="Sandbox_Game_Entities_Character_Components_MyCharacterJetpackComponent_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class MyCharacterJetpackComponent : MyCharacterComponent</code></pre>
+    <pre><code class="lang-csharp hljs">public class MyCharacterJetpackComponent : MyCharacterComponent, IMyEntityComponentBase, IMyComponentBase</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
@@ -987,7 +987,7 @@
     <pre><code class="lang-csharp hljs">public override void OnAddedToContainer()</code></pre>
   </div>
   <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="VRage.Game.Components.MyEntityComponentBase.html#VRage_Game_Components_MyEntityComponentBase_OnAddedToContainer">MyEntityComponentBase.OnAddedToContainer()</a></div>
+  <div><a class="xref" href="Sandbox.Game.Entities.Character.Components.MyCharacterComponent.html#Sandbox_Game_Entities_Character_Components_MyCharacterComponent_OnAddedToContainer">MyCharacterComponent.OnAddedToContainer()</a></div>
   
   
   <a id="Sandbox_Game_Entities_Character_Components_MyCharacterJetpackComponent_OnBeforeRemovedFromContainer_" data-uid="Sandbox.Game.Entities.Character.Components.MyCharacterJetpackComponent.OnBeforeRemovedFromContainer*"></a>
@@ -999,7 +999,7 @@
     <pre><code class="lang-csharp hljs">public override void OnBeforeRemovedFromContainer()</code></pre>
   </div>
   <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="VRage.Game.Components.MyEntityComponentBase.html#VRage_Game_Components_MyEntityComponentBase_OnBeforeRemovedFromContainer">MyEntityComponentBase.OnBeforeRemovedFromContainer()</a></div>
+  <div><a class="xref" href="Sandbox.Game.Entities.Character.Components.MyCharacterComponent.html#Sandbox_Game_Entities_Character_Components_MyCharacterComponent_OnBeforeRemovedFromContainer">MyCharacterComponent.OnBeforeRemovedFromContainer()</a></div>
   
   
   <a id="Sandbox_Game_Entities_Character_Components_MyCharacterJetpackComponent_OnCharacterDead_" data-uid="Sandbox.Game.Entities.Character.Components.MyCharacterJetpackComponent.OnCharacterDead*"></a>

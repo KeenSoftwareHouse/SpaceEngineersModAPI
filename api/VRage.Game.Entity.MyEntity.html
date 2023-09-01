@@ -118,6 +118,33 @@ public class MyEntity : Object, IMyEntity, IMyEntity</code></pre>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public MyEntity()</code></pre>
   </div>
+  
+  
+  <a id="VRage_Game_Entity_MyEntity__ctor_" data-uid="VRage.Game.Entity.MyEntity.#ctor*"></a>
+  <h4 id="VRage_Game_Entity_MyEntity__ctor_System_Boolean_" data-uid="VRage.Game.Entity.MyEntity.#ctor(System.Boolean)">MyEntity(Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MyEntity(bool testingPurpouses)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">testingPurpouses</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="fields">Fields
   </h3>
   
@@ -271,7 +298,7 @@ public class MyEntity : Object, IMyEntity, IMyEntity</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Action&lt;MyComponentContainer, MyObjectBuilderType, MyStringHash, MyObjectBuilder_ComponentContainer&gt; InitComponentsExtCallback</code></pre>
+    <pre><code class="lang-csharp hljs">public static Action&lt;IMyComponentContainer, MyObjectBuilderType, MyStringHash, MyObjectBuilder_ComponentContainer&gt; InitComponentsExtCallback</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -283,7 +310,7 @@ public class MyEntity : Object, IMyEntity, IMyEntity</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="VRage.Game.Components.MyComponentContainer.html">MyComponentContainer</a>, <a class="xref" href="VRage.ObjectBuilders.MyObjectBuilderType.html">MyObjectBuilderType</a>, <a class="xref" href="VRage.Utils.MyStringHash.html">MyStringHash</a>, <a class="xref" href="VRage.Game.ObjectBuilders.ComponentSystem.MyObjectBuilder_ComponentContainer.html">MyObjectBuilder_ComponentContainer</a>&gt;</td>
+        <td><span class="xref">System.Action</span>&lt;<span class="xref">VRage.Game.Components.Interfaces.IMyComponentContainer</span>, <a class="xref" href="VRage.ObjectBuilders.MyObjectBuilderType.html">MyObjectBuilderType</a>, <a class="xref" href="VRage.Utils.MyStringHash.html">MyStringHash</a>, <a class="xref" href="VRage.Game.ObjectBuilders.ComponentSystem.MyObjectBuilder_ComponentContainer.html">MyObjectBuilder_ComponentContainer</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -851,7 +878,7 @@ public class MyEntity : Object, IMyEntity, IMyEntity</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public MyEntityComponentContainer Components { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public IMyEntityComponentContainer Components { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -863,7 +890,7 @@ public class MyEntity : Object, IMyEntity, IMyEntity</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="VRage.Game.Components.MyEntityComponentContainer.html">MyEntityComponentContainer</a></td>
+        <td><span class="xref">VRage.Game.Components.Interfaces.IMyEntityComponentContainer</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -1803,6 +1830,31 @@ Note that one aggregate inventory can contain zero simple inventories =&gt; zero
   </table>
   
   
+  <a id="VRage_Game_Entity_MyEntity_UpdateDuration_" data-uid="VRage.Game.Entity.MyEntity.UpdateDuration*"></a>
+  <h4 id="VRage_Game_Entity_MyEntity_UpdateDuration" data-uid="VRage.Game.Entity.MyEntity.UpdateDuration">UpdateDuration</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual MyEntity.UpdateDurationType UpdateDuration { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRage.Game.Entity.MyEntity.UpdateDurationType.html">MyEntity.UpdateDurationType</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="VRage_Game_Entity_MyEntity_WorldMatrix_" data-uid="VRage.Game.Entity.MyEntity.WorldMatrix*"></a>
   <h4 id="VRage_Game_Entity_MyEntity_WorldMatrix" data-uid="VRage.Game.Entity.MyEntity.WorldMatrix">WorldMatrix</h4>
   <div class="markdown level1 summary"></div>
@@ -1897,6 +1949,17 @@ Note that one aggregate inventory can contain zero simple inventories =&gt; zero
   </div>
   
   
+  <a id="VRage_Game_Entity_MyEntity_BeforeGameLogicInit_" data-uid="VRage.Game.Entity.MyEntity.BeforeGameLogicInit*"></a>
+  <h4 id="VRage_Game_Entity_MyEntity_BeforeGameLogicInit" data-uid="VRage.Game.Entity.MyEntity.BeforeGameLogicInit">BeforeGameLogicInit()</h4>
+  <div class="markdown level1 summary"><p>Called right before initializing the GameLogic component, during entity Init.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void BeforeGameLogicInit()</code></pre>
+  </div>
+  
+  
   <a id="VRage_Game_Entity_MyEntity_BeforePaste_" data-uid="VRage.Game.Entity.MyEntity.BeforePaste*"></a>
   <h4 id="VRage_Game_Entity_MyEntity_BeforePaste" data-uid="VRage.Game.Entity.MyEntity.BeforePaste">BeforePaste()</h4>
   <div class="markdown level1 summary"></div>
@@ -1986,12 +2049,12 @@ will be called after all entities are updated</p>
   
   
   <a id="VRage_Game_Entity_MyEntity_Components_ComponentAdded_" data-uid="VRage.Game.Entity.MyEntity.Components_ComponentAdded*"></a>
-  <h4 id="VRage_Game_Entity_MyEntity_Components_ComponentAdded_System_Type_VRage_Game_Components_MyEntityComponentBase_" data-uid="VRage.Game.Entity.MyEntity.Components_ComponentAdded(System.Type,VRage.Game.Components.MyEntityComponentBase)">Components_ComponentAdded(Type, MyEntityComponentBase)</h4>
+  <h4 id="VRage_Game_Entity_MyEntity_Components_ComponentAdded_System_Type_VRage_Game_Components_Interfaces_IMyEntityComponentBase_" data-uid="VRage.Game.Entity.MyEntity.Components_ComponentAdded(System.Type,VRage.Game.Components.Interfaces.IMyEntityComponentBase)">Components_ComponentAdded(Type, IMyEntityComponentBase)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected virtual void Components_ComponentAdded(Type t, MyEntityComponentBase c)</code></pre>
+    <pre><code class="lang-csharp hljs">protected virtual void Components_ComponentAdded(Type t, IMyEntityComponentBase c)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2009,7 +2072,7 @@ will be called after all entities are updated</p>
         <td></td>
       </tr>
       <tr>
-        <td><a class="xref" href="VRage.Game.Components.MyEntityComponentBase.html">MyEntityComponentBase</a></td>
+        <td><span class="xref">VRage.Game.Components.Interfaces.IMyEntityComponentBase</span></td>
         <td><span class="parametername">c</span></td>
         <td></td>
       </tr>
@@ -2018,12 +2081,12 @@ will be called after all entities are updated</p>
   
   
   <a id="VRage_Game_Entity_MyEntity_Components_ComponentRemoved_" data-uid="VRage.Game.Entity.MyEntity.Components_ComponentRemoved*"></a>
-  <h4 id="VRage_Game_Entity_MyEntity_Components_ComponentRemoved_System_Type_VRage_Game_Components_MyEntityComponentBase_" data-uid="VRage.Game.Entity.MyEntity.Components_ComponentRemoved(System.Type,VRage.Game.Components.MyEntityComponentBase)">Components_ComponentRemoved(Type, MyEntityComponentBase)</h4>
+  <h4 id="VRage_Game_Entity_MyEntity_Components_ComponentRemoved_System_Type_VRage_Game_Components_Interfaces_IMyEntityComponentBase_" data-uid="VRage.Game.Entity.MyEntity.Components_ComponentRemoved(System.Type,VRage.Game.Components.Interfaces.IMyEntityComponentBase)">Components_ComponentRemoved(Type, IMyEntityComponentBase)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected virtual void Components_ComponentRemoved(Type t, MyEntityComponentBase c)</code></pre>
+    <pre><code class="lang-csharp hljs">protected virtual void Components_ComponentRemoved(Type t, IMyEntityComponentBase c)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2041,7 +2104,7 @@ will be called after all entities are updated</p>
         <td></td>
       </tr>
       <tr>
-        <td><a class="xref" href="VRage.Game.Components.MyEntityComponentBase.html">MyEntityComponentBase</a></td>
+        <td><span class="xref">VRage.Game.Components.Interfaces.IMyEntityComponentBase</span></td>
         <td><span class="parametername">c</span></td>
         <td></td>
       </tr>
@@ -3034,6 +3097,16 @@ will be called after all entities are updated</p>
   </div>
   
   
+  <a id="VRage_Game_Entity_MyEntity_InitComponentsForTesting_" data-uid="VRage.Game.Entity.MyEntity.InitComponentsForTesting*"></a>
+  <h4 id="VRage_Game_Entity_MyEntity_InitComponentsForTesting" data-uid="VRage.Game.Entity.MyEntity.InitComponentsForTesting">InitComponentsForTesting()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void InitComponentsForTesting()</code></pre>
+  </div>
+  
+  
   <a id="VRage_Game_Entity_MyEntity_InstantiateSubpart_" data-uid="VRage.Game.Entity.MyEntity.InstantiateSubpart*"></a>
   <h4 id="VRage_Game_Entity_MyEntity_InstantiateSubpart_VRageRender_Import_MyModelDummy_VRage_Game_Entity_MyEntitySubpart_Data__" data-uid="VRage.Game.Entity.MyEntity.InstantiateSubpart(VRageRender.Import.MyModelDummy,VRage.Game.Entity.MyEntitySubpart.Data@)">InstantiateSubpart(MyModelDummy, ref MyEntitySubpart.Data)</h4>
   <div class="markdown level1 summary"></div>
@@ -3588,6 +3661,63 @@ will be called after all entities are updated</p>
   </table>
   
   
+  <a id="VRage_Game_Entity_MyEntity_TryGetDebugRenderComponent_" data-uid="VRage.Game.Entity.MyEntity.TryGetDebugRenderComponent*"></a>
+  <h4 id="VRage_Game_Entity_MyEntity_TryGetDebugRenderComponent__1___0__" data-uid="VRage.Game.Entity.MyEntity.TryGetDebugRenderComponent``1(``0@)">TryGetDebugRenderComponent&lt;T&gt;(out T)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool TryGetDebugRenderComponent&lt;T&gt;(out T debugComponent)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">debugComponent</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="VRage_Game_Entity_MyEntity_TryGetSubpart_" data-uid="VRage.Game.Entity.MyEntity.TryGetSubpart*"></a>
   <h4 id="VRage_Game_Entity_MyEntity_TryGetSubpart_System_String_VRage_Game_Entity_MyEntitySubpart__" data-uid="VRage.Game.Entity.MyEntity.TryGetSubpart(System.String,VRage.Game.Entity.MyEntitySubpart@)">TryGetSubpart(String, out MyEntitySubpart)</h4>
   <div class="markdown level1 summary"></div>
@@ -3882,6 +4012,30 @@ will be called after all entities are updated</p>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public event Action&lt;MyEntity&gt; OnClosing</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="VRage.Game.Entity.MyEntity.html">MyEntity</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="VRage_Game_Entity_MyEntity_OnDebugDraw" data-uid="VRage.Game.Entity.MyEntity.OnDebugDraw">OnDebugDraw</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action&lt;MyEntity&gt; OnDebugDraw</code></pre>
   </div>
   <h5 class="eventType">Event Type</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -6022,7 +6176,7 @@ Ex: character sitting in cockpit, has parent - cockpit, cockpit has parent - cub
   
   <a id="VRage_Game_Entity_MyEntity_VRage_ModAPI_IMyEntity_SetColorMaskForSubparts_" data-uid="VRage.Game.Entity.MyEntity.VRage#ModAPI#IMyEntity#SetColorMaskForSubparts*"></a>
   <h4 id="VRage_Game_Entity_MyEntity_VRage_ModAPI_IMyEntity_SetColorMaskForSubparts_VRageMath_Vector3_" data-uid="VRage.Game.Entity.MyEntity.VRage#ModAPI#IMyEntity#SetColorMaskForSubparts(VRageMath.Vector3)">IMyEntity.SetColorMaskForSubparts(Vector3)</h4>
-  <div class="markdown level1 summary"><p>Sets subparts custom color</p>
+  <div class="markdown level1 summary"><p>Sets subparts custom col</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -6198,8 +6352,7 @@ When entity, has parent, it's world coordinates are calculated from localMatrix 
   
   <a id="VRage_Game_Entity_MyEntity_VRage_ModAPI_IMyEntity_SetTextureChangesForSubparts_" data-uid="VRage.Game.Entity.MyEntity.VRage#ModAPI#IMyEntity#SetTextureChangesForSubparts*"></a>
   <h4 id="VRage_Game_Entity_MyEntity_VRage_ModAPI_IMyEntity_SetTextureChangesForSubparts_System_Collections_Generic_Dictionary_System_String_VRageRender_Messages_MyTextureChange__" data-uid="VRage.Game.Entity.MyEntity.VRage#ModAPI#IMyEntity#SetTextureChangesForSubparts(System.Collections.Generic.Dictionary{System.String,VRageRender.Messages.MyTextureChange})">IMyEntity.SetTextureChangesForSubparts(Dictionary&lt;String, MyTextureChange&gt;)</h4>
-  <div class="markdown level1 summary"><p>Sets subparts custom skinning. Copy values from <a class="xref" href="VRage.Game.Components.MyRenderComponentBase.html#VRage_Game_Components_MyRenderComponentBase_TextureChanges">TextureChanges</a>, then change needed keys.
-You can retrieve values for exact skin with following code: <pre><code>MyDefinitionManager.Static.GetAssetModifierDefinitionForRender(skinId);</code></pre></p>
+  <div class="markdown level1 summary"><p>This calling is obsolete, use another version.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -6218,6 +6371,33 @@ You can retrieve values for exact skin with following code: <pre><code>MyDefinit
     <tbody>
       <tr>
         <td><span class="xref">System.Collections.Generic.Dictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">VRageRender.Messages.MyTextureChange</span>&gt;</td>
+        <td><span class="parametername">textureChanges</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VRage_Game_Entity_MyEntity_VRage_ModAPI_IMyEntity_SetTextureChangesForSubparts_" data-uid="VRage.Game.Entity.MyEntity.VRage#ModAPI#IMyEntity#SetTextureChangesForSubparts*"></a>
+  <h4 id="VRage_Game_Entity_MyEntity_VRage_ModAPI_IMyEntity_SetTextureChangesForSubparts_System_Collections_Generic_Dictionary_VRage_Utils_MyStringId_VRageRender_Messages_MyTextureChange__" data-uid="VRage.Game.Entity.MyEntity.VRage#ModAPI#IMyEntity#SetTextureChangesForSubparts(System.Collections.Generic.Dictionary{VRage.Utils.MyStringId,VRageRender.Messages.MyTextureChange})">IMyEntity.SetTextureChangesForSubparts(Dictionary&lt;MyStringId, MyTextureChange&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void IMyEntity.SetTextureChangesForSubparts(Dictionary&lt;MyStringId, MyTextureChange&gt; textureChanges)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.Dictionary</span>&lt;<a class="xref" href="VRage.Utils.MyStringId.html">MyStringId</a>, <span class="xref">VRageRender.Messages.MyTextureChange</span>&gt;</td>
         <td><span class="parametername">textureChanges</span></td>
         <td></td>
       </tr>

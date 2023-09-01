@@ -89,6 +89,59 @@
   </h3>
   
   
+  <h4 id="Sandbox_Definitions_MyCubeBlockDefinition_MountPoint_AllowCouplingWithItself" data-uid="Sandbox.Definitions.MyCubeBlockDefinition.MountPoint.AllowCouplingWithItself">AllowCouplingWithItself</h4>
+  <div class="markdown level1 summary"><p>If <a class="xref" href="Sandbox.Definitions.MyCubeBlockDefinition.MountPoint.html#Sandbox_Definitions_MyCubeBlockDefinition_MountPoint_CouplingTag">CouplingTag</a> is used, setting to true would allow connection to the same mount
+(i.e. to the block of the same type).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool AllowCouplingWithItself</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Sandbox_Definitions_MyCubeBlockDefinition_MountPoint_CouplingTag" data-uid="Sandbox.Definitions.MyCubeBlockDefinition.MountPoint.CouplingTag">CouplingTag</h4>
+  <div class="markdown level1 summary"><p>Tag to enforce coupling constraints. If at least one of mounts from the pair has non-null tag,
+then mount A tag must contain mount B as a substring, or vice versa. This is intended to make
+mounts allowing attachment to only specific mount.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string CouplingTag</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <h4 id="Sandbox_Definitions_MyCubeBlockDefinition_MountPoint_Default" data-uid="Sandbox.Definitions.MyCubeBlockDefinition.MountPoint.Default">Default</h4>
   <div class="markdown level1 summary"><p>Mark mount point as default for auto rotate.</p>
 </div>

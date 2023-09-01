@@ -119,10 +119,7 @@
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
-      <a class="xref" href="VRage.Game.Components.MyComponentBase.html#VRage_Game_Components_MyComponentBase_RemoveExistingComponentOnNewInsert">MyComponentBase.RemoveExistingComponentOnNewInsert</a>
-    </div>
-    <div>
-      <a class="xref" href="VRage.Game.Components.MyComponentBase.html#VRage_Game_Components_MyComponentBase_SetContainer_VRage_Game_Components_MyComponentContainer_">MyComponentBase.SetContainer(MyComponentContainer)</a>
+      <a class="xref" href="VRage.Game.Components.MyComponentBase.html#VRage_Game_Components_MyComponentBase_SetContainer_VRage_Game_Components_Interfaces_IMyComponentContainer_">MyComponentBase.SetContainer(IMyComponentContainer)</a>
     </div>
     <div>
       <a class="xref" href="VRage.Game.Components.MyComponentBase.html#VRage_Game_Components_MyComponentBase_GetAs__1">MyComponentBase.GetAs&lt;T&gt;()</a>
@@ -146,6 +143,9 @@
       <a class="xref" href="VRage.Game.Components.MyComponentBase.html#VRage_Game_Components_MyComponentBase_IsSerialized">MyComponentBase.IsSerialized()</a>
     </div>
     <div>
+      <a class="xref" href="VRage.Game.Components.MyComponentBase.html#VRage_Game_Components_MyComponentBase_RemoveExistingComponentOnNewInsert">MyComponentBase.RemoveExistingComponentOnNewInsert</a>
+    </div>
+    <div>
       <a class="xref" href="VRage.Game.Components.MyComponentBase.html#VRage_Game_Components_MyComponentBase_ContainerBase">MyComponentBase.ContainerBase</a>
     </div>
   </div>
@@ -153,7 +153,7 @@
   <h6><strong>Assembly</strong>: VRage.Game.dll</h6>
   <h5 id="VRage_Game_Components_MyEntityComponentBase_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract class MyEntityComponentBase : MyComponentBase</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract class MyEntityComponentBase : MyComponentBase, IMyEntityComponentBase, IMyComponentBase</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
@@ -228,7 +228,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public MyEntityComponentContainer Container { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public IMyEntityComponentContainer Container { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -240,7 +240,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="VRage.Game.Components.MyEntityComponentContainer.html">MyEntityComponentContainer</a></td>
+        <td><span class="xref">VRage.Game.Components.Interfaces.IMyEntityComponentContainer</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -305,7 +305,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public event Action&lt;MyEntityComponentBase&gt; BeforeRemovedFromContainer</code></pre>
+    <pre><code class="lang-csharp hljs">public event Action&lt;IMyEntityComponentBase&gt; BeforeRemovedFromContainer</code></pre>
   </div>
   <h5 class="eventType">Event Type</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -317,7 +317,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="VRage.Game.Components.MyEntityComponentBase.html">MyEntityComponentBase</a>&gt;</td>
+        <td><span class="xref">System.Action</span>&lt;<span class="xref">VRage.Game.Components.Interfaces.IMyEntityComponentBase</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>

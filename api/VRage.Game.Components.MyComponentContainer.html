@@ -84,7 +84,7 @@
   <h6><strong>Assembly</strong>: VRage.Game.dll</h6>
   <h5 id="VRage_Game_Components_MyComponentContainer_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class MyComponentContainer : Object</code></pre>
+    <pre><code class="lang-csharp hljs">public class MyComponentContainer : Object, IMyComponentContainer</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
@@ -585,6 +585,49 @@
   </table>
   
   
+  <a id="VRage_Game_Components_MyComponentContainer_Remove_" data-uid="VRage.Game.Components.MyComponentContainer.Remove*"></a>
+  <h4 id="VRage_Game_Components_MyComponentContainer_Remove__1___0_" data-uid="VRage.Game.Components.MyComponentContainer.Remove``1(``0)">Remove&lt;T&gt;(T)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Remove&lt;T&gt;(T component)
+    where T : MyComponentBase</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">component</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="VRage_Game_Components_MyComponentContainer_Serialize_" data-uid="VRage.Game.Components.MyComponentContainer.Serialize*"></a>
   <h4 id="VRage_Game_Components_MyComponentContainer_Serialize_System_Boolean_" data-uid="VRage.Game.Components.MyComponentContainer.Serialize(System.Boolean)">Serialize(Boolean)</h4>
   <div class="markdown level1 summary"></div>
@@ -828,10 +871,6 @@
       </tr>
     </tbody>
   </table>
-  <h3 id="extensionmethods">Extension Methods</h3>
-  <div>
-      <a class="xref" href="Sandbox.Game.Entities.MyComponentContainerExtension.html#Sandbox_Game_Entities_MyComponentContainerExtension_InitComponents_VRage_Game_Components_MyComponentContainer_VRage_ObjectBuilders_MyObjectBuilderType_VRage_Utils_MyStringHash_VRage_Game_ObjectBuilders_ComponentSystem_MyObjectBuilder_ComponentContainer_">MyComponentContainerExtension.InitComponents(MyComponentContainer, MyObjectBuilderType, MyStringHash, MyObjectBuilder_ComponentContainer)</a>
-  </div>
 </article>
           </div>
           

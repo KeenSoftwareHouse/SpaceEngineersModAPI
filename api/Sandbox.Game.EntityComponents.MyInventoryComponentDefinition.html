@@ -81,6 +81,10 @@
     <div class="level2"><a class="xref" href="VRage.Game.MyComponentDefinitionBase.html">MyComponentDefinitionBase</a></div>
     <div class="level3"><span class="xref">MyInventoryComponentDefinition</span></div>
   </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="VRage.Game.Definitions.IMyInventoryComponentDefinition.html">IMyInventoryComponentDefinition</a></div>
+  </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
@@ -126,6 +130,9 @@
       <a class="xref" href="VRage.Game.MyDefinitionBase.html#VRage_Game_MyDefinitionBase_Postprocess">MyDefinitionBase.Postprocess()</a>
     </div>
     <div>
+      <a class="xref" href="VRage.Game.MyDefinitionBase.html#VRage_Game_MyDefinitionBase_CheckDefinitionDLCs_System_String___">MyDefinitionBase.CheckDefinitionDLCs(String[])</a>
+    </div>
+    <div>
       <a class="xref" href="VRage.Game.MyDefinitionBase.html#VRage_Game_MyDefinitionBase_DLCs">MyDefinitionBase.DLCs</a>
     </div>
     <div>
@@ -140,7 +147,7 @@
   <h5 id="Sandbox_Game_EntityComponents_MyInventoryComponentDefinition_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[MyDefinitionType]
-public class MyInventoryComponentDefinition : MyComponentDefinitionBase</code></pre>
+public class MyInventoryComponentDefinition : MyComponentDefinitionBase, IMyInventoryComponentDefinition</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
@@ -358,6 +365,37 @@ public class MyInventoryComponentDefinition : MyComponentDefinitionBase</code></
   </table>
   <h5 class="overrides">Overrides</h5>
   <div><a class="xref" href="VRage.Game.MyComponentDefinitionBase.html#VRage_Game_MyComponentDefinitionBase_Init_VRage_Game_MyObjectBuilder_DefinitionBase_">MyComponentDefinitionBase.Init(MyObjectBuilder_DefinitionBase)</a></div>
+  <h3 id="eii">Explicit Interface Implementations
+  </h3>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyInventoryComponentDefinition_VRage_Game_Definitions_IMyInventoryComponentDefinition_Volume_" data-uid="Sandbox.Game.EntityComponents.MyInventoryComponentDefinition.VRage#Game#Definitions#IMyInventoryComponentDefinition#Volume*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyInventoryComponentDefinition_VRage_Game_Definitions_IMyInventoryComponentDefinition_Volume" data-uid="Sandbox.Game.EntityComponents.MyInventoryComponentDefinition.VRage#Game#Definitions#IMyInventoryComponentDefinition#Volume">IMyInventoryComponentDefinition.Volume</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">float IMyInventoryComponentDefinition.Volume { get; }</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="VRage.Game.Definitions.IMyInventoryComponentDefinition.html">IMyInventoryComponentDefinition</a>
+  </div>
 </article>
           </div>
           

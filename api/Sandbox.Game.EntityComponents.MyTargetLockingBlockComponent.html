@@ -108,10 +108,7 @@
       <a class="xref" href="VRage.Game.Components.MyEntityComponentBase.html#VRage_Game_Components_MyEntityComponentBase_BeforeRemovedFromContainer">MyEntityComponentBase.BeforeRemovedFromContainer</a>
     </div>
     <div>
-      <a class="xref" href="VRage.Game.Components.MyComponentBase.html#VRage_Game_Components_MyComponentBase_RemoveExistingComponentOnNewInsert">MyComponentBase.RemoveExistingComponentOnNewInsert</a>
-    </div>
-    <div>
-      <a class="xref" href="VRage.Game.Components.MyComponentBase.html#VRage_Game_Components_MyComponentBase_SetContainer_VRage_Game_Components_MyComponentContainer_">MyComponentBase.SetContainer(MyComponentContainer)</a>
+      <a class="xref" href="VRage.Game.Components.MyComponentBase.html#VRage_Game_Components_MyComponentBase_SetContainer_VRage_Game_Components_Interfaces_IMyComponentContainer_">MyComponentBase.SetContainer(IMyComponentContainer)</a>
     </div>
     <div>
       <a class="xref" href="VRage.Game.Components.MyComponentBase.html#VRage_Game_Components_MyComponentBase_GetAs__1">MyComponentBase.GetAs&lt;T&gt;()</a>
@@ -132,6 +129,9 @@
       <a class="xref" href="VRage.Game.Components.MyComponentBase.html#VRage_Game_Components_MyComponentBase_IsSerialized">MyComponentBase.IsSerialized()</a>
     </div>
     <div>
+      <a class="xref" href="VRage.Game.Components.MyComponentBase.html#VRage_Game_Components_MyComponentBase_RemoveExistingComponentOnNewInsert">MyComponentBase.RemoveExistingComponentOnNewInsert</a>
+    </div>
+    <div>
       <a class="xref" href="VRage.Game.Components.MyComponentBase.html#VRage_Game_Components_MyComponentBase_ContainerBase">MyComponentBase.ContainerBase</a>
     </div>
   </div>
@@ -142,7 +142,7 @@
     <pre><code class="lang-csharp hljs">[StaticEventOwner]
 [MyComponentType]
 [MyComponentBuilder]
-public class MyTargetLockingBlockComponent : MyEventProxyEntityComponent, IMyEventProxy, IMyEventOwner, IMyTargetLockingComponent, IMyDistanceToLockedTarget</code></pre>
+public class MyTargetLockingBlockComponent : MyEventProxyEntityComponent, IMyEntityComponentBase, IMyComponentBase, IMyEventProxy, IMyEventOwner, IMyTargetLockingComponent, IMyDistanceToLockedTarget</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
@@ -410,6 +410,31 @@ public class MyTargetLockingBlockComponent : MyEventProxyEntityComponent, IMyEve
       </tr>
     </tbody>
   </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyTargetLockingBlockComponent_TargetEntity_" data-uid="Sandbox.Game.EntityComponents.MyTargetLockingBlockComponent.TargetEntity*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyTargetLockingBlockComponent_TargetEntity" data-uid="Sandbox.Game.EntityComponents.MyTargetLockingBlockComponent.TargetEntity">TargetEntity</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MyEntity TargetEntity { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRage.Game.Entity.MyEntity.html">MyEntity</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="methods">Methods
   </h3>
   
@@ -495,12 +520,12 @@ public class MyTargetLockingBlockComponent : MyEventProxyEntityComponent, IMyEve
   
   
   <a id="Sandbox_Game_EntityComponents_MyTargetLockingBlockComponent_OnTargetRequest_" data-uid="Sandbox.Game.EntityComponents.MyTargetLockingBlockComponent.OnTargetRequest*"></a>
-  <h4 id="Sandbox_Game_EntityComponents_MyTargetLockingBlockComponent_OnTargetRequest_Sandbox_Game_Entities_MyCubeGrid_" data-uid="Sandbox.Game.EntityComponents.MyTargetLockingBlockComponent.OnTargetRequest(Sandbox.Game.Entities.MyCubeGrid)">OnTargetRequest(MyCubeGrid)</h4>
+  <h4 id="Sandbox_Game_EntityComponents_MyTargetLockingBlockComponent_OnTargetRequest_VRage_Game_Entity_MyEntity_" data-uid="Sandbox.Game.EntityComponents.MyTargetLockingBlockComponent.OnTargetRequest(VRage.Game.Entity.MyEntity)">OnTargetRequest(MyEntity)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void OnTargetRequest(MyCubeGrid target)</code></pre>
+    <pre><code class="lang-csharp hljs">public void OnTargetRequest(MyEntity target)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -513,7 +538,7 @@ public class MyTargetLockingBlockComponent : MyEventProxyEntityComponent, IMyEve
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Sandbox.Game.Entities.MyCubeGrid.html">MyCubeGrid</a></td>
+        <td><a class="xref" href="VRage.Game.Entity.MyEntity.html">MyEntity</a></td>
         <td><span class="parametername">target</span></td>
         <td></td>
       </tr>
@@ -529,33 +554,6 @@ public class MyTargetLockingBlockComponent : MyEventProxyEntityComponent, IMyEve
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void ReleaseTargetLock()</code></pre>
   </div>
-  
-  
-  <a id="Sandbox_Game_EntityComponents_MyTargetLockingBlockComponent_SetCanLock_" data-uid="Sandbox.Game.EntityComponents.MyTargetLockingBlockComponent.SetCanLock*"></a>
-  <h4 id="Sandbox_Game_EntityComponents_MyTargetLockingBlockComponent_SetCanLock_System_Boolean_" data-uid="Sandbox.Game.EntityComponents.MyTargetLockingBlockComponent.SetCanLock(System.Boolean)">SetCanLock(Boolean)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SetCanLock(bool canLock)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">canLock</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   
   
   <a id="Sandbox_Game_EntityComponents_MyTargetLockingBlockComponent_Update_" data-uid="Sandbox.Game.EntityComponents.MyTargetLockingBlockComponent.Update*"></a>
@@ -588,33 +586,6 @@ public class MyTargetLockingBlockComponent : MyEventProxyEntityComponent, IMyEve
     <tbody>
       <tr>
         <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Sandbox.ModAPI.IMyDistanceToLockedTarget.html">IMyDistanceToLockedTarget</a>, <span class="xref">System.Single</span>, <span class="xref">System.Single</span>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="eii">Explicit Interface Implementations
-  </h3>
-  
-  
-  <a id="Sandbox_Game_EntityComponents_MyTargetLockingBlockComponent_Sandbox_ModAPI_IMyDistanceToLockedTarget_get_Entity_" data-uid="Sandbox.Game.EntityComponents.MyTargetLockingBlockComponent.Sandbox#ModAPI#IMyDistanceToLockedTarget#get_Entity*"></a>
-  <h4 id="Sandbox_Game_EntityComponents_MyTargetLockingBlockComponent_Sandbox_ModAPI_IMyDistanceToLockedTarget_get_Entity" data-uid="Sandbox.Game.EntityComponents.MyTargetLockingBlockComponent.Sandbox#ModAPI#IMyDistanceToLockedTarget#get_Entity">IMyDistanceToLockedTarget.get_Entity()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">IMyEntity IMyDistanceToLockedTarget.get_Entity()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="VRage.ModAPI.IMyEntity.html">IMyEntity</a></td>
         <td></td>
       </tr>
     </tbody>

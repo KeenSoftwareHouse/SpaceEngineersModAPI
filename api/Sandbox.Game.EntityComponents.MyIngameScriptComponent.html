@@ -72,7 +72,9 @@
   
   <h1 id="Sandbox_Game_EntityComponents_MyIngameScriptComponent" data-uid="Sandbox.Game.EntityComponents.MyIngameScriptComponent" class="text-break">Class MyIngameScriptComponent
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>A component to control the execution of a programmable block script based on its
+configured update frequency.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -85,7 +87,7 @@
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
-      <a class="xref" href="VRage.Game.Components.MyGameLogicComponent.html#VRage_Game_Components_MyGameLogicComponent_UpdateAfterSimulation">MyGameLogicComponent.UpdateAfterSimulation()</a>
+      <a class="xref" href="VRage.Game.Components.MyGameLogicComponent.html#VRage_Game_Components_MyGameLogicComponent_UpdateOnceBeforeFrame">MyGameLogicComponent.UpdateOnceBeforeFrame()</a>
     </div>
     <div>
       <a class="xref" href="VRage.Game.Components.MyGameLogicComponent.html#VRage_Game_Components_MyGameLogicComponent_UpdateAfterSimulation10">MyGameLogicComponent.UpdateAfterSimulation10()</a>
@@ -145,10 +147,7 @@
       <a class="xref" href="VRage.Game.Components.MyEntityComponentBase.html#VRage_Game_Components_MyEntityComponentBase_BeforeRemovedFromContainer">MyEntityComponentBase.BeforeRemovedFromContainer</a>
     </div>
     <div>
-      <a class="xref" href="VRage.Game.Components.MyComponentBase.html#VRage_Game_Components_MyComponentBase_RemoveExistingComponentOnNewInsert">MyComponentBase.RemoveExistingComponentOnNewInsert</a>
-    </div>
-    <div>
-      <a class="xref" href="VRage.Game.Components.MyComponentBase.html#VRage_Game_Components_MyComponentBase_SetContainer_VRage_Game_Components_MyComponentContainer_">MyComponentBase.SetContainer(MyComponentContainer)</a>
+      <a class="xref" href="VRage.Game.Components.MyComponentBase.html#VRage_Game_Components_MyComponentBase_SetContainer_VRage_Game_Components_Interfaces_IMyComponentContainer_">MyComponentBase.SetContainer(IMyComponentContainer)</a>
     </div>
     <div>
       <a class="xref" href="VRage.Game.Components.MyComponentBase.html#VRage_Game_Components_MyComponentBase_GetAs__1">MyComponentBase.GetAs&lt;T&gt;()</a>
@@ -172,6 +171,9 @@
       <a class="xref" href="VRage.Game.Components.MyComponentBase.html#VRage_Game_Components_MyComponentBase_IsSerialized">MyComponentBase.IsSerialized()</a>
     </div>
     <div>
+      <a class="xref" href="VRage.Game.Components.MyComponentBase.html#VRage_Game_Components_MyComponentBase_RemoveExistingComponentOnNewInsert">MyComponentBase.RemoveExistingComponentOnNewInsert</a>
+    </div>
+    <div>
       <a class="xref" href="VRage.Game.Components.MyComponentBase.html#VRage_Game_Components_MyComponentBase_ContainerBase">MyComponentBase.ContainerBase</a>
     </div>
   </div>
@@ -180,7 +182,7 @@
   <h5 id="Sandbox_Game_EntityComponents_MyIngameScriptComponent_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[MyEntityComponentDescriptor]
-public class MyIngameScriptComponent : MyGameLogicComponent, IMyGameLogicComponent</code></pre>
+public class MyIngameScriptComponent : MyGameLogicComponent, IMyEntityComponentBase, IMyComponentBase, IMyGameLogicComponent</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
@@ -198,13 +200,14 @@ public class MyIngameScriptComponent : MyGameLogicComponent, IMyGameLogicCompone
   </h3>
   
   
-  <a id="Sandbox_Game_EntityComponents_MyIngameScriptComponent_NextUpdate_" data-uid="Sandbox.Game.EntityComponents.MyIngameScriptComponent.NextUpdate*"></a>
-  <h4 id="Sandbox_Game_EntityComponents_MyIngameScriptComponent_NextUpdate" data-uid="Sandbox.Game.EntityComponents.MyIngameScriptComponent.NextUpdate">NextUpdate</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="Sandbox_Game_EntityComponents_MyIngameScriptComponent_UpdateFrequency_" data-uid="Sandbox.Game.EntityComponents.MyIngameScriptComponent.UpdateFrequency*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyIngameScriptComponent_UpdateFrequency" data-uid="Sandbox.Game.EntityComponents.MyIngameScriptComponent.UpdateFrequency">UpdateFrequency</h4>
+  <div class="markdown level1 summary"><p>The update frequency with which to run the script.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public UpdateType NextUpdate { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public UpdateFrequency UpdateFrequency { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -216,7 +219,7 @@ public class MyIngameScriptComponent : MyGameLogicComponent, IMyGameLogicCompone
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Sandbox.ModAPI.Ingame.UpdateType.html">UpdateType</a></td>
+        <td><a class="xref" href="Sandbox.ModAPI.Ingame.UpdateFrequency.html">UpdateFrequency</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -254,6 +257,18 @@ public class MyIngameScriptComponent : MyGameLogicComponent, IMyGameLogicCompone
   <div><a class="xref" href="VRage.Game.Components.MyGameLogicComponent.html#VRage_Game_Components_MyGameLogicComponent_Init_VRage_ObjectBuilders_MyObjectBuilder_EntityBase_">MyGameLogicComponent.Init(MyObjectBuilder_EntityBase)</a></div>
   
   
+  <a id="Sandbox_Game_EntityComponents_MyIngameScriptComponent_UpdateAfterSimulation_" data-uid="Sandbox.Game.EntityComponents.MyIngameScriptComponent.UpdateAfterSimulation*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyIngameScriptComponent_UpdateAfterSimulation" data-uid="Sandbox.Game.EntityComponents.MyIngameScriptComponent.UpdateAfterSimulation">UpdateAfterSimulation()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void UpdateAfterSimulation()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="VRage.Game.Components.MyGameLogicComponent.html#VRage_Game_Components_MyGameLogicComponent_UpdateAfterSimulation">MyGameLogicComponent.UpdateAfterSimulation()</a></div>
+  
+  
   <a id="Sandbox_Game_EntityComponents_MyIngameScriptComponent_UpdateBeforeSimulation_" data-uid="Sandbox.Game.EntityComponents.MyIngameScriptComponent.UpdateBeforeSimulation*"></a>
   <h4 id="Sandbox_Game_EntityComponents_MyIngameScriptComponent_UpdateBeforeSimulation" data-uid="Sandbox.Game.EntityComponents.MyIngameScriptComponent.UpdateBeforeSimulation">UpdateBeforeSimulation()</h4>
   <div class="markdown level1 summary"></div>
@@ -288,18 +303,6 @@ public class MyIngameScriptComponent : MyGameLogicComponent, IMyGameLogicCompone
   </div>
   <h5 class="overrides">Overrides</h5>
   <div><a class="xref" href="VRage.Game.Components.MyGameLogicComponent.html#VRage_Game_Components_MyGameLogicComponent_UpdateBeforeSimulation100">MyGameLogicComponent.UpdateBeforeSimulation100()</a></div>
-  
-  
-  <a id="Sandbox_Game_EntityComponents_MyIngameScriptComponent_UpdateOnceBeforeFrame_" data-uid="Sandbox.Game.EntityComponents.MyIngameScriptComponent.UpdateOnceBeforeFrame*"></a>
-  <h4 id="Sandbox_Game_EntityComponents_MyIngameScriptComponent_UpdateOnceBeforeFrame" data-uid="Sandbox.Game.EntityComponents.MyIngameScriptComponent.UpdateOnceBeforeFrame">UpdateOnceBeforeFrame()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void UpdateOnceBeforeFrame()</code></pre>
-  </div>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="VRage.Game.Components.MyGameLogicComponent.html#VRage_Game_Components_MyGameLogicComponent_UpdateOnceBeforeFrame">MyGameLogicComponent.UpdateOnceBeforeFrame()</a></div>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
       <a class="xref" href="VRage.Game.Components.MyEntityContainerEventExtensions.html#VRage_Game_Components_MyEntityContainerEventExtensions_RegisterForEntityEvent_VRage_Game_Components_MyEntityComponentBase_VRage_Utils_MyStringHash_VRage_Game_Components_MyEntityContainerEventExtensions_EntityEventHandler_">MyEntityContainerEventExtensions.RegisterForEntityEvent(MyEntityComponentBase, MyStringHash, MyEntityContainerEventExtensions.EntityEventHandler)</a>

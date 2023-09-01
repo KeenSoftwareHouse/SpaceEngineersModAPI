@@ -90,6 +90,7 @@
     <div><a class="xref" href="Sandbox.ModAPI.IMyUpgradableBlock.html">IMyUpgradableBlock</a></div>
     <div><a class="xref" href="Sandbox.ModAPI.Ingame.IMyUpgradableBlock.html">IMyUpgradableBlock</a></div>
     <div><a class="xref" href="Sandbox.ModAPI.Ingame.IMyTextSurfaceProvider.html">IMyTextSurfaceProvider</a></div>
+    <div><a class="xref" href="Sandbox.Game.EntityComponents.IMyMultiTextPanelComponentOwner.html">IMyMultiTextPanelComponentOwner</a></div>
     <div><a class="xref" href="Sandbox.ModAPI.IMyJumpDrive.html">IMyJumpDrive</a></div>
     <div><a class="xref" href="Sandbox.ModAPI.IMyFunctionalBlock.html">IMyFunctionalBlock</a></div>
     <div><a class="xref" href="Sandbox.ModAPI.IMyTerminalBlock.html">IMyTerminalBlock</a></div>
@@ -136,6 +137,9 @@
     </div>
     <div>
       <a class="xref" href="Sandbox.Game.Entities.MyCubeBlock.html#Sandbox_Game_Entities_MyCubeBlock_HandleEmissiveStateChange">MyCubeBlock.HandleEmissiveStateChange</a>
+    </div>
+    <div>
+      <a class="xref" href="Sandbox.Game.Entities.MyCubeBlock.html#Sandbox_Game_Entities_MyCubeBlock_InitSkinUpdateHandled">MyCubeBlock.InitSkinUpdateHandled</a>
     </div>
     <div>
       <a class="xref" href="Sandbox.Game.Entities.MyCubeBlock.html#Sandbox_Game_Entities_MyCubeBlock_SubBlocks">MyCubeBlock.SubBlocks</a>
@@ -192,10 +196,10 @@
       <a class="xref" href="Sandbox.Game.Entities.MyCubeBlock.html#Sandbox_Game_Entities_MyCubeBlock_CalcLocalMatrix_VRageMath_Matrix__System_String__">MyCubeBlock.CalcLocalMatrix(Matrix, String)</a>
     </div>
     <div>
-      <a class="xref" href="Sandbox.Game.Entities.MyCubeBlock.html#Sandbox_Game_Entities_MyCubeBlock_Components_ComponentAdded_System_Type_VRage_Game_Components_MyEntityComponentBase_">MyCubeBlock.Components_ComponentAdded(Type, MyEntityComponentBase)</a>
+      <a class="xref" href="Sandbox.Game.Entities.MyCubeBlock.html#Sandbox_Game_Entities_MyCubeBlock_Components_ComponentAdded_System_Type_VRage_Game_Components_Interfaces_IMyEntityComponentBase_">MyCubeBlock.Components_ComponentAdded(Type, IMyEntityComponentBase)</a>
     </div>
     <div>
-      <a class="xref" href="Sandbox.Game.Entities.MyCubeBlock.html#Sandbox_Game_Entities_MyCubeBlock_Components_ComponentRemoved_System_Type_VRage_Game_Components_MyEntityComponentBase_">MyCubeBlock.Components_ComponentRemoved(Type, MyEntityComponentBase)</a>
+      <a class="xref" href="Sandbox.Game.Entities.MyCubeBlock.html#Sandbox_Game_Entities_MyCubeBlock_Components_ComponentRemoved_System_Type_VRage_Game_Components_Interfaces_IMyEntityComponentBase_">MyCubeBlock.Components_ComponentRemoved(Type, IMyEntityComponentBase)</a>
     </div>
     <div>
       <a class="xref" href="Sandbox.Game.Entities.MyCubeBlock.html#Sandbox_Game_Entities_MyCubeBlock_GetObjectBuilder_System_Boolean_">MyCubeBlock.GetObjectBuilder(Boolean)</a>
@@ -226,6 +230,9 @@
     </div>
     <div>
       <a class="xref" href="Sandbox.Game.Entities.MyCubeBlock.html#Sandbox_Game_Entities_MyCubeBlock_GetDefaultEmissiveParts_System_Byte_">MyCubeBlock.GetDefaultEmissiveParts(Byte)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sandbox.Game.Entities.MyCubeBlock.html#Sandbox_Game_Entities_MyCubeBlock_UpdateSkin_System_Boolean_">MyCubeBlock.UpdateSkin(Boolean)</a>
     </div>
     <div>
       <a class="xref" href="Sandbox.Game.Entities.MyCubeBlock.html#Sandbox_Game_Entities_MyCubeBlock_UpdateVisual">MyCubeBlock.UpdateVisual()</a>
@@ -660,6 +667,9 @@
       <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_ContainsDebugRenderComponent_System_Type_">MyEntity.ContainsDebugRenderComponent(Type)</a>
     </div>
     <div>
+      <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_TryGetDebugRenderComponent__1___0__">MyEntity.TryGetDebugRenderComponent&lt;T&gt;(T)</a>
+    </div>
+    <div>
       <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_RemoveDebugRenderComponent_System_Type_">MyEntity.RemoveDebugRenderComponent(Type)</a>
     </div>
     <div>
@@ -676,6 +686,9 @@
     </div>
     <div>
       <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_CanBeAddedToRender">MyEntity.CanBeAddedToRender()</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_InitComponentsForTesting">MyEntity.InitComponentsForTesting()</a>
     </div>
     <div>
       <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_OnCreateSync">MyEntity.OnCreateSync()</a>
@@ -772,6 +785,9 @@
     </div>
     <div>
       <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_Init_VRage_ObjectBuilders_MyObjectBuilder_EntityBase_">MyEntity.Init(MyObjectBuilder_EntityBase)</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_BeforeGameLogicInit">MyEntity.BeforeGameLogicInit()</a>
     </div>
     <div>
       <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_ClampToWorld">MyEntity.ClampToWorld()</a>
@@ -921,6 +937,9 @@
       <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_VRage_ModAPI_IMyEntity_SetTextureChangesForSubparts_System_Collections_Generic_Dictionary_System_String_VRageRender_Messages_MyTextureChange__">MyEntity.IMyEntity.SetTextureChangesForSubparts(Dictionary&lt;String, MyTextureChange&gt;)</a>
     </div>
     <div>
+      <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_VRage_ModAPI_IMyEntity_SetTextureChangesForSubparts_System_Collections_Generic_Dictionary_VRage_Utils_MyStringId_VRageRender_Messages_MyTextureChange__">MyEntity.IMyEntity.SetTextureChangesForSubparts(Dictionary&lt;MyStringId, MyTextureChange&gt;)</a>
+    </div>
+    <div>
       <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_VRage_ModAPI_IMyEntity_SetEmissiveParts_System_String_VRageMath_Color_System_Single_">MyEntity.IMyEntity.SetEmissiveParts(String, Color, Single)</a>
     </div>
     <div>
@@ -1036,6 +1055,9 @@
     </div>
     <div>
       <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_Pinned">MyEntity.Pinned</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_UpdateDuration">MyEntity.UpdateDuration</a>
     </div>
     <div>
       <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_IsReplicated">MyEntity.IsReplicated</a>
@@ -1213,6 +1235,9 @@
     </div>
     <div>
       <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_OnUpdateOnceBeforeNextFrame">MyEntity.OnUpdateOnceBeforeNextFrame</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_OnDebugDraw">MyEntity.OnDebugDraw</a>
     </div>
     <div>
       <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_OnPhysicsChanged">MyEntity.OnPhysicsChanged</a>
@@ -1800,7 +1825,7 @@ public class MyJumpDrive : MyFunctionalBlock, IMyComponentOwner&lt;MyIDModule&gt
     <pre><code class="lang-csharp hljs">public override void UpdateAfterSimulation()</code></pre>
   </div>
   <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_UpdateAfterSimulation">MyEntity.UpdateAfterSimulation()</a></div>
+  <div><span class="xref">Sandbox.Game.Entities.Cube.MyFunctionalBlock.UpdateAfterSimulation()</span></div>
   
   
   <a id="Sandbox_Game_Entities_MyJumpDrive_UpdateAfterSimulation100_" data-uid="Sandbox.Game.Entities.MyJumpDrive.UpdateAfterSimulation100*"></a>
@@ -2144,6 +2169,9 @@ public class MyJumpDrive : MyFunctionalBlock, IMyComponentOwner&lt;MyIDModule&gt
   </div>
   <div>
       <a class="xref" href="Sandbox.ModAPI.Ingame.IMyTextSurfaceProvider.html">IMyTextSurfaceProvider</a>
+  </div>
+  <div>
+      <a class="xref" href="Sandbox.Game.EntityComponents.IMyMultiTextPanelComponentOwner.html">IMyMultiTextPanelComponentOwner</a>
   </div>
   <div>
       <a class="xref" href="Sandbox.ModAPI.IMyJumpDrive.html">IMyJumpDrive</a>

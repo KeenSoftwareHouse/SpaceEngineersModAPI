@@ -99,10 +99,7 @@
       <a class="xref" href="VRage.Game.Components.MyEntityComponentBase.html#VRage_Game_Components_MyEntityComponentBase_BeforeRemovedFromContainer">MyEntityComponentBase.BeforeRemovedFromContainer</a>
     </div>
     <div>
-      <a class="xref" href="VRage.Game.Components.MyComponentBase.html#VRage_Game_Components_MyComponentBase_RemoveExistingComponentOnNewInsert">MyComponentBase.RemoveExistingComponentOnNewInsert</a>
-    </div>
-    <div>
-      <a class="xref" href="VRage.Game.Components.MyComponentBase.html#VRage_Game_Components_MyComponentBase_SetContainer_VRage_Game_Components_MyComponentContainer_">MyComponentBase.SetContainer(MyComponentContainer)</a>
+      <a class="xref" href="VRage.Game.Components.MyComponentBase.html#VRage_Game_Components_MyComponentBase_SetContainer_VRage_Game_Components_Interfaces_IMyComponentContainer_">MyComponentBase.SetContainer(IMyComponentContainer)</a>
     </div>
     <div>
       <a class="xref" href="VRage.Game.Components.MyComponentBase.html#VRage_Game_Components_MyComponentBase_GetAs__1">MyComponentBase.GetAs&lt;T&gt;()</a>
@@ -114,6 +111,9 @@
       <a class="xref" href="VRage.Game.Components.MyComponentBase.html#VRage_Game_Components_MyComponentBase_OnRemovedFromScene">MyComponentBase.OnRemovedFromScene()</a>
     </div>
     <div>
+      <a class="xref" href="VRage.Game.Components.MyComponentBase.html#VRage_Game_Components_MyComponentBase_RemoveExistingComponentOnNewInsert">MyComponentBase.RemoveExistingComponentOnNewInsert</a>
+    </div>
+    <div>
       <a class="xref" href="VRage.Game.Components.MyComponentBase.html#VRage_Game_Components_MyComponentBase_ContainerBase">MyComponentBase.ContainerBase</a>
     </div>
   </div>
@@ -123,7 +123,7 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[MyComponentType]
 [MyComponentBuilder]
-public class MyTimerComponent : MyEntityComponentBase</code></pre>
+public class MyTimerComponent : MyEntityComponentBase, IMyEntityComponentBase, IMyComponentBase</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
@@ -174,7 +174,7 @@ public class MyTimerComponent : MyEntityComponentBase</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Action&lt;MyEntityComponentContainer&gt; EventToTrigger { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public Action&lt;IMyEntityComponentContainer&gt; EventToTrigger { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -186,7 +186,7 @@ public class MyTimerComponent : MyEntityComponentBase</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="VRage.Game.Components.MyEntityComponentContainer.html">MyEntityComponentContainer</a>&gt;</td>
+        <td><span class="xref">System.Action</span>&lt;<span class="xref">VRage.Game.Components.Interfaces.IMyEntityComponentContainer</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -677,12 +677,12 @@ public class MyTimerComponent : MyEntityComponentBase</code></pre>
   
   
   <a id="Sandbox_Game_Components_MyTimerComponent_SetTimer_" data-uid="Sandbox.Game.Components.MyTimerComponent.SetTimer*"></a>
-  <h4 id="Sandbox_Game_Components_MyTimerComponent_SetTimer_System_Single_System_Action_VRage_Game_Components_MyEntityComponentContainer__System_Boolean_System_Boolean_" data-uid="Sandbox.Game.Components.MyTimerComponent.SetTimer(System.Single,System.Action{VRage.Game.Components.MyEntityComponentContainer},System.Boolean,System.Boolean)">SetTimer(Single, Action&lt;MyEntityComponentContainer&gt;, Boolean, Boolean)</h4>
+  <h4 id="Sandbox_Game_Components_MyTimerComponent_SetTimer_System_Single_System_Action_VRage_Game_Components_Interfaces_IMyEntityComponentContainer__System_Boolean_System_Boolean_" data-uid="Sandbox.Game.Components.MyTimerComponent.SetTimer(System.Single,System.Action{VRage.Game.Components.Interfaces.IMyEntityComponentContainer},System.Boolean,System.Boolean)">SetTimer(Single, Action&lt;IMyEntityComponentContainer&gt;, Boolean, Boolean)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SetTimer(float timeMin, Action&lt;MyEntityComponentContainer&gt; triggerEvent, bool start = true, bool repeat = false)</code></pre>
+    <pre><code class="lang-csharp hljs">public void SetTimer(float timeMin, Action&lt;IMyEntityComponentContainer&gt; triggerEvent, bool start = true, bool repeat = false)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -700,7 +700,7 @@ public class MyTimerComponent : MyEntityComponentBase</code></pre>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="VRage.Game.Components.MyEntityComponentContainer.html">MyEntityComponentContainer</a>&gt;</td>
+        <td><span class="xref">System.Action</span>&lt;<span class="xref">VRage.Game.Components.Interfaces.IMyEntityComponentContainer</span>&gt;</td>
         <td><span class="parametername">triggerEvent</span></td>
         <td></td>
       </tr>
@@ -719,12 +719,12 @@ public class MyTimerComponent : MyEntityComponentBase</code></pre>
   
   
   <a id="Sandbox_Game_Components_MyTimerComponent_SetTimer_" data-uid="Sandbox.Game.Components.MyTimerComponent.SetTimer*"></a>
-  <h4 id="Sandbox_Game_Components_MyTimerComponent_SetTimer_System_UInt32_System_Action_VRage_Game_Components_MyEntityComponentContainer__System_Boolean_System_Boolean_" data-uid="Sandbox.Game.Components.MyTimerComponent.SetTimer(System.UInt32,System.Action{VRage.Game.Components.MyEntityComponentContainer},System.Boolean,System.Boolean)">SetTimer(UInt32, Action&lt;MyEntityComponentContainer&gt;, Boolean, Boolean)</h4>
+  <h4 id="Sandbox_Game_Components_MyTimerComponent_SetTimer_System_UInt32_System_Action_VRage_Game_Components_Interfaces_IMyEntityComponentContainer__System_Boolean_System_Boolean_" data-uid="Sandbox.Game.Components.MyTimerComponent.SetTimer(System.UInt32,System.Action{VRage.Game.Components.Interfaces.IMyEntityComponentContainer},System.Boolean,System.Boolean)">SetTimer(UInt32, Action&lt;IMyEntityComponentContainer&gt;, Boolean, Boolean)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SetTimer(uint timeTickInFrames, Action&lt;MyEntityComponentContainer&gt; triggerEvent, bool start = true, bool repeat = false)</code></pre>
+    <pre><code class="lang-csharp hljs">public void SetTimer(uint timeTickInFrames, Action&lt;IMyEntityComponentContainer&gt; triggerEvent, bool start = true, bool repeat = false)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -742,7 +742,7 @@ public class MyTimerComponent : MyEntityComponentBase</code></pre>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="VRage.Game.Components.MyEntityComponentContainer.html">MyEntityComponentContainer</a>&gt;</td>
+        <td><span class="xref">System.Action</span>&lt;<span class="xref">VRage.Game.Components.Interfaces.IMyEntityComponentContainer</span>&gt;</td>
         <td><span class="parametername">triggerEvent</span></td>
         <td></td>
       </tr>

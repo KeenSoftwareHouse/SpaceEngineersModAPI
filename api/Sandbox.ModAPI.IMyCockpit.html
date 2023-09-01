@@ -264,6 +264,9 @@
       <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_SetColorMaskForSubparts_VRageMath_Vector3_">IMyEntity.SetColorMaskForSubparts(Vector3)</a>
     </div>
     <div>
+      <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_SetTextureChangesForSubparts_System_Collections_Generic_Dictionary_VRage_Utils_MyStringId_VRageRender_Messages_MyTextureChange__">IMyEntity.SetTextureChangesForSubparts(Dictionary&lt;MyStringId, MyTextureChange&gt;)</a>
+    </div>
+    <div>
       <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_SetTextureChangesForSubparts_System_Collections_Generic_Dictionary_System_String_VRageRender_Messages_MyTextureChange__">IMyEntity.SetTextureChangesForSubparts(Dictionary&lt;String, MyTextureChange&gt;)</a>
     </div>
     <div>
@@ -337,9 +340,6 @@
     </div>
     <div>
       <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_UpdateGamePruningStructure">IMyEntity.UpdateGamePruningStructure()</a>
-    </div>
-    <div>
-      <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_Components">IMyEntity.Components</a>
     </div>
     <div>
       <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_Physics">IMyEntity.Physics</a>
@@ -615,6 +615,9 @@
       <a class="xref" href="Sandbox.ModAPI.IMyTargetingCapableBlock.html#Sandbox_ModAPI_IMyTargetingCapableBlock_SetLockedTarget_VRage_Game_ModAPI_IMyCubeGrid_">IMyTargetingCapableBlock.SetLockedTarget(IMyCubeGrid)</a>
     </div>
     <div>
+      <a class="xref" href="Sandbox.ModAPI.IMyTargetingCapableBlock.html#Sandbox_ModAPI_IMyTargetingCapableBlock_SetLockedTarget_VRage_Game_ModAPI_IMyCharacter_">IMyTargetingCapableBlock.SetLockedTarget(IMyCharacter)</a>
+    </div>
+    <div>
       <a class="xref" href="Sandbox.ModAPI.IMyTargetingCapableBlock.html#Sandbox_ModAPI_IMyTargetingCapableBlock_GetWorldMatrix">IMyTargetingCapableBlock.GetWorldMatrix()</a>
     </div>
     <div>
@@ -810,6 +813,9 @@
       <a class="xref" href="VRage.Game.ModAPI.Ingame.IMyEntity.html#VRage_Game_ModAPI_Ingame_IMyEntity_GetPosition">IMyEntity.GetPosition()</a>
     </div>
     <div>
+      <a class="xref" href="VRage.Game.ModAPI.Ingame.IMyEntity.html#VRage_Game_ModAPI_Ingame_IMyEntity_Components">IMyEntity.Components</a>
+    </div>
+    <div>
       <a class="xref" href="VRage.Game.ModAPI.Ingame.IMyEntity.html#VRage_Game_ModAPI_Ingame_IMyEntity_HasInventory">IMyEntity.HasInventory</a>
     </div>
     <div>
@@ -960,6 +966,41 @@
         <td><a class="xref" href="VRage.Game.ModAPI.IMyCharacter.html">IMyCharacter</a></td>
         <td><span class="parametername">pilot</span></td>
         <td><p>Character to place in seat</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_ModAPI_IMyCockpit_AttachPilot_" data-uid="Sandbox.ModAPI.IMyCockpit.AttachPilot*"></a>
+  <h4 id="Sandbox_ModAPI_IMyCockpit_AttachPilot_VRage_Game_ModAPI_IMyCharacter_System_Int32_" data-uid="Sandbox.ModAPI.IMyCockpit.AttachPilot(VRage.Game.ModAPI.IMyCharacter,System.Int32)">AttachPilot(IMyCharacter, Int32)</h4>
+  <div class="markdown level1 summary"><p>Place a pilot in the cockpit seat.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void AttachPilot(IMyCharacter pilot, int animation)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRage.Game.ModAPI.IMyCharacter.html">IMyCharacter</a></td>
+        <td><span class="parametername">pilot</span></td>
+        <td><p>Character to place in seat</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">animation</span></td>
+        <td><p>Number of animation in CharacterAnimations</p>
 </td>
       </tr>
     </tbody>

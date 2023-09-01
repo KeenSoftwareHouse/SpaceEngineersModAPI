@@ -138,7 +138,7 @@
   
   
   <a id="Sandbox_Game_Entities_MyComponentContainerExtension_InitComponents_" data-uid="Sandbox.Game.Entities.MyComponentContainerExtension.InitComponents*"></a>
-  <h4 id="Sandbox_Game_Entities_MyComponentContainerExtension_InitComponents_VRage_Game_Components_MyComponentContainer_VRage_ObjectBuilders_MyObjectBuilderType_VRage_Utils_MyStringHash_VRage_Game_ObjectBuilders_ComponentSystem_MyObjectBuilder_ComponentContainer_" data-uid="Sandbox.Game.Entities.MyComponentContainerExtension.InitComponents(VRage.Game.Components.MyComponentContainer,VRage.ObjectBuilders.MyObjectBuilderType,VRage.Utils.MyStringHash,VRage.Game.ObjectBuilders.ComponentSystem.MyObjectBuilder_ComponentContainer)">InitComponents(MyComponentContainer, MyObjectBuilderType, MyStringHash, MyObjectBuilder_ComponentContainer)</h4>
+  <h4 id="Sandbox_Game_Entities_MyComponentContainerExtension_InitComponents_VRage_Game_Components_Interfaces_IMyComponentContainer_VRage_ObjectBuilders_MyObjectBuilderType_VRage_Utils_MyStringHash_VRage_Game_ObjectBuilders_ComponentSystem_MyObjectBuilder_ComponentContainer_" data-uid="Sandbox.Game.Entities.MyComponentContainerExtension.InitComponents(VRage.Game.Components.Interfaces.IMyComponentContainer,VRage.ObjectBuilders.MyObjectBuilderType,VRage.Utils.MyStringHash,VRage.Game.ObjectBuilders.ComponentSystem.MyObjectBuilder_ComponentContainer)">InitComponents(IMyComponentContainer, MyObjectBuilderType, MyStringHash, MyObjectBuilder_ComponentContainer)</h4>
   <div class="markdown level1 summary"><p>Tries to retrieve entity definition of the entity owning this container, check if the definition has some DefaultComponents,
 tries to retrieve these components definitions, create these components instances and add them</p>
 <p>TODO: This should be ideally a behavior of the MyEntityComponentContainer when it is initialized (deserialized).. or by the factory, for now, this is an extension method</p>
@@ -146,7 +146,7 @@ tries to retrieve these components definitions, create these components instance
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void InitComponents(this MyComponentContainer container, MyObjectBuilderType type, MyStringHash subtypeName, MyObjectBuilder_ComponentContainer builder)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void InitComponents(this IMyComponentContainer container, MyObjectBuilderType type, MyStringHash subtypeName, MyObjectBuilder_ComponentContainer builder)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -159,7 +159,7 @@ tries to retrieve these components definitions, create these components instance
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="VRage.Game.Components.MyComponentContainer.html">MyComponentContainer</a></td>
+        <td><span class="xref">VRage.Game.Components.Interfaces.IMyComponentContainer</span></td>
         <td><span class="parametername">container</span></td>
         <td></td>
       </tr>

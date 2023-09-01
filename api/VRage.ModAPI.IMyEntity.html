@@ -80,6 +80,9 @@
       <a class="xref" href="VRage.Game.ModAPI.Ingame.IMyEntity.html#VRage_Game_ModAPI_Ingame_IMyEntity_GetPosition">IMyEntity.GetPosition()</a>
     </div>
     <div>
+      <a class="xref" href="VRage.Game.ModAPI.Ingame.IMyEntity.html#VRage_Game_ModAPI_Ingame_IMyEntity_Components">IMyEntity.Components</a>
+    </div>
+    <div>
       <a class="xref" href="VRage.Game.ModAPI.Ingame.IMyEntity.html#VRage_Game_ModAPI_Ingame_IMyEntity_HasInventory">IMyEntity.HasInventory</a>
     </div>
     <div>
@@ -131,32 +134,6 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="VRage_ModAPI_IMyEntity_Components_" data-uid="VRage.ModAPI.IMyEntity.Components*"></a>
-  <h4 id="VRage_ModAPI_IMyEntity_Components" data-uid="VRage.ModAPI.IMyEntity.Components">Components</h4>
-  <div class="markdown level1 summary"><p>Gets class that coordinates other components like <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_Physics">Physics</a>, <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_Render">Render</a>, <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_Hierarchy">Hierarchy</a></p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">MyEntityComponentContainer Components { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="VRage.Game.Components.MyEntityComponentContainer.html">MyEntityComponentContainer</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -2318,7 +2295,7 @@ IMPORTANT: Sphere must be in model space, so don't transform it!</p>
   
   <a id="VRage_ModAPI_IMyEntity_SetColorMaskForSubparts_" data-uid="VRage.ModAPI.IMyEntity.SetColorMaskForSubparts*"></a>
   <h4 id="VRage_ModAPI_IMyEntity_SetColorMaskForSubparts_VRageMath_Vector3_" data-uid="VRage.ModAPI.IMyEntity.SetColorMaskForSubparts(VRageMath.Vector3)">SetColorMaskForSubparts(Vector3)</h4>
-  <div class="markdown level1 summary"><p>Sets subparts custom color</p>
+  <div class="markdown level1 summary"><p>Sets subparts custom col</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -2494,8 +2471,7 @@ When entity, has parent, it's world coordinates are calculated from localMatrix 
   
   <a id="VRage_ModAPI_IMyEntity_SetTextureChangesForSubparts_" data-uid="VRage.ModAPI.IMyEntity.SetTextureChangesForSubparts*"></a>
   <h4 id="VRage_ModAPI_IMyEntity_SetTextureChangesForSubparts_System_Collections_Generic_Dictionary_System_String_VRageRender_Messages_MyTextureChange__" data-uid="VRage.ModAPI.IMyEntity.SetTextureChangesForSubparts(System.Collections.Generic.Dictionary{System.String,VRageRender.Messages.MyTextureChange})">SetTextureChangesForSubparts(Dictionary&lt;String, MyTextureChange&gt;)</h4>
-  <div class="markdown level1 summary"><p>Sets subparts custom skinning. Copy values from <a class="xref" href="VRage.Game.Components.MyRenderComponentBase.html#VRage_Game_Components_MyRenderComponentBase_TextureChanges">TextureChanges</a>, then change needed keys.
-You can retrieve values for exact skin with following code: <pre><code>MyDefinitionManager.Static.GetAssetModifierDefinitionForRender(skinId);</code></pre></p>
+  <div class="markdown level1 summary"><p>This calling is obsolete, use another version.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -2514,6 +2490,35 @@ You can retrieve values for exact skin with following code: <pre><code>MyDefinit
     <tbody>
       <tr>
         <td><span class="xref">System.Collections.Generic.Dictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">VRageRender.Messages.MyTextureChange</span>&gt;</td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VRage_ModAPI_IMyEntity_SetTextureChangesForSubparts_" data-uid="VRage.ModAPI.IMyEntity.SetTextureChangesForSubparts*"></a>
+  <h4 id="VRage_ModAPI_IMyEntity_SetTextureChangesForSubparts_System_Collections_Generic_Dictionary_VRage_Utils_MyStringId_VRageRender_Messages_MyTextureChange__" data-uid="VRage.ModAPI.IMyEntity.SetTextureChangesForSubparts(System.Collections.Generic.Dictionary{VRage.Utils.MyStringId,VRageRender.Messages.MyTextureChange})">SetTextureChangesForSubparts(Dictionary&lt;MyStringId, MyTextureChange&gt;)</h4>
+  <div class="markdown level1 summary"><p>Sets subparts custom skinning. Copy values from <a class="xref" href="VRage.Game.Components.MyRenderComponentBase.html#VRage_Game_Components_MyRenderComponentBase_TextureChanges">TextureChanges</a>, then change needed keys.
+You can retrieve values for exact skin with following code: <pre><code>MyDefinitionManager.Static.GetAssetModifierDefinitionForRender(skinId);</code></pre></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SetTextureChangesForSubparts(Dictionary&lt;MyStringId, MyTextureChange&gt; value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.Dictionary</span>&lt;<a class="xref" href="VRage.Utils.MyStringId.html">MyStringId</a>, <span class="xref">VRageRender.Messages.MyTextureChange</span>&gt;</td>
         <td><span class="parametername">value</span></td>
         <td><p>Key - name of texture, value - path to texture files</p>
 </td>

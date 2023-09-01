@@ -80,10 +80,6 @@
     <div class="level1"><a class="xref" href="VRage.Game.Components.MyComponentContainer.html">MyComponentContainer</a></div>
     <div class="level2"><span class="xref">MyEntityComponentContainer</span></div>
   </div>
-  <div classs="implements">
-    <h5>Implements</h5>
-    <div><a class="xref" href="VRage.Game.Components.IMyComponentContainer.html">IMyComponentContainer</a></div>
-  </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
@@ -97,6 +93,9 @@
     </div>
     <div>
       <a class="xref" href="VRage.Game.Components.MyComponentContainer.html#VRage_Game_Components_MyComponentContainer_Remove_System_Type_">MyComponentContainer.Remove(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.Components.MyComponentContainer.html#VRage_Game_Components_MyComponentContainer_Remove__1___0_">MyComponentContainer.Remove&lt;T&gt;(T)</a>
     </div>
     <div>
       <a class="xref" href="VRage.Game.Components.MyComponentContainer.html#VRage_Game_Components_MyComponentContainer_Remove_System_Type_VRage_Game_Components_MyComponentBase_">MyComponentContainer.Remove(Type, MyComponentBase)</a>
@@ -148,7 +147,7 @@
   <h6><strong>Assembly</strong>: VRage.Game.dll</h6>
   <h5 id="VRage_Game_Components_MyEntityComponentContainer_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class MyEntityComponentContainer : MyComponentContainer, IMyComponentContainer</code></pre>
+    <pre><code class="lang-csharp hljs">public class MyEntityComponentContainer : MyComponentContainer, IMyEntityComponentContainer, IMyComponentContainer</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
@@ -314,7 +313,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public event Action&lt;Type, MyEntityComponentBase&gt; ComponentAdded</code></pre>
+    <pre><code class="lang-csharp hljs">public event Action&lt;Type, IMyEntityComponentBase&gt; ComponentAdded</code></pre>
   </div>
   <h5 class="eventType">Event Type</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -326,7 +325,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Action</span>&lt;<span class="xref">System.Type</span>, <a class="xref" href="VRage.Game.Components.MyEntityComponentBase.html">MyEntityComponentBase</a>&gt;</td>
+        <td><span class="xref">System.Action</span>&lt;<span class="xref">System.Type</span>, <span class="xref">VRage.Game.Components.Interfaces.IMyEntityComponentBase</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -338,7 +337,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public event Action&lt;Type, MyEntityComponentBase&gt; ComponentRemoved</code></pre>
+    <pre><code class="lang-csharp hljs">public event Action&lt;Type, IMyEntityComponentBase&gt; ComponentRemoved</code></pre>
   </div>
   <h5 class="eventType">Event Type</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -350,19 +349,11 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Action</span>&lt;<span class="xref">System.Type</span>, <a class="xref" href="VRage.Game.Components.MyEntityComponentBase.html">MyEntityComponentBase</a>&gt;</td>
+        <td><span class="xref">System.Action</span>&lt;<span class="xref">System.Type</span>, <span class="xref">VRage.Game.Components.Interfaces.IMyEntityComponentBase</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h3 id="implements">Implements</h3>
-  <div>
-      <a class="xref" href="VRage.Game.Components.IMyComponentContainer.html">IMyComponentContainer</a>
-  </div>
-  <h3 id="extensionmethods">Extension Methods</h3>
-  <div>
-      <a class="xref" href="Sandbox.Game.Entities.MyComponentContainerExtension.html#Sandbox_Game_Entities_MyComponentContainerExtension_InitComponents_VRage_Game_Components_MyComponentContainer_VRage_ObjectBuilders_MyObjectBuilderType_VRage_Utils_MyStringHash_VRage_Game_ObjectBuilders_ComponentSystem_MyObjectBuilder_ComponentContainer_">MyComponentContainerExtension.InitComponents(MyComponentContainer, MyObjectBuilderType, MyStringHash, MyObjectBuilder_ComponentContainer)</a>
-  </div>
 </article>
           </div>
           

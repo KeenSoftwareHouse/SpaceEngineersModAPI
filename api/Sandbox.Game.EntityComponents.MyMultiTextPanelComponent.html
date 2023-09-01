@@ -1,0 +1,1375 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class MyMultiTextPanelComponent
+   | Space Engineers ModAPI </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class MyMultiTextPanelComponent
+   | Space Engineers ModAPI ">
+    <meta name="generator" content="docfx 2.58.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Sandbox.Game.EntityComponents.MyMultiTextPanelComponent">
+  
+  
+  <h1 id="Sandbox_Game_EntityComponents_MyMultiTextPanelComponent" data-uid="Sandbox.Game.EntityComponents.MyMultiTextPanelComponent" class="text-break">Class MyMultiTextPanelComponent
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="VRage.Game.Components.MyComponentBase.html">MyComponentBase</a></div>
+    <div class="level2"><a class="xref" href="VRage.Game.Components.MyEntityComponentBase.html">MyEntityComponentBase</a></div>
+    <div class="level3"><a class="xref" href="Sandbox.Game.EntityComponents.MyEventProxyEntityComponent.html">MyEventProxyEntityComponent</a></div>
+    <div class="level4"><span class="xref">MyMultiTextPanelComponent</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="Sandbox.ModAPI.Ingame.IMyTextSurfaceProvider.html">IMyTextSurfaceProvider</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Sandbox.Game.EntityComponents.MyEventProxyEntityComponent.html#Sandbox_Game_EntityComponents_MyEventProxyEntityComponent_SyncType">MyEventProxyEntityComponent.SyncType</a>
+    </div>
+    <div>
+      <a class="xref" href="Sandbox.Game.EntityComponents.MyEventProxyEntityComponent.html#Sandbox_Game_EntityComponents_MyEventProxyEntityComponent_OnBeforeRemovedFromContainer">MyEventProxyEntityComponent.OnBeforeRemovedFromContainer()</a>
+    </div>
+    <div>
+      <a class="xref" href="Sandbox.Game.EntityComponents.MyEventProxyEntityComponent.html#Sandbox_Game_EntityComponents_MyEventProxyEntityComponent_AttachSyncToEntity">MyEventProxyEntityComponent.AttachSyncToEntity</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.Components.MyEntityComponentBase.html#VRage_Game_Components_MyEntityComponentBase_Container">MyEntityComponentBase.Container</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.Components.MyEntityComponentBase.html#VRage_Game_Components_MyEntityComponentBase_Entity">MyEntityComponentBase.Entity</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.Components.MyEntityComponentBase.html#VRage_Game_Components_MyEntityComponentBase_OnAfterAddedToContainer">MyEntityComponentBase.OnAfterAddedToContainer</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.Components.MyEntityComponentBase.html#VRage_Game_Components_MyEntityComponentBase_BeforeRemovedFromContainer">MyEntityComponentBase.BeforeRemovedFromContainer</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.Components.MyComponentBase.html#VRage_Game_Components_MyComponentBase_SetContainer_VRage_Game_Components_Interfaces_IMyComponentContainer_">MyComponentBase.SetContainer(IMyComponentContainer)</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.Components.MyComponentBase.html#VRage_Game_Components_MyComponentBase_GetAs__1">MyComponentBase.GetAs&lt;T&gt;()</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.Components.MyComponentBase.html#VRage_Game_Components_MyComponentBase_OnAddedToScene">MyComponentBase.OnAddedToScene()</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.Components.MyComponentBase.html#VRage_Game_Components_MyComponentBase_OnRemovedFromScene">MyComponentBase.OnRemovedFromScene()</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.Components.MyComponentBase.html#VRage_Game_Components_MyComponentBase_RemoveExistingComponentOnNewInsert">MyComponentBase.RemoveExistingComponentOnNewInsert</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.Components.MyComponentBase.html#VRage_Game_Components_MyComponentBase_ContainerBase">MyComponentBase.ContainerBase</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Sandbox.Game.EntityComponents.html">Sandbox.Game.EntityComponents</a></h6>
+  <h6><strong>Assembly</strong>: Sandbox.Game.dll</h6>
+  <h5 id="Sandbox_Game_EntityComponents_MyMultiTextPanelComponent_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[MyComponentType]
+[MyComponentBuilder]
+public class MyMultiTextPanelComponent : MyEventProxyEntityComponent, IMyEntityComponentBase, IMyComponentBase, IMyEventProxy, IMyEventOwner, IMyTextSurfaceProvider, IMyTextPanelProvider</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyMultiTextPanelComponent__ctor_" data-uid="Sandbox.Game.EntityComponents.MyMultiTextPanelComponent.#ctor*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyMultiTextPanelComponent__ctor" data-uid="Sandbox.Game.EntityComponents.MyMultiTextPanelComponent.#ctor">MyMultiTextPanelComponent()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MyMultiTextPanelComponent()</code></pre>
+  </div>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyMultiTextPanelComponent__ctor_" data-uid="Sandbox.Game.EntityComponents.MyMultiTextPanelComponent.#ctor*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyMultiTextPanelComponent__ctor_System_Collections_Generic_List_VRage_Game_ObjectBuilders_MySerializedTextPanelData__System_Single_" data-uid="Sandbox.Game.EntityComponents.MyMultiTextPanelComponent.#ctor(System.Collections.Generic.List{VRage.Game.ObjectBuilders.MySerializedTextPanelData},System.Single)">MyMultiTextPanelComponent(List&lt;MySerializedTextPanelData&gt;, Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MyMultiTextPanelComponent(List&lt;MySerializedTextPanelData&gt; panelsData, float maxRenderDistance)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="VRage.Game.ObjectBuilders.MySerializedTextPanelData.html">MySerializedTextPanelData</a>&gt;</td>
+        <td><span class="parametername">panelsData</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">maxRenderDistance</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyMultiTextPanelComponent_AnyPanelNeedsUpdateByOwner_" data-uid="Sandbox.Game.EntityComponents.MyMultiTextPanelComponent.AnyPanelNeedsUpdateByOwner*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyMultiTextPanelComponent_AnyPanelNeedsUpdateByOwner" data-uid="Sandbox.Game.EntityComponents.MyMultiTextPanelComponent.AnyPanelNeedsUpdateByOwner">AnyPanelNeedsUpdateByOwner</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool AnyPanelNeedsUpdateByOwner { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyMultiTextPanelComponent_ComponentTypeDebugString_" data-uid="Sandbox.Game.EntityComponents.MyMultiTextPanelComponent.ComponentTypeDebugString*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyMultiTextPanelComponent_ComponentTypeDebugString" data-uid="Sandbox.Game.EntityComponents.MyMultiTextPanelComponent.ComponentTypeDebugString">ComponentTypeDebugString</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ComponentTypeDebugString { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="VRage.Game.Components.MyEntityComponentBase.html#VRage_Game_Components_MyEntityComponentBase_ComponentTypeDebugString">MyEntityComponentBase.ComponentTypeDebugString</a></div>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyMultiTextPanelComponent_PanelComponent_" data-uid="Sandbox.Game.EntityComponents.MyMultiTextPanelComponent.PanelComponent*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyMultiTextPanelComponent_PanelComponent" data-uid="Sandbox.Game.EntityComponents.MyMultiTextPanelComponent.PanelComponent">PanelComponent</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MyTextPanelComponent PanelComponent { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Sandbox.Game.Entities.Blocks.MyTextPanelComponent</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyMultiTextPanelComponent_Panels_" data-uid="Sandbox.Game.EntityComponents.MyMultiTextPanelComponent.Panels*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyMultiTextPanelComponent_Panels" data-uid="Sandbox.Game.EntityComponents.MyMultiTextPanelComponent.Panels">Panels</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;MyTextPanelComponent&gt; Panels { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">Sandbox.Game.Entities.Blocks.MyTextPanelComponent</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyMultiTextPanelComponent_PanelTexturesByteCount_" data-uid="Sandbox.Game.EntityComponents.MyMultiTextPanelComponent.PanelTexturesByteCount*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyMultiTextPanelComponent_PanelTexturesByteCount" data-uid="Sandbox.Game.EntityComponents.MyMultiTextPanelComponent.PanelTexturesByteCount">PanelTexturesByteCount</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int PanelTexturesByteCount { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyMultiTextPanelComponent_RangeIndex_" data-uid="Sandbox.Game.EntityComponents.MyMultiTextPanelComponent.RangeIndex*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyMultiTextPanelComponent_RangeIndex" data-uid="Sandbox.Game.EntityComponents.MyMultiTextPanelComponent.RangeIndex">RangeIndex</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int RangeIndex { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyMultiTextPanelComponent_SelectedPanelIndex_" data-uid="Sandbox.Game.EntityComponents.MyMultiTextPanelComponent.SelectedPanelIndex*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyMultiTextPanelComponent_SelectedPanelIndex" data-uid="Sandbox.Game.EntityComponents.MyMultiTextPanelComponent.SelectedPanelIndex">SelectedPanelIndex</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int SelectedPanelIndex { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyMultiTextPanelComponent_SurfaceCount_" data-uid="Sandbox.Game.EntityComponents.MyMultiTextPanelComponent.SurfaceCount*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyMultiTextPanelComponent_SurfaceCount" data-uid="Sandbox.Game.EntityComponents.MyMultiTextPanelComponent.SurfaceCount">SurfaceCount</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int SurfaceCount { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyMultiTextPanelComponent_UseGenericLcd_" data-uid="Sandbox.Game.EntityComponents.MyMultiTextPanelComponent.UseGenericLcd*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyMultiTextPanelComponent_UseGenericLcd" data-uid="Sandbox.Game.EntityComponents.MyMultiTextPanelComponent.UseGenericLcd">UseGenericLcd</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool UseGenericLcd { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyMultiTextPanelComponent_WorldPosition_" data-uid="Sandbox.Game.EntityComponents.MyMultiTextPanelComponent.WorldPosition*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyMultiTextPanelComponent_WorldPosition" data-uid="Sandbox.Game.EntityComponents.MyMultiTextPanelComponent.WorldPosition">WorldPosition</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3D WorldPosition { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRageMath.Vector3D.html">Vector3D</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyMultiTextPanelComponent_AddToScene_" data-uid="Sandbox.Game.EntityComponents.MyMultiTextPanelComponent.AddToScene*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyMultiTextPanelComponent_AddToScene_System_Nullable_System_Int32__" data-uid="Sandbox.Game.EntityComponents.MyMultiTextPanelComponent.AddToScene(System.Nullable{System.Int32})">AddToScene(Nullable&lt;Int32&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddToScene(Nullable&lt;int&gt; renderObjectIndex = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="parametername">renderObjectIndex</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyMultiTextPanelComponent_ChangeText_" data-uid="Sandbox.Game.EntityComponents.MyMultiTextPanelComponent.ChangeText*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyMultiTextPanelComponent_ChangeText_System_Int32_System_String_" data-uid="Sandbox.Game.EntityComponents.MyMultiTextPanelComponent.ChangeText(System.Int32,System.String)">ChangeText(Int32, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ChangeText(int panelIndex, string text)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">panelIndex</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">text</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyMultiTextPanelComponent_CreateTerminalControls_" data-uid="Sandbox.Game.EntityComponents.MyMultiTextPanelComponent.CreateTerminalControls*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyMultiTextPanelComponent_CreateTerminalControls__1" data-uid="Sandbox.Game.EntityComponents.MyMultiTextPanelComponent.CreateTerminalControls``1">CreateTerminalControls&lt;T&gt;()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void CreateTerminalControls&lt;T&gt;()
+    where T : MyTerminalBlock, IMyTextSurfaceProvider, IMyMultiTextPanelComponentOwner</code></pre>
+  </div>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyMultiTextPanelComponent_Deserialize_" data-uid="Sandbox.Game.EntityComponents.MyMultiTextPanelComponent.Deserialize*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyMultiTextPanelComponent_Deserialize_VRage_Game_ObjectBuilders_ComponentSystem_MyObjectBuilder_ComponentBase_" data-uid="Sandbox.Game.EntityComponents.MyMultiTextPanelComponent.Deserialize(VRage.Game.ObjectBuilders.ComponentSystem.MyObjectBuilder_ComponentBase)">Deserialize(MyObjectBuilder_ComponentBase)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Deserialize(MyObjectBuilder_ComponentBase builder)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRage.Game.ObjectBuilders.ComponentSystem.MyObjectBuilder_ComponentBase.html">MyObjectBuilder_ComponentBase</a></td>
+        <td><span class="parametername">builder</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="VRage.Game.Components.MyComponentBase.html#VRage_Game_Components_MyComponentBase_Deserialize_VRage_Game_ObjectBuilders_ComponentSystem_MyObjectBuilder_ComponentBase_">MyComponentBase.Deserialize(MyObjectBuilder_ComponentBase)</a></div>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyMultiTextPanelComponent_GetPanelComponent_" data-uid="Sandbox.Game.EntityComponents.MyMultiTextPanelComponent.GetPanelComponent*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyMultiTextPanelComponent_GetPanelComponent_System_Int32_" data-uid="Sandbox.Game.EntityComponents.MyMultiTextPanelComponent.GetPanelComponent(System.Int32)">GetPanelComponent(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MyTextPanelComponent GetPanelComponent(int panelIndex)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">panelIndex</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Sandbox.Game.Entities.Blocks.MyTextPanelComponent</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyMultiTextPanelComponent_GetSurface_" data-uid="Sandbox.Game.EntityComponents.MyMultiTextPanelComponent.GetSurface*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyMultiTextPanelComponent_GetSurface_System_Int32_" data-uid="Sandbox.Game.EntityComponents.MyMultiTextPanelComponent.GetSurface(System.Int32)">GetSurface(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IMyTextSurface GetSurface(int index)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Sandbox.ModAPI.Ingame.IMyTextSurface.html">IMyTextSurface</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyMultiTextPanelComponent_Init_" data-uid="Sandbox.Game.EntityComponents.MyMultiTextPanelComponent.Init*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyMultiTextPanelComponent_Init_VRage_Game_MyComponentDefinitionBase_" data-uid="Sandbox.Game.EntityComponents.MyMultiTextPanelComponent.Init(VRage.Game.MyComponentDefinitionBase)">Init(MyComponentDefinitionBase)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Init(MyComponentDefinitionBase definition)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRage.Game.MyComponentDefinitionBase.html">MyComponentDefinitionBase</a></td>
+        <td><span class="parametername">definition</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="VRage.Game.Components.MyComponentBase.html#VRage_Game_Components_MyComponentBase_Init_VRage_Game_MyComponentDefinitionBase_">MyComponentBase.Init(MyComponentDefinitionBase)</a></div>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyMultiTextPanelComponent_IsSerialized_" data-uid="Sandbox.Game.EntityComponents.MyMultiTextPanelComponent.IsSerialized*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyMultiTextPanelComponent_IsSerialized" data-uid="Sandbox.Game.EntityComponents.MyMultiTextPanelComponent.IsSerialized">IsSerialized()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool IsSerialized()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="VRage.Game.Components.MyComponentBase.html#VRage_Game_Components_MyComponentBase_IsSerialized">MyComponentBase.IsSerialized()</a></div>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyMultiTextPanelComponent_OnAddedToContainer_" data-uid="Sandbox.Game.EntityComponents.MyMultiTextPanelComponent.OnAddedToContainer*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyMultiTextPanelComponent_OnAddedToContainer" data-uid="Sandbox.Game.EntityComponents.MyMultiTextPanelComponent.OnAddedToContainer">OnAddedToContainer()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void OnAddedToContainer()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="VRage.Game.Components.MyEntityComponentBase.html#VRage_Game_Components_MyEntityComponentBase_OnAddedToContainer">MyEntityComponentBase.OnAddedToContainer()</a></div>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyMultiTextPanelComponent_OnSelectImageSuccess_" data-uid="Sandbox.Game.EntityComponents.MyMultiTextPanelComponent.OnSelectImageSuccess*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyMultiTextPanelComponent_OnSelectImageSuccess_System_Int32_System_Int32___" data-uid="Sandbox.Game.EntityComponents.MyMultiTextPanelComponent.OnSelectImageSuccess(System.Int32,System.Int32[])">OnSelectImageSuccess(Int32, Int32[])</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Event(null, 799)]
+[Reliable]
+[Broadcast]
+public void OnSelectImageSuccess(int panelIndex, int[] selection)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">panelIndex</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span>[]</td>
+        <td><span class="parametername">selection</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyMultiTextPanelComponent_RemoveItems_" data-uid="Sandbox.Game.EntityComponents.MyMultiTextPanelComponent.RemoveItems*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyMultiTextPanelComponent_RemoveItems_System_Int32_System_Int32___" data-uid="Sandbox.Game.EntityComponents.MyMultiTextPanelComponent.RemoveItems(System.Int32,System.Int32[])">RemoveItems(Int32, Int32[])</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RemoveItems(int panelIndex, int[] selection)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">panelIndex</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span>[]</td>
+        <td><span class="parametername">selection</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyMultiTextPanelComponent_Reset_" data-uid="Sandbox.Game.EntityComponents.MyMultiTextPanelComponent.Reset*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyMultiTextPanelComponent_Reset" data-uid="Sandbox.Game.EntityComponents.MyMultiTextPanelComponent.Reset">Reset()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Reset()</code></pre>
+  </div>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyMultiTextPanelComponent_SelectItems_" data-uid="Sandbox.Game.EntityComponents.MyMultiTextPanelComponent.SelectItems*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyMultiTextPanelComponent_SelectItems_System_Int32_System_Int32___" data-uid="Sandbox.Game.EntityComponents.MyMultiTextPanelComponent.SelectItems(System.Int32,System.Int32[])">SelectItems(Int32, Int32[])</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SelectItems(int panelIndex, int[] selection)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">panelIndex</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span>[]</td>
+        <td><span class="parametername">selection</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyMultiTextPanelComponent_SelectPanel_" data-uid="Sandbox.Game.EntityComponents.MyMultiTextPanelComponent.SelectPanel*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyMultiTextPanelComponent_SelectPanel_System_Int32_" data-uid="Sandbox.Game.EntityComponents.MyMultiTextPanelComponent.SelectPanel(System.Int32)">SelectPanel(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SelectPanel(int index)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyMultiTextPanelComponent_SendAddImagesToSelectionRequest_" data-uid="Sandbox.Game.EntityComponents.MyMultiTextPanelComponent.SendAddImagesToSelectionRequest*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyMultiTextPanelComponent_SendAddImagesToSelectionRequest_System_Int32_System_Int32___" data-uid="Sandbox.Game.EntityComponents.MyMultiTextPanelComponent.SendAddImagesToSelectionRequest(System.Int32,System.Int32[])">SendAddImagesToSelectionRequest(Int32, Int32[])</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void SendAddImagesToSelectionRequest(int panelIndex, int[] selection)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">panelIndex</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span>[]</td>
+        <td><span class="parametername">selection</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyMultiTextPanelComponent_SendChangeTextRequest_" data-uid="Sandbox.Game.EntityComponents.MyMultiTextPanelComponent.SendChangeTextRequest*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyMultiTextPanelComponent_SendChangeTextRequest_System_Int32_System_String_" data-uid="Sandbox.Game.EntityComponents.MyMultiTextPanelComponent.SendChangeTextRequest(System.Int32,System.String)">SendChangeTextRequest(Int32, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void SendChangeTextRequest(int panelIndex, string text)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">panelIndex</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">text</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyMultiTextPanelComponent_SendRemoveSelectedImageRequest_" data-uid="Sandbox.Game.EntityComponents.MyMultiTextPanelComponent.SendRemoveSelectedImageRequest*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyMultiTextPanelComponent_SendRemoveSelectedImageRequest_System_Int32_System_Int32___" data-uid="Sandbox.Game.EntityComponents.MyMultiTextPanelComponent.SendRemoveSelectedImageRequest(System.Int32,System.Int32[])">SendRemoveSelectedImageRequest(Int32, Int32[])</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void SendRemoveSelectedImageRequest(int panelIndex, int[] selection)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">panelIndex</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span>[]</td>
+        <td><span class="parametername">selection</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyMultiTextPanelComponent_SendUpdateSpriteCollection_" data-uid="Sandbox.Game.EntityComponents.MyMultiTextPanelComponent.SendUpdateSpriteCollection*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyMultiTextPanelComponent_SendUpdateSpriteCollection_System_Int32_VRage_Game_GUI_TextPanel_MySerializableSpriteCollection_" data-uid="Sandbox.Game.EntityComponents.MyMultiTextPanelComponent.SendUpdateSpriteCollection(System.Int32,VRage.Game.GUI.TextPanel.MySerializableSpriteCollection)">SendUpdateSpriteCollection(Int32, MySerializableSpriteCollection)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void SendUpdateSpriteCollection(int panelIndex, MySerializableSpriteCollection sprites)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">panelIndex</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="VRage.Game.GUI.TextPanel.MySerializableSpriteCollection.html">MySerializableSpriteCollection</a></td>
+        <td><span class="parametername">sprites</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyMultiTextPanelComponent_Serialize_" data-uid="Sandbox.Game.EntityComponents.MyMultiTextPanelComponent.Serialize*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyMultiTextPanelComponent_Serialize" data-uid="Sandbox.Game.EntityComponents.MyMultiTextPanelComponent.Serialize">Serialize()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;MySerializedTextPanelData&gt; Serialize()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="VRage.Game.ObjectBuilders.MySerializedTextPanelData.html">MySerializedTextPanelData</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyMultiTextPanelComponent_Serialize_" data-uid="Sandbox.Game.EntityComponents.MyMultiTextPanelComponent.Serialize*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyMultiTextPanelComponent_Serialize_System_Boolean_" data-uid="Sandbox.Game.EntityComponents.MyMultiTextPanelComponent.Serialize(System.Boolean)">Serialize(Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override MyObjectBuilder_ComponentBase Serialize(bool copy = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">copy</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRage.Game.ObjectBuilders.ComponentSystem.MyObjectBuilder_ComponentBase.html">MyObjectBuilder_ComponentBase</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="VRage.Game.Components.MyComponentBase.html#VRage_Game_Components_MyComponentBase_Serialize_System_Boolean_">MyComponentBase.Serialize(Boolean)</a></div>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyMultiTextPanelComponent_SerializePanel_" data-uid="Sandbox.Game.EntityComponents.MyMultiTextPanelComponent.SerializePanel*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyMultiTextPanelComponent_SerializePanel_System_Int32_" data-uid="Sandbox.Game.EntityComponents.MyMultiTextPanelComponent.SerializePanel(System.Int32)">SerializePanel(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MySerializedTextPanelData SerializePanel(int panelIndex)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">panelIndex</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRage.Game.ObjectBuilders.MySerializedTextPanelData.html">MySerializedTextPanelData</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyMultiTextPanelComponent_SetPanelData_" data-uid="Sandbox.Game.EntityComponents.MyMultiTextPanelComponent.SetPanelData*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyMultiTextPanelComponent_SetPanelData_VRage_Game_ObjectBuilders_MySerializedTextPanelData_System_Int32_" data-uid="Sandbox.Game.EntityComponents.MyMultiTextPanelComponent.SetPanelData(VRage.Game.ObjectBuilders.MySerializedTextPanelData,System.Int32)">SetPanelData(MySerializedTextPanelData, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetPanelData(MySerializedTextPanelData serializedData, int panelIndex)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRage.Game.ObjectBuilders.MySerializedTextPanelData.html">MySerializedTextPanelData</a></td>
+        <td><span class="parametername">serializedData</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">panelIndex</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyMultiTextPanelComponent_SetRender_" data-uid="Sandbox.Game.EntityComponents.MyMultiTextPanelComponent.SetRender*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyMultiTextPanelComponent_SetRender_Sandbox_Game_Components_MyRenderComponentScreenAreas_" data-uid="Sandbox.Game.EntityComponents.MyMultiTextPanelComponent.SetRender(Sandbox.Game.Components.MyRenderComponentScreenAreas)">SetRender(MyRenderComponentScreenAreas)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetRender(MyRenderComponentScreenAreas render)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Sandbox.Game.Components.MyRenderComponentScreenAreas.html">MyRenderComponentScreenAreas</a></td>
+        <td><span class="parametername">render</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyMultiTextPanelComponent_UpdateAfterSimulation_" data-uid="Sandbox.Game.EntityComponents.MyMultiTextPanelComponent.UpdateAfterSimulation*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyMultiTextPanelComponent_UpdateAfterSimulation_System_Boolean_" data-uid="Sandbox.Game.EntityComponents.MyMultiTextPanelComponent.UpdateAfterSimulation(System.Boolean)">UpdateAfterSimulation(Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UpdateAfterSimulation(bool isWorking = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">isWorking</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyMultiTextPanelComponent_UpdateScreen_" data-uid="Sandbox.Game.EntityComponents.MyMultiTextPanelComponent.UpdateScreen*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyMultiTextPanelComponent_UpdateScreen_System_Boolean_" data-uid="Sandbox.Game.EntityComponents.MyMultiTextPanelComponent.UpdateScreen(System.Boolean)">UpdateScreen(Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UpdateScreen(bool isWorking)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">isWorking</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyMultiTextPanelComponent_UpdateSpriteCollection_" data-uid="Sandbox.Game.EntityComponents.MyMultiTextPanelComponent.UpdateSpriteCollection*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyMultiTextPanelComponent_UpdateSpriteCollection_System_Int32_VRage_Game_GUI_TextPanel_MySerializableSpriteCollection_" data-uid="Sandbox.Game.EntityComponents.MyMultiTextPanelComponent.UpdateSpriteCollection(System.Int32,VRage.Game.GUI.TextPanel.MySerializableSpriteCollection)">UpdateSpriteCollection(Int32, MySerializableSpriteCollection)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UpdateSpriteCollection(int panelIndex, MySerializableSpriteCollection sprites)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">panelIndex</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="VRage.Game.GUI.TextPanel.MySerializableSpriteCollection.html">MySerializableSpriteCollection</a></td>
+        <td><span class="parametername">sprites</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="eii">Explicit Interface Implementations
+  </h3>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyMultiTextPanelComponent_Sandbox_ModAPI_Ingame_IMyTextSurfaceProvider_GetSurface_" data-uid="Sandbox.Game.EntityComponents.MyMultiTextPanelComponent.Sandbox#ModAPI#Ingame#IMyTextSurfaceProvider#GetSurface*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyMultiTextPanelComponent_Sandbox_ModAPI_Ingame_IMyTextSurfaceProvider_GetSurface_System_Int32_" data-uid="Sandbox.Game.EntityComponents.MyMultiTextPanelComponent.Sandbox#ModAPI#Ingame#IMyTextSurfaceProvider#GetSurface(System.Int32)">IMyTextSurfaceProvider.GetSurface(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">IMyTextSurface IMyTextSurfaceProvider.GetSurface(int index)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Sandbox.ModAPI.Ingame.IMyTextSurface.html">IMyTextSurface</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyMultiTextPanelComponent_Sandbox_ModAPI_Ingame_IMyTextSurfaceProvider_SurfaceCount_" data-uid="Sandbox.Game.EntityComponents.MyMultiTextPanelComponent.Sandbox#ModAPI#Ingame#IMyTextSurfaceProvider#SurfaceCount*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyMultiTextPanelComponent_Sandbox_ModAPI_Ingame_IMyTextSurfaceProvider_SurfaceCount" data-uid="Sandbox.Game.EntityComponents.MyMultiTextPanelComponent.Sandbox#ModAPI#Ingame#IMyTextSurfaceProvider#SurfaceCount">IMyTextSurfaceProvider.SurfaceCount</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int IMyTextSurfaceProvider.SurfaceCount { get; }</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="Sandbox.ModAPI.Ingame.IMyTextSurfaceProvider.html">IMyTextSurfaceProvider</a>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="VRage.Game.Components.MyEntityContainerEventExtensions.html#VRage_Game_Components_MyEntityContainerEventExtensions_RegisterForEntityEvent_VRage_Game_Components_MyEntityComponentBase_VRage_Utils_MyStringHash_VRage_Game_Components_MyEntityContainerEventExtensions_EntityEventHandler_">MyEntityContainerEventExtensions.RegisterForEntityEvent(MyEntityComponentBase, MyStringHash, MyEntityContainerEventExtensions.EntityEventHandler)</a>
+  </div>
+  <div>
+      <a class="xref" href="VRage.Game.Components.MyEntityContainerEventExtensions.html#VRage_Game_Components_MyEntityContainerEventExtensions_RegisterForEntityEvent_VRage_Game_Components_MyEntityComponentBase_VRage_Game_Entity_MyEntity_VRage_Utils_MyStringHash_VRage_Game_Components_MyEntityContainerEventExtensions_EntityEventHandler_">MyEntityContainerEventExtensions.RegisterForEntityEvent(MyEntityComponentBase, MyEntity, MyStringHash, MyEntityContainerEventExtensions.EntityEventHandler)</a>
+  </div>
+  <div>
+      <a class="xref" href="VRage.Game.Components.MyEntityContainerEventExtensions.html#VRage_Game_Components_MyEntityContainerEventExtensions_UnregisterForEntityEvent_VRage_Game_Components_MyEntityComponentBase_VRage_Game_Entity_MyEntity_VRage_Utils_MyStringHash_">MyEntityContainerEventExtensions.UnregisterForEntityEvent(MyEntityComponentBase, MyEntity, MyStringHash)</a>
+  </div>
+  <div>
+      <a class="xref" href="VRage.Game.Components.MyEntityContainerEventExtensions.html#VRage_Game_Components_MyEntityContainerEventExtensions_RaiseEntityEvent_VRage_Game_Components_MyEntityComponentBase_VRage_Utils_MyStringHash_VRage_Game_Components_MyEntityContainerEventExtensions_EntityEventParams_">MyEntityContainerEventExtensions.RaiseEntityEvent(MyEntityComponentBase, MyStringHash, MyEntityContainerEventExtensions.EntityEventParams)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <div class="toggle-mode">
+                <div class="icon">
+                  <i aria-hidden="true">☀</i>
+                </div>
+                <label class="switch">
+                  <input type="checkbox" id="switch-style">
+                  <span class="slider round"></span>
+                </label>
+                <div class="icon">
+                  <i aria-hidden="true">☾</i>
+                </div>
+              </div>
+          
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <h5>In This Article</h5>
+              <div></div>
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            <div class="pull-left">
+              
+              <span>Generated by <strong>DocFX</strong></span>
+            </div>
+            <div class="toggle-mode pull-right visible-sm visible-xs">
+              <div class="icon">
+                <i aria-hidden="true">☀</i>
+              </div>
+              <label class="switch">
+                <input type="checkbox" id="switch-style-m">
+                <span class="slider round"></span>
+              </label>
+              <div class="icon">
+                <i aria-hidden="true">☾</i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <script type="text/javascript" src="../styles/toggle-theme.js"></script>
+      </footer>    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

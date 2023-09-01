@@ -264,6 +264,9 @@
       <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_SetColorMaskForSubparts_VRageMath_Vector3_">IMyEntity.SetColorMaskForSubparts(Vector3)</a>
     </div>
     <div>
+      <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_SetTextureChangesForSubparts_System_Collections_Generic_Dictionary_VRage_Utils_MyStringId_VRageRender_Messages_MyTextureChange__">IMyEntity.SetTextureChangesForSubparts(Dictionary&lt;MyStringId, MyTextureChange&gt;)</a>
+    </div>
+    <div>
       <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_SetTextureChangesForSubparts_System_Collections_Generic_Dictionary_System_String_VRageRender_Messages_MyTextureChange__">IMyEntity.SetTextureChangesForSubparts(Dictionary&lt;String, MyTextureChange&gt;)</a>
     </div>
     <div>
@@ -337,9 +340,6 @@
     </div>
     <div>
       <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_UpdateGamePruningStructure">IMyEntity.UpdateGamePruningStructure()</a>
-    </div>
-    <div>
-      <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_Components">IMyEntity.Components</a>
     </div>
     <div>
       <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_Physics">IMyEntity.Physics</a>
@@ -645,6 +645,9 @@
       <a class="xref" href="VRage.Game.ModAPI.Ingame.IMyEntity.html#VRage_Game_ModAPI_Ingame_IMyEntity_GetPosition">IMyEntity.GetPosition()</a>
     </div>
     <div>
+      <a class="xref" href="VRage.Game.ModAPI.Ingame.IMyEntity.html#VRage_Game_ModAPI_Ingame_IMyEntity_Components">IMyEntity.Components</a>
+    </div>
+    <div>
       <a class="xref" href="VRage.Game.ModAPI.Ingame.IMyEntity.html#VRage_Game_ModAPI_Ingame_IMyEntity_HasInventory">IMyEntity.HasInventory</a>
     </div>
     <div>
@@ -711,6 +714,31 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">event Action&lt;IMyShipConnector&gt; AttachFinished</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Sandbox.ModAPI.IMyShipConnector.html">IMyShipConnector</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Sandbox_ModAPI_IMyShipConnector_DetachFinished" data-uid="Sandbox.ModAPI.IMyShipConnector.DetachFinished">DetachFinished</h4>
+  <div class="markdown level1 summary"><p>Raised when ship connector finished detach operation</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event Action&lt;IMyShipConnector&gt; DetachFinished</code></pre>
   </div>
   <h5 class="eventType">Event Type</h5>
   <table class="table table-bordered table-striped table-condensed">

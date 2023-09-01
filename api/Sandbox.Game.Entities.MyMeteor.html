@@ -190,6 +190,9 @@
       <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_ContainsDebugRenderComponent_System_Type_">MyEntity.ContainsDebugRenderComponent(Type)</a>
     </div>
     <div>
+      <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_TryGetDebugRenderComponent__1___0__">MyEntity.TryGetDebugRenderComponent&lt;T&gt;(T)</a>
+    </div>
+    <div>
       <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_RemoveDebugRenderComponent_System_Type_">MyEntity.RemoveDebugRenderComponent(Type)</a>
     </div>
     <div>
@@ -211,10 +214,13 @@
       <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_InitComponents">MyEntity.InitComponents()</a>
     </div>
     <div>
-      <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_Components_ComponentAdded_System_Type_VRage_Game_Components_MyEntityComponentBase_">MyEntity.Components_ComponentAdded(Type, MyEntityComponentBase)</a>
+      <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_InitComponentsForTesting">MyEntity.InitComponentsForTesting()</a>
     </div>
     <div>
-      <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_Components_ComponentRemoved_System_Type_VRage_Game_Components_MyEntityComponentBase_">MyEntity.Components_ComponentRemoved(Type, MyEntityComponentBase)</a>
+      <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_Components_ComponentAdded_System_Type_VRage_Game_Components_Interfaces_IMyEntityComponentBase_">MyEntity.Components_ComponentAdded(Type, IMyEntityComponentBase)</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_Components_ComponentRemoved_System_Type_VRage_Game_Components_Interfaces_IMyEntityComponentBase_">MyEntity.Components_ComponentRemoved(Type, IMyEntityComponentBase)</a>
     </div>
     <div>
       <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_OnCreateSync">MyEntity.OnCreateSync()</a>
@@ -335,6 +341,9 @@
     </div>
     <div>
       <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_Init_VRage_ObjectBuilders_MyObjectBuilder_EntityBase_">MyEntity.Init(MyObjectBuilder_EntityBase)</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_BeforeGameLogicInit">MyEntity.BeforeGameLogicInit()</a>
     </div>
     <div>
       <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_ClampToWorld">MyEntity.ClampToWorld()</a>
@@ -496,6 +505,9 @@
       <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_VRage_ModAPI_IMyEntity_SetTextureChangesForSubparts_System_Collections_Generic_Dictionary_System_String_VRageRender_Messages_MyTextureChange__">MyEntity.IMyEntity.SetTextureChangesForSubparts(Dictionary&lt;String, MyTextureChange&gt;)</a>
     </div>
     <div>
+      <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_VRage_ModAPI_IMyEntity_SetTextureChangesForSubparts_System_Collections_Generic_Dictionary_VRage_Utils_MyStringId_VRageRender_Messages_MyTextureChange__">MyEntity.IMyEntity.SetTextureChangesForSubparts(Dictionary&lt;MyStringId, MyTextureChange&gt;)</a>
+    </div>
+    <div>
       <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_VRage_ModAPI_IMyEntity_SetEmissiveParts_System_String_VRageMath_Color_System_Single_">MyEntity.IMyEntity.SetEmissiveParts(String, Color, Single)</a>
     </div>
     <div>
@@ -521,6 +533,9 @@
     </div>
     <div>
       <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_Render">MyEntity.Render</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_GameLogic">MyEntity.GameLogic</a>
     </div>
     <div>
       <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_EntityId">MyEntity.EntityId</a>
@@ -608,6 +623,9 @@
     </div>
     <div>
       <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_Pinned">MyEntity.Pinned</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_UpdateDuration">MyEntity.UpdateDuration</a>
     </div>
     <div>
       <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_IsReplicated">MyEntity.IsReplicated</a>
@@ -787,6 +805,9 @@
       <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_OnUpdateOnceBeforeNextFrame">MyEntity.OnUpdateOnceBeforeNextFrame</a>
     </div>
     <div>
+      <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_OnDebugDraw">MyEntity.OnDebugDraw</a>
+    </div>
+    <div>
       <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_OnPhysicsChanged">MyEntity.OnPhysicsChanged</a>
     </div>
     <div>
@@ -835,31 +856,6 @@ public class MyMeteor : MyEntity, IMyMeteor, IMyDestroyableObject, IMyDecalProxy
   </div>
   <h3 id="properties">Properties
   </h3>
-  
-  
-  <a id="Sandbox_Game_Entities_MyMeteor_GameLogic_" data-uid="Sandbox.Game.Entities.MyMeteor.GameLogic*"></a>
-  <h4 id="Sandbox_Game_Entities_MyMeteor_GameLogic" data-uid="Sandbox.Game.Entities.MyMeteor.GameLogic">GameLogic</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public MyMeteor.MyMeteorGameLogic GameLogic { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Sandbox.Game.Entities.MyMeteor.MyMeteorGameLogic.html">MyMeteor.MyMeteorGameLogic</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   
   
   <a id="Sandbox_Game_Entities_MyMeteor_Integrity_" data-uid="Sandbox.Game.Entities.MyMeteor.Integrity*"></a>

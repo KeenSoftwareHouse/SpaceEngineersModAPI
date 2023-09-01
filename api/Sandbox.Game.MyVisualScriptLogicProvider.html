@@ -3337,6 +3337,40 @@ public static bool CancelStoreItem(string storeEntityName, long id)</code></pre>
   
   
   <a id="Sandbox_Game_MyVisualScriptLogicProvider_ChangeDoorState_" data-uid="Sandbox.Game.MyVisualScriptLogicProvider.ChangeDoorState*"></a>
+  <h4 id="Sandbox_Game_MyVisualScriptLogicProvider_ChangeDoorState_System_Int64_System_Boolean_" data-uid="Sandbox.Game.MyVisualScriptLogicProvider.ChangeDoorState(System.Int64,System.Boolean)">ChangeDoorState(Int64, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[VisualScriptingMiscData(&quot;Blocks Specific&quot;, &quot;Sets specific doors to open/close state. (Doors, SlidingDoors, AirtightDoors)&quot;, -10510688)]
+[VisualScriptingMember(true, false)]
+public static void ChangeDoorState(long doorId, bool open = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">doorId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">open</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_MyVisualScriptLogicProvider_ChangeDoorState_" data-uid="Sandbox.Game.MyVisualScriptLogicProvider.ChangeDoorState*"></a>
   <h4 id="Sandbox_Game_MyVisualScriptLogicProvider_ChangeDoorState_System_String_System_Boolean_" data-uid="Sandbox.Game.MyVisualScriptLogicProvider.ChangeDoorState(System.String,System.Boolean)">ChangeDoorState(String, Boolean)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
@@ -13026,7 +13060,7 @@ public static void OpenFactionVictoryScreenAll(string factionTag, float timeInSe
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Event(null, 6075)]
+    <pre><code class="lang-csharp hljs">[Event(null, 6094)]
 [Reliable]
 [ServerInvoked]
 [Broadcast]
@@ -13074,7 +13108,7 @@ public static void OpenPlayerScreenAll()</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Event(null, 6053)]
+    <pre><code class="lang-csharp hljs">[Event(null, 6072)]
 [Reliable]
 [ServerInvoked]
 [Broadcast]
@@ -18892,7 +18926,7 @@ public static void SetToolbarSlotToItem(int slot, MyDefinitionId itemId, long pl
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Event(null, 7843)]
+    <pre><code class="lang-csharp hljs">[Event(null, 7862)]
 [Reliable]
 [ServerInvoked]
 [Broadcast]
@@ -21054,7 +21088,7 @@ public static void ToggleAbilityToSprint(long playerId = 0L, bool canSprint = tr
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Event(null, 7107)]
+    <pre><code class="lang-csharp hljs">[Event(null, 7126)]
 [Reliable]
 [ServerInvoked]
 [Broadcast]

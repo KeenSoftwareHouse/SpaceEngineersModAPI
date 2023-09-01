@@ -84,7 +84,7 @@
   <h6><strong>Assembly</strong>: VRage.Game.dll</h6>
   <h5 id="VRage_Game_Components_MyComponentBase_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract class MyComponentBase : Object</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract class MyComponentBase : Object, IMyComponentBase</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
@@ -98,32 +98,6 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">protected MyComponentBase()</code></pre>
   </div>
-  <h3 id="fields">Fields
-  </h3>
-  
-  
-  <h4 id="VRage_Game_Components_MyComponentBase_RemoveExistingComponentOnNewInsert" data-uid="VRage.Game.Components.MyComponentBase.RemoveExistingComponentOnNewInsert">RemoveExistingComponentOnNewInsert</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool RemoveExistingComponentOnNewInsert</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="properties">Properties
   </h3>
   
@@ -135,7 +109,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public MyComponentContainer ContainerBase { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public IMyComponentContainer ContainerBase { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -147,7 +121,32 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="VRage.Game.Components.MyComponentContainer.html">MyComponentContainer</a></td>
+        <td><span class="xref">VRage.Game.Components.Interfaces.IMyComponentContainer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VRage_Game_Components_MyComponentBase_RemoveExistingComponentOnNewInsert_" data-uid="VRage.Game.Components.MyComponentBase.RemoveExistingComponentOnNewInsert*"></a>
+  <h4 id="VRage_Game_Components_MyComponentBase_RemoveExistingComponentOnNewInsert" data-uid="VRage.Game.Components.MyComponentBase.RemoveExistingComponentOnNewInsert">RemoveExistingComponentOnNewInsert</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool RemoveExistingComponentOnNewInsert { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -364,7 +363,7 @@
   
   
   <a id="VRage_Game_Components_MyComponentBase_SetContainer_" data-uid="VRage.Game.Components.MyComponentBase.SetContainer*"></a>
-  <h4 id="VRage_Game_Components_MyComponentBase_SetContainer_VRage_Game_Components_MyComponentContainer_" data-uid="VRage.Game.Components.MyComponentBase.SetContainer(VRage.Game.Components.MyComponentContainer)">SetContainer(MyComponentContainer)</h4>
+  <h4 id="VRage_Game_Components_MyComponentBase_SetContainer_VRage_Game_Components_Interfaces_IMyComponentContainer_" data-uid="VRage.Game.Components.MyComponentBase.SetContainer(VRage.Game.Components.Interfaces.IMyComponentContainer)">SetContainer(IMyComponentContainer)</h4>
   <div class="markdown level1 summary"><p>Sets the container of this component.
 Note that the component is not added to the container here! Therefore, use MyComponentContainer.Add(...) method and it
 will in turn call this method. Actually, you should seldom have the need to call this method yourself.</p>
@@ -372,7 +371,7 @@ will in turn call this method. Actually, you should seldom have the need to call
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual void SetContainer(MyComponentContainer container)</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual void SetContainer(IMyComponentContainer container)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -385,7 +384,7 @@ will in turn call this method. Actually, you should seldom have the need to call
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="VRage.Game.Components.MyComponentContainer.html">MyComponentContainer</a></td>
+        <td><span class="xref">VRage.Game.Components.Interfaces.IMyComponentContainer</span></td>
         <td><span class="parametername">container</span></td>
         <td><p>The new container of the component</p>
 </td>

@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Interface IMyComponentContainer
+    <title>Class MyObjectBuilder_ViewedContent
    | Space Engineers ModAPI </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Interface IMyComponentContainer
+    <meta name="title" content="Class MyObjectBuilder_ViewedContent
    | Space Engineers ModAPI ">
     <meta name="generator" content="docfx 2.58.2.0">
     
@@ -67,18 +67,112 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="VRage.Game.Components.IMyComponentContainer">
+            <article class="content wrap" id="_content" data-uid="VRage.Game.MyObjectBuilder_ViewedContent">
   
   
-  <h1 id="VRage_Game_Components_IMyComponentContainer" data-uid="VRage.Game.Components.IMyComponentContainer" class="text-break">Interface IMyComponentContainer
+  <h1 id="VRage_Game_MyObjectBuilder_ViewedContent" data-uid="VRage.Game.MyObjectBuilder_ViewedContent" class="text-break">Class MyObjectBuilder_ViewedContent
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="VRage.Game.Components.html">VRage.Game.Components</a></h6>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="VRage.ObjectBuilders.MyObjectBuilder_Base.html">MyObjectBuilder_Base</a></div>
+    <div class="level2"><span class="xref">MyObjectBuilder_ViewedContent</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="VRage.ObjectBuilders.MyObjectBuilder_Base.html#VRage_ObjectBuilders_MyObjectBuilder_Base_ShouldSerializeSubtypeId">MyObjectBuilder_Base.ShouldSerializeSubtypeId()</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.ObjectBuilders.MyObjectBuilder_Base.html#VRage_ObjectBuilders_MyObjectBuilder_Base_Clone">MyObjectBuilder_Base.Clone()</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.ObjectBuilders.MyObjectBuilder_Base.html#VRage_ObjectBuilders_MyObjectBuilder_Base_Equals_VRage_ObjectBuilders_MyObjectBuilder_Base_">MyObjectBuilder_Base.Equals(MyObjectBuilder_Base)</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.ObjectBuilders.MyObjectBuilder_Base.html#VRage_ObjectBuilders_MyObjectBuilder_Base_SubtypeId">MyObjectBuilder_Base.SubtypeId</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.ObjectBuilders.MyObjectBuilder_Base.html#VRage_ObjectBuilders_MyObjectBuilder_Base_SubtypeName">MyObjectBuilder_Base.SubtypeName</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.ObjectBuilders.MyObjectBuilder_Base.html#VRage_ObjectBuilders_MyObjectBuilder_Base_TypeId">MyObjectBuilder_Base.TypeId</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="VRage.Game.html">VRage.Game</a></h6>
   <h6><strong>Assembly</strong>: VRage.Game.dll</h6>
-  <h5 id="VRage_Game_Components_IMyComponentContainer_syntax">Syntax</h5>
+  <h5 id="VRage_Game_MyObjectBuilder_ViewedContent_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public interface IMyComponentContainer</code></pre>
+    <pre><code class="lang-csharp hljs">[MyObjectBuilderDefinition]
+public class MyObjectBuilder_ViewedContent : MyObjectBuilder_Base</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="VRage_Game_MyObjectBuilder_ViewedContent__ctor_" data-uid="VRage.Game.MyObjectBuilder_ViewedContent.#ctor*"></a>
+  <h4 id="VRage_Game_MyObjectBuilder_ViewedContent__ctor" data-uid="VRage.Game.MyObjectBuilder_ViewedContent.#ctor">MyObjectBuilder_ViewedContent()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MyObjectBuilder_ViewedContent()</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="VRage_Game_MyObjectBuilder_ViewedContent_IDs" data-uid="VRage.Game.MyObjectBuilder_ViewedContent.IDs">IDs</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MySerializableList&lt;SerializableDefinitionId&gt; IDs</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">VRage.ObjectBuilder.MySerializableList</span>&lt;<a class="xref" href="VRage.ObjectBuilders.SerializableDefinitionId.html">SerializableDefinitionId</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="VRage_Game_MyObjectBuilder_ViewedContent_OwnedDlcs" data-uid="VRage.Game.MyObjectBuilder_ViewedContent.OwnedDlcs">OwnedDlcs</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MySerializableList&lt;ulong&gt; OwnedDlcs</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">VRage.ObjectBuilder.MySerializableList</span>&lt;<span class="xref">System.UInt64</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="VRage.Game.MyObjectBuilderExtensions.html#VRage_Game_MyObjectBuilderExtensions_GetId_VRage_ObjectBuilders_MyObjectBuilder_Base_">MyObjectBuilderExtensions.GetId(MyObjectBuilder_Base)</a>
   </div>
 </article>
           </div>

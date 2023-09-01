@@ -185,7 +185,7 @@
       <a class="xref" href="VRage.Game.Components.MyRenderComponentBase.html#VRage_Game_Components_MyRenderComponentBase_UpdateRenderEntity_VRageMath_Vector3_">MyRenderComponentBase.UpdateRenderEntity(Vector3)</a>
     </div>
     <div>
-      <a class="xref" href="VRage.Game.Components.MyRenderComponentBase.html#VRage_Game_Components_MyRenderComponentBase_UpdateRenderTextureChanges_System_Collections_Generic_Dictionary_System_String_VRageRender_Messages_MyTextureChange__">MyRenderComponentBase.UpdateRenderTextureChanges(Dictionary&lt;String, MyTextureChange&gt;)</a>
+      <a class="xref" href="VRage.Game.Components.MyRenderComponentBase.html#VRage_Game_Components_MyRenderComponentBase_UpdateRenderTextureChanges_System_Collections_Generic_Dictionary_VRage_Utils_MyStringId_VRageRender_Messages_MyTextureChange__">MyRenderComponentBase.UpdateRenderTextureChanges(Dictionary&lt;MyStringId, MyTextureChange&gt;)</a>
     </div>
     <div>
       <a class="xref" href="VRage.Game.Components.MyRenderComponentBase.html#VRage_Game_Components_MyRenderComponentBase_CanBeAddedToRender">MyRenderComponentBase.CanBeAddedToRender()</a>
@@ -290,10 +290,7 @@
       <a class="xref" href="VRage.Game.Components.MyEntityComponentBase.html#VRage_Game_Components_MyEntityComponentBase_BeforeRemovedFromContainer">MyEntityComponentBase.BeforeRemovedFromContainer</a>
     </div>
     <div>
-      <a class="xref" href="VRage.Game.Components.MyComponentBase.html#VRage_Game_Components_MyComponentBase_RemoveExistingComponentOnNewInsert">MyComponentBase.RemoveExistingComponentOnNewInsert</a>
-    </div>
-    <div>
-      <a class="xref" href="VRage.Game.Components.MyComponentBase.html#VRage_Game_Components_MyComponentBase_SetContainer_VRage_Game_Components_MyComponentContainer_">MyComponentBase.SetContainer(MyComponentContainer)</a>
+      <a class="xref" href="VRage.Game.Components.MyComponentBase.html#VRage_Game_Components_MyComponentBase_SetContainer_VRage_Game_Components_Interfaces_IMyComponentContainer_">MyComponentBase.SetContainer(IMyComponentContainer)</a>
     </div>
     <div>
       <a class="xref" href="VRage.Game.Components.MyComponentBase.html#VRage_Game_Components_MyComponentBase_GetAs__1">MyComponentBase.GetAs&lt;T&gt;()</a>
@@ -317,6 +314,9 @@
       <a class="xref" href="VRage.Game.Components.MyComponentBase.html#VRage_Game_Components_MyComponentBase_IsSerialized">MyComponentBase.IsSerialized()</a>
     </div>
     <div>
+      <a class="xref" href="VRage.Game.Components.MyComponentBase.html#VRage_Game_Components_MyComponentBase_RemoveExistingComponentOnNewInsert">MyComponentBase.RemoveExistingComponentOnNewInsert</a>
+    </div>
+    <div>
       <a class="xref" href="VRage.Game.Components.MyComponentBase.html#VRage_Game_Components_MyComponentBase_ContainerBase">MyComponentBase.ContainerBase</a>
     </div>
   </div>
@@ -324,7 +324,7 @@
   <h6><strong>Assembly</strong>: Sandbox.Game.dll</h6>
   <h5 id="Sandbox_Game_Components_MyRenderComponentCubeGrid_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class MyRenderComponentCubeGrid : MyRenderComponent</code></pre>
+    <pre><code class="lang-csharp hljs">public class MyRenderComponentCubeGrid : MyRenderComponent, IMyEntityComponentBase, IMyComponentBase</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>

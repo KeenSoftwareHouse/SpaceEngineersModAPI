@@ -103,10 +103,7 @@
       <a class="xref" href="VRage.Game.Components.MyEntityComponentBase.html#VRage_Game_Components_MyEntityComponentBase_BeforeRemovedFromContainer">MyEntityComponentBase.BeforeRemovedFromContainer</a>
     </div>
     <div>
-      <a class="xref" href="VRage.Game.Components.MyComponentBase.html#VRage_Game_Components_MyComponentBase_RemoveExistingComponentOnNewInsert">MyComponentBase.RemoveExistingComponentOnNewInsert</a>
-    </div>
-    <div>
-      <a class="xref" href="VRage.Game.Components.MyComponentBase.html#VRage_Game_Components_MyComponentBase_SetContainer_VRage_Game_Components_MyComponentContainer_">MyComponentBase.SetContainer(MyComponentContainer)</a>
+      <a class="xref" href="VRage.Game.Components.MyComponentBase.html#VRage_Game_Components_MyComponentBase_SetContainer_VRage_Game_Components_Interfaces_IMyComponentContainer_">MyComponentBase.SetContainer(IMyComponentContainer)</a>
     </div>
     <div>
       <a class="xref" href="VRage.Game.Components.MyComponentBase.html#VRage_Game_Components_MyComponentBase_GetAs__1">MyComponentBase.GetAs&lt;T&gt;()</a>
@@ -121,6 +118,9 @@
       <a class="xref" href="VRage.Game.Components.MyComponentBase.html#VRage_Game_Components_MyComponentBase_Init_VRage_Game_MyComponentDefinitionBase_">MyComponentBase.Init(MyComponentDefinitionBase)</a>
     </div>
     <div>
+      <a class="xref" href="VRage.Game.Components.MyComponentBase.html#VRage_Game_Components_MyComponentBase_RemoveExistingComponentOnNewInsert">MyComponentBase.RemoveExistingComponentOnNewInsert</a>
+    </div>
+    <div>
       <a class="xref" href="VRage.Game.Components.MyComponentBase.html#VRage_Game_Components_MyComponentBase_ContainerBase">MyComponentBase.ContainerBase</a>
     </div>
   </div>
@@ -130,7 +130,7 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[MyComponentType]
 [StaticEventOwner]
-public abstract class MyInventoryBase : MyEntityComponentBase, IMyEventProxy, IMyEventOwner</code></pre>
+public abstract class MyInventoryBase : MyEntityComponentBase, IMyEntityComponentBase, IMyComponentBase, IMyEventProxy, IMyEventOwner</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
@@ -1513,7 +1513,7 @@ Simple inventory: Returns itself if currentIndex == searchIndex.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public event Action&lt;MyInventoryBase, MyComponentContainer&gt; OwnerChanged</code></pre>
+    <pre><code class="lang-csharp hljs">public event Action&lt;MyInventoryBase, IMyComponentContainer&gt; OwnerChanged</code></pre>
   </div>
   <h5 class="eventType">Event Type</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1525,7 +1525,7 @@ Simple inventory: Returns itself if currentIndex == searchIndex.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="VRage.Game.Entity.MyInventoryBase.html">MyInventoryBase</a>, <a class="xref" href="VRage.Game.Components.MyComponentContainer.html">MyComponentContainer</a>&gt;</td>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="VRage.Game.Entity.MyInventoryBase.html">MyInventoryBase</a>, <span class="xref">VRage.Game.Components.Interfaces.IMyComponentContainer</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>

@@ -194,6 +194,9 @@ Blocks (turret, thrusts...) are rendered as child entities</p>
       <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_ContainsDebugRenderComponent_System_Type_">MyEntity.ContainsDebugRenderComponent(Type)</a>
     </div>
     <div>
+      <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_TryGetDebugRenderComponent__1___0__">MyEntity.TryGetDebugRenderComponent&lt;T&gt;(T)</a>
+    </div>
+    <div>
       <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_RemoveDebugRenderComponent_System_Type_">MyEntity.RemoveDebugRenderComponent(Type)</a>
     </div>
     <div>
@@ -215,6 +218,9 @@ Blocks (turret, thrusts...) are rendered as child entities</p>
       <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_InitComponents">MyEntity.InitComponents()</a>
     </div>
     <div>
+      <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_InitComponentsForTesting">MyEntity.InitComponentsForTesting()</a>
+    </div>
+    <div>
       <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_OnCreateSync">MyEntity.OnCreateSync()</a>
     </div>
     <div>
@@ -231,9 +237,6 @@ Blocks (turret, thrusts...) are rendered as child entities</p>
     </div>
     <div>
       <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_UpdatingStopped">MyEntity.UpdatingStopped()</a>
-    </div>
-    <div>
-      <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_UpdateAfterSimulation10">MyEntity.UpdateAfterSimulation10()</a>
     </div>
     <div>
       <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_GetFriendlyName">MyEntity.GetFriendlyName()</a>
@@ -288,6 +291,9 @@ Blocks (turret, thrusts...) are rendered as child entities</p>
     </div>
     <div>
       <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_UpdateGamePruningStructure">MyEntity.UpdateGamePruningStructure()</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_BeforeGameLogicInit">MyEntity.BeforeGameLogicInit()</a>
     </div>
     <div>
       <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_ClampToWorld">MyEntity.ClampToWorld()</a>
@@ -428,6 +434,9 @@ Blocks (turret, thrusts...) are rendered as child entities</p>
       <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_VRage_ModAPI_IMyEntity_SetTextureChangesForSubparts_System_Collections_Generic_Dictionary_System_String_VRageRender_Messages_MyTextureChange__">MyEntity.IMyEntity.SetTextureChangesForSubparts(Dictionary&lt;String, MyTextureChange&gt;)</a>
     </div>
     <div>
+      <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_VRage_ModAPI_IMyEntity_SetTextureChangesForSubparts_System_Collections_Generic_Dictionary_VRage_Utils_MyStringId_VRageRender_Messages_MyTextureChange__">MyEntity.IMyEntity.SetTextureChangesForSubparts(Dictionary&lt;MyStringId, MyTextureChange&gt;)</a>
+    </div>
+    <div>
       <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_VRage_ModAPI_IMyEntity_SetEmissiveParts_System_String_VRageMath_Color_System_Single_">MyEntity.IMyEntity.SetEmissiveParts(String, Color, Single)</a>
     </div>
     <div>
@@ -540,6 +549,9 @@ Blocks (turret, thrusts...) are rendered as child entities</p>
     </div>
     <div>
       <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_Pinned">MyEntity.Pinned</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_UpdateDuration">MyEntity.UpdateDuration</a>
     </div>
     <div>
       <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_IsReplicated">MyEntity.IsReplicated</a>
@@ -717,6 +729,9 @@ Blocks (turret, thrusts...) are rendered as child entities</p>
     </div>
     <div>
       <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_OnUpdateOnceBeforeNextFrame">MyEntity.OnUpdateOnceBeforeNextFrame</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_OnDebugDraw">MyEntity.OnDebugDraw</a>
     </div>
     <div>
       <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_OnPhysicsChanged">MyEntity.OnPhysicsChanged</a>
@@ -1156,6 +1171,31 @@ public class MyCubeGrid : MyEntity, IMyGridConnectivityTest, IMyEventProxy, IMyE
   </table>
   
   
+  <h4 id="Sandbox_Game_Entities_MyCubeGrid_MassSyncProperty" data-uid="Sandbox.Game.Entities.MyCubeGrid.MassSyncProperty">MassSyncProperty</h4>
+  <div class="markdown level1 summary"><p>This is updated only when a player is sitting in the cockpit and autopilot is enabled.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly Sync&lt;float, SyncDirection.FromServer&gt; MassSyncProperty</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">VRage.Sync.Sync</span>&lt;<span class="xref">System.Single</span>, <span class="xref">VRage.Sync.SyncDirection.FromServer</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <h4 id="Sandbox_Game_Entities_MyCubeGrid_NumberOfReactors" data-uid="Sandbox.Game.Entities.MyCubeGrid.NumberOfReactors">NumberOfReactors</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
@@ -1246,6 +1286,30 @@ public class MyCubeGrid : MyEntity, IMyGridConnectivityTest, IMyEventProxy, IMyE
     <tbody>
       <tr>
         <td><span class="xref">Sandbox.Game.Entities.Blocks.MyProjectorBase</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Sandbox_Game_Entities_MyCubeGrid_WorkPriority" data-uid="Sandbox.Game.Entities.MyCubeGrid.WorkPriority">WorkPriority</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static WorkPriority WorkPriority</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ParallelTasks.WorkPriority</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -3705,7 +3769,7 @@ public class MyCubeGrid : MyEntity, IMyGridConnectivityTest, IMyEventProxy, IMyE
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Event(null, 3993)]
+    <pre><code class="lang-csharp hljs">[Event(null, 3984)]
 [Reliable]
 [Broadcast]
 public void BuildBlocksClient(MyCubeGrid.MyBlockVisuals visuals, HashSet&lt;MyCubeGrid.MyBlockLocation&gt; locations, long builderEntityId, bool instantBuild, long ownerId)</code></pre>
@@ -3755,7 +3819,7 @@ public void BuildBlocksClient(MyCubeGrid.MyBlockVisuals visuals, HashSet&lt;MyCu
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Event(null, 3986)]
+    <pre><code class="lang-csharp hljs">[Event(null, 3977)]
 [Reliable]
 [Client]
 public void BuildBlocksFailedNotify()</code></pre>
@@ -3768,7 +3832,7 @@ public void BuildBlocksFailedNotify()</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Event(null, 3871)]
+    <pre><code class="lang-csharp hljs">[Event(null, 3862)]
 [Reliable]
 [Broadcast]
 public void BuildBlockSucess(MyCubeGrid.MyBlockVisuals visuals, MyCubeGrid.MyBlockLocation location, [DynamicObjectBuilder(false)] MyObjectBuilder_CubeBlock blockObjectBuilder, long builderEntityId, bool instantBuild, long ownerId)</code></pre>
@@ -5527,7 +5591,7 @@ wall which is used for checking.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Event(null, 12021)]
+    <pre><code class="lang-csharp hljs">[Event(null, 12013)]
 [Reliable]
 [Server]
 public void CompetetiveContainerOpened(long entityId, int time, Color color)</code></pre>
@@ -5562,12 +5626,12 @@ public void CompetetiveContainerOpened(long entityId, int time, Color color)</co
   
   
   <a id="Sandbox_Game_Entities_MyCubeGrid_Components_ComponentAdded_" data-uid="Sandbox.Game.Entities.MyCubeGrid.Components_ComponentAdded*"></a>
-  <h4 id="Sandbox_Game_Entities_MyCubeGrid_Components_ComponentAdded_System_Type_VRage_Game_Components_MyEntityComponentBase_" data-uid="Sandbox.Game.Entities.MyCubeGrid.Components_ComponentAdded(System.Type,VRage.Game.Components.MyEntityComponentBase)">Components_ComponentAdded(Type, MyEntityComponentBase)</h4>
+  <h4 id="Sandbox_Game_Entities_MyCubeGrid_Components_ComponentAdded_System_Type_VRage_Game_Components_Interfaces_IMyEntityComponentBase_" data-uid="Sandbox.Game.Entities.MyCubeGrid.Components_ComponentAdded(System.Type,VRage.Game.Components.Interfaces.IMyEntityComponentBase)">Components_ComponentAdded(Type, IMyEntityComponentBase)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void Components_ComponentAdded(Type t, MyEntityComponentBase c)</code></pre>
+    <pre><code class="lang-csharp hljs">protected override void Components_ComponentAdded(Type t, IMyEntityComponentBase c)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -5585,23 +5649,23 @@ public void CompetetiveContainerOpened(long entityId, int time, Color color)</co
         <td></td>
       </tr>
       <tr>
-        <td><a class="xref" href="VRage.Game.Components.MyEntityComponentBase.html">MyEntityComponentBase</a></td>
+        <td><span class="xref">VRage.Game.Components.Interfaces.IMyEntityComponentBase</span></td>
         <td><span class="parametername">c</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_Components_ComponentAdded_System_Type_VRage_Game_Components_MyEntityComponentBase_">MyEntity.Components_ComponentAdded(Type, MyEntityComponentBase)</a></div>
+  <div><a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_Components_ComponentAdded_System_Type_VRage_Game_Components_Interfaces_IMyEntityComponentBase_">MyEntity.Components_ComponentAdded(Type, IMyEntityComponentBase)</a></div>
   
   
   <a id="Sandbox_Game_Entities_MyCubeGrid_Components_ComponentRemoved_" data-uid="Sandbox.Game.Entities.MyCubeGrid.Components_ComponentRemoved*"></a>
-  <h4 id="Sandbox_Game_Entities_MyCubeGrid_Components_ComponentRemoved_System_Type_VRage_Game_Components_MyEntityComponentBase_" data-uid="Sandbox.Game.Entities.MyCubeGrid.Components_ComponentRemoved(System.Type,VRage.Game.Components.MyEntityComponentBase)">Components_ComponentRemoved(Type, MyEntityComponentBase)</h4>
+  <h4 id="Sandbox_Game_Entities_MyCubeGrid_Components_ComponentRemoved_System_Type_VRage_Game_Components_Interfaces_IMyEntityComponentBase_" data-uid="Sandbox.Game.Entities.MyCubeGrid.Components_ComponentRemoved(System.Type,VRage.Game.Components.Interfaces.IMyEntityComponentBase)">Components_ComponentRemoved(Type, IMyEntityComponentBase)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void Components_ComponentRemoved(Type t, MyEntityComponentBase c)</code></pre>
+    <pre><code class="lang-csharp hljs">protected override void Components_ComponentRemoved(Type t, IMyEntityComponentBase c)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -5619,14 +5683,14 @@ public void CompetetiveContainerOpened(long entityId, int time, Color color)</co
         <td></td>
       </tr>
       <tr>
-        <td><a class="xref" href="VRage.Game.Components.MyEntityComponentBase.html">MyEntityComponentBase</a></td>
+        <td><span class="xref">VRage.Game.Components.Interfaces.IMyEntityComponentBase</span></td>
         <td><span class="parametername">c</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_Components_ComponentRemoved_System_Type_VRage_Game_Components_MyEntityComponentBase_">MyEntity.Components_ComponentRemoved(Type, MyEntityComponentBase)</a></div>
+  <div><a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_Components_ComponentRemoved_System_Type_VRage_Game_Components_Interfaces_IMyEntityComponentBase_">MyEntity.Components_ComponentRemoved(Type, IMyEntityComponentBase)</a></div>
   
   
   <a id="Sandbox_Game_Entities_MyCubeGrid_ContainerOpened_" data-uid="Sandbox.Game.Entities.MyCubeGrid.ContainerOpened*"></a>
@@ -5635,7 +5699,7 @@ public void CompetetiveContainerOpened(long entityId, int time, Color color)</co
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Event(null, 12013)]
+    <pre><code class="lang-csharp hljs">[Event(null, 12005)]
 [Reliable]
 [Server]
 public void ContainerOpened(long entityId)</code></pre>
@@ -5688,7 +5752,7 @@ Sets up the Unsupported station state.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Event(null, 5778)]
+    <pre><code class="lang-csharp hljs">[Event(null, 5770)]
 [Reliable]
 [ServerInvoked]
 [Broadcast]
@@ -5848,7 +5912,7 @@ public void ConvertToStatic()</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Event(null, 1505)]
+    <pre><code class="lang-csharp hljs">[Event(null, 1517)]
 [Reliable]
 [Broadcast]
 public void CreateSplit_Implementation(List&lt;Vector3I&gt; blocks, long newEntityId)</code></pre>
@@ -5931,7 +5995,7 @@ public void CreateSplit_Implementation(List&lt;Vector3I&gt; blocks, long newEnti
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Event(null, 1647)]
+    <pre><code class="lang-csharp hljs">[Event(null, 1659)]
 [Reliable]
 [Broadcast]
 public void CreateSplits_Implementation(List&lt;Vector3I&gt; blocks, List&lt;MyDisconnectHelper.Group&gt; groups)</code></pre>
@@ -6002,65 +6066,6 @@ public void CreateSplits_Implementation(List&lt;Vector3I&gt; blocks, List&lt;MyD
   </table>
   
   
-  <a id="Sandbox_Game_Entities_MyCubeGrid_DebugDrawPositions_" data-uid="Sandbox.Game.Entities.MyCubeGrid.DebugDrawPositions*"></a>
-  <h4 id="Sandbox_Game_Entities_MyCubeGrid_DebugDrawPositions_System_Collections_Generic_List_VRageMath_Vector3I__" data-uid="Sandbox.Game.Entities.MyCubeGrid.DebugDrawPositions(System.Collections.Generic.List{VRageMath.Vector3I})">DebugDrawPositions(List&lt;Vector3I&gt;)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void DebugDrawPositions(List&lt;Vector3I&gt; positions)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="VRageMath.Vector3I.html">Vector3I</a>&gt;</td>
-        <td><span class="parametername">positions</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Sandbox_Game_Entities_MyCubeGrid_DebugDrawRange_" data-uid="Sandbox.Game.Entities.MyCubeGrid.DebugDrawRange*"></a>
-  <h4 id="Sandbox_Game_Entities_MyCubeGrid_DebugDrawRange_VRageMath_Vector3I_VRageMath_Vector3I_" data-uid="Sandbox.Game.Entities.MyCubeGrid.DebugDrawRange(VRageMath.Vector3I,VRageMath.Vector3I)">DebugDrawRange(Vector3I, Vector3I)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void DebugDrawRange(Vector3I min, Vector3I max)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="VRageMath.Vector3I.html">Vector3I</a></td>
-        <td><span class="parametername">min</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="VRageMath.Vector3I.html">Vector3I</a></td>
-        <td><span class="parametername">max</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
   <a id="Sandbox_Game_Entities_MyCubeGrid_DebugFormatMethodName_" data-uid="Sandbox.Game.Entities.MyCubeGrid.DebugFormatMethodName*"></a>
   <h4 id="Sandbox_Game_Entities_MyCubeGrid_DebugFormatMethodName_System_Reflection_MethodInfo_" data-uid="Sandbox.Game.Entities.MyCubeGrid.DebugFormatMethodName(System.Reflection.MethodInfo)">DebugFormatMethodName(MethodInfo)</h4>
   <div class="markdown level1 summary"></div>
@@ -6109,7 +6114,7 @@ public void CreateSplits_Implementation(List&lt;Vector3I&gt; blocks, List&lt;MyD
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Event(null, 11787)]
+    <pre><code class="lang-csharp hljs">[Event(null, 11781)]
 [Reliable]
 [ServerInvoked]
 [Broadcast]
@@ -6823,6 +6828,38 @@ Returns the merged grid (which does not necessarily have to be this grid)</p>
   </table>
   
   
+  <a id="Sandbox_Game_Entities_MyCubeGrid_GetBlocksForTool_" data-uid="Sandbox.Game.Entities.MyCubeGrid.GetBlocksForTool*"></a>
+  <h4 id="Sandbox_Game_Entities_MyCubeGrid_GetBlocksForTool_VRageMath_BoundingSphereD__System_Collections_Generic_HashSet_Sandbox_Game_Entities_Cube_MySlimBlock__" data-uid="Sandbox.Game.Entities.MyCubeGrid.GetBlocksForTool(VRageMath.BoundingSphereD@,System.Collections.Generic.HashSet{Sandbox.Game.Entities.Cube.MySlimBlock})">GetBlocksForTool(ref BoundingSphereD, HashSet&lt;MySlimBlock&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GetBlocksForTool(ref BoundingSphereD sphere, HashSet&lt;MySlimBlock&gt; blocks)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRageMath.BoundingSphereD.html">BoundingSphereD</a></td>
+        <td><span class="parametername">sphere</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.HashSet</span>&lt;<span class="xref">Sandbox.Game.Entities.Cube.MySlimBlock</span>&gt;</td>
+        <td><span class="parametername">blocks</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="Sandbox_Game_Entities_MyCubeGrid_GetBlocksInMultiBlock_" data-uid="Sandbox.Game.Entities.MyCubeGrid.GetBlocksInMultiBlock*"></a>
   <h4 id="Sandbox_Game_Entities_MyCubeGrid_GetBlocksInMultiBlock_System_Int32_System_Collections_Generic_HashSet_System_Tuple_Sandbox_Game_Entities_Cube_MySlimBlock_System_Nullable_System_UInt16____" data-uid="Sandbox.Game.Entities.MyCubeGrid.GetBlocksInMultiBlock(System.Int32,System.Collections.Generic.HashSet{System.Tuple{Sandbox.Game.Entities.Cube.MySlimBlock,System.Nullable{System.UInt16}}})">GetBlocksInMultiBlock(Int32, HashSet&lt;Tuple&lt;MySlimBlock, Nullable&lt;UInt16&gt;&gt;&gt;)</h4>
   <div class="markdown level1 summary"><p>Writes multiblocks (compound block and block ID) to outMultiBlocks collection with the same multiblockId.</p>
@@ -6894,12 +6931,12 @@ Returns the merged grid (which does not necessarily have to be this grid)</p>
   
   
   <a id="Sandbox_Game_Entities_MyCubeGrid_GetBlocksInsideSphereInternal_" data-uid="Sandbox.Game.Entities.MyCubeGrid.GetBlocksInsideSphereInternal*"></a>
-  <h4 id="Sandbox_Game_Entities_MyCubeGrid_GetBlocksInsideSphereInternal_VRageMath_BoundingSphereD__System_Collections_Generic_HashSet_Sandbox_Game_Entities_Cube_MySlimBlock__System_Boolean_System_Boolean_System_Collections_Generic_HashSet_VRageMath_Vector3I__" data-uid="Sandbox.Game.Entities.MyCubeGrid.GetBlocksInsideSphereInternal(VRageMath.BoundingSphereD@,System.Collections.Generic.HashSet{Sandbox.Game.Entities.Cube.MySlimBlock},System.Boolean,System.Boolean,System.Collections.Generic.HashSet{VRageMath.Vector3I})">GetBlocksInsideSphereInternal(ref BoundingSphereD, HashSet&lt;MySlimBlock&gt;, Boolean, Boolean, HashSet&lt;Vector3I&gt;)</h4>
+  <h4 id="Sandbox_Game_Entities_MyCubeGrid_GetBlocksInsideSphereInternal_VRageMath_BoundingSphereD__System_Collections_Generic_HashSet_Sandbox_Game_Entities_Cube_MySlimBlock__Sandbox_Game_Entities_MyCubeGrid_GridQueryAccuracy_System_Boolean_System_Collections_Generic_HashSet_VRageMath_Vector3I__" data-uid="Sandbox.Game.Entities.MyCubeGrid.GetBlocksInsideSphereInternal(VRageMath.BoundingSphereD@,System.Collections.Generic.HashSet{Sandbox.Game.Entities.Cube.MySlimBlock},Sandbox.Game.Entities.MyCubeGrid.GridQueryAccuracy,System.Boolean,System.Collections.Generic.HashSet{VRageMath.Vector3I})">GetBlocksInsideSphereInternal(ref BoundingSphereD, HashSet&lt;MySlimBlock&gt;, MyCubeGrid.GridQueryAccuracy, Boolean, HashSet&lt;Vector3I&gt;)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void GetBlocksInsideSphereInternal(ref BoundingSphereD sphere, HashSet&lt;MySlimBlock&gt; blocks, bool checkTriangles = false, bool useOptimization = true, HashSet&lt;Vector3I&gt; visitedPositions = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public void GetBlocksInsideSphereInternal(ref BoundingSphereD sphere, HashSet&lt;MySlimBlock&gt; blocks, MyCubeGrid.GridQueryAccuracy queryAccuracy, bool useOptimization = true, HashSet&lt;Vector3I&gt; visitedPositions = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -6922,8 +6959,8 @@ Returns the merged grid (which does not necessarily have to be this grid)</p>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">checkTriangles</span></td>
+        <td><a class="xref" href="Sandbox.Game.Entities.MyCubeGrid.GridQueryAccuracy.html">MyCubeGrid.GridQueryAccuracy</a></td>
+        <td><span class="parametername">queryAccuracy</span></td>
         <td></td>
       </tr>
       <tr>
@@ -9785,7 +9822,7 @@ Returns the merged grid (which does not necessarily have to be this grid)</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Event(null, 10894)]
+    <pre><code class="lang-csharp hljs">[Event(null, 10888)]
 [Reliable]
 [Server]
 public void OnConvertedToStationRequest()</code></pre>
@@ -9801,7 +9838,7 @@ Sets up the Unsupported station state.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Event(null, 5743)]
+    <pre><code class="lang-csharp hljs">[Event(null, 5735)]
 [Reliable]
 [ServerInvoked]
 [Broadcast]
@@ -9874,7 +9911,7 @@ public void OnConvertToDynamic()</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Event(null, 11776)]
+    <pre><code class="lang-csharp hljs">[Event(null, 11770)]
 [Reliable]
 [Server]
 public void OnLogHierarchy()</code></pre>
@@ -10076,7 +10113,7 @@ public void OnLogHierarchy()</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Event(null, 11958)]
+    <pre><code class="lang-csharp hljs">[Event(null, 11952)]
 [Reliable]
 [ServerInvoked]
 [Broadcast]
@@ -10454,7 +10491,7 @@ user is used only if locally invoked, if invoked from client, sender steam id is
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Event(null, 4636)]
+    <pre><code class="lang-csharp hljs">[Event(null, 4627)]
 [Reliable]
 [Broadcast]
 public void RazeBlocksClient(List&lt;Vector3I&gt; locations)</code></pre>
@@ -10522,7 +10559,7 @@ public void RazeBlocksClient(List&lt;Vector3I&gt; locations)</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Event(null, 4616)]
+    <pre><code class="lang-csharp hljs">[Event(null, 4607)]
 [Reliable]
 [Server]
 public void RazeBlocksRequest(List&lt;Vector3I&gt; locations, long builderEntityId = 0L, ulong user = 0UL)</code></pre>
@@ -10663,7 +10700,7 @@ public void RazeBlocksRequest(List&lt;Vector3I&gt; locations, long builderEntity
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Event(null, 11002)]
+    <pre><code class="lang-csharp hljs">[Event(null, 10996)]
 [Reliable]
 [Client]
 public void ReceiveHandbrakeRequestResult(MyCubeGrid.HandbrakeToggleResult result, string message)</code></pre>
@@ -10698,7 +10735,7 @@ public void ReceiveHandbrakeRequestResult(MyCubeGrid.HandbrakeToggleResult resul
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Event(null, 11056)]
+    <pre><code class="lang-csharp hljs">[Event(null, 11050)]
 [Reliable]
 [Client]
 public void ReceiveParkRequestResult(MyCubeGrid.HandbrakeToggleResult result, string message)</code></pre>
@@ -10874,7 +10911,7 @@ public void ReceiveParkRequestResult(MyCubeGrid.HandbrakeToggleResult result, st
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Event(null, 3759)]
+    <pre><code class="lang-csharp hljs">[Event(null, 3750)]
 [Reliable]
 [ServerInvoked]
 [Broadcast]
@@ -11311,7 +11348,7 @@ Won't update physics!</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Event(null, 10570)]
+    <pre><code class="lang-csharp hljs">[Event(null, 10564)]
 [Reliable]
 [Client]
 public static void SendHudNotificationAfterPaste()</code></pre>
@@ -11604,7 +11641,7 @@ public static void SendHudNotificationAfterPaste()</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Event(null, 1691)]
+    <pre><code class="lang-csharp hljs">[Event(null, 1703)]
 [Reliable]
 [Client]
 public static void ShowMessageGridsRemovedWhilePasting()</code></pre>
@@ -11627,7 +11664,7 @@ public static void ShowMessageGridsRemovedWhilePasting()</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Event(null, 10564)]
+    <pre><code class="lang-csharp hljs">[Event(null, 10558)]
 [Reliable]
 [Client]
 public static void ShowPasteFailedOperation()</code></pre>
@@ -11986,7 +12023,7 @@ Grid size is already used inside calculation.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Event(null, 11994)]
+    <pre><code class="lang-csharp hljs">[Event(null, 11989)]
 [Reliable]
 [ServerInvoked]
 [Broadcast]
@@ -12878,6 +12915,130 @@ public void StopSmoke()</code></pre>
   </table>
   
   
+  <a id="Sandbox_Game_Entities_MyCubeGrid_TestPlacementForWheel_" data-uid="Sandbox.Game.Entities.MyCubeGrid.TestPlacementForWheel*"></a>
+  <h4 id="Sandbox_Game_Entities_MyCubeGrid_TestPlacementForWheel_Havok_HkShape_VRageMath_Quaternion_VRageMath_MatrixD_Havok_HkBodyCollision_VRageMath_MatrixD_Sandbox_Definitions_MyCubeBlockDefinition_" data-uid="Sandbox.Game.Entities.MyCubeGrid.TestPlacementForWheel(Havok.HkShape,VRageMath.Quaternion,VRageMath.MatrixD,Havok.HkBodyCollision,VRageMath.MatrixD,Sandbox.Definitions.MyCubeBlockDefinition)">TestPlacementForWheel(HkShape, Quaternion, MatrixD, HkBodyCollision, MatrixD, MyCubeBlockDefinition)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool TestPlacementForWheel(HkShape shape, Quaternion shapeRotation, MatrixD worldMatrix, HkBodyCollision collison, MatrixD wheelMatrix, MyCubeBlockDefinition definition)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Havok.HkShape</span></td>
+        <td><span class="parametername">shape</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="VRageMath.Quaternion.html">Quaternion</a></td>
+        <td><span class="parametername">shapeRotation</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="VRageMath.MatrixD.html">MatrixD</a></td>
+        <td><span class="parametername">worldMatrix</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Havok.HkBodyCollision</span></td>
+        <td><span class="parametername">collison</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="VRageMath.MatrixD.html">MatrixD</a></td>
+        <td><span class="parametername">wheelMatrix</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Sandbox.Definitions.MyCubeBlockDefinition.html">MyCubeBlockDefinition</a></td>
+        <td><span class="parametername">definition</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_Entities_MyCubeGrid_TestPlacementForWheelWhenPlacingWheel_" data-uid="Sandbox.Game.Entities.MyCubeGrid.TestPlacementForWheelWhenPlacingWheel*"></a>
+  <h4 id="Sandbox_Game_Entities_MyCubeGrid_TestPlacementForWheelWhenPlacingWheel_Sandbox_Game_Entities_Blocks_MyAttachableTopBlockBase_VRageMath_MatrixD_VRageMath_Vector3D_System_Collections_Generic_List_Havok_HkBodyCollision__" data-uid="Sandbox.Game.Entities.MyCubeGrid.TestPlacementForWheelWhenPlacingWheel(Sandbox.Game.Entities.Blocks.MyAttachableTopBlockBase,VRageMath.MatrixD,VRageMath.Vector3D,System.Collections.Generic.List{Havok.HkBodyCollision})">TestPlacementForWheelWhenPlacingWheel(MyAttachableTopBlockBase, MatrixD, Vector3D, List&lt;HkBodyCollision&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool TestPlacementForWheelWhenPlacingWheel(MyAttachableTopBlockBase rotorBlock, MatrixD rotation, Vector3D wheelPosition, List&lt;HkBodyCollision&gt; m_tmpList)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Sandbox.Game.Entities.Blocks.MyAttachableTopBlockBase</span></td>
+        <td><span class="parametername">rotorBlock</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="VRageMath.MatrixD.html">MatrixD</a></td>
+        <td><span class="parametername">rotation</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="VRageMath.Vector3D.html">Vector3D</a></td>
+        <td><span class="parametername">wheelPosition</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">Havok.HkBodyCollision</span>&gt;</td>
+        <td><span class="parametername">m_tmpList</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="Sandbox_Game_Entities_MyCubeGrid_TestPlacementVoxelMapOverlap_" data-uid="Sandbox.Game.Entities.MyCubeGrid.TestPlacementVoxelMapOverlap*"></a>
   <h4 id="Sandbox_Game_Entities_MyCubeGrid_TestPlacementVoxelMapOverlap_Sandbox_Game_Entities_MyVoxelBase_VRage_Game_ObjectBuilders_Definitions_SessionComponents_MyGridPlacementSettings__VRageMath_BoundingBoxD__VRageMath_MatrixD__System_Boolean_" data-uid="Sandbox.Game.Entities.MyCubeGrid.TestPlacementVoxelMapOverlap(Sandbox.Game.Entities.MyVoxelBase,VRage.Game.ObjectBuilders.Definitions.SessionComponents.MyGridPlacementSettings@,VRageMath.BoundingBoxD@,VRageMath.MatrixD@,System.Boolean)">TestPlacementVoxelMapOverlap(MyVoxelBase, ref MyGridPlacementSettings, ref BoundingBoxD, ref MatrixD, Boolean)</h4>
   <div class="markdown level1 summary"></div>
@@ -13008,7 +13169,7 @@ public void StopSmoke()</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Event(null, 10981)]
+    <pre><code class="lang-csharp hljs">[Event(null, 10975)]
 [Reliable]
 [Server]
 public void ToggleHandbrakeRequest()</code></pre>
@@ -13021,7 +13182,7 @@ public void ToggleHandbrakeRequest()</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Event(null, 11035)]
+    <pre><code class="lang-csharp hljs">[Event(null, 11029)]
 [Reliable]
 [Server]
 public void ToggleParkStateRequest()</code></pre>
@@ -13099,7 +13260,7 @@ public void ToggleParkStateRequest()</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Event(null, 3771)]
+    <pre><code class="lang-csharp hljs">[Event(null, 3762)]
 [Reliable]
 [ServerInvoked]
 [Broadcast]
@@ -13259,7 +13420,7 @@ of the block.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Event(null, 10465)]
+    <pre><code class="lang-csharp hljs">[Event(null, 10459)]
 [Reliable]
 [Server]
 public static void TryPasteGrid_Implementation(MyCubeGrid.MyPasteGridParameters parameters)</code></pre>
@@ -13453,6 +13614,18 @@ public static void TryPasteGrid_Implementation(MyCubeGrid.MyPasteGridParameters 
   </div>
   <h5 class="overrides">Overrides</h5>
   <div><a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_UpdateAfterSimulation">MyEntity.UpdateAfterSimulation()</a></div>
+  
+  
+  <a id="Sandbox_Game_Entities_MyCubeGrid_UpdateAfterSimulation10_" data-uid="Sandbox.Game.Entities.MyCubeGrid.UpdateAfterSimulation10*"></a>
+  <h4 id="Sandbox_Game_Entities_MyCubeGrid_UpdateAfterSimulation10" data-uid="Sandbox.Game.Entities.MyCubeGrid.UpdateAfterSimulation10">UpdateAfterSimulation10()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void UpdateAfterSimulation10()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_UpdateAfterSimulation10">MyEntity.UpdateAfterSimulation10()</a></div>
   
   
   <a id="Sandbox_Game_Entities_MyCubeGrid_UpdateAfterSimulation100_" data-uid="Sandbox.Game.Entities.MyCubeGrid.UpdateAfterSimulation100*"></a>
@@ -14190,6 +14363,30 @@ Event different from OnConnectivityChanged.</p>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public event Action&lt;MyCubeGrid&gt; OnGridChanged</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Sandbox.Game.Entities.MyCubeGrid.html">MyCubeGrid</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Sandbox_Game_Entities_MyCubeGrid_OnGridMarkedDirty" data-uid="Sandbox.Game.Entities.MyCubeGrid.OnGridMarkedDirty">OnGridMarkedDirty</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action&lt;MyCubeGrid&gt; OnGridMarkedDirty</code></pre>
   </div>
   <h5 class="eventType">Event Type</h5>
   <table class="table table-bordered table-striped table-condensed">

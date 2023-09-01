@@ -106,10 +106,7 @@
       <a class="xref" href="VRage.Game.Components.MyEntityComponentBase.html#VRage_Game_Components_MyEntityComponentBase_BeforeRemovedFromContainer">MyEntityComponentBase.BeforeRemovedFromContainer</a>
     </div>
     <div>
-      <a class="xref" href="VRage.Game.Components.MyComponentBase.html#VRage_Game_Components_MyComponentBase_RemoveExistingComponentOnNewInsert">MyComponentBase.RemoveExistingComponentOnNewInsert</a>
-    </div>
-    <div>
-      <a class="xref" href="VRage.Game.Components.MyComponentBase.html#VRage_Game_Components_MyComponentBase_SetContainer_VRage_Game_Components_MyComponentContainer_">MyComponentBase.SetContainer(MyComponentContainer)</a>
+      <a class="xref" href="VRage.Game.Components.MyComponentBase.html#VRage_Game_Components_MyComponentBase_SetContainer_VRage_Game_Components_Interfaces_IMyComponentContainer_">MyComponentBase.SetContainer(IMyComponentContainer)</a>
     </div>
     <div>
       <a class="xref" href="VRage.Game.Components.MyComponentBase.html#VRage_Game_Components_MyComponentBase_GetAs__1">MyComponentBase.GetAs&lt;T&gt;()</a>
@@ -121,6 +118,9 @@
       <a class="xref" href="VRage.Game.Components.MyComponentBase.html#VRage_Game_Components_MyComponentBase_OnRemovedFromScene">MyComponentBase.OnRemovedFromScene()</a>
     </div>
     <div>
+      <a class="xref" href="VRage.Game.Components.MyComponentBase.html#VRage_Game_Components_MyComponentBase_RemoveExistingComponentOnNewInsert">MyComponentBase.RemoveExistingComponentOnNewInsert</a>
+    </div>
+    <div>
       <a class="xref" href="VRage.Game.Components.MyComponentBase.html#VRage_Game_Components_MyComponentBase_ContainerBase">MyComponentBase.ContainerBase</a>
     </div>
   </div>
@@ -130,7 +130,7 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[MyComponentType]
 [MyComponentBuilder]
-public class MyAiBlockComponent : MyEntityComponentBase, IMyAiBlockComponent, IMyTerminalControlsProviderComponent</code></pre>
+public class MyAiBlockComponent : MyEntityComponentBase, IMyEntityComponentBase, IMyComponentBase, IMyAiBlockComponent, IMyTerminalControlsProviderComponent</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
@@ -474,33 +474,6 @@ public class MyAiBlockComponent : MyEntityComponentBase, IMyAiBlockComponent, IM
     <tbody>
       <tr>
         <td><span class="xref">System.Action</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="eii">Explicit Interface Implementations
-  </h3>
-  
-  
-  <a id="Sandbox_Game_EntityComponents_MyAiBlockComponent_Sandbox_ModAPI_IMyAiBlockComponent_get_Entity_" data-uid="Sandbox.Game.EntityComponents.MyAiBlockComponent.Sandbox#ModAPI#IMyAiBlockComponent#get_Entity*"></a>
-  <h4 id="Sandbox_Game_EntityComponents_MyAiBlockComponent_Sandbox_ModAPI_IMyAiBlockComponent_get_Entity" data-uid="Sandbox.Game.EntityComponents.MyAiBlockComponent.Sandbox#ModAPI#IMyAiBlockComponent#get_Entity">IMyAiBlockComponent.get_Entity()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">IMyEntity IMyAiBlockComponent.get_Entity()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="VRage.ModAPI.IMyEntity.html">IMyEntity</a></td>
         <td></td>
       </tr>
     </tbody>

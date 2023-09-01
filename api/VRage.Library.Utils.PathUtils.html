@@ -89,6 +89,51 @@
   </h3>
   
   
+  <a id="VRage_Library_Utils_PathUtils_EnsureSafePath_" data-uid="VRage.Library.Utils.PathUtils.EnsureSafePath*"></a>
+  <h4 id="VRage_Library_Utils_PathUtils_EnsureSafePath_System_String_" data-uid="VRage.Library.Utils.PathUtils.EnsureSafePath(System.String)">EnsureSafePath(String)</h4>
+  <div class="markdown level1 summary"><p>Should be called in each function that is accessible to modders and working with files: opening, deleting, moving</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void EnsureSafePath(string path)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">path</span></td>
+        <td><p>Relative or absolute path to Mods or User Data Path</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Security.SecurityException</span></td>
+        <td><p>Thrown when path is outside of scope</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="VRage_Library_Utils_PathUtils_GetFilesRecursively_" data-uid="VRage.Library.Utils.PathUtils.GetFilesRecursively*"></a>
   <h4 id="VRage_Library_Utils_PathUtils_GetFilesRecursively_System_String_System_String_" data-uid="VRage.Library.Utils.PathUtils.GetFilesRecursively(System.String,System.String)">GetFilesRecursively(String, String)</h4>
   <div class="markdown level1 summary"><p>Gets Files Recursively from specified path with specified search pattern.
@@ -152,6 +197,49 @@ Method gives access only to sub-folders of User Data Path or Mods Path.</p>
         <td><span class="xref">System.Security.SecurityException</span></td>
         <td><p>Thrown when path is outside of scope</p>
 </td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VRage_Library_Utils_PathUtils_Normalize_" data-uid="VRage.Library.Utils.PathUtils.Normalize*"></a>
+  <h4 id="VRage_Library_Utils_PathUtils_Normalize_System_String_" data-uid="VRage.Library.Utils.PathUtils.Normalize(System.String)">Normalize(String)</h4>
+  <div class="markdown level1 summary"><p>This fixes paths for the current platform.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string Normalize(string path)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">path</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
       </tr>
     </tbody>
   </table>

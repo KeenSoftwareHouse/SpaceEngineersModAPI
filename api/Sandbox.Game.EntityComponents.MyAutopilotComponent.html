@@ -103,10 +103,7 @@
       <a class="xref" href="VRage.Game.Components.MyEntityComponentBase.html#VRage_Game_Components_MyEntityComponentBase_BeforeRemovedFromContainer">MyEntityComponentBase.BeforeRemovedFromContainer</a>
     </div>
     <div>
-      <a class="xref" href="VRage.Game.Components.MyComponentBase.html#VRage_Game_Components_MyComponentBase_RemoveExistingComponentOnNewInsert">MyComponentBase.RemoveExistingComponentOnNewInsert</a>
-    </div>
-    <div>
-      <a class="xref" href="VRage.Game.Components.MyComponentBase.html#VRage_Game_Components_MyComponentBase_SetContainer_VRage_Game_Components_MyComponentContainer_">MyComponentBase.SetContainer(MyComponentContainer)</a>
+      <a class="xref" href="VRage.Game.Components.MyComponentBase.html#VRage_Game_Components_MyComponentBase_SetContainer_VRage_Game_Components_Interfaces_IMyComponentContainer_">MyComponentBase.SetContainer(IMyComponentContainer)</a>
     </div>
     <div>
       <a class="xref" href="VRage.Game.Components.MyComponentBase.html#VRage_Game_Components_MyComponentBase_GetAs__1">MyComponentBase.GetAs&lt;T&gt;()</a>
@@ -118,6 +115,9 @@
       <a class="xref" href="VRage.Game.Components.MyComponentBase.html#VRage_Game_Components_MyComponentBase_OnRemovedFromScene">MyComponentBase.OnRemovedFromScene()</a>
     </div>
     <div>
+      <a class="xref" href="VRage.Game.Components.MyComponentBase.html#VRage_Game_Components_MyComponentBase_RemoveExistingComponentOnNewInsert">MyComponentBase.RemoveExistingComponentOnNewInsert</a>
+    </div>
+    <div>
       <a class="xref" href="VRage.Game.Components.MyComponentBase.html#VRage_Game_Components_MyComponentBase_ContainerBase">MyComponentBase.ContainerBase</a>
     </div>
   </div>
@@ -127,7 +127,7 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[MyComponentType]
 [MyComponentBuilder]
-public class MyAutopilotComponent : MyEventProxyEntityComponent, IMyEventProxy, IMyEventOwner</code></pre>
+public class MyAutopilotComponent : MyEventProxyEntityComponent, IMyEntityComponentBase, IMyComponentBase, IMyEventProxy, IMyEventOwner</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
@@ -163,30 +163,6 @@ public class MyAutopilotComponent : MyEventProxyEntityComponent, IMyEventProxy, 
     <tbody>
       <tr>
         <td><span class="xref">VRage.Sync.Sync</span>&lt;<span class="xref">System.Boolean</span>, <span class="xref">VRage.Sync.SyncDirection.BothWays</span>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_ForceDisableCollisionAvoidance" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.ForceDisableCollisionAvoidance">ForceDisableCollisionAvoidance</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool ForceDisableCollisionAvoidance</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -238,6 +214,31 @@ public class MyAutopilotComponent : MyEventProxyEntityComponent, IMyEventProxy, 
     <tbody>
       <tr>
         <td><a class="xref" href="Sandbox.Game.Entities.IRemoteControlAutomaticBehaviour.html">IRemoteControlAutomaticBehaviour</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_EntityComponents_MyAutopilotComponent_AutoPilotControlThrust_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.AutoPilotControlThrust*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_AutoPilotControlThrust" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.AutoPilotControlThrust">AutoPilotControlThrust</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 AutoPilotControlThrust { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRageMath.Vector3.html">Vector3</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -1173,6 +1174,31 @@ public class MyAutopilotComponent : MyEventProxyEntityComponent, IMyEventProxy, 
   </table>
   
   
+  <a id="Sandbox_Game_EntityComponents_MyAutopilotComponent_ThrustComp_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.ThrustComp*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_ThrustComp" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.ThrustComp">ThrustComp</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MyEntityThrustComponent ThrustComp { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Sandbox.Game.GameSystems.MyEntityThrustComponent</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="Sandbox_Game_EntityComponents_MyAutopilotComponent_WaitForFreeWay_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.WaitForFreeWay*"></a>
   <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_WaitForFreeWay" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.WaitForFreeWay">WaitForFreeWay</h4>
   <div class="markdown level1 summary"></div>
@@ -1365,7 +1391,7 @@ public class MyAutopilotComponent : MyEventProxyEntityComponent, IMyEventProxy, 
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Event(null, 3381)]
+    <pre><code class="lang-csharp hljs">[Event(null, 3482)]
 [Reliable]
 [Server]
 [Broadcast]
@@ -1401,12 +1427,12 @@ public void AddWaypointBroadcast(MatrixD Matrix, long RelatedEntityId, string Na
   
   
   <a id="Sandbox_Game_EntityComponents_MyAutopilotComponent_AdvanceWaypoint_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.AdvanceWaypoint*"></a>
-  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_AdvanceWaypoint_System_Boolean_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.AdvanceWaypoint(System.Boolean)">AdvanceWaypoint(Boolean)</h4>
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_AdvanceWaypoint_System_Boolean_System_Boolean_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.AdvanceWaypoint(System.Boolean,System.Boolean)">AdvanceWaypoint(Boolean, Boolean)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void AdvanceWaypoint(bool reportRemoval = true)</code></pre>
+    <pre><code class="lang-csharp hljs">public void AdvanceWaypoint(bool reportRemoval = true, bool playAction = true)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1421,6 +1447,11 @@ public void AddWaypointBroadcast(MatrixD Matrix, long RelatedEntityId, string Na
       <tr>
         <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">reportRemoval</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">playAction</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -1916,6 +1947,48 @@ public void AddWaypointBroadcast(MatrixD Matrix, long RelatedEntityId, string Na
   </table>
   
   
+  <a id="Sandbox_Game_EntityComponents_MyAutopilotComponent_GetDestinationTriggerSphereScaleFactor_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.GetDestinationTriggerSphereScaleFactor*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_GetDestinationTriggerSphereScaleFactor_VRage_Game_MyCubeSize_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.GetDestinationTriggerSphereScaleFactor(VRage.Game.MyCubeSize)">GetDestinationTriggerSphereScaleFactor(MyCubeSize)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double GetDestinationTriggerSphereScaleFactor(MyCubeSize gridSizeEnum)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRage.Game.MyCubeSize.html">MyCubeSize</a></td>
+        <td><span class="parametername">gridSizeEnum</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="Sandbox_Game_EntityComponents_MyAutopilotComponent_Init_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.Init*"></a>
   <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_Init_VRage_Game_MyComponentDefinitionBase_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.Init(VRage.Game.MyComponentDefinitionBase)">Init(MyComponentDefinitionBase)</h4>
   <div class="markdown level1 summary"></div>
@@ -2053,13 +2126,45 @@ public void AddWaypointBroadcast(MatrixD Matrix, long RelatedEntityId, string Na
   <div><a class="xref" href="Sandbox.Game.EntityComponents.MyEventProxyEntityComponent.html#Sandbox_Game_EntityComponents_MyEventProxyEntityComponent_OnBeforeRemovedFromContainer">MyEventProxyEntityComponent.OnBeforeRemovedFromContainer()</a></div>
   
   
+  <a id="Sandbox_Game_EntityComponents_MyAutopilotComponent_OnEvasiveManeuversChanged_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.OnEvasiveManeuversChanged*"></a>
+  <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_OnEvasiveManeuversChanged_System_Int32_System_Int32_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.OnEvasiveManeuversChanged(System.Int32,System.Int32)">OnEvasiveManeuversChanged(Int32, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnEvasiveManeuversChanged(int interval, int duration)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">interval</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">duration</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="Sandbox_Game_EntityComponents_MyAutopilotComponent_OnRemoveWaypoints_" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.OnRemoveWaypoints*"></a>
   <h4 id="Sandbox_Game_EntityComponents_MyAutopilotComponent_OnRemoveWaypoints_System_Int32___" data-uid="Sandbox.Game.EntityComponents.MyAutopilotComponent.OnRemoveWaypoints(System.Int32[])">OnRemoveWaypoints(Int32[])</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Event(null, 3118)]
+    <pre><code class="lang-csharp hljs">[Event(null, 3219)]
 [Reliable]
 [Server]
 [Broadcast]
