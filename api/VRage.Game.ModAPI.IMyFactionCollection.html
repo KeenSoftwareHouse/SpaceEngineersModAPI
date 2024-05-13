@@ -730,6 +730,77 @@
   </table>
   
   
+  <a id="VRage_Game_ModAPI_IMyFactionCollection_EditFaction_" data-uid="VRage.Game.ModAPI.IMyFactionCollection.EditFaction*"></a>
+  <h4 id="VRage_Game_ModAPI_IMyFactionCollection_EditFaction_System_Int64_System_String_System_String_System_String_System_String_System_String_VRageMath_Vector3_VRageMath_Vector3_" data-uid="VRage.Game.ModAPI.IMyFactionCollection.EditFaction(System.Int64,System.String,System.String,System.String,System.String,System.String,VRageMath.Vector3,VRageMath.Vector3)">EditFaction(Int64, String, String, String, String, String, Vector3, Vector3)</h4>
+  <div class="markdown level1 summary"><p>Edits faction</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void EditFaction(long factionId, string tag, string name, string desc, string privateInfo, string icon, Vector3 factionColor, Vector3 factionIconColor)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">factionId</span></td>
+        <td><p>FactionId that should be changed</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">tag</span></td>
+        <td><p>New faction tag</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>New faction name</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">desc</span></td>
+        <td><p>New faction description</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">privateInfo</span></td>
+        <td><p>New faction private info</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">icon</span></td>
+        <td><p>Faction icon image</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="VRageMath.Vector3.html">Vector3</a></td>
+        <td><span class="parametername">factionColor</span></td>
+        <td><p>Faction color (background of icon)</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="VRageMath.Vector3.html">Vector3</a></td>
+        <td><span class="parametername">factionIconColor</span></td>
+        <td><p>Faction icon color</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="VRage_Game_ModAPI_IMyFactionCollection_FactionNameExists_" data-uid="VRage.Game.ModAPI.IMyFactionCollection.FactionNameExists*"></a>
   <h4 id="VRage_Game_ModAPI_IMyFactionCollection_FactionNameExists_System_String_VRage_Game_ModAPI_IMyFaction_" data-uid="VRage.Game.ModAPI.IMyFactionCollection.FactionNameExists(System.String,VRage.Game.ModAPI.IMyFaction)">FactionNameExists(String, IMyFaction)</h4>
   <div class="markdown level1 summary"><p>Gets if faction with provided tag exists</p>
@@ -1702,6 +1773,31 @@ senderId - IdentityId who triggered state change, or 0</p>
     <tbody>
       <tr>
         <td><span class="xref">System.Action</span>&lt;<a class="xref" href="VRage.Game.ModAPI.MyFactionStateChange.html">MyFactionStateChange</a>, <span class="xref">System.Int64</span>, <span class="xref">System.Int64</span>, <span class="xref">System.Int64</span>, <span class="xref">System.Int64</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="VRage_Game_ModAPI_IMyFactionCollection_ReputationChanged" data-uid="VRage.Game.ModAPI.IMyFactionCollection.ReputationChanged">ReputationChanged</h4>
+  <div class="markdown level1 summary"><p>Called when a reputation change is applied between an identity and a faction</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event Action&lt;long, long, int, ReputationChangeReason&gt; ReputationChanged</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<span class="xref">System.Int64</span>, <span class="xref">System.Int64</span>, <span class="xref">System.Int32</span>, <a class="xref" href="VRage.Game.ModAPI.ReputationChangeReason.html">ReputationChangeReason</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>

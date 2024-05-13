@@ -519,6 +519,12 @@
       <a class="xref" href="Sandbox.ModAPI.Ingame.IMyTerminalBlock.html#Sandbox_ModAPI_Ingame_IMyTerminalBlock_HasPlayerAccess_System_Int64_VRage_Game_MyRelationsBetweenPlayerAndBlock_">IMyTerminalBlock.HasPlayerAccess(Int64, MyRelationsBetweenPlayerAndBlock)</a>
     </div>
     <div>
+      <a class="xref" href="Sandbox.ModAPI.Ingame.IMyTerminalBlock.html#Sandbox_ModAPI_Ingame_IMyTerminalBlock_HasNobodyPlayerAccessToBlock">IMyTerminalBlock.HasNobodyPlayerAccessToBlock()</a>
+    </div>
+    <div>
+      <a class="xref" href="Sandbox.ModAPI.Ingame.IMyTerminalBlock.html#Sandbox_ModAPI_Ingame_IMyTerminalBlock_HasPlayerAccessWithNobodyCheck_System_Int64_System_Boolean_">IMyTerminalBlock.HasPlayerAccessWithNobodyCheck(Int64, Boolean)</a>
+    </div>
+    <div>
       <a class="xref" href="Sandbox.ModAPI.Ingame.IMyTerminalBlock.html#Sandbox_ModAPI_Ingame_IMyTerminalBlock_SetCustomName_System_String_">IMyTerminalBlock.SetCustomName(String)</a>
     </div>
     <div>
@@ -660,6 +666,43 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public interface IMyGasTank : IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBlock, IMyEntity, IMyGasTank, IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBlock, IMyEntity</code></pre>
   </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Sandbox_ModAPI_IMyGasTank_ChangeFilledRatio_" data-uid="Sandbox.ModAPI.IMyGasTank.ChangeFilledRatio*"></a>
+  <h4 id="Sandbox_ModAPI_IMyGasTank_ChangeFilledRatio_System_Double_System_Boolean_" data-uid="Sandbox.ModAPI.IMyGasTank.ChangeFilledRatio(System.Double,System.Boolean)">ChangeFilledRatio(Double, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Allows you to set the fill ratio of a gas tank</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void ChangeFilledRatio(double newFilledRatio, bool updateSync)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">newFilledRatio</span></td>
+        <td><p>New fill ratio (0 empty, 1 full)</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">updateSync</span></td>
+        <td><p>Sync ratio change to others</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
       <a class="xref" href="Sandbox.ModAPI.Ingame.TerminalBlockExtentions.html#Sandbox_ModAPI_Ingame_TerminalBlockExtentions_GetId_Sandbox_ModAPI_Ingame_IMyTerminalBlock_">TerminalBlockExtentions.GetId(IMyTerminalBlock)</a>

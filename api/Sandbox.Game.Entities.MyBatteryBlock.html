@@ -91,10 +91,10 @@
     <div><a class="xref" href="Sandbox.ModAPI.Ingame.IMyUpgradableBlock.html">IMyUpgradableBlock</a></div>
     <div><a class="xref" href="Sandbox.ModAPI.Ingame.IMyTextSurfaceProvider.html">IMyTextSurfaceProvider</a></div>
     <div><a class="xref" href="Sandbox.Game.EntityComponents.IMyMultiTextPanelComponentOwner.html">IMyMultiTextPanelComponentOwner</a></div>
-    <div><a class="xref" href="Sandbox.ModAPI.IMyFunctionalBlock.html">IMyFunctionalBlock</a></div>
-    <div><a class="xref" href="Sandbox.ModAPI.IMyTerminalBlock.html">IMyTerminalBlock</a></div>
     <div><a class="xref" href="Sandbox.ModAPI.IMyBatteryBlock.html">IMyBatteryBlock</a></div>
     <div><a class="xref" href="Sandbox.ModAPI.IMyPowerProducer.html">IMyPowerProducer</a></div>
+    <div><a class="xref" href="Sandbox.ModAPI.IMyFunctionalBlock.html">IMyFunctionalBlock</a></div>
+    <div><a class="xref" href="Sandbox.ModAPI.IMyTerminalBlock.html">IMyTerminalBlock</a></div>
     <div><a class="xref" href="VRage.Game.ModAPI.IMyCubeBlock.html">IMyCubeBlock</a></div>
     <div><a class="xref" href="VRage.ModAPI.IMyEntity.html">IMyEntity</a></div>
     <div><a class="xref" href="Sandbox.ModAPI.Ingame.IMyBatteryBlock.html">IMyBatteryBlock</a></div>
@@ -363,7 +363,7 @@
       <a class="xref" href="Sandbox.Game.Entities.MyCubeBlock.html#Sandbox_Game_Entities_MyCubeBlock_ClampExperimentalValue_System_Nullable_System_Single___System_Single_">MyCubeBlock.ClampExperimentalValue(Nullable&lt;Single&gt;, Single)</a>
     </div>
     <div>
-      <a class="xref" href="Sandbox.Game.Entities.MyCubeBlock.html#Sandbox_Game_Entities_MyCubeBlock_ReceivedDamage_System_Single_VRage_Utils_MyStringHash_System_Int64_System_Int64_System_Boolean_">MyCubeBlock.ReceivedDamage(Single, MyStringHash, Int64, Int64, Boolean)</a>
+      <a class="xref" href="Sandbox.Game.Entities.MyCubeBlock.html#Sandbox_Game_Entities_MyCubeBlock_ReceivedDamage_System_Single_VRage_Utils_MyStringHash_System_Int64_System_Int64_System_Boolean_System_Nullable_VRage_Utils_MyStringHash__">MyCubeBlock.ReceivedDamage(Single, MyStringHash, Int64, Int64, Boolean, Nullable&lt;MyStringHash&gt;)</a>
     </div>
     <div>
       <a class="xref" href="Sandbox.Game.Entities.MyCubeBlock.html#Sandbox_Game_Entities_MyCubeBlock_Init_VRage_Game_MyObjectBuilder_CubeBlock_VRage_Game_ModAPI_IMyCubeGrid_">MyCubeBlock.Init(MyObjectBuilder_CubeBlock, IMyCubeGrid)</a>
@@ -1278,7 +1278,7 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[MyCubeBlockType]
 [MyTerminalInterface]
-public class MyBatteryBlock : MyFunctionalBlock, IMyComponentOwner&lt;MyIDModule&gt;, IMyUpgradableBlock, IMyUpgradableBlock, IMyEventProxy, IMyEventOwner, IMySyncedEntity, IMyTieredUpdateBlock, IMyUpdateTimer, IMyTextSurfaceProvider, IMyMultiTextPanelComponentOwner, IMyTextPanelComponentOwner, IMyFunctionalBlock, IMyTerminalBlock, IMyBatteryBlock, IMyPowerProducer, IMyCubeBlock, IMyEntity, IMyBatteryBlock, IMyPowerProducer, IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBlock, IMyEntity, IMyStoredPowerRatio</code></pre>
+public class MyBatteryBlock : MyFunctionalBlock, IMyComponentOwner&lt;MyIDModule&gt;, IMyUpgradableBlock, IMyUpgradableBlock, IMyEventProxy, IMyEventOwner, IMySyncedEntity, IMyTieredUpdateBlock, IMyUpdateTimer, IMyTextSurfaceProvider, IMyMultiTextPanelComponentOwner, IMyTextPanelComponentOwner, IMyBatteryBlock, IMyPowerProducer, IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBlock, IMyEntity, IMyBatteryBlock, IMyPowerProducer, IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBlock, IMyEntity, IMyStoredPowerRatio</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
@@ -2106,16 +2106,16 @@ public class MyBatteryBlock : MyFunctionalBlock, IMyComponentOwner&lt;MyIDModule
       <a class="xref" href="Sandbox.Game.EntityComponents.IMyMultiTextPanelComponentOwner.html">IMyMultiTextPanelComponentOwner</a>
   </div>
   <div>
-      <a class="xref" href="Sandbox.ModAPI.IMyFunctionalBlock.html">IMyFunctionalBlock</a>
-  </div>
-  <div>
-      <a class="xref" href="Sandbox.ModAPI.IMyTerminalBlock.html">IMyTerminalBlock</a>
-  </div>
-  <div>
       <a class="xref" href="Sandbox.ModAPI.IMyBatteryBlock.html">IMyBatteryBlock</a>
   </div>
   <div>
       <a class="xref" href="Sandbox.ModAPI.IMyPowerProducer.html">IMyPowerProducer</a>
+  </div>
+  <div>
+      <a class="xref" href="Sandbox.ModAPI.IMyFunctionalBlock.html">IMyFunctionalBlock</a>
+  </div>
+  <div>
+      <a class="xref" href="Sandbox.ModAPI.IMyTerminalBlock.html">IMyTerminalBlock</a>
   </div>
   <div>
       <a class="xref" href="VRage.Game.ModAPI.IMyCubeBlock.html">IMyCubeBlock</a>

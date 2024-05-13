@@ -453,6 +453,101 @@
   </h3>
   
   
+  <a id="Sandbox_Game_MyCampaignManager_FindStartingState_" data-uid="Sandbox.Game.MyCampaignManager.FindStartingState*"></a>
+  <h4 id="Sandbox_Game_MyCampaignManager_FindStartingState_VRage_Game_ObjectBuilders_Campaign_MyObjectBuilder_CampaignSM_" data-uid="Sandbox.Game.MyCampaignManager.FindStartingState(VRage.Game.ObjectBuilders.Campaign.MyObjectBuilder_CampaignSM)">FindStartingState(MyObjectBuilder_CampaignSM)</h4>
+  <div class="markdown level1 summary"><p>Finds starting state of the campaign SM. For purposes of first load.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MyObjectBuilder_CampaignSMNode FindStartingState(MyObjectBuilder_CampaignSM stateMachine)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">VRage.Game.ObjectBuilders.Campaign.MyObjectBuilder_CampaignSM</span></td>
+        <td><span class="parametername">stateMachine</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">VRage.Game.ObjectBuilders.Campaign.MyObjectBuilder_CampaignSMNode</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_MyCampaignManager_ForceRefreshModData_" data-uid="Sandbox.Game.MyCampaignManager.ForceRefreshModData*"></a>
+  <h4 id="Sandbox_Game_MyCampaignManager_ForceRefreshModData" data-uid="Sandbox.Game.MyCampaignManager.ForceRefreshModData">ForceRefreshModData()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ForceRefreshModData()</code></pre>
+  </div>
+  
+  
+  <a id="Sandbox_Game_MyCampaignManager_GetCampaign_" data-uid="Sandbox.Game.MyCampaignManager.GetCampaign*"></a>
+  <h4 id="Sandbox_Game_MyCampaignManager_GetCampaign_System_String_" data-uid="Sandbox.Game.MyCampaignManager.GetCampaign(System.String)">GetCampaign(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MyObjectBuilder_Campaign GetCampaign(string scfFilePath)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">scfFilePath</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">VRage.Game.ObjectBuilders.Campaign.MyObjectBuilder_Campaign</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="Sandbox_Game_MyCampaignManager_HasStartedAsCampaign_" data-uid="Sandbox.Game.MyCampaignManager.HasStartedAsCampaign*"></a>
   <h4 id="Sandbox_Game_MyCampaignManager_HasStartedAsCampaign_System_String_" data-uid="Sandbox.Game.MyCampaignManager.HasStartedAsCampaign(System.String)">HasStartedAsCampaign(String)</h4>
   <div class="markdown level1 summary"></div>
@@ -621,6 +716,39 @@
   </div>
   
   
+  <a id="Sandbox_Game_MyCampaignManager_PublishActive_" data-uid="Sandbox.Game.MyCampaignManager.PublishActive*"></a>
+  <h4 id="Sandbox_Game_MyCampaignManager_PublishActive_System_String___System_String___" data-uid="Sandbox.Game.MyCampaignManager.PublishActive(System.String[],System.String[])">PublishActive(String[], String[])</h4>
+  <div class="markdown level1 summary"><p>Runs publish process for active campaign.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void PublishActive(string[] tags, string[] serviceNames)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span>[]</td>
+        <td><span class="parametername">tags</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span>[]</td>
+        <td><span class="parametername">serviceNames</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="Sandbox_Game_MyCampaignManager_RefreshModData_" data-uid="Sandbox.Game.MyCampaignManager.RefreshModData*"></a>
   <h4 id="Sandbox_Game_MyCampaignManager_RefreshModData" data-uid="Sandbox.Game.MyCampaignManager.RefreshModData">RefreshModData()</h4>
   <div class="markdown level1 summary"></div>
@@ -777,6 +905,75 @@
       <tr>
         <td><a class="xref" href="VRage.Game.MyObjectBuilder_Checkpoint.html">MyObjectBuilder_Checkpoint</a></td>
         <td><span class="parametername">checkpoint</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_MyCampaignManager_SwitchCampaign_" data-uid="Sandbox.Game.MyCampaignManager.SwitchCampaign*"></a>
+  <h4 id="Sandbox_Game_MyCampaignManager_SwitchCampaign_System_String_System_Boolean_System_UInt64_System_String_System_String_System_Boolean_" data-uid="Sandbox.Game.MyCampaignManager.SwitchCampaign(System.String,System.Boolean,System.UInt64,System.String,System.String,System.Boolean)">SwitchCampaign(String, Boolean, UInt64, String, String, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Changes the manager state to given campaign.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool SwitchCampaign(string name, bool isVanilla = true, ulong publisherFileId = 0UL, string publisherServiceName = null, string localModFolder = null, bool crossPlatform = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">isVanilla</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt64</span></td>
+        <td><span class="parametername">publisherFileId</span></td>
+        <td><p>0 is default value or local mod value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">publisherServiceName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">localModFolder</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">crossPlatform</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
         <td></td>
       </tr>
     </tbody>

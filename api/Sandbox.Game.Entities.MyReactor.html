@@ -92,13 +92,13 @@
     <div><a class="xref" href="Sandbox.ModAPI.Ingame.IMyUpgradableBlock.html">IMyUpgradableBlock</a></div>
     <div><a class="xref" href="Sandbox.ModAPI.Ingame.IMyTextSurfaceProvider.html">IMyTextSurfaceProvider</a></div>
     <div><a class="xref" href="Sandbox.Game.EntityComponents.IMyMultiTextPanelComponentOwner.html">IMyMultiTextPanelComponentOwner</a></div>
-    <div><a class="xref" href="Sandbox.ModAPI.IMyFunctionalBlock.html">IMyFunctionalBlock</a></div>
-    <div><a class="xref" href="Sandbox.ModAPI.IMyTerminalBlock.html">IMyTerminalBlock</a></div>
     <div><a class="xref" href="Sandbox.ModAPI.IMyReactor.html">IMyReactor</a></div>
     <div><a class="xref" href="Sandbox.ModAPI.Ingame.IMyReactor.html">IMyReactor</a></div>
     <div><a class="xref" href="Sandbox.ModAPI.IMyPowerProducer.html">IMyPowerProducer</a></div>
     <div><a class="xref" href="Sandbox.ModAPI.Ingame.IMyPowerProducer.html">IMyPowerProducer</a></div>
+    <div><a class="xref" href="Sandbox.ModAPI.IMyFunctionalBlock.html">IMyFunctionalBlock</a></div>
     <div><a class="xref" href="Sandbox.ModAPI.Ingame.IMyFunctionalBlock.html">IMyFunctionalBlock</a></div>
+    <div><a class="xref" href="Sandbox.ModAPI.IMyTerminalBlock.html">IMyTerminalBlock</a></div>
     <div><a class="xref" href="Sandbox.ModAPI.Ingame.IMyTerminalBlock.html">IMyTerminalBlock</a></div>
     <div><a class="xref" href="VRage.Game.ModAPI.IMyCubeBlock.html">IMyCubeBlock</a></div>
     <div><a class="xref" href="VRage.Game.ModAPI.Ingame.IMyCubeBlock.html">IMyCubeBlock</a></div>
@@ -334,6 +334,9 @@
       <a class="xref" href="Sandbox.Game.Entities.MyCubeBlock.html#Sandbox_Game_Entities_MyCubeBlock_ContactPointCallback_Sandbox_Game_Entities_Cube_MyGridContactInfo__">MyCubeBlock.ContactPointCallback(MyGridContactInfo)</a>
     </div>
     <div>
+      <a class="xref" href="Sandbox.Game.Entities.MyCubeBlock.html#Sandbox_Game_Entities_MyCubeBlock_OnDestroy">MyCubeBlock.OnDestroy()</a>
+    </div>
+    <div>
       <a class="xref" href="Sandbox.Game.Entities.MyCubeBlock.html#Sandbox_Game_Entities_MyCubeBlock_OnModelChange">MyCubeBlock.OnModelChange()</a>
     </div>
     <div>
@@ -436,7 +439,7 @@
       <a class="xref" href="Sandbox.Game.Entities.MyCubeBlock.html#Sandbox_Game_Entities_MyCubeBlock_ClampExperimentalValue_System_Nullable_System_Single___System_Single_">MyCubeBlock.ClampExperimentalValue(Nullable&lt;Single&gt;, Single)</a>
     </div>
     <div>
-      <a class="xref" href="Sandbox.Game.Entities.MyCubeBlock.html#Sandbox_Game_Entities_MyCubeBlock_ReceivedDamage_System_Single_VRage_Utils_MyStringHash_System_Int64_System_Int64_System_Boolean_">MyCubeBlock.ReceivedDamage(Single, MyStringHash, Int64, Int64, Boolean)</a>
+      <a class="xref" href="Sandbox.Game.Entities.MyCubeBlock.html#Sandbox_Game_Entities_MyCubeBlock_ReceivedDamage_System_Single_VRage_Utils_MyStringHash_System_Int64_System_Int64_System_Boolean_System_Nullable_VRage_Utils_MyStringHash__">MyCubeBlock.ReceivedDamage(Single, MyStringHash, Int64, Int64, Boolean, Nullable&lt;MyStringHash&gt;)</a>
     </div>
     <div>
       <a class="xref" href="Sandbox.Game.Entities.MyCubeBlock.html#Sandbox_Game_Entities_MyCubeBlock_Init_VRage_Game_MyObjectBuilder_CubeBlock_VRage_Game_ModAPI_IMyCubeGrid_">MyCubeBlock.Init(MyObjectBuilder_CubeBlock, IMyCubeGrid)</a>
@@ -1351,7 +1354,7 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[MyCubeBlockType]
 [MyTerminalInterface]
-public class MyReactor : MyFueledPowerProducer, IMyComponentOwner&lt;MyIDModule&gt;, IMyUpgradableBlock, IMyUpgradableBlock, IMyEventProxy, IMyEventOwner, IMySyncedEntity, IMyTieredUpdateBlock, IMyUpdateTimer, IMyTextSurfaceProvider, IMyMultiTextPanelComponentOwner, IMyTextPanelComponentOwner, IMyFunctionalBlock, IMyTerminalBlock, IMyConveyorEndpointBlock, IMyReactor, IMyReactor, IMyPowerProducer, IMyPowerProducer, IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBlock, IMyCubeBlock, IMyEntity, IMyEntity, IMyInventoryOwner</code></pre>
+public class MyReactor : MyFueledPowerProducer, IMyComponentOwner&lt;MyIDModule&gt;, IMyUpgradableBlock, IMyUpgradableBlock, IMyEventProxy, IMyEventOwner, IMySyncedEntity, IMyTieredUpdateBlock, IMyUpdateTimer, IMyTextSurfaceProvider, IMyMultiTextPanelComponentOwner, IMyTextPanelComponentOwner, IMyConveyorEndpointBlock, IMyReactor, IMyReactor, IMyPowerProducer, IMyPowerProducer, IMyFunctionalBlock, IMyFunctionalBlock, IMyTerminalBlock, IMyTerminalBlock, IMyCubeBlock, IMyCubeBlock, IMyEntity, IMyEntity, IMyInventoryOwner</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
@@ -1743,18 +1746,6 @@ public class MyReactor : MyFueledPowerProducer, IMyComponentOwner&lt;MyIDModule&
   <div><a class="xref" href="Sandbox.Game.Entities.MyFueledPowerProducer.html#Sandbox_Game_Entities_MyFueledPowerProducer_OnCurrentOrMaxOutputChanged_VRage_Game_MyDefinitionId_System_Single_Sandbox_Game_EntityComponents_MyResourceSourceComponent_">MyFueledPowerProducer.OnCurrentOrMaxOutputChanged(MyDefinitionId, Single, MyResourceSourceComponent)</a></div>
   
   
-  <a id="Sandbox_Game_Entities_MyReactor_OnDestroy_" data-uid="Sandbox.Game.Entities.MyReactor.OnDestroy*"></a>
-  <h4 id="Sandbox_Game_Entities_MyReactor_OnDestroy" data-uid="Sandbox.Game.Entities.MyReactor.OnDestroy">OnDestroy()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void OnDestroy()</code></pre>
-  </div>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">Sandbox.Game.Entities.Cube.MyFunctionalBlock.OnDestroy()</span></div>
-  
-  
   <a id="Sandbox_Game_Entities_MyReactor_OnEnabledChanged_" data-uid="Sandbox.Game.Entities.MyReactor.OnEnabledChanged*"></a>
   <h4 id="Sandbox_Game_Entities_MyReactor_OnEnabledChanged" data-uid="Sandbox.Game.Entities.MyReactor.OnEnabledChanged">OnEnabledChanged()</h4>
   <div class="markdown level1 summary"></div>
@@ -2020,12 +2011,6 @@ public class MyReactor : MyFueledPowerProducer, IMyComponentOwner&lt;MyIDModule&
       <a class="xref" href="Sandbox.Game.EntityComponents.IMyMultiTextPanelComponentOwner.html">IMyMultiTextPanelComponentOwner</a>
   </div>
   <div>
-      <a class="xref" href="Sandbox.ModAPI.IMyFunctionalBlock.html">IMyFunctionalBlock</a>
-  </div>
-  <div>
-      <a class="xref" href="Sandbox.ModAPI.IMyTerminalBlock.html">IMyTerminalBlock</a>
-  </div>
-  <div>
       <a class="xref" href="Sandbox.ModAPI.IMyReactor.html">IMyReactor</a>
   </div>
   <div>
@@ -2038,7 +2023,13 @@ public class MyReactor : MyFueledPowerProducer, IMyComponentOwner&lt;MyIDModule&
       <a class="xref" href="Sandbox.ModAPI.Ingame.IMyPowerProducer.html">IMyPowerProducer</a>
   </div>
   <div>
+      <a class="xref" href="Sandbox.ModAPI.IMyFunctionalBlock.html">IMyFunctionalBlock</a>
+  </div>
+  <div>
       <a class="xref" href="Sandbox.ModAPI.Ingame.IMyFunctionalBlock.html">IMyFunctionalBlock</a>
+  </div>
+  <div>
+      <a class="xref" href="Sandbox.ModAPI.IMyTerminalBlock.html">IMyTerminalBlock</a>
   </div>
   <div>
       <a class="xref" href="Sandbox.ModAPI.Ingame.IMyTerminalBlock.html">IMyTerminalBlock</a>

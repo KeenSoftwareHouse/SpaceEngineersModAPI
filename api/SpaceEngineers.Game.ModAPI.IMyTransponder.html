@@ -1,0 +1,843 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface IMyTransponder
+   | Space Engineers ModAPI </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface IMyTransponder
+   | Space Engineers ModAPI ">
+    <meta name="generator" content="docfx 2.58.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="SpaceEngineers.Game.ModAPI.IMyTransponder">
+  
+  
+  <h1 id="SpaceEngineers_Game_ModAPI_IMyTransponder" data-uid="SpaceEngineers.Game.ModAPI.IMyTransponder" class="text-break">Interface IMyTransponder
+  </h1>
+  <div class="markdown level0 summary"><p>Describes Broadcast controller block (mods interface)</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Sandbox.ModAPI.IMyFunctionalBlock.html#Sandbox_ModAPI_IMyFunctionalBlock_GetFramesFromLastTrigger">IMyFunctionalBlock.GetFramesFromLastTrigger()</a>
+    </div>
+    <div>
+      <a class="xref" href="Sandbox.ModAPI.IMyFunctionalBlock.html#Sandbox_ModAPI_IMyFunctionalBlock_IsUpdateTimerCreated">IMyFunctionalBlock.IsUpdateTimerCreated</a>
+    </div>
+    <div>
+      <a class="xref" href="Sandbox.ModAPI.IMyFunctionalBlock.html#Sandbox_ModAPI_IMyFunctionalBlock_IsUpdateTimerEnabled">IMyFunctionalBlock.IsUpdateTimerEnabled</a>
+    </div>
+    <div>
+      <a class="xref" href="Sandbox.ModAPI.IMyFunctionalBlock.html#Sandbox_ModAPI_IMyFunctionalBlock_EnabledChanged">IMyFunctionalBlock.EnabledChanged</a>
+    </div>
+    <div>
+      <a class="xref" href="Sandbox.ModAPI.IMyFunctionalBlock.html#Sandbox_ModAPI_IMyFunctionalBlock_UpdateTimerTriggered">IMyFunctionalBlock.UpdateTimerTriggered</a>
+    </div>
+    <div>
+      <a class="xref" href="Sandbox.ModAPI.IMyTerminalBlock.html#Sandbox_ModAPI_IMyTerminalBlock_RefreshCustomInfo">IMyTerminalBlock.RefreshCustomInfo()</a>
+    </div>
+    <div>
+      <a class="xref" href="Sandbox.ModAPI.IMyTerminalBlock.html#Sandbox_ModAPI_IMyTerminalBlock_SetDetailedInfoDirty">IMyTerminalBlock.SetDetailedInfoDirty()</a>
+    </div>
+    <div>
+      <a class="xref" href="Sandbox.ModAPI.IMyTerminalBlock.html#Sandbox_ModAPI_IMyTerminalBlock_GetDetailedInfo">IMyTerminalBlock.GetDetailedInfo()</a>
+    </div>
+    <div>
+      <a class="xref" href="Sandbox.ModAPI.IMyTerminalBlock.html#Sandbox_ModAPI_IMyTerminalBlock_ClearDetailedInfo">IMyTerminalBlock.ClearDetailedInfo()</a>
+    </div>
+    <div>
+      <a class="xref" href="Sandbox.ModAPI.IMyTerminalBlock.html#Sandbox_ModAPI_IMyTerminalBlock_IsInSameLogicalGroupAs_Sandbox_ModAPI_IMyTerminalBlock_">IMyTerminalBlock.IsInSameLogicalGroupAs(IMyTerminalBlock)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sandbox.ModAPI.IMyTerminalBlock.html#Sandbox_ModAPI_IMyTerminalBlock_IsSameConstructAs_Sandbox_ModAPI_IMyTerminalBlock_">IMyTerminalBlock.IsSameConstructAs(IMyTerminalBlock)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sandbox.ModAPI.IMyTerminalBlock.html#Sandbox_ModAPI_IMyTerminalBlock_IsDetailedInfoDirty">IMyTerminalBlock.IsDetailedInfoDirty</a>
+    </div>
+    <div>
+      <a class="xref" href="Sandbox.ModAPI.IMyTerminalBlock.html#Sandbox_ModAPI_IMyTerminalBlock_CustomDataChanged">IMyTerminalBlock.CustomDataChanged</a>
+    </div>
+    <div>
+      <a class="xref" href="Sandbox.ModAPI.IMyTerminalBlock.html#Sandbox_ModAPI_IMyTerminalBlock_CustomNameChanged">IMyTerminalBlock.CustomNameChanged</a>
+    </div>
+    <div>
+      <a class="xref" href="Sandbox.ModAPI.IMyTerminalBlock.html#Sandbox_ModAPI_IMyTerminalBlock_OwnershipChanged">IMyTerminalBlock.OwnershipChanged</a>
+    </div>
+    <div>
+      <a class="xref" href="Sandbox.ModAPI.IMyTerminalBlock.html#Sandbox_ModAPI_IMyTerminalBlock_PropertiesChanged">IMyTerminalBlock.PropertiesChanged</a>
+    </div>
+    <div>
+      <a class="xref" href="Sandbox.ModAPI.IMyTerminalBlock.html#Sandbox_ModAPI_IMyTerminalBlock_ShowOnHUDChanged">IMyTerminalBlock.ShowOnHUDChanged</a>
+    </div>
+    <div>
+      <a class="xref" href="Sandbox.ModAPI.IMyTerminalBlock.html#Sandbox_ModAPI_IMyTerminalBlock_VisibilityChanged">IMyTerminalBlock.VisibilityChanged</a>
+    </div>
+    <div>
+      <a class="xref" href="Sandbox.ModAPI.IMyTerminalBlock.html#Sandbox_ModAPI_IMyTerminalBlock_AppendingCustomInfo">IMyTerminalBlock.AppendingCustomInfo</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.ModAPI.IMyCubeBlock.html#VRage_Game_ModAPI_IMyCubeBlock_CalcLocalMatrix_VRageMath_Matrix__System_String__">IMyCubeBlock.CalcLocalMatrix(Matrix, String)</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.ModAPI.IMyCubeBlock.html#VRage_Game_ModAPI_IMyCubeBlock_CalculateCurrentModel_VRageMath_Matrix__">IMyCubeBlock.CalculateCurrentModel(Matrix)</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.ModAPI.IMyCubeBlock.html#VRage_Game_ModAPI_IMyCubeBlock_GetObjectBuilderCubeBlock_System_Boolean_">IMyCubeBlock.GetObjectBuilderCubeBlock(Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.ModAPI.IMyCubeBlock.html#VRage_Game_ModAPI_IMyCubeBlock_Init">IMyCubeBlock.Init()</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.ModAPI.IMyCubeBlock.html#VRage_Game_ModAPI_IMyCubeBlock_Init_VRage_Game_MyObjectBuilder_CubeBlock_VRage_Game_ModAPI_IMyCubeGrid_">IMyCubeBlock.Init(MyObjectBuilder_CubeBlock, IMyCubeGrid)</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.ModAPI.IMyCubeBlock.html#VRage_Game_ModAPI_IMyCubeBlock_OnBuildSuccess_System_Int64_">IMyCubeBlock.OnBuildSuccess(Int64)</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.ModAPI.IMyCubeBlock.html#VRage_Game_ModAPI_IMyCubeBlock_OnBuildSuccess_System_Int64_System_Boolean_">IMyCubeBlock.OnBuildSuccess(Int64, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.ModAPI.IMyCubeBlock.html#VRage_Game_ModAPI_IMyCubeBlock_OnDestroy">IMyCubeBlock.OnDestroy()</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.ModAPI.IMyCubeBlock.html#VRage_Game_ModAPI_IMyCubeBlock_OnModelChange">IMyCubeBlock.OnModelChange()</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.ModAPI.IMyCubeBlock.html#VRage_Game_ModAPI_IMyCubeBlock_OnRegisteredToGridSystems">IMyCubeBlock.OnRegisteredToGridSystems()</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.ModAPI.IMyCubeBlock.html#VRage_Game_ModAPI_IMyCubeBlock_OnRemovedByCubeBuilder">IMyCubeBlock.OnRemovedByCubeBuilder()</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.ModAPI.IMyCubeBlock.html#VRage_Game_ModAPI_IMyCubeBlock_OnUnregisteredFromGridSystems">IMyCubeBlock.OnUnregisteredFromGridSystems()</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.ModAPI.IMyCubeBlock.html#VRage_Game_ModAPI_IMyCubeBlock_RaycastDetectors_VRageMath_Vector3D_VRageMath_Vector3D_">IMyCubeBlock.RaycastDetectors(Vector3D, Vector3D)</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.ModAPI.IMyCubeBlock.html#VRage_Game_ModAPI_IMyCubeBlock_ReloadDetectors_System_Boolean_">IMyCubeBlock.ReloadDetectors(Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.ModAPI.IMyCubeBlock.html#VRage_Game_ModAPI_IMyCubeBlock_SetDamageEffect_System_Boolean_">IMyCubeBlock.SetDamageEffect(Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.ModAPI.IMyCubeBlock.html#VRage_Game_ModAPI_IMyCubeBlock_SetEffect_System_String_System_Boolean_">IMyCubeBlock.SetEffect(String, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.ModAPI.IMyCubeBlock.html#VRage_Game_ModAPI_IMyCubeBlock_SetEffect_System_String_System_Single_System_Boolean_System_Boolean_System_Boolean_">IMyCubeBlock.SetEffect(String, Single, Boolean, Boolean, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.ModAPI.IMyCubeBlock.html#VRage_Game_ModAPI_IMyCubeBlock_RemoveEffect_System_String_System_Int32_">IMyCubeBlock.RemoveEffect(String, Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.ModAPI.IMyCubeBlock.html#VRage_Game_ModAPI_IMyCubeBlock_AddUpgradeValue_System_String_System_Single_">IMyCubeBlock.AddUpgradeValue(String, Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.ModAPI.IMyCubeBlock.html#VRage_Game_ModAPI_IMyCubeBlock_CubeGrid">IMyCubeBlock.CubeGrid</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.ModAPI.IMyCubeBlock.html#VRage_Game_ModAPI_IMyCubeBlock_ResourceSink">IMyCubeBlock.ResourceSink</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.ModAPI.IMyCubeBlock.html#VRage_Game_ModAPI_IMyCubeBlock_UpgradeValues">IMyCubeBlock.UpgradeValues</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.ModAPI.IMyCubeBlock.html#VRage_Game_ModAPI_IMyCubeBlock_SlimBlock">IMyCubeBlock.SlimBlock</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.ModAPI.IMyCubeBlock.html#VRage_Game_ModAPI_IMyCubeBlock_CheckConnectionAllowed">IMyCubeBlock.CheckConnectionAllowed</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.ModAPI.IMyCubeBlock.html#VRage_Game_ModAPI_IMyCubeBlock_IsWorkingChanged">IMyCubeBlock.IsWorkingChanged</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.ModAPI.IMyCubeBlock.html#VRage_Game_ModAPI_IMyCubeBlock_OnUpgradeValuesChanged">IMyCubeBlock.OnUpgradeValuesChanged</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.ModAPI.IMyCubeBlock.html#VRage_Game_ModAPI_IMyCubeBlock_CubeGridChanged">IMyCubeBlock.CubeGridChanged</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_GetFriendlyName">IMyEntity.GetFriendlyName()</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_Close">IMyEntity.Close()</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_Delete">IMyEntity.Delete()</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_GetObjectBuilder_System_Boolean_">IMyEntity.GetObjectBuilder(Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_BeforeSave">IMyEntity.BeforeSave()</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_GetTopMostParent_System_Type_">IMyEntity.GetTopMostParent(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_SetLocalMatrix_VRageMath_Matrix_System_Object_">IMyEntity.SetLocalMatrix(Matrix, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_GetChildren_System_Collections_Generic_List_VRage_ModAPI_IMyEntity__System_Func_VRage_ModAPI_IMyEntity_System_Boolean__">IMyEntity.GetChildren(List&lt;IMyEntity&gt;, Func&lt;IMyEntity, Boolean&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_GetSubpart_System_String_">IMyEntity.GetSubpart(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_TryGetSubpart_System_String_VRage_Game_Entity_MyEntitySubpart__">IMyEntity.TryGetSubpart(String, MyEntitySubpart)</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_GetDiffuseColor">IMyEntity.GetDiffuseColor()</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_IsVisible">IMyEntity.IsVisible()</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_DebugDraw">IMyEntity.DebugDraw()</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_DebugDrawInvalidTriangles">IMyEntity.DebugDrawInvalidTriangles()</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_EnableColorMaskForSubparts_System_Boolean_">IMyEntity.EnableColorMaskForSubparts(Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_SetColorMaskForSubparts_VRageMath_Vector3_">IMyEntity.SetColorMaskForSubparts(Vector3)</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_SetTextureChangesForSubparts_System_Collections_Generic_Dictionary_VRage_Utils_MyStringId_VRageRender_Messages_MyTextureChange__">IMyEntity.SetTextureChangesForSubparts(Dictionary&lt;MyStringId, MyTextureChange&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_SetTextureChangesForSubparts_System_Collections_Generic_Dictionary_System_String_VRageRender_Messages_MyTextureChange__">IMyEntity.SetTextureChangesForSubparts(Dictionary&lt;String, MyTextureChange&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_SetEmissiveParts_System_String_VRageMath_Color_System_Single_">IMyEntity.SetEmissiveParts(String, Color, Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_SetEmissivePartsForSubparts_System_String_VRageMath_Color_System_Single_">IMyEntity.SetEmissivePartsForSubparts(String, Color, Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_GetDistanceBetweenCameraAndBoundingSphere">IMyEntity.GetDistanceBetweenCameraAndBoundingSphere()</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_GetDistanceBetweenCameraAndPosition">IMyEntity.GetDistanceBetweenCameraAndPosition()</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_GetLargestDistanceBetweenCameraAndBoundingSphere">IMyEntity.GetLargestDistanceBetweenCameraAndBoundingSphere()</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_GetSmallestDistanceBetweenCameraAndBoundingSphere">IMyEntity.GetSmallestDistanceBetweenCameraAndBoundingSphere()</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_OnRemovedFromScene_System_Object_">IMyEntity.OnRemovedFromScene(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_OnAddedToScene_System_Object_">IMyEntity.OnAddedToScene(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_GetViewMatrix">IMyEntity.GetViewMatrix()</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_GetWorldMatrixNormalizedInv">IMyEntity.GetWorldMatrixNormalizedInv()</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_SetWorldMatrix_VRageMath_MatrixD_System_Object_">IMyEntity.SetWorldMatrix(MatrixD, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_SetPosition_VRageMath_Vector3D_">IMyEntity.SetPosition(Vector3D)</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_Teleport_VRageMath_MatrixD_System_Object_System_Boolean_">IMyEntity.Teleport(MatrixD, Object, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_GetIntersectionWithLine_VRageMath_LineD__System_Nullable_VRage_Game_Models_MyIntersectionResultLineTriangleEx___VRage_Game_Components_IntersectionFlags_">IMyEntity.GetIntersectionWithLine(LineD, Nullable&lt;MyIntersectionResultLineTriangleEx&gt;, IntersectionFlags)</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_GetIntersectionWithLineAndBoundingSphere_VRageMath_LineD__System_Single_">IMyEntity.GetIntersectionWithLineAndBoundingSphere(LineD, Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_GetIntersectionWithSphere_VRageMath_BoundingSphereD__">IMyEntity.GetIntersectionWithSphere(BoundingSphereD)</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_GetIntersectionWithAABB_VRageMath_BoundingBoxD__">IMyEntity.GetIntersectionWithAABB(BoundingBoxD)</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_GetTrianglesIntersectingSphere_VRageMath_BoundingSphere__System_Nullable_VRageMath_Vector3__System_Nullable_System_Single__System_Collections_Generic_List_VRage_Utils_MyTriangle_Vertex_Normals__System_Int32_">IMyEntity.GetTrianglesIntersectingSphere(BoundingSphere, Nullable&lt;Vector3&gt;, Nullable&lt;Single&gt;, List&lt;MyTriangle_Vertex_Normals&gt;, Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_DoOverlapSphereTest_System_Single_VRageMath_Vector3D_">IMyEntity.DoOverlapSphereTest(Single, Vector3D)</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_GetInventory">IMyEntity.GetInventory()</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_GetInventory_System_Int32_">IMyEntity.GetInventory(Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_AddToGamePruningStructure">IMyEntity.AddToGamePruningStructure()</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_RemoveFromGamePruningStructure">IMyEntity.RemoveFromGamePruningStructure()</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_UpdateGamePruningStructure">IMyEntity.UpdateGamePruningStructure()</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_Physics">IMyEntity.Physics</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_PositionComp">IMyEntity.PositionComp</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_Render">IMyEntity.Render</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_GameLogic">IMyEntity.GameLogic</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_Hierarchy">IMyEntity.Hierarchy</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_SyncObject">IMyEntity.SyncObject</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_Storage">IMyEntity.Storage</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_Flags">IMyEntity.Flags</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_EntityId">IMyEntity.EntityId</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_Name">IMyEntity.Name</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_MarkedForClose">IMyEntity.MarkedForClose</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_DebugAsyncLoading">IMyEntity.DebugAsyncLoading</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_Save">IMyEntity.Save</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_PersistentFlags">IMyEntity.PersistentFlags</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_Model">IMyEntity.Model</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_ModelCollision">IMyEntity.ModelCollision</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_Synchronized">IMyEntity.Synchronized</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_NeedsUpdate">IMyEntity.NeedsUpdate</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_Parent">IMyEntity.Parent</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_LocalMatrix">IMyEntity.LocalMatrix</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_NearFlag">IMyEntity.NearFlag</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_CastShadows">IMyEntity.CastShadows</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_FastCastShadowResolve">IMyEntity.FastCastShadowResolve</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_NeedsResolveCastShadow">IMyEntity.NeedsResolveCastShadow</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_MaxGlassDistSq">IMyEntity.MaxGlassDistSq</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_NeedsDraw">IMyEntity.NeedsDraw</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_NeedsDrawFromParent">IMyEntity.NeedsDrawFromParent</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_Transparent">IMyEntity.Transparent</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_ShadowBoxLod">IMyEntity.ShadowBoxLod</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_SkipIfTooSmall">IMyEntity.SkipIfTooSmall</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_Visible">IMyEntity.Visible</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_NeedsWorldMatrix">IMyEntity.NeedsWorldMatrix</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_InScene">IMyEntity.InScene</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_InvalidateOnMove">IMyEntity.InvalidateOnMove</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_WorldMatrix">IMyEntity.WorldMatrix</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_WorldMatrixInvScaled">IMyEntity.WorldMatrixInvScaled</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_WorldMatrixNormalizedInv">IMyEntity.WorldMatrixNormalizedInv</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_IsVolumetric">IMyEntity.IsVolumetric</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_LocalAABB">IMyEntity.LocalAABB</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_LocalAABBHr">IMyEntity.LocalAABBHr</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_LocalVolume">IMyEntity.LocalVolume</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_LocalVolumeOffset">IMyEntity.LocalVolumeOffset</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_LocationForHudMarker">IMyEntity.LocationForHudMarker</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_IsCCDForProjectiles">IMyEntity.IsCCDForProjectiles</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_DisplayName">IMyEntity.DisplayName</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_StopPhysicsActivation">IMyEntity.StopPhysicsActivation</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_OnClose">IMyEntity.OnClose</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_OnClosing">IMyEntity.OnClosing</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_OnMarkForClose">IMyEntity.OnMarkForClose</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.ModAPI.IMyEntity.html#VRage_ModAPI_IMyEntity_OnPhysicsChanged">IMyEntity.OnPhysicsChanged</a>
+    </div>
+    <div>
+      <a class="xref" href="SpaceEngineers.Game.ModAPI.Ingame.IMyTransponder.html#SpaceEngineers_Game_ModAPI_Ingame_IMyTransponder_SendSignal_System_Nullable_System_Int32__">IMyTransponder.SendSignal(Nullable&lt;Int32&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="SpaceEngineers.Game.ModAPI.Ingame.IMyTransponder.html#SpaceEngineers_Game_ModAPI_Ingame_IMyTransponder_Channel">IMyTransponder.Channel</a>
+    </div>
+    <div>
+      <a class="xref" href="SpaceEngineers.Game.ModAPI.Ingame.IMyTransponder.html#SpaceEngineers_Game_ModAPI_Ingame_IMyTransponder_AllowSignalsFrom">IMyTransponder.AllowSignalsFrom</a>
+    </div>
+    <div>
+      <a class="xref" href="Sandbox.ModAPI.Ingame.IMyFunctionalBlock.html#Sandbox_ModAPI_Ingame_IMyFunctionalBlock_RequestEnable_System_Boolean_">IMyFunctionalBlock.RequestEnable(Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sandbox.ModAPI.Ingame.IMyFunctionalBlock.html#Sandbox_ModAPI_Ingame_IMyFunctionalBlock_Enabled">IMyFunctionalBlock.Enabled</a>
+    </div>
+    <div>
+      <a class="xref" href="Sandbox.ModAPI.Ingame.IMyTerminalBlock.html#Sandbox_ModAPI_Ingame_IMyTerminalBlock_HasLocalPlayerAccess">IMyTerminalBlock.HasLocalPlayerAccess()</a>
+    </div>
+    <div>
+      <a class="xref" href="Sandbox.ModAPI.Ingame.IMyTerminalBlock.html#Sandbox_ModAPI_Ingame_IMyTerminalBlock_HasPlayerAccess_System_Int64_VRage_Game_MyRelationsBetweenPlayerAndBlock_">IMyTerminalBlock.HasPlayerAccess(Int64, MyRelationsBetweenPlayerAndBlock)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sandbox.ModAPI.Ingame.IMyTerminalBlock.html#Sandbox_ModAPI_Ingame_IMyTerminalBlock_HasNobodyPlayerAccessToBlock">IMyTerminalBlock.HasNobodyPlayerAccessToBlock()</a>
+    </div>
+    <div>
+      <a class="xref" href="Sandbox.ModAPI.Ingame.IMyTerminalBlock.html#Sandbox_ModAPI_Ingame_IMyTerminalBlock_HasPlayerAccessWithNobodyCheck_System_Int64_System_Boolean_">IMyTerminalBlock.HasPlayerAccessWithNobodyCheck(Int64, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sandbox.ModAPI.Ingame.IMyTerminalBlock.html#Sandbox_ModAPI_Ingame_IMyTerminalBlock_SetCustomName_System_String_">IMyTerminalBlock.SetCustomName(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sandbox.ModAPI.Ingame.IMyTerminalBlock.html#Sandbox_ModAPI_Ingame_IMyTerminalBlock_SetCustomName_System_Text_StringBuilder_">IMyTerminalBlock.SetCustomName(StringBuilder)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sandbox.ModAPI.Ingame.IMyTerminalBlock.html#Sandbox_ModAPI_Ingame_IMyTerminalBlock_GetActions_System_Collections_Generic_List_Sandbox_ModAPI_Interfaces_ITerminalAction__System_Func_Sandbox_ModAPI_Interfaces_ITerminalAction_System_Boolean__">IMyTerminalBlock.GetActions(List&lt;ITerminalAction&gt;, Func&lt;ITerminalAction, Boolean&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sandbox.ModAPI.Ingame.IMyTerminalBlock.html#Sandbox_ModAPI_Ingame_IMyTerminalBlock_SearchActionsOfName_System_String_System_Collections_Generic_List_Sandbox_ModAPI_Interfaces_ITerminalAction__System_Func_Sandbox_ModAPI_Interfaces_ITerminalAction_System_Boolean__">IMyTerminalBlock.SearchActionsOfName(String, List&lt;ITerminalAction&gt;, Func&lt;ITerminalAction, Boolean&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sandbox.ModAPI.Ingame.IMyTerminalBlock.html#Sandbox_ModAPI_Ingame_IMyTerminalBlock_GetActionWithName_System_String_">IMyTerminalBlock.GetActionWithName(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sandbox.ModAPI.Ingame.IMyTerminalBlock.html#Sandbox_ModAPI_Ingame_IMyTerminalBlock_GetProperty_System_String_">IMyTerminalBlock.GetProperty(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sandbox.ModAPI.Ingame.IMyTerminalBlock.html#Sandbox_ModAPI_Ingame_IMyTerminalBlock_GetProperties_System_Collections_Generic_List_Sandbox_ModAPI_Interfaces_ITerminalProperty__System_Func_Sandbox_ModAPI_Interfaces_ITerminalProperty_System_Boolean__">IMyTerminalBlock.GetProperties(List&lt;ITerminalProperty&gt;, Func&lt;ITerminalProperty, Boolean&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sandbox.ModAPI.Ingame.IMyTerminalBlock.html#Sandbox_ModAPI_Ingame_IMyTerminalBlock_IsSameConstructAs_Sandbox_ModAPI_Ingame_IMyTerminalBlock_">IMyTerminalBlock.IsSameConstructAs(IMyTerminalBlock)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sandbox.ModAPI.Ingame.IMyTerminalBlock.html#Sandbox_ModAPI_Ingame_IMyTerminalBlock_CustomName">IMyTerminalBlock.CustomName</a>
+    </div>
+    <div>
+      <a class="xref" href="Sandbox.ModAPI.Ingame.IMyTerminalBlock.html#Sandbox_ModAPI_Ingame_IMyTerminalBlock_CustomNameWithFaction">IMyTerminalBlock.CustomNameWithFaction</a>
+    </div>
+    <div>
+      <a class="xref" href="Sandbox.ModAPI.Ingame.IMyTerminalBlock.html#Sandbox_ModAPI_Ingame_IMyTerminalBlock_DetailedInfo">IMyTerminalBlock.DetailedInfo</a>
+    </div>
+    <div>
+      <a class="xref" href="Sandbox.ModAPI.Ingame.IMyTerminalBlock.html#Sandbox_ModAPI_Ingame_IMyTerminalBlock_CustomInfo">IMyTerminalBlock.CustomInfo</a>
+    </div>
+    <div>
+      <a class="xref" href="Sandbox.ModAPI.Ingame.IMyTerminalBlock.html#Sandbox_ModAPI_Ingame_IMyTerminalBlock_CustomData">IMyTerminalBlock.CustomData</a>
+    </div>
+    <div>
+      <a class="xref" href="Sandbox.ModAPI.Ingame.IMyTerminalBlock.html#Sandbox_ModAPI_Ingame_IMyTerminalBlock_ShowOnHUD">IMyTerminalBlock.ShowOnHUD</a>
+    </div>
+    <div>
+      <a class="xref" href="Sandbox.ModAPI.Ingame.IMyTerminalBlock.html#Sandbox_ModAPI_Ingame_IMyTerminalBlock_ShowInTerminal">IMyTerminalBlock.ShowInTerminal</a>
+    </div>
+    <div>
+      <a class="xref" href="Sandbox.ModAPI.Ingame.IMyTerminalBlock.html#Sandbox_ModAPI_Ingame_IMyTerminalBlock_ShowInToolbarConfig">IMyTerminalBlock.ShowInToolbarConfig</a>
+    </div>
+    <div>
+      <a class="xref" href="Sandbox.ModAPI.Ingame.IMyTerminalBlock.html#Sandbox_ModAPI_Ingame_IMyTerminalBlock_ShowInInventory">IMyTerminalBlock.ShowInInventory</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.ModAPI.Ingame.IMyCubeBlock.html#VRage_Game_ModAPI_Ingame_IMyCubeBlock_GetOwnerFactionTag">IMyCubeBlock.GetOwnerFactionTag()</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.ModAPI.Ingame.IMyCubeBlock.html#VRage_Game_ModAPI_Ingame_IMyCubeBlock_GetPlayerRelationToOwner">IMyCubeBlock.GetPlayerRelationToOwner()</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.ModAPI.Ingame.IMyCubeBlock.html#VRage_Game_ModAPI_Ingame_IMyCubeBlock_GetUserRelationToOwner_System_Int64_VRage_Game_MyRelationsBetweenPlayerAndBlock_">IMyCubeBlock.GetUserRelationToOwner(Int64, MyRelationsBetweenPlayerAndBlock)</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.ModAPI.Ingame.IMyCubeBlock.html#VRage_Game_ModAPI_Ingame_IMyCubeBlock_UpdateIsWorking">IMyCubeBlock.UpdateIsWorking()</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.ModAPI.Ingame.IMyCubeBlock.html#VRage_Game_ModAPI_Ingame_IMyCubeBlock_UpdateVisual">IMyCubeBlock.UpdateVisual()</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.ModAPI.Ingame.IMyCubeBlock.html#VRage_Game_ModAPI_Ingame_IMyCubeBlock_BlockDefinition">IMyCubeBlock.BlockDefinition</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.ModAPI.Ingame.IMyCubeBlock.html#VRage_Game_ModAPI_Ingame_IMyCubeBlock_DefinitionDisplayNameText">IMyCubeBlock.DefinitionDisplayNameText</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.ModAPI.Ingame.IMyCubeBlock.html#VRage_Game_ModAPI_Ingame_IMyCubeBlock_DisassembleRatio">IMyCubeBlock.DisassembleRatio</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.ModAPI.Ingame.IMyCubeBlock.html#VRage_Game_ModAPI_Ingame_IMyCubeBlock_DisplayNameText">IMyCubeBlock.DisplayNameText</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.ModAPI.Ingame.IMyCubeBlock.html#VRage_Game_ModAPI_Ingame_IMyCubeBlock_IsBeingHacked">IMyCubeBlock.IsBeingHacked</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.ModAPI.Ingame.IMyCubeBlock.html#VRage_Game_ModAPI_Ingame_IMyCubeBlock_IsFunctional">IMyCubeBlock.IsFunctional</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.ModAPI.Ingame.IMyCubeBlock.html#VRage_Game_ModAPI_Ingame_IMyCubeBlock_IsWorking">IMyCubeBlock.IsWorking</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.ModAPI.Ingame.IMyCubeBlock.html#VRage_Game_ModAPI_Ingame_IMyCubeBlock_Max">IMyCubeBlock.Max</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.ModAPI.Ingame.IMyCubeBlock.html#VRage_Game_ModAPI_Ingame_IMyCubeBlock_Mass">IMyCubeBlock.Mass</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.ModAPI.Ingame.IMyCubeBlock.html#VRage_Game_ModAPI_Ingame_IMyCubeBlock_Min">IMyCubeBlock.Min</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.ModAPI.Ingame.IMyCubeBlock.html#VRage_Game_ModAPI_Ingame_IMyCubeBlock_NumberInGrid">IMyCubeBlock.NumberInGrid</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.ModAPI.Ingame.IMyCubeBlock.html#VRage_Game_ModAPI_Ingame_IMyCubeBlock_Orientation">IMyCubeBlock.Orientation</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.ModAPI.Ingame.IMyCubeBlock.html#VRage_Game_ModAPI_Ingame_IMyCubeBlock_OwnerId">IMyCubeBlock.OwnerId</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.ModAPI.Ingame.IMyCubeBlock.html#VRage_Game_ModAPI_Ingame_IMyCubeBlock_Position">IMyCubeBlock.Position</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.ModAPI.Ingame.IMyEntity.html#VRage_Game_ModAPI_Ingame_IMyEntity_GetPosition">IMyEntity.GetPosition()</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.ModAPI.Ingame.IMyEntity.html#VRage_Game_ModAPI_Ingame_IMyEntity_Components">IMyEntity.Components</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.ModAPI.Ingame.IMyEntity.html#VRage_Game_ModAPI_Ingame_IMyEntity_HasInventory">IMyEntity.HasInventory</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.ModAPI.Ingame.IMyEntity.html#VRage_Game_ModAPI_Ingame_IMyEntity_InventoryCount">IMyEntity.InventoryCount</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.ModAPI.Ingame.IMyEntity.html#VRage_Game_ModAPI_Ingame_IMyEntity_Closed">IMyEntity.Closed</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.ModAPI.Ingame.IMyEntity.html#VRage_Game_ModAPI_Ingame_IMyEntity_WorldAABB">IMyEntity.WorldAABB</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.ModAPI.Ingame.IMyEntity.html#VRage_Game_ModAPI_Ingame_IMyEntity_WorldAABBHr">IMyEntity.WorldAABBHr</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.ModAPI.Ingame.IMyEntity.html#VRage_Game_ModAPI_Ingame_IMyEntity_WorldVolume">IMyEntity.WorldVolume</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.ModAPI.Ingame.IMyEntity.html#VRage_Game_ModAPI_Ingame_IMyEntity_WorldVolumeHr">IMyEntity.WorldVolumeHr</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="SpaceEngineers.Game.ModAPI.html">SpaceEngineers.Game.ModAPI</a></h6>
+  <h6><strong>Assembly</strong>: SpaceEngineers.Game.dll</h6>
+  <h5 id="SpaceEngineers_Game_ModAPI_IMyTransponder_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IMyTransponder : IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBlock, IMyEntity, IMyTransponder, IMyFunctionalBlock, IMyTerminalBlock, IMyCubeBlock, IMyEntity</code></pre>
+  </div>
+  <h3 id="events">Events
+  </h3>
+  
+  
+  <h4 id="SpaceEngineers_Game_ModAPI_IMyTransponder_SignalReceived" data-uid="SpaceEngineers.Game.ModAPI.IMyTransponder.SignalReceived">SignalReceived</h4>
+  <div class="markdown level1 summary"><p>Called when a signal is received (the block must be in working state)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event Action&lt;int&gt; SignalReceived</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="SpaceEngineers_Game_ModAPI_IMyTransponder_TriggeredBySignal" data-uid="SpaceEngineers.Game.ModAPI.IMyTransponder.TriggeredBySignal">TriggeredBySignal</h4>
+  <div class="markdown level1 summary"><p>Called when successfully triggered by a signal</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event Action&lt;int&gt; TriggeredBySignal</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="Sandbox.ModAPI.Ingame.TerminalBlockExtentions.html#Sandbox_ModAPI_Ingame_TerminalBlockExtentions_GetId_Sandbox_ModAPI_Ingame_IMyTerminalBlock_">TerminalBlockExtentions.GetId(IMyTerminalBlock)</a>
+  </div>
+  <div>
+      <a class="xref" href="Sandbox.ModAPI.Ingame.TerminalBlockExtentions.html#Sandbox_ModAPI_Ingame_TerminalBlockExtentions_ApplyAction_Sandbox_ModAPI_Ingame_IMyTerminalBlock_System_String_">TerminalBlockExtentions.ApplyAction(IMyTerminalBlock, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="Sandbox.ModAPI.Ingame.TerminalBlockExtentions.html#Sandbox_ModAPI_Ingame_TerminalBlockExtentions_ApplyAction_Sandbox_ModAPI_Ingame_IMyTerminalBlock_System_String_System_Collections_Generic_List_Sandbox_ModAPI_Ingame_TerminalActionParameter__">TerminalBlockExtentions.ApplyAction(IMyTerminalBlock, String, List&lt;TerminalActionParameter&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Sandbox.ModAPI.Ingame.TerminalBlockExtentions.html#Sandbox_ModAPI_Ingame_TerminalBlockExtentions_HasAction_Sandbox_ModAPI_Ingame_IMyTerminalBlock_System_String_">TerminalBlockExtentions.HasAction(IMyTerminalBlock, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="Sandbox.ModAPI.Ingame.TerminalBlockExtentions.html#Sandbox_ModAPI_Ingame_TerminalBlockExtentions_HasInventory_Sandbox_ModAPI_Ingame_IMyTerminalBlock_">TerminalBlockExtentions.HasInventory(IMyTerminalBlock)</a>
+  </div>
+  <div>
+      <a class="xref" href="Sandbox.ModAPI.Ingame.TerminalBlockExtentions.html#Sandbox_ModAPI_Ingame_TerminalBlockExtentions_GetInventory_Sandbox_ModAPI_Ingame_IMyTerminalBlock_System_Int32_">TerminalBlockExtentions.GetInventory(IMyTerminalBlock, Int32)</a>
+  </div>
+  <div>
+      <a class="xref" href="Sandbox.ModAPI.Ingame.TerminalBlockExtentions.html#Sandbox_ModAPI_Ingame_TerminalBlockExtentions_GetInventoryCount_Sandbox_ModAPI_Ingame_IMyTerminalBlock_">TerminalBlockExtentions.GetInventoryCount(IMyTerminalBlock)</a>
+  </div>
+  <div>
+      <a class="xref" href="Sandbox.ModAPI.Ingame.TerminalBlockExtentions.html#Sandbox_ModAPI_Ingame_TerminalBlockExtentions_GetUseConveyorSystem_Sandbox_ModAPI_Ingame_IMyTerminalBlock_">TerminalBlockExtentions.GetUseConveyorSystem(IMyTerminalBlock)</a>
+  </div>
+  <div>
+      <a class="xref" href="Sandbox.ModAPI.Ingame.TerminalBlockExtentions.html#Sandbox_ModAPI_Ingame_TerminalBlockExtentions_SetUseConveyorSystem_Sandbox_ModAPI_Ingame_IMyTerminalBlock_System_Boolean_">TerminalBlockExtentions.SetUseConveyorSystem(IMyTerminalBlock, Boolean)</a>
+  </div>
+  <div>
+      <a class="xref" href="Sandbox.ModAPI.Interfaces.TerminalPropertyExtensions.html#Sandbox_ModAPI_Interfaces_TerminalPropertyExtensions_GetValueFloat_Sandbox_ModAPI_Ingame_IMyTerminalBlock_System_String_">TerminalPropertyExtensions.GetValueFloat(IMyTerminalBlock, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="Sandbox.ModAPI.Interfaces.TerminalPropertyExtensions.html#Sandbox_ModAPI_Interfaces_TerminalPropertyExtensions_SetValueFloat_Sandbox_ModAPI_Ingame_IMyTerminalBlock_System_String_System_Single_">TerminalPropertyExtensions.SetValueFloat(IMyTerminalBlock, String, Single)</a>
+  </div>
+  <div>
+      <a class="xref" href="Sandbox.ModAPI.Interfaces.TerminalPropertyExtensions.html#Sandbox_ModAPI_Interfaces_TerminalPropertyExtensions_GetValueBool_Sandbox_ModAPI_Ingame_IMyTerminalBlock_System_String_">TerminalPropertyExtensions.GetValueBool(IMyTerminalBlock, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="Sandbox.ModAPI.Interfaces.TerminalPropertyExtensions.html#Sandbox_ModAPI_Interfaces_TerminalPropertyExtensions_SetValueBool_Sandbox_ModAPI_Ingame_IMyTerminalBlock_System_String_System_Boolean_">TerminalPropertyExtensions.SetValueBool(IMyTerminalBlock, String, Boolean)</a>
+  </div>
+  <div>
+      <a class="xref" href="Sandbox.ModAPI.Interfaces.TerminalPropertyExtensions.html#Sandbox_ModAPI_Interfaces_TerminalPropertyExtensions_GetValueColor_Sandbox_ModAPI_Ingame_IMyTerminalBlock_System_String_">TerminalPropertyExtensions.GetValueColor(IMyTerminalBlock, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="Sandbox.ModAPI.Interfaces.TerminalPropertyExtensions.html#Sandbox_ModAPI_Interfaces_TerminalPropertyExtensions_SetValueColor_Sandbox_ModAPI_Ingame_IMyTerminalBlock_System_String_VRageMath_Color_">TerminalPropertyExtensions.SetValueColor(IMyTerminalBlock, String, Color)</a>
+  </div>
+  <div>
+      <a class="xref" href="Sandbox.ModAPI.Interfaces.TerminalPropertyExtensions.html#Sandbox_ModAPI_Interfaces_TerminalPropertyExtensions_GetValue__1_Sandbox_ModAPI_Ingame_IMyTerminalBlock_System_String_">TerminalPropertyExtensions.GetValue&lt;T&gt;(IMyTerminalBlock, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="Sandbox.ModAPI.Interfaces.TerminalPropertyExtensions.html#Sandbox_ModAPI_Interfaces_TerminalPropertyExtensions_GetDefaultValue__1_Sandbox_ModAPI_Ingame_IMyTerminalBlock_System_String_">TerminalPropertyExtensions.GetDefaultValue&lt;T&gt;(IMyTerminalBlock, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="Sandbox.ModAPI.Interfaces.TerminalPropertyExtensions.html#Sandbox_ModAPI_Interfaces_TerminalPropertyExtensions_GetMininum__1_Sandbox_ModAPI_Ingame_IMyTerminalBlock_System_String_">TerminalPropertyExtensions.GetMininum&lt;T&gt;(IMyTerminalBlock, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="Sandbox.ModAPI.Interfaces.TerminalPropertyExtensions.html#Sandbox_ModAPI_Interfaces_TerminalPropertyExtensions_GetMinimum__1_Sandbox_ModAPI_Ingame_IMyTerminalBlock_System_String_">TerminalPropertyExtensions.GetMinimum&lt;T&gt;(IMyTerminalBlock, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="Sandbox.ModAPI.Interfaces.TerminalPropertyExtensions.html#Sandbox_ModAPI_Interfaces_TerminalPropertyExtensions_GetMaximum__1_Sandbox_ModAPI_Ingame_IMyTerminalBlock_System_String_">TerminalPropertyExtensions.GetMaximum&lt;T&gt;(IMyTerminalBlock, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="Sandbox.ModAPI.Interfaces.TerminalPropertyExtensions.html#Sandbox_ModAPI_Interfaces_TerminalPropertyExtensions_SetValue__1_Sandbox_ModAPI_Ingame_IMyTerminalBlock_System_String___0_">TerminalPropertyExtensions.SetValue&lt;T&gt;(IMyTerminalBlock, String, T)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <div class="toggle-mode">
+                <div class="icon">
+                  <i aria-hidden="true">☀</i>
+                </div>
+                <label class="switch">
+                  <input type="checkbox" id="switch-style">
+                  <span class="slider round"></span>
+                </label>
+                <div class="icon">
+                  <i aria-hidden="true">☾</i>
+                </div>
+              </div>
+          
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <h5>In This Article</h5>
+              <div></div>
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            <div class="pull-left">
+              
+              <span>Generated by <strong>DocFX</strong></span>
+            </div>
+            <div class="toggle-mode pull-right visible-sm visible-xs">
+              <div class="icon">
+                <i aria-hidden="true">☀</i>
+              </div>
+              <label class="switch">
+                <input type="checkbox" id="switch-style-m">
+                <span class="slider round"></span>
+              </label>
+              <div class="icon">
+                <i aria-hidden="true">☾</i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <script type="text/javascript" src="../styles/toggle-theme.js"></script>
+      </footer>    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

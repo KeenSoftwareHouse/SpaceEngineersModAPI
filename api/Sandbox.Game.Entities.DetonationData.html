@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class MyDLCs.MyDLC
+    <title>Class DetonationData
    | Space Engineers ModAPI </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class MyDLCs.MyDLC
+    <meta name="title" content="Class DetonationData
    | Space Engineers ModAPI ">
     <meta name="generator" content="docfx 2.58.2.0">
     
@@ -67,38 +67,46 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Sandbox.Game.MyDLCs.MyDLC">
+            <article class="content wrap" id="_content" data-uid="Sandbox.Game.Entities.DetonationData">
   
   
-  <h1 id="Sandbox_Game_MyDLCs_MyDLC" data-uid="Sandbox.Game.MyDLCs.MyDLC" class="text-break">Class MyDLCs.MyDLC
+  <h1 id="Sandbox_Game_Entities_DetonationData" data-uid="Sandbox.Game.Entities.DetonationData" class="text-break">Class DetonationData
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">MyDLCs.MyDLC</span></div>
+    <div class="level1"><span class="xref">DetonationData</span></div>
   </div>
-  <div classs="implements">
-    <h5>Implements</h5>
-    <div><a class="xref" href="VRage.Game.ModAPI.IMyDLC.html">IMyDLC</a></div>
-  </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Sandbox.Game.html">Sandbox.Game</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Sandbox.Game.Entities.html">Sandbox.Game.Entities</a></h6>
   <h6><strong>Assembly</strong>: Sandbox.Game.dll</h6>
-  <h5 id="Sandbox_Game_MyDLCs_MyDLC_syntax">Syntax</h5>
+  <h5 id="Sandbox_Game_Entities_DetonationData_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public sealed class MyDLC : Object, IMyDLC</code></pre>
+    <pre><code class="lang-csharp hljs">public class DetonationData : Object</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="Sandbox_Game_Entities_DetonationData__ctor_" data-uid="Sandbox.Game.Entities.DetonationData.#ctor*"></a>
+  <h4 id="Sandbox_Game_Entities_DetonationData__ctor" data-uid="Sandbox.Game.Entities.DetonationData.#ctor">DetonationData()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DetonationData()</code></pre>
   </div>
   <h3 id="fields">Fields
   </h3>
   
   
-  <h4 id="Sandbox_Game_MyDLCs_MyDLC_DLC_NAME_Automatons" data-uid="Sandbox.Game.MyDLCs.MyDLC.DLC_NAME_Automatons">DLC_NAME_Automatons</h4>
+  <h4 id="Sandbox_Game_Entities_DetonationData_CachedExplosiveMass" data-uid="Sandbox.Game.Entities.DetonationData.CachedExplosiveMass">CachedExplosiveMass</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static readonly string DLC_NAME_Automatons</code></pre>
+    <pre><code class="lang-csharp hljs">public float CachedExplosiveMass</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -110,19 +118,19 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><span class="xref">System.Single</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="Sandbox_Game_MyDLCs_MyDLC_DLC_NAME_DecorativeBlocks" data-uid="Sandbox.Game.MyDLCs.MyDLC.DLC_NAME_DecorativeBlocks">DLC_NAME_DecorativeBlocks</h4>
+  <h4 id="Sandbox_Game_Entities_DetonationData_CachedExplosives" data-uid="Sandbox.Game.Entities.DetonationData.CachedExplosives">CachedExplosives</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static readonly string DLC_NAME_DecorativeBlocks</code></pre>
+    <pre><code class="lang-csharp hljs">public List&lt;MyCubeBlock.StoredExplosive&gt; CachedExplosives</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -134,19 +142,19 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Sandbox.Game.Entities.MyCubeBlock.StoredExplosive.html">MyCubeBlock.StoredExplosive</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="Sandbox_Game_MyDLCs_MyDLC_DLC_NAME_DecorativeBlocks2" data-uid="Sandbox.Game.MyDLCs.MyDLC.DLC_NAME_DecorativeBlocks2">DLC_NAME_DecorativeBlocks2</h4>
+  <h4 id="Sandbox_Game_Entities_DetonationData_CachedExplosiveVolume" data-uid="Sandbox.Game.Entities.DetonationData.CachedExplosiveVolume">CachedExplosiveVolume</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static readonly string DLC_NAME_DecorativeBlocks2</code></pre>
+    <pre><code class="lang-csharp hljs">public float CachedExplosiveVolume</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -158,19 +166,19 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><span class="xref">System.Single</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="Sandbox_Game_MyDLCs_MyDLC_DLC_NAME_DeluxeEdition" data-uid="Sandbox.Game.MyDLCs.MyDLC.DLC_NAME_DeluxeEdition">DLC_NAME_DeluxeEdition</h4>
+  <h4 id="Sandbox_Game_Entities_DetonationData_DamageThreshold" data-uid="Sandbox.Game.Entities.DetonationData.DamageThreshold">DamageThreshold</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static readonly string DLC_NAME_DeluxeEdition</code></pre>
+    <pre><code class="lang-csharp hljs">public float DamageThreshold</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -182,19 +190,19 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><span class="xref">System.Single</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="Sandbox_Game_MyDLCs_MyDLC_DLC_NAME_Economy" data-uid="Sandbox.Game.MyDLCs.MyDLC.DLC_NAME_Economy">DLC_NAME_Economy</h4>
+  <h4 id="Sandbox_Game_Entities_DetonationData_DetonateChance" data-uid="Sandbox.Game.Entities.DetonationData.DetonateChance">DetonateChance</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static readonly string DLC_NAME_Economy</code></pre>
+    <pre><code class="lang-csharp hljs">public float DetonateChance</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -206,19 +214,19 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><span class="xref">System.Single</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="Sandbox_Game_MyDLCs_MyDLC_DLC_NAME_Frostbite" data-uid="Sandbox.Game.MyDLCs.MyDLC.DLC_NAME_Frostbite">DLC_NAME_Frostbite</h4>
+  <h4 id="Sandbox_Game_Entities_DetonationData_ExplosionAmmoVolumeMax" data-uid="Sandbox.Game.Entities.DetonationData.ExplosionAmmoVolumeMax">ExplosionAmmoVolumeMax</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static readonly string DLC_NAME_Frostbite</code></pre>
+    <pre><code class="lang-csharp hljs">public float ExplosionAmmoVolumeMax</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -230,19 +238,19 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><span class="xref">System.Single</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="Sandbox_Game_MyDLCs_MyDLC_DLC_NAME_HeavyIndustry" data-uid="Sandbox.Game.MyDLCs.MyDLC.DLC_NAME_HeavyIndustry">DLC_NAME_HeavyIndustry</h4>
+  <h4 id="Sandbox_Game_Entities_DetonationData_ExplosionAmmoVolumeMin" data-uid="Sandbox.Game.Entities.DetonationData.ExplosionAmmoVolumeMin">ExplosionAmmoVolumeMin</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static readonly string DLC_NAME_HeavyIndustry</code></pre>
+    <pre><code class="lang-csharp hljs">public float ExplosionAmmoVolumeMin</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -254,19 +262,19 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><span class="xref">System.Single</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="Sandbox_Game_MyDLCs_MyDLC_DLC_NAME_Major203DLC" data-uid="Sandbox.Game.MyDLCs.MyDLC.DLC_NAME_Major203DLC">DLC_NAME_Major203DLC</h4>
+  <h4 id="Sandbox_Game_Entities_DetonationData_ExplosionDamageMax" data-uid="Sandbox.Game.Entities.DetonationData.ExplosionDamageMax">ExplosionDamageMax</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static readonly string DLC_NAME_Major203DLC</code></pre>
+    <pre><code class="lang-csharp hljs">public float ExplosionDamageMax</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -278,19 +286,19 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><span class="xref">System.Single</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="Sandbox_Game_MyDLCs_MyDLC_DLC_NAME_PreorderPack" data-uid="Sandbox.Game.MyDLCs.MyDLC.DLC_NAME_PreorderPack">DLC_NAME_PreorderPack</h4>
+  <h4 id="Sandbox_Game_Entities_DetonationData_ExplosionDamagePerLiter" data-uid="Sandbox.Game.Entities.DetonationData.ExplosionDamagePerLiter">ExplosionDamagePerLiter</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static readonly string DLC_NAME_PreorderPack</code></pre>
+    <pre><code class="lang-csharp hljs">public float ExplosionDamagePerLiter</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -302,19 +310,19 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><span class="xref">System.Single</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="Sandbox_Game_MyDLCs_MyDLC_DLC_NAME_ScrapRace" data-uid="Sandbox.Game.MyDLCs.MyDLC.DLC_NAME_ScrapRace">DLC_NAME_ScrapRace</h4>
+  <h4 id="Sandbox_Game_Entities_DetonationData_ExplosionRadiusMax" data-uid="Sandbox.Game.Entities.DetonationData.ExplosionRadiusMax">ExplosionRadiusMax</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static readonly string DLC_NAME_ScrapRace</code></pre>
+    <pre><code class="lang-csharp hljs">public float ExplosionRadiusMax</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -326,19 +334,19 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><span class="xref">System.Single</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="Sandbox_Game_MyDLCs_MyDLC_DLC_NAME_SparksOfTheFuture" data-uid="Sandbox.Game.MyDLCs.MyDLC.DLC_NAME_SparksOfTheFuture">DLC_NAME_SparksOfTheFuture</h4>
+  <h4 id="Sandbox_Game_Entities_DetonationData_ExplosionRadiusMin" data-uid="Sandbox.Game.Entities.DetonationData.ExplosionRadiusMin">ExplosionRadiusMin</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static readonly string DLC_NAME_SparksOfTheFuture</code></pre>
+    <pre><code class="lang-csharp hljs">public float ExplosionRadiusMin</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -350,19 +358,19 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><span class="xref">System.Single</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="Sandbox_Game_MyDLCs_MyDLC_DLC_NAME_StylePack" data-uid="Sandbox.Game.MyDLCs.MyDLC.DLC_NAME_StylePack">DLC_NAME_StylePack</h4>
+  <h4 id="Sandbox_Game_Entities_DetonationData_HasDetonated" data-uid="Sandbox.Game.Entities.DetonationData.HasDetonated">HasDetonated</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static readonly string DLC_NAME_StylePack</code></pre>
+    <pre><code class="lang-csharp hljs">public bool HasDetonated</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -374,122 +382,83 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><span class="xref">System.Boolean</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  
-  
-  <h4 id="Sandbox_Game_MyDLCs_MyDLC_DLC_NAME_Warfare1" data-uid="Sandbox.Game.MyDLCs.MyDLC.DLC_NAME_Warfare1">DLC_NAME_Warfare1</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static readonly string DLC_NAME_Warfare1</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Sandbox_Game_MyDLCs_MyDLC_DLC_NAME_Warfare2" data-uid="Sandbox.Game.MyDLCs.MyDLC.DLC_NAME_Warfare2">DLC_NAME_Warfare2</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static readonly string DLC_NAME_Warfare2</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Sandbox_Game_MyDLCs_MyDLC_DLCList" data-uid="Sandbox.Game.MyDLCs.MyDLC.DLCList">DLCList</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static readonly List&lt;MyDLCs.MyDLC&gt; DLCList</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Sandbox.Game.MyDLCs.MyDLC.html">MyDLCs.MyDLC</a>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="properties">Properties
+  <h3 id="methods">Methods
   </h3>
   
   
-  <a id="Sandbox_Game_MyDLCs_MyDLC_AppId_" data-uid="Sandbox.Game.MyDLCs.MyDLC.AppId*"></a>
-  <h4 id="Sandbox_Game_MyDLCs_MyDLC_AppId" data-uid="Sandbox.Game.MyDLCs.MyDLC.AppId">AppId</h4>
+  <a id="Sandbox_Game_Entities_DetonationData_CacheItem_" data-uid="Sandbox.Game.Entities.DetonationData.CacheItem*"></a>
+  <h4 id="Sandbox_Game_Entities_DetonationData_CacheItem_VRage_Game_Entity_MyInventoryBase_VRage_Game_Entity_MyPhysicalInventoryItem_VRage_MyFixedPoint_" data-uid="Sandbox.Game.Entities.DetonationData.CacheItem(VRage.Game.Entity.MyInventoryBase,VRage.Game.Entity.MyPhysicalInventoryItem,VRage.MyFixedPoint)">CacheItem(MyInventoryBase, MyPhysicalInventoryItem, MyFixedPoint)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public uint AppId { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public void CacheItem(MyInventoryBase inventoryBase, MyPhysicalInventoryItem item, MyFixedPoint amount)</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
+        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.UInt32</span></td>
+        <td><a class="xref" href="VRage.Game.Entity.MyInventoryBase.html">MyInventoryBase</a></td>
+        <td><span class="parametername">inventoryBase</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="VRage.Game.Entity.MyPhysicalInventoryItem.html">MyPhysicalInventoryItem</a></td>
+        <td><span class="parametername">item</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">VRage.MyFixedPoint</span></td>
+        <td><span class="parametername">amount</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Sandbox_Game_MyDLCs_MyDLC_Badge_" data-uid="Sandbox.Game.MyDLCs.MyDLC.Badge*"></a>
-  <h4 id="Sandbox_Game_MyDLCs_MyDLC_Badge" data-uid="Sandbox.Game.MyDLCs.MyDLC.Badge">Badge</h4>
-  <div class="markdown level1 summary"><p>Badge of the DLC, to be displayed in main menu</p>
-</div>
+  <a id="Sandbox_Game_Entities_DetonationData_CalculateAmmoExplosionEffects_" data-uid="Sandbox.Game.Entities.DetonationData.CalculateAmmoExplosionEffects*"></a>
+  <h4 id="Sandbox_Game_Entities_DetonationData_CalculateAmmoExplosionEffects_System_Single_System_Single_" data-uid="Sandbox.Game.Entities.DetonationData.CalculateAmmoExplosionEffects(System.Single,System.Single)">CalculateAmmoExplosionEffects(Single, Single)</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Badge { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string CalculateAmmoExplosionEffects(float ammoMass, float ammoVolume)</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">ammoMass</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">ammoVolume</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -506,93 +475,32 @@
   </table>
   
   
-  <a id="Sandbox_Game_MyDLCs_MyDLC_Description_" data-uid="Sandbox.Game.MyDLCs.MyDLC.Description*"></a>
-  <h4 id="Sandbox_Game_MyDLCs_MyDLC_Description" data-uid="Sandbox.Game.MyDLCs.MyDLC.Description">Description</h4>
-  <div class="markdown level1 summary"><p>Description of the DLC, preferably a localized string</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public MyStringId Description { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="VRage.Utils.MyStringId.html">MyStringId</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Sandbox_Game_MyDLCs_MyDLC_DisplayName_" data-uid="Sandbox.Game.MyDLCs.MyDLC.DisplayName*"></a>
-  <h4 id="Sandbox_Game_MyDLCs_MyDLC_DisplayName" data-uid="Sandbox.Game.MyDLCs.MyDLC.DisplayName">DisplayName</h4>
-  <div class="markdown level1 summary"><p>Name of the DLC, preferably a localized string</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public MyStringId DisplayName { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="VRage.Utils.MyStringId.html">MyStringId</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Sandbox_Game_MyDLCs_MyDLC_Icon_" data-uid="Sandbox.Game.MyDLCs.MyDLC.Icon*"></a>
-  <h4 id="Sandbox_Game_MyDLCs_MyDLC_Icon" data-uid="Sandbox.Game.MyDLCs.MyDLC.Icon">Icon</h4>
-  <div class="markdown level1 summary"><p>Icon of the DLC, to be displayed in G-screen, blueprints, etc ...</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Icon { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Sandbox_Game_MyDLCs_MyDLC_Name_" data-uid="Sandbox.Game.MyDLCs.MyDLC.Name*"></a>
-  <h4 id="Sandbox_Game_MyDLCs_MyDLC_Name" data-uid="Sandbox.Game.MyDLCs.MyDLC.Name">Name</h4>
+  <a id="Sandbox_Game_Entities_DetonationData_CalculateStoredExplosiveDamage_" data-uid="Sandbox.Game.Entities.DetonationData.CalculateStoredExplosiveDamage*"></a>
+  <h4 id="Sandbox_Game_Entities_DetonationData_CalculateStoredExplosiveDamage_System_Collections_Generic_List_Sandbox_Game_Entities_MyCubeBlock_StoredExplosive__" data-uid="Sandbox.Game.Entities.DetonationData.CalculateStoredExplosiveDamage(System.Collections.Generic.List{Sandbox.Game.Entities.MyCubeBlock.StoredExplosive})">CalculateStoredExplosiveDamage(List&lt;MyCubeBlock.StoredExplosive&gt;)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Name { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public float CalculateStoredExplosiveDamage(List&lt;MyCubeBlock.StoredExplosive&gt; storedExplosives)</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Sandbox.Game.Entities.MyCubeBlock.StoredExplosive.html">MyCubeBlock.StoredExplosive</a>&gt;</td>
+        <td><span class="parametername">storedExplosives</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -602,22 +510,39 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><span class="xref">System.Single</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Sandbox_Game_MyDLCs_MyDLC_Ps4ProductIds_" data-uid="Sandbox.Game.MyDLCs.MyDLC.Ps4ProductIds*"></a>
-  <h4 id="Sandbox_Game_MyDLCs_MyDLC_Ps4ProductIds" data-uid="Sandbox.Game.MyDLCs.MyDLC.Ps4ProductIds">Ps4ProductIds</h4>
+  <a id="Sandbox_Game_Entities_DetonationData_CalculateStoredExplosiveRadius_" data-uid="Sandbox.Game.Entities.DetonationData.CalculateStoredExplosiveRadius*"></a>
+  <h4 id="Sandbox_Game_Entities_DetonationData_CalculateStoredExplosiveRadius_System_Single_" data-uid="Sandbox.Game.Entities.DetonationData.CalculateStoredExplosiveRadius(System.Single)">CalculateStoredExplosiveRadius(Single)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public PsProductIds Ps4ProductIds { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public float CalculateStoredExplosiveRadius(float explosivesVolume)</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">explosivesVolume</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -627,22 +552,39 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">VRage.GameServices.PsProductIds</span></td>
+        <td><span class="xref">System.Single</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Sandbox_Game_MyDLCs_MyDLC_Ps5ProductIds_" data-uid="Sandbox.Game.MyDLCs.MyDLC.Ps5ProductIds*"></a>
-  <h4 id="Sandbox_Game_MyDLCs_MyDLC_Ps5ProductIds" data-uid="Sandbox.Game.MyDLCs.MyDLC.Ps5ProductIds">Ps5ProductIds</h4>
+  <a id="Sandbox_Game_Entities_DetonationData_CalculateTemporaryContainerExplosiveRadius_" data-uid="Sandbox.Game.Entities.DetonationData.CalculateTemporaryContainerExplosiveRadius*"></a>
+  <h4 id="Sandbox_Game_Entities_DetonationData_CalculateTemporaryContainerExplosiveRadius_System_Single_" data-uid="Sandbox.Game.Entities.DetonationData.CalculateTemporaryContainerExplosiveRadius(System.Single)">CalculateTemporaryContainerExplosiveRadius(Single)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public PsProductIds Ps5ProductIds { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public float CalculateTemporaryContainerExplosiveRadius(float explosivesVolume)</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">explosivesVolume</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -652,65 +594,58 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">VRage.GameServices.PsProductIds</span></td>
+        <td><span class="xref">System.Single</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Sandbox_Game_MyDLCs_MyDLC_XboxPackageId_" data-uid="Sandbox.Game.MyDLCs.MyDLC.XboxPackageId*"></a>
-  <h4 id="Sandbox_Game_MyDLCs_MyDLC_XboxPackageId" data-uid="Sandbox.Game.MyDLCs.MyDLC.XboxPackageId">XboxPackageId</h4>
+  <a id="Sandbox_Game_Entities_DetonationData_Clear_" data-uid="Sandbox.Game.Entities.DetonationData.Clear*"></a>
+  <h4 id="Sandbox_Game_Entities_DetonationData_Clear" data-uid="Sandbox.Game.Entities.DetonationData.Clear">Clear()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string XboxPackageId { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public void Clear()</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   
   
-  <a id="Sandbox_Game_MyDLCs_MyDLC_XboxStoreId_" data-uid="Sandbox.Game.MyDLCs.MyDLC.XboxStoreId*"></a>
-  <h4 id="Sandbox_Game_MyDLCs_MyDLC_XboxStoreId" data-uid="Sandbox.Game.MyDLCs.MyDLC.XboxStoreId">XboxStoreId</h4>
+  <a id="Sandbox_Game_Entities_DetonationData_Init_" data-uid="Sandbox.Game.Entities.DetonationData.Init*"></a>
+  <h4 id="Sandbox_Game_Entities_DetonationData_Init_VRage_Game_Definitions_MyGameDefinition_System_Single_System_Single_" data-uid="Sandbox.Game.Entities.DetonationData.Init(VRage.Game.Definitions.MyGameDefinition,System.Single,System.Single)">Init(MyGameDefinition, Single, Single)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string XboxStoreId { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public void Init(MyGameDefinition gameDef, float cbDefDamageThreshold, float cbDefDetonateChance)</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
+        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><a class="xref" href="VRage.Game.Definitions.MyGameDefinition.html">MyGameDefinition</a></td>
+        <td><span class="parametername">gameDef</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">cbDefDamageThreshold</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">cbDefDetonateChance</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h3 id="implements">Implements</h3>
-  <div>
-      <a class="xref" href="VRage.Game.ModAPI.IMyDLC.html">IMyDLC</a>
-  </div>
 </article>
           </div>
           

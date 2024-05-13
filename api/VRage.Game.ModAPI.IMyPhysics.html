@@ -1304,6 +1304,63 @@ RagdollCollisionLayer = 31</p>
   <h5 id="VRage_Game_ModAPI_IMyPhysics_GetCollisionLayer_System_String__remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>Default string used if not valid: DefaultCollisionLayer</p>
 </div>
+  
+  
+  <a id="VRage_Game_ModAPI_IMyPhysics_GetWeaponLeadPrediction_" data-uid="VRage.Game.ModAPI.IMyPhysics.GetWeaponLeadPrediction*"></a>
+  <h4 id="VRage_Game_ModAPI_IMyPhysics_GetWeaponLeadPrediction_VRage_ModAPI_IMyEntity_VRage_ModAPI_IMyEntity_VRage_Game_MyDefinitionId_" data-uid="VRage.Game.ModAPI.IMyPhysics.GetWeaponLeadPrediction(VRage.ModAPI.IMyEntity,VRage.ModAPI.IMyEntity,VRage.Game.MyDefinitionId)">GetWeaponLeadPrediction(IMyEntity, IMyEntity, MyDefinitionId)</h4>
+  <div class="markdown level1 summary"><p>Gets the predicted target coordinates of an entity for weapon leading. Will return Vector3D.Zero if the entity is not valid. If the predicted intercept position cannot be calculated because of missing physics or ammo definitions, then it will return the entity position instead.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Vector3D GetWeaponLeadPrediction(IMyEntity shooter, IMyEntity target, MyDefinitionId ammoDefinitionId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRage.ModAPI.IMyEntity.html">IMyEntity</a></td>
+        <td><span class="parametername">shooter</span></td>
+        <td><p>The entity shooting the target, usually a weapon block or tool</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="VRage.ModAPI.IMyEntity.html">IMyEntity</a></td>
+        <td><span class="parametername">target</span></td>
+        <td><p>The target entity you want to hit</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="VRage.Game.MyDefinitionId.html">MyDefinitionId</a></td>
+        <td><span class="parametername">ammoDefinitionId</span></td>
+        <td><p>The definition id for the MyAmmoDefinition object the shooter uses.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRageMath.Vector3D.html">Vector3D</a></td>
+        <td><p>Vector3D world coordinates of where a fired shot from the weapon should intercept the provided entity target.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           

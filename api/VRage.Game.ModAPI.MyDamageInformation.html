@@ -91,13 +91,13 @@
   
   
   <a id="VRage_Game_ModAPI_MyDamageInformation__ctor_" data-uid="VRage.Game.ModAPI.MyDamageInformation.#ctor*"></a>
-  <h4 id="VRage_Game_ModAPI_MyDamageInformation__ctor_System_Boolean_System_Single_VRage_Utils_MyStringHash_System_Int64_" data-uid="VRage.Game.ModAPI.MyDamageInformation.#ctor(System.Boolean,System.Single,VRage.Utils.MyStringHash,System.Int64)">MyDamageInformation(Boolean, Single, MyStringHash, Int64)</h4>
+  <h4 id="VRage_Game_ModAPI_MyDamageInformation__ctor_System_Boolean_System_Single_VRage_Utils_MyStringHash_System_Int64_System_Nullable_VRage_Utils_MyStringHash__" data-uid="VRage.Game.ModAPI.MyDamageInformation.#ctor(System.Boolean,System.Single,VRage.Utils.MyStringHash,System.Int64,System.Nullable{VRage.Utils.MyStringHash})">MyDamageInformation(Boolean, Single, MyStringHash, Int64, Nullable&lt;MyStringHash&gt;)</h4>
   <div class="markdown level1 summary"><p>Damage information constructor</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public MyDamageInformation(bool isDeformation, float amount, MyStringHash type, long attackerId)</code></pre>
+    <pre><code class="lang-csharp hljs">public MyDamageInformation(bool isDeformation, float amount, MyStringHash type, long attackerId, Nullable&lt;MyStringHash&gt; extraInfo = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -131,6 +131,12 @@
         <td><span class="xref">System.Int64</span></td>
         <td><span class="parametername">attackerId</span></td>
         <td><p>id of the attacker</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<a class="xref" href="VRage.Utils.MyStringHash.html">MyStringHash</a>&gt;</td>
+        <td><span class="parametername">extraInfo</span></td>
+        <td><p>Extra info about what caused damage. For projectiles and missiles direct damage it is storing ammo SubtypeName that caused damage</p>
 </td>
       </tr>
     </tbody>
@@ -183,6 +189,31 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Int64</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="VRage_Game_ModAPI_MyDamageInformation_ExtraInfo" data-uid="VRage.Game.ModAPI.MyDamageInformation.ExtraInfo">ExtraInfo</h4>
+  <div class="markdown level1 summary"><p>Gets or Sets the type of the damage</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Nullable&lt;MyStringHash&gt; ExtraInfo</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<a class="xref" href="VRage.Utils.MyStringHash.html">MyStringHash</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>

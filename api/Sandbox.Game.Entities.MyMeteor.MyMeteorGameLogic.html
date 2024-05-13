@@ -298,12 +298,12 @@
   
   
   <a id="Sandbox_Game_Entities_MyMeteor_MyMeteorGameLogic_DoDamage_" data-uid="Sandbox.Game.Entities.MyMeteor.MyMeteorGameLogic.DoDamage*"></a>
-  <h4 id="Sandbox_Game_Entities_MyMeteor_MyMeteorGameLogic_DoDamage_System_Single_VRage_Utils_MyStringHash_System_Boolean_System_Nullable_VRage_Game_ModAPI_MyHitInfo__System_Int64_" data-uid="Sandbox.Game.Entities.MyMeteor.MyMeteorGameLogic.DoDamage(System.Single,VRage.Utils.MyStringHash,System.Boolean,System.Nullable{VRage.Game.ModAPI.MyHitInfo},System.Int64)">DoDamage(Single, MyStringHash, Boolean, Nullable&lt;MyHitInfo&gt;, Int64)</h4>
+  <h4 id="Sandbox_Game_Entities_MyMeteor_MyMeteorGameLogic_DoDamage_System_Single_VRage_Utils_MyStringHash_System_Boolean_System_Nullable_VRage_Game_ModAPI_MyHitInfo__System_Int64_System_Nullable_VRage_Utils_MyStringHash__" data-uid="Sandbox.Game.Entities.MyMeteor.MyMeteorGameLogic.DoDamage(System.Single,VRage.Utils.MyStringHash,System.Boolean,System.Nullable{VRage.Game.ModAPI.MyHitInfo},System.Int64,System.Nullable{VRage.Utils.MyStringHash})">DoDamage(Single, MyStringHash, Boolean, Nullable&lt;MyHitInfo&gt;, Int64, Nullable&lt;MyStringHash&gt;)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void DoDamage(float damage, MyStringHash damageType, bool sync, Nullable&lt;MyHitInfo&gt; hitInfo, long attackerId)</code></pre>
+    <pre><code class="lang-csharp hljs">public void DoDamage(float damage, MyStringHash damageType, bool sync, Nullable&lt;MyHitInfo&gt; hitInfo, long attackerId, Nullable&lt;MyStringHash&gt; extraInfo = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -338,6 +338,11 @@
       <tr>
         <td><span class="xref">System.Int64</span></td>
         <td><span class="parametername">attackerId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<a class="xref" href="VRage.Utils.MyStringHash.html">MyStringHash</a>&gt;</td>
+        <td><span class="parametername">extraInfo</span></td>
         <td></td>
       </tr>
     </tbody>

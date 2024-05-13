@@ -259,12 +259,12 @@
   
   
   <a id="Sandbox_Game_Entities_MyIDModule_GetRelationPlayerPlayer_" data-uid="Sandbox.Game.Entities.MyIDModule.GetRelationPlayerPlayer*"></a>
-  <h4 id="Sandbox_Game_Entities_MyIDModule_GetRelationPlayerPlayer_System_Int64_System_Int64_VRage_Game_MyRelationsBetweenFactions_VRage_Game_Entity_MyRelationsBetweenPlayers_" data-uid="Sandbox.Game.Entities.MyIDModule.GetRelationPlayerPlayer(System.Int64,System.Int64,VRage.Game.MyRelationsBetweenFactions,VRage.Game.Entity.MyRelationsBetweenPlayers)">GetRelationPlayerPlayer(Int64, Int64, MyRelationsBetweenFactions, MyRelationsBetweenPlayers)</h4>
+  <h4 id="Sandbox_Game_Entities_MyIDModule_GetRelationPlayerPlayer_System_Int64_System_Int64_VRage_Game_MyRelationsBetweenFactions_VRage_Game_Entity_MyRelationsBetweenPlayers_System_Boolean_System_Boolean_" data-uid="Sandbox.Game.Entities.MyIDModule.GetRelationPlayerPlayer(System.Int64,System.Int64,VRage.Game.MyRelationsBetweenFactions,VRage.Game.Entity.MyRelationsBetweenPlayers,System.Boolean,System.Boolean)">GetRelationPlayerPlayer(Int64, Int64, MyRelationsBetweenFactions, MyRelationsBetweenPlayers, Boolean, Boolean)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static MyRelationsBetweenPlayers GetRelationPlayerPlayer(long owner, long user, MyRelationsBetweenFactions defaultFactionRelations, MyRelationsBetweenPlayers defaultNoFactionRelation)</code></pre>
+    <pre><code class="lang-csharp hljs">public static MyRelationsBetweenPlayers GetRelationPlayerPlayer(long owner, long user, MyRelationsBetweenFactions defaultFactionRelations, MyRelationsBetweenPlayers defaultNoFactionRelation, bool treatFriendsAsAllies = true, bool treatNobodyAsNeutral = false)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -294,6 +294,16 @@
       <tr>
         <td><a class="xref" href="VRage.Game.Entity.MyRelationsBetweenPlayers.html">MyRelationsBetweenPlayers</a></td>
         <td><span class="parametername">defaultNoFactionRelation</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">treatFriendsAsAllies</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">treatNobodyAsNeutral</span></td>
         <td></td>
       </tr>
     </tbody>

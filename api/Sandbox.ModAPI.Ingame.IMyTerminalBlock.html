@@ -634,6 +634,37 @@ On Dedicated Server as identityId it is using 0 as playerId</p>
   </table>
   
   
+  <a id="Sandbox_ModAPI_Ingame_IMyTerminalBlock_HasNobodyPlayerAccessToBlock_" data-uid="Sandbox.ModAPI.Ingame.IMyTerminalBlock.HasNobodyPlayerAccessToBlock*"></a>
+  <h4 id="Sandbox_ModAPI_Ingame_IMyTerminalBlock_HasNobodyPlayerAccessToBlock" data-uid="Sandbox.ModAPI.Ingame.IMyTerminalBlock.HasNobodyPlayerAccessToBlock">HasNobodyPlayerAccessToBlock()</h4>
+  <div class="markdown level1 summary"><p>Returns if Nobody has access to block.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool HasNobodyPlayerAccessToBlock()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>True when block is has ShareAll or BigOwners of grid is Nobody</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Sandbox_ModAPI_Ingame_IMyTerminalBlock_HasNobodyPlayerAccessToBlock_seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="Sandbox.ModAPI.Ingame.IMyTerminalBlock.html#Sandbox_ModAPI_Ingame_IMyTerminalBlock_HasPlayerAccessWithNobodyCheck_System_Int64_System_Boolean_">HasPlayerAccessWithNobodyCheck(Int64, Boolean)</a></div>
+  </div>
+  
+  
   <a id="Sandbox_ModAPI_Ingame_IMyTerminalBlock_HasPlayerAccess_" data-uid="Sandbox.ModAPI.Ingame.IMyTerminalBlock.HasPlayerAccess*"></a>
   <h4 id="Sandbox_ModAPI_Ingame_IMyTerminalBlock_HasPlayerAccess_System_Int64_VRage_Game_MyRelationsBetweenPlayerAndBlock_" data-uid="Sandbox.ModAPI.Ingame.IMyTerminalBlock.HasPlayerAccess(System.Int64,VRage.Game.MyRelationsBetweenPlayerAndBlock)">HasPlayerAccess(Int64, MyRelationsBetweenPlayerAndBlock)</h4>
   <div class="markdown level1 summary"><p>Returns if local player can use block.
@@ -686,6 +717,63 @@ It is also checking for admin access.</p>
   <h5 id="Sandbox_ModAPI_Ingame_IMyTerminalBlock_HasPlayerAccess_System_Int64_VRage_Game_MyRelationsBetweenPlayerAndBlock__seealso">See Also</h5>
   <div class="seealso">
       <div><a class="xref" href="VRage.Game.MyRelationsBetweenPlayerAndBlock.html">MyRelationsBetweenPlayerAndBlock</a></div>
+  </div>
+  
+  
+  <a id="Sandbox_ModAPI_Ingame_IMyTerminalBlock_HasPlayerAccessWithNobodyCheck_" data-uid="Sandbox.ModAPI.Ingame.IMyTerminalBlock.HasPlayerAccessWithNobodyCheck*"></a>
+  <h4 id="Sandbox_ModAPI_Ingame_IMyTerminalBlock_HasPlayerAccessWithNobodyCheck_System_Int64_System_Boolean_" data-uid="Sandbox.ModAPI.Ingame.IMyTerminalBlock.HasPlayerAccessWithNobodyCheck(System.Int64,System.Boolean)">HasPlayerAccessWithNobodyCheck(Int64, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Returns if player can use block.
+If playerId is 0 (Nobody), calls HasNobodyPlayerAccessToBlock instead
+It is also checking for admin access.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool HasPlayerAccessWithNobodyCheck(long playerId, bool isForPB = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">playerId</span></td>
+        <td><p>PlayerId which you want check</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">isForPB</span></td>
+        <td><p>Is used for PB block or not (PB block has more restrictions)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Can player access block or not</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Sandbox_ModAPI_Ingame_IMyTerminalBlock_HasPlayerAccessWithNobodyCheck_System_Int64_System_Boolean__seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="Sandbox.ModAPI.Ingame.IMyTerminalBlock.html#Sandbox_ModAPI_Ingame_IMyTerminalBlock_HasNobodyPlayerAccessToBlock">HasNobodyPlayerAccessToBlock()</a></div>
   </div>
   
   

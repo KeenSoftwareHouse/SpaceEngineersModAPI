@@ -221,6 +221,31 @@ public class MyFloatingObjects : MySessionComponentBase, IMyUserInputComponent</
   <div><a class="xref" href="VRage.Game.Components.MySessionComponentBase.html#VRage_Game_Components_MySessionComponentBase_Dependencies">MySessionComponentBase.Dependencies</a></div>
   
   
+  <a id="Sandbox_Game_Entities_MyFloatingObjects_FloatingBagsCount_" data-uid="Sandbox.Game.Entities.MyFloatingObjects.FloatingBagsCount*"></a>
+  <h4 id="Sandbox_Game_Entities_MyFloatingObjects_FloatingBagsCount" data-uid="Sandbox.Game.Entities.MyFloatingObjects.FloatingBagsCount">FloatingBagsCount</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int FloatingBagsCount { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="Sandbox_Game_Entities_MyFloatingObjects_FloatingItemCount_" data-uid="Sandbox.Game.Entities.MyFloatingObjects.FloatingItemCount*"></a>
   <h4 id="Sandbox_Game_Entities_MyFloatingObjects_FloatingItemCount" data-uid="Sandbox.Game.Entities.MyFloatingObjects.FloatingItemCount">FloatingItemCount</h4>
   <div class="markdown level1 summary"></div>
@@ -353,6 +378,33 @@ public class MyFloatingObjects : MySessionComponentBase, IMyUserInputComponent</
   </table>
   
   
+  <a id="Sandbox_Game_Entities_MyFloatingObjects_EnqueueCargoContainerBagSpawn_" data-uid="Sandbox.Game.Entities.MyFloatingObjects.EnqueueCargoContainerBagSpawn*"></a>
+  <h4 id="Sandbox_Game_Entities_MyFloatingObjects_EnqueueCargoContainerBagSpawn_System_Action_" data-uid="Sandbox.Game.Entities.MyFloatingObjects.EnqueueCargoContainerBagSpawn(System.Action)">EnqueueCargoContainerBagSpawn(Action)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void EnqueueCargoContainerBagSpawn(Action action)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span></td>
+        <td><span class="parametername">action</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="Sandbox_Game_Entities_MyFloatingObjects_EnqueueInventoryItemSpawn_" data-uid="Sandbox.Game.Entities.MyFloatingObjects.EnqueueInventoryItemSpawn*"></a>
   <h4 id="Sandbox_Game_Entities_MyFloatingObjects_EnqueueInventoryItemSpawn_VRage_Game_Entity_MyPhysicalInventoryItem_VRageMath_BoundingBoxD_VRageMath_Vector3D_" data-uid="Sandbox.Game.Entities.MyFloatingObjects.EnqueueInventoryItemSpawn(VRage.Game.Entity.MyPhysicalInventoryItem,VRageMath.BoundingBoxD,VRageMath.Vector3D)">EnqueueInventoryItemSpawn(MyPhysicalInventoryItem, BoundingBoxD, Vector3D)</h4>
   <div class="markdown level1 summary"></div>
@@ -400,6 +452,16 @@ public class MyFloatingObjects : MySessionComponentBase, IMyUserInputComponent</
   </div>
   <h5 class="overrides">Overrides</h5>
   <div><a class="xref" href="VRage.Game.Components.MySessionComponentBase.html#VRage_Game_Components_MySessionComponentBase_LoadData">MySessionComponentBase.LoadData()</a></div>
+  
+  
+  <a id="Sandbox_Game_Entities_MyFloatingObjects_ReduceCargoBags_" data-uid="Sandbox.Game.Entities.MyFloatingObjects.ReduceCargoBags*"></a>
+  <h4 id="Sandbox_Game_Entities_MyFloatingObjects_ReduceCargoBags" data-uid="Sandbox.Game.Entities.MyFloatingObjects.ReduceCargoBags">ReduceCargoBags()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void ReduceCargoBags()</code></pre>
+  </div>
   
   
   <a id="Sandbox_Game_Entities_MyFloatingObjects_ReduceFloatingObjects_" data-uid="Sandbox.Game.Entities.MyFloatingObjects.ReduceFloatingObjects*"></a>
@@ -459,6 +521,65 @@ public class MyFloatingObjects : MySessionComponentBase, IMyUserInputComponent</
     <tbody>
       <tr>
         <td><a class="xref" href="Sandbox.Game.Entities.MyFloatingObject.html">MyFloatingObject</a></td>
+        <td><span class="parametername">obj</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">sync</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_Entities_MyFloatingObjects_RemoveInventoryBag_" data-uid="Sandbox.Game.Entities.MyFloatingObjects.RemoveInventoryBag*"></a>
+  <h4 id="Sandbox_Game_Entities_MyFloatingObjects_RemoveInventoryBag_Sandbox_Game_Entities_MyCargoContainerInventoryBagEntity_" data-uid="Sandbox.Game.Entities.MyFloatingObjects.RemoveInventoryBag(Sandbox.Game.Entities.MyCargoContainerInventoryBagEntity)">RemoveInventoryBag(MyCargoContainerInventoryBagEntity)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void RemoveInventoryBag(MyCargoContainerInventoryBagEntity obj)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Sandbox.Game.Entities.MyCargoContainerInventoryBagEntity.html">MyCargoContainerInventoryBagEntity</a></td>
+        <td><span class="parametername">obj</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_Entities_MyFloatingObjects_RemoveInventoryBag_" data-uid="Sandbox.Game.Entities.MyFloatingObjects.RemoveInventoryBag*"></a>
+  <h4 id="Sandbox_Game_Entities_MyFloatingObjects_RemoveInventoryBag_Sandbox_Game_Entities_MyCargoContainerInventoryBagEntity_System_Boolean_" data-uid="Sandbox.Game.Entities.MyFloatingObjects.RemoveInventoryBag(Sandbox.Game.Entities.MyCargoContainerInventoryBagEntity,System.Boolean)">RemoveInventoryBag(MyCargoContainerInventoryBagEntity, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void RemoveInventoryBag(MyCargoContainerInventoryBagEntity obj, bool sync)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Sandbox.Game.Entities.MyCargoContainerInventoryBagEntity.html">MyCargoContainerInventoryBagEntity</a></td>
         <td><span class="parametername">obj</span></td>
         <td></td>
       </tr>
