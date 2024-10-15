@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "f:/!KeenSWH/Dev/Sources/ModAPI.Documentation",
+  "source_base_path": "f:/!KeenSWH/Dev205/Sources/ModAPI.Documentation",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -105,7 +105,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Common.ObjectBuilders.Definitions.MyObjectBuilder_AdvancedDoorDefinition.html",
-          "hash": "jgZnkJhY+BNIOydamj5yarLcfug+zyuMVudcUwRmEwM="
+          "hash": "3iyVh1gYE9eEgw0OQLhxsGXkdgYJjLzbxxDihEX8E38="
         }
       },
       "is_incremental": false,
@@ -141,7 +141,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Common.ObjectBuilders.Definitions.MyObjectBuilder_AirVentDefinition.html",
-          "hash": "PcuxJ8TWQ2SYBFP4sRsaisMRsabkTBVLHWyrtlcAP94="
+          "hash": "tIgkmc+0Ft5aWkJOFGUijGz+8CwPyZB0FF+DweYA48s="
         }
       },
       "is_incremental": false,
@@ -153,7 +153,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Common.ObjectBuilders.Definitions.MyObjectBuilder_AirtightDoorGenericDefinition.html",
-          "hash": "7NvNtCKpiyR1kKM6tE83feDinlFs9pTOLUEHEUk8sPg="
+          "hash": "OnejUyFsO+j4/Urutr0Uyu7JzwzvM02Hc8vMut3bN9g="
         }
       },
       "is_incremental": false,
@@ -165,7 +165,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Common.ObjectBuilders.Definitions.MyObjectBuilder_AirtightHangarDoorDefinition.html",
-          "hash": "+Ut0ak464OcPrKzCY+fPYXc7Coozd6pyb7OpQ5LZtX0="
+          "hash": "mA9UHHi7pl7ggj/QDVoGPkTOvieYUs+k4LyY3cHSUFs="
         }
       },
       "is_incremental": false,
@@ -177,7 +177,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Common.ObjectBuilders.Definitions.MyObjectBuilder_AirtightSlideDoorDefinition.html",
-          "hash": "v1uW4ao7E3SpIb/gaIfOKRubbES3MNjgsYiKhdPwRuE="
+          "hash": "RhYeZlnH8rOlUdoHXBSk3qzXJb6v2KEmtG2juaCcV2E="
         }
       },
       "is_incremental": false,
@@ -201,7 +201,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Common.ObjectBuilders.Definitions.MyObjectBuilder_AssemblerDefinition.html",
-          "hash": "6GczNmUHcaWEF2kx34yXLIWejWQzbwFZe+God1tdzqc="
+          "hash": "zEv5QqigkswcjPLOVhxCPzE8nAnMNIi5ymMIT++E/7E="
         }
       },
       "is_incremental": false,
@@ -237,7 +237,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Common.ObjectBuilders.Definitions.MyObjectBuilder_BasicMissionBlockDefinition.html",
-          "hash": "qrnIhLq0vZWP4CXqbXULi5TL7LsBCva+QUY+Yybk+nY="
+          "hash": "ZAyigJxg163neNmI91G7+RC8WMuXFwzOfYsI+BWdBYc="
         }
       },
       "is_incremental": false,
@@ -273,7 +273,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Common.ObjectBuilders.Definitions.MyObjectBuilder_BatteryBlockDefinition.html",
-          "hash": "2Ok9hTEPskqqVAZt8FgqUMIX/ZTIPxUsT/73SVxYi1o="
+          "hash": "g3xRjZRKdmNBMf2y/FiAgOrXNgLCUyI7meUzIqibEuY="
         }
       },
       "is_incremental": false,
@@ -285,7 +285,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Common.ObjectBuilders.Definitions.MyObjectBuilder_BeaconDefinition.html",
-          "hash": "ONLUcUqZoSUi/P4bKyKxbhyGiTM3d8l1Ul/hIAddYAU="
+          "hash": "VaTft54qYzWSgxaFvgaTUvivf+KFv6HdomD1ATCX710="
         }
       },
       "is_incremental": false,
@@ -297,7 +297,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Common.ObjectBuilders.Definitions.MyObjectBuilder_BroadcastControllerDefinition.html",
-          "hash": "iKtGIvFzkM9swvFmPyUA1J0DlDbr6tvqvGis5ZllMmg="
+          "hash": "N+8RjA25dalnldhaVeo3fUV+vsaHAeKmo7y3LafLWfU="
         }
       },
       "is_incremental": false,
@@ -309,7 +309,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Common.ObjectBuilders.Definitions.MyObjectBuilder_ButtonPanelDefinition.html",
-          "hash": "27eVNSvSAiV5a2IpbVqFBGhe0pYMeDFlEx5dq0C90xE="
+          "hash": "hkykABmk2rUZ4ITO/x06BcZtrdEAU+sfzPjaiqDDDfQ="
         }
       },
       "is_incremental": false,
@@ -321,7 +321,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Common.ObjectBuilders.Definitions.MyObjectBuilder_CameraBlockDefinition.html",
-          "hash": "CV27pPWQbH1T5m5LcPyNUvuEgOkh9T+EfiV1fidrMf4="
+          "hash": "K55YdtG+egQATR2uBeMsa8Q/Ygar95slZ2RJk1/TY9w="
         }
       },
       "is_incremental": false,
@@ -345,7 +345,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Common.ObjectBuilders.Definitions.MyObjectBuilder_CockpitDefinition.html",
-          "hash": "coO5cbfsb1MC2vK9zyxfy6XXuWNn9LbG69mrI2yFNNw="
+          "hash": "LN/YZScAeeJOK9AzSJbxw81VQr8HcSQk/ZWMiNiaAdQ="
         }
       },
       "is_incremental": false,
@@ -357,7 +357,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Common.ObjectBuilders.Definitions.MyObjectBuilder_ContractBlockDefinition.html",
-          "hash": "o/V4/nBodKH2Z2/TtWLhSOa//m8NIpKjBWvXvN0VooI="
+          "hash": "/77+7PAUG6/z7x7AXSRrJJlbFRc+PokMMwyC0Dpd62w="
         }
       },
       "is_incremental": false,
@@ -369,7 +369,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Common.ObjectBuilders.Definitions.MyObjectBuilder_CryoChamberDefinition.html",
-          "hash": "PU9u1odxtN/arbba+jCvFE7hFmcS4dKeK5sejeSzNto="
+          "hash": "up6nPjRuk0OHUPKTnn/Fm6GouA4CQRdfdyCgd3duzVY="
         }
       },
       "is_incremental": false,
@@ -405,7 +405,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Common.ObjectBuilders.Definitions.MyObjectBuilder_DefensiveCombatBlockDefinition.html",
-          "hash": "IKVF+6MOcqXjlQt2meVJOpIykV1qJMevzFo/F97+NO0="
+          "hash": "FleoJufDBj7G8yLA0ANF4QlxUD4CSZcr0cqSaPZ68tQ="
         }
       },
       "is_incremental": false,
@@ -417,7 +417,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Common.ObjectBuilders.Definitions.MyObjectBuilder_EmotionControllerBlockDefinition.html",
-          "hash": "GVj/GJN7zSZPT7oECWJ1o7RqUp0PsuxKB5pZxohw90o="
+          "hash": "48EEQnBEZZgSk3j034WmV0+4Df4flXTNK9HSw1EaeXQ="
         }
       },
       "is_incremental": false,
@@ -537,7 +537,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Common.ObjectBuilders.Definitions.MyObjectBuilder_EventControllerBlockDefinition.html",
-          "hash": "IQV34UN5RYEcJmK1f3EoTqnmD8gOATvfZYCyEBoArxU="
+          "hash": "bQl5Vpdh5hxyGoFtP5NBTe6FnNTfarzmfGZT1MOS7Do="
         }
       },
       "is_incremental": false,
@@ -717,7 +717,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Common.ObjectBuilders.Definitions.MyObjectBuilder_ExhaustBlockDefinition.html",
-          "hash": "2fixuu5O8ZjwwsAbVH8mA84YY5JLuSKGHZXPOPk5Bc0="
+          "hash": "53D5RfR1psor4zzhlbPfqb/d6w3U9WzDa5MwpdvH+MQ="
         }
       },
       "is_incremental": false,
@@ -753,7 +753,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Common.ObjectBuilders.Definitions.MyObjectBuilder_ExtendedPistonBaseDefinition.html",
-          "hash": "yAZhPbGfjpnOngsMJX6pOTfqC/FCbpMtqqgEkQaWfxo="
+          "hash": "U1lG1LMLtBafc8wdUuIijoHbNBD6JM/iTvO/hyBgK6I="
         }
       },
       "is_incremental": false,
@@ -765,7 +765,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Common.ObjectBuilders.Definitions.MyObjectBuilder_FlightMovementBlockDefinition.html",
-          "hash": "gO++rAWGvgT160OLKFwJRldWf2Ajrs6EC7Gz04XEKe0="
+          "hash": "LS4UbW+ie+5esWM5qkVFr4oXQKaC0I6EWOC5raayOfg="
         }
       },
       "is_incremental": false,
@@ -801,7 +801,19 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Common.ObjectBuilders.Definitions.MyObjectBuilder_GasTankDefinition.html",
-          "hash": "kzzKk7xcwi7Y2y4cfZg8n1Lg0yx0kTntF5lt1R5Duco="
+          "hash": "h6frWL0cj9MST+1YkFiFimeV0g+8RiMbjfw4E9Y25zo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sandbox.Common.ObjectBuilders.Definitions.MyObjectBuilder_GlobalEncounterComponentDefinition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sandbox.Common.ObjectBuilders.Definitions.MyObjectBuilder_GlobalEncounterComponentDefinition.html",
+          "hash": "ygBhrr20IwJGxeoDEWRwMhyz29mEkR83G5NqgP3kWDA="
         }
       },
       "is_incremental": false,
@@ -813,7 +825,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Common.ObjectBuilders.Definitions.MyObjectBuilder_GravityGeneratorBaseDefinition.html",
-          "hash": "DfL4H0x02od/2a6Ob6UNKgP6g76dCdJGoEv/V7qU4ac="
+          "hash": "2qmDoH7n3ADzkw4+Q/5Mzpu5aRmHTfzZbXbStL96JkA="
         }
       },
       "is_incremental": false,
@@ -825,7 +837,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Common.ObjectBuilders.Definitions.MyObjectBuilder_GravityGeneratorDefinition.html",
-          "hash": "+VlNjS3Xz3Dv7HmkFYAUWnjz/nvQOJgafxZNZtxpSi4="
+          "hash": "vWRpcuQDOB7Ae3TD2LT+1Q1m1+hNJAOgsQcAhXmAm38="
         }
       },
       "is_incremental": false,
@@ -837,7 +849,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Common.ObjectBuilders.Definitions.MyObjectBuilder_GravityGeneratorSphereDefinition.html",
-          "hash": "2xn58xjR9cmM79q2loSwQHfBFSe3OiSqRLYU/Nn8GAo="
+          "hash": "1IyuW7VvhGBw4cSYTxlWiniPsUr9dJLt8fzuc9bGVPc="
         }
       },
       "is_incremental": false,
@@ -849,7 +861,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Common.ObjectBuilders.Definitions.MyObjectBuilder_GyroDefinition.html",
-          "hash": "ucgqRStwqrMprHNNcyWtQXrhTdHmbn0/SO5P/4ptrHk="
+          "hash": "MenanfSFu0xoR1++S5PLMJQriBCJen+avuvlXIDOijc="
         }
       },
       "is_incremental": false,
@@ -885,7 +897,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Common.ObjectBuilders.Definitions.MyObjectBuilder_HeatVentBlockDefinition.html",
-          "hash": "BqvwNXYOhZiScCusKxb7Um9HfkaAy6DMOjY1tUbUZn4="
+          "hash": "M6WBfL02ZDuaCJDcjZEq/HryCqEewnm5V3TKKp5r8tQ="
         }
       },
       "is_incremental": false,
@@ -897,7 +909,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Common.ObjectBuilders.Definitions.MyObjectBuilder_HydrogenEngineDefinition.html",
-          "hash": "HpEAKIZL62Irjh5WGILaS51BEvlmWYwqVVYl9TcrEc0="
+          "hash": "4sBDKt4ru2YMVixnZ7whFNebslwkTU6hH2y3gvWv3mI="
         }
       },
       "is_incremental": false,
@@ -909,7 +921,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Common.ObjectBuilders.Definitions.MyObjectBuilder_JukeboxDefinition.html",
-          "hash": "m/+rbBeAwSPMebCBxjHrmrqV1OgdDgX70q5y0DT+K8U="
+          "hash": "WIksRtQK37VJB4ykiuFEy8OAtU1opKZIP3Y79t/Jn1E="
         }
       },
       "is_incremental": false,
@@ -921,7 +933,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Common.ObjectBuilders.Definitions.MyObjectBuilder_JumpDriveDefinition.html",
-          "hash": "Lj/HReMoUhecm3xKFrGTzTZ2Ue2cKAuo4EwLU3cOc+k="
+          "hash": "wXbIY0YqJ4KAy5w7G/kns0IvTz8KzcTL2unDWscmQyE="
         }
       },
       "is_incremental": false,
@@ -933,7 +945,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Common.ObjectBuilders.Definitions.MyObjectBuilder_KitchenDefinition.html",
-          "hash": "7YGdKIVqdQD0gqWRP3HDV707qujLJ12ZSXMFN8fgDzs="
+          "hash": "dKfrbi3M3mRZTieXHKsjO3nr236IpmtU3q77zdQjJNs="
         }
       },
       "is_incremental": false,
@@ -945,7 +957,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Common.ObjectBuilders.Definitions.MyObjectBuilder_LCDPanelsBlockDefinition.html",
-          "hash": "GUA90g4d86c00z6Ze7nfg9TKa+40D7qKe5tHPOQD+Ek="
+          "hash": "kLYS1DYa/FZ5c3p+WYjRFVPIRSzJVE6dh3z2oXkIc1s="
         }
       },
       "is_incremental": false,
@@ -957,7 +969,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Common.ObjectBuilders.Definitions.MyObjectBuilder_LandingGearDefinition.html",
-          "hash": "mR6wsPq+kIDL4J50qTpQnriZ6KO/Z1bRn9mKReLTLf0="
+          "hash": "PLGyHibrHbogxSJFnpDYs/0M2jpZP54MrBf3X1xLHJw="
         }
       },
       "is_incremental": false,
@@ -969,7 +981,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Common.ObjectBuilders.Definitions.MyObjectBuilder_LargeTurretBaseDefinition.html",
-          "hash": "YQtfpx03+0d4XBsuZBYCj3lY8OL0ojxNI/mG3IFiliM="
+          "hash": "F1IH8I0aU5hautTxxx7u3Khbzdktw72P3HZAWbhHSYc="
         }
       },
       "is_incremental": false,
@@ -981,7 +993,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Common.ObjectBuilders.Definitions.MyObjectBuilder_LaserAntennaDefinition.html",
-          "hash": "uy5Ar6ACpQHMH37RFWKC4/KZ+XJYZ7jtIN33QGzdlXA="
+          "hash": "ZarwV+ThUTtU2DZ/mmLITgyXku5kXP3KFV6nu61uuWk="
         }
       },
       "is_incremental": false,
@@ -1005,7 +1017,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Common.ObjectBuilders.Definitions.MyObjectBuilder_LightingBlockDefinition.html",
-          "hash": "EO1L0v6xLmQduGF7AMGoFaFI7Rc0rSET3F/HEb1xK0k="
+          "hash": "MQ3QX2WRg7VtljyWEjQ7VWhh1iWTxWejkeH1Tp+eGNo="
         }
       },
       "is_incremental": false,
@@ -1029,7 +1041,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Common.ObjectBuilders.Definitions.MyObjectBuilder_MechanicalConnectionBlockBaseDefinition.html",
-          "hash": "5LgjJ0R8jvVpr33Tv0pH5Lb1O4V6FSGmbMTwvUzo8vk="
+          "hash": "IvzOfxZazjipIAEYwvyACy1iyk3VmdXxdUKQR4ESUYo="
         }
       },
       "is_incremental": false,
@@ -1041,7 +1053,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Common.ObjectBuilders.Definitions.MyObjectBuilder_MedicalRoomDefinition.html",
-          "hash": "CiF/Rd7J2aioLFdY1GS8oRaWKvMcNLtiuXbYxuvcfG0="
+          "hash": "2xohwfEjNWF3BnlvXcale6q9k5S4uonEEZR5k6yGwcc="
         }
       },
       "is_incremental": false,
@@ -1053,7 +1065,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Common.ObjectBuilders.Definitions.MyObjectBuilder_MergeBlockDefinition.html",
-          "hash": "nkHYo9a4r1LlJ74QF8112JcFPIMaYgFvyEI0fv/uvaE="
+          "hash": "4Rcs9pBWBb2AwCrKbsSZgdSjuNmlL3xE7kBKmPLKa0A="
         }
       },
       "is_incremental": false,
@@ -1089,7 +1101,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Common.ObjectBuilders.Definitions.MyObjectBuilder_MissileLauncherDefinition.html",
-          "hash": "3wQk+KPuUrcsysTLMG4pTjOEyqS2UBsscKPVZMeUksI="
+          "hash": "kctBToIlSMGbOMpZWjJHEbSlv+5hr93UbyMcJy+Cokg="
         }
       },
       "is_incremental": false,
@@ -1101,7 +1113,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Common.ObjectBuilders.Definitions.MyObjectBuilder_MotorAdvancedStatorDefinition.html",
-          "hash": "+oo2RtA6pkU5xIlNiPCTqkFqlpucWQUamziKMG2KeVA="
+          "hash": "+oaJP81TPG02wo4JAybzkZmYE/dS07dS7wZ4vLKuVeA="
         }
       },
       "is_incremental": false,
@@ -1113,7 +1125,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Common.ObjectBuilders.Definitions.MyObjectBuilder_MotorStatorDefinition.html",
-          "hash": "aZbW3H1VSyUZDvgOC6AGTSWk9Dibpz49HgCCqCQ9EjI="
+          "hash": "1HALnwIOC8STaX911whU2ivrQ/aqU6r0hLQn+0dV9SA="
         }
       },
       "is_incremental": false,
@@ -1125,7 +1137,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Common.ObjectBuilders.Definitions.MyObjectBuilder_MotorSuspensionDefinition.html",
-          "hash": "UBS2i0jNovdUhsrLNGJqMzeqq+qt8sTXzJRPt+ReqNs="
+          "hash": "hPCVbLnURAFwE+QJC/QN3OicDVj+MdlTOlQdBX7BGaQ="
         }
       },
       "is_incremental": false,
@@ -1149,7 +1161,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Common.ObjectBuilders.Definitions.MyObjectBuilder_OffensiveCombatBlockDefinition.html",
-          "hash": "VcJvU1YErBYb7OhWh3cFc2QdwFPbR+kx9DsfVeWrT1g="
+          "hash": "nzJvxUeQRBMXQQBLLfbm7fWxeJnGxoUTUDyDFoPxn44="
         }
       },
       "is_incremental": false,
@@ -1209,7 +1221,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Common.ObjectBuilders.Definitions.MyObjectBuilder_OreDetectorDefinition.html",
-          "hash": "lGuaMjTzxam5CdgBXy6WJndLZQJkOb3fWfu+b+QrFDk="
+          "hash": "6qlIX4CUKjzSKumieVsVd0C6lTGgGs/DnQDh/Cc+C2A="
         }
       },
       "is_incremental": false,
@@ -1257,7 +1269,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Common.ObjectBuilders.Definitions.MyObjectBuilder_OxygenFarmDefinition.html",
-          "hash": "sO2ofzciDyB6GAtW/oKbrI+EFYznNJjxhGiNrOyUc98="
+          "hash": "CMowGCxc0EmY2e+Gy9taFUtTWBNWu1tYV8sZdAUFzW0="
         }
       },
       "is_incremental": false,
@@ -1269,7 +1281,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Common.ObjectBuilders.Definitions.MyObjectBuilder_OxygenGeneratorDefinition.html",
-          "hash": "5wHoZPTWR7XSiJaUS3rJ95HA3cJfsqg6LcQRzkAZ+TM="
+          "hash": "l+DjIWRCD9hLDKOcxOtCdyTGop0qHwBl5S41VYL/doU="
         }
       },
       "is_incremental": false,
@@ -1281,7 +1293,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Common.ObjectBuilders.Definitions.MyObjectBuilder_OxygenTankDefinition.html",
-          "hash": "uhkv6LvcdYC/4LSF2NGpPM0yA3UJ1eJFU3Tk2E5bAXE="
+          "hash": "L5pyHNUHtvaw8kKgYgRPL/3KtDJR2gwg7P5tUAFoL4Y="
         }
       },
       "is_incremental": false,
@@ -1365,7 +1377,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Common.ObjectBuilders.Definitions.MyObjectBuilder_ParachuteDefinition.html",
-          "hash": "rO9p37PoQ/Dw17dRco8x7JodCgqc8rROYgdEOY1ob6Q="
+          "hash": "AXQURAEtkjIwGn2AEMndUvd1vKiBlGZye5W/F1rUH8E="
         }
       },
       "is_incremental": false,
@@ -1389,7 +1401,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Common.ObjectBuilders.Definitions.MyObjectBuilder_PathRecorderBlockDefinition.html",
-          "hash": "9kuHU11gCSmjhFkjETYkY3F4dXa2WMiVNM8iTaIW7fA="
+          "hash": "NEFj7f4gcJxPc017xKJjYKwxE+21FBcVeg6wNfqPqiA="
         }
       },
       "is_incremental": false,
@@ -1413,7 +1425,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Common.ObjectBuilders.Definitions.MyObjectBuilder_PistonBaseDefinition.html",
-          "hash": "LOOsVp0TFy/HNSQCmrXiGAzelu34UYSQK8kDqUZw6xA="
+          "hash": "MDeYyE+GSy4dAsmSa21vGi2sqdXgf4PVN/FOwXY9MZ4="
         }
       },
       "is_incremental": false,
@@ -1425,7 +1437,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Common.ObjectBuilders.Definitions.MyObjectBuilder_PlanterDefinition.html",
-          "hash": "b4qgE9hjq3fLJA/eHtcK647LjIf5RwHvToLXrh0nUq8="
+          "hash": "jz17dzXZIRjX7TGezkwzkNQZF3y2a+5HJcbThu/MaDM="
         }
       },
       "is_incremental": false,
@@ -1437,7 +1449,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Common.ObjectBuilders.Definitions.MyObjectBuilder_ProgrammableBlockDefinition.html",
-          "hash": "bo+o+zat3pNVkh+sfo6LjNZrXrPo4t9/CWnInCw1PpE="
+          "hash": "8uJSMLin26QZtyUkwfxpvH4O2KKNwqA0oyd23QIBmos="
         }
       },
       "is_incremental": false,
@@ -1449,7 +1461,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Common.ObjectBuilders.Definitions.MyObjectBuilder_ProjectorDefinition.html",
-          "hash": "Rzcq8I9E9UUtEEw3I/aE7Co+xk6ihmqW4vHKdjawMUE="
+          "hash": "yoUKNhkc9r+s7accC9gfSjYkloNS14ZhO7Jf3alLop4="
         }
       },
       "is_incremental": false,
@@ -1461,7 +1473,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Common.ObjectBuilders.Definitions.MyObjectBuilder_RadioAntennaDefinition.html",
-          "hash": "4xrOkq56tkqH5Xrre0qQyQ35EF5gWAYH739JB/2FRns="
+          "hash": "XQiPBSawAnVRNQb2OZXn3nqNkR1sw5RaabZ9k0Xfq84="
         }
       },
       "is_incremental": false,
@@ -1485,7 +1497,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Common.ObjectBuilders.Definitions.MyObjectBuilder_ReactorDefinition.html",
-          "hash": "ep/Qx7t/4Y5wvU1jnE+M5Nn1EWxI2aeexfOuy4/8VUI="
+          "hash": "cgcu/jLWdEciV+bHF6OEGNJFW7ryMTZy/MeNf0oWQ2Q="
         }
       },
       "is_incremental": false,
@@ -1497,7 +1509,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Common.ObjectBuilders.Definitions.MyObjectBuilder_RefineryDefinition.html",
-          "hash": "KcOLsbACcGW9+z0rNAydxx6X/QsKF2U7heSWF5/3qb8="
+          "hash": "7ktmWigJKJRbv48DvZZdppUhVY4p40gYzgNIEY38uds="
         }
       },
       "is_incremental": false,
@@ -1509,7 +1521,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Common.ObjectBuilders.Definitions.MyObjectBuilder_ReflectorBlockDefinition.html",
-          "hash": "ofIbsXhYDpj1upxkPwbYz71s/oVOtIiXCiOCellsvoU="
+          "hash": "FbGcp2Y5tbcHIVKi1pc2ZZRIC/ZC0qWzj/ULWLeOeb4="
         }
       },
       "is_incremental": false,
@@ -1521,7 +1533,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Common.ObjectBuilders.Definitions.MyObjectBuilder_RemoteControlDefinition.html",
-          "hash": "RmNcBCyT5L6zhs8Wc4xMC4ZPWWO/7sEs2z9JGI2hKsU="
+          "hash": "oohO99GrjFF/y5kA5ZxxMFAk/uh/k7T9db2Xpb6DvyA="
         }
       },
       "is_incremental": false,
@@ -1533,7 +1545,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Common.ObjectBuilders.Definitions.MyObjectBuilder_RotatingSubpartComponentDefinition.html",
-          "hash": "U0w7MwfHFhefIUTaJF8Y4LvBN0F9YV5AAvWy9L+zhzI="
+          "hash": "DPxUoOwk2Ic5+bLqRp/A6H0GmFaE1RhyoI7R8FDlZE4="
         }
       },
       "is_incremental": false,
@@ -1557,7 +1569,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Common.ObjectBuilders.Definitions.MyObjectBuilder_SearchlightDefinition.html",
-          "hash": "9xmje/FaEZVhnVUQ5YagPtaOUXg6d34fG8bIPtwSNEI="
+          "hash": "axjIZjoCVw9H7ddXkwDq66GIfBYpIHaJhmeG/T1D2DQ="
         }
       },
       "is_incremental": false,
@@ -1569,7 +1581,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Common.ObjectBuilders.Definitions.MyObjectBuilder_SensorBlockDefinition.html",
-          "hash": "tcDIREkNmj/znIsykYfdbTQ5jKMYYlYw6eqEqxjiFv0="
+          "hash": "rOdoLIpDkvRfhUyQeD60sQu1aFVS9EmiMTeq3eAWsUA="
         }
       },
       "is_incremental": false,
@@ -1581,7 +1593,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Common.ObjectBuilders.Definitions.MyObjectBuilder_ShipControllerDefinition.html",
-          "hash": "gwOh7E/aXGcUAUMGnvQzBSnucXeS9UpidQ6kXbX5wyo="
+          "hash": "ggPwTmw00ieq2lzPvI2Vx94UQiez+ByZVj+xVXZ7fJw="
         }
       },
       "is_incremental": false,
@@ -1593,7 +1605,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Common.ObjectBuilders.Definitions.MyObjectBuilder_ShipDrillDefinition.html",
-          "hash": "03ZjNX32xSVYVzdARGwAWtQ6tbf/Oeiph489nYyHRs8="
+          "hash": "LGLTkAQVy6DS+z7XzKqsE11k7er84a9Y7IDArUk5Rlw="
         }
       },
       "is_incremental": false,
@@ -1605,7 +1617,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Common.ObjectBuilders.Definitions.MyObjectBuilder_ShipGrinderDefinition.html",
-          "hash": "7RB1i8YahcIjs4m1ZoyqdGgFBtM7lH7Q+7uIWhBbZm0="
+          "hash": "a2/3SK93pizTt+fosdXT3ZYkKSeAKL+qhiJgKFvxVFw="
         }
       },
       "is_incremental": false,
@@ -1617,7 +1629,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Common.ObjectBuilders.Definitions.MyObjectBuilder_ShipToolDefinition.html",
-          "hash": "oY+T9BDOew1QHU6Nq2ElH0NnVhmGANvkfpHGzClv41g="
+          "hash": "YbELz2yRKozbhlDNmfiTPeoUj7oxpYWgIgLC4yDfCns="
         }
       },
       "is_incremental": false,
@@ -1629,7 +1641,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Common.ObjectBuilders.Definitions.MyObjectBuilder_ShipWelderDefinition.html",
-          "hash": "u6VrQ8gn4TqMTaixGht4EzjRmON7j0Tn6ai8IaFbCz8="
+          "hash": "TR0+F9x6kg8V/6yyhtqJuPjDoS2kIPwuDCu2/m4WVsM="
         }
       },
       "is_incremental": false,
@@ -1689,7 +1701,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Common.ObjectBuilders.Definitions.MyObjectBuilder_SoundBlockDefinition.html",
-          "hash": "uyRzYSriZ0VfCQmQA0GuNsaotD6V7kLkm1BWLFiOcfs="
+          "hash": "AZv18t2NGyLqzDuoiPhoBT1JFkfrl3pisHlp+tZH/LY="
         }
       },
       "is_incremental": false,
@@ -1701,7 +1713,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Common.ObjectBuilders.Definitions.MyObjectBuilder_SpaceBallDefinition.html",
-          "hash": "Ge2ccUF2OU5V9TA6E4GjQ9n/DvyYr/Pk20agZiHvUQE="
+          "hash": "KNix7/UEP+k52Up4JgVmVoey1tM2muFZpsFTPzyTqpY="
         }
       },
       "is_incremental": false,
@@ -1713,7 +1725,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Common.ObjectBuilders.Definitions.MyObjectBuilder_StoreBlockDefinition.html",
-          "hash": "omoLVzjUw1fGr27ZYtvtAwU+nrEMtpdOOG+LAgEzVvY="
+          "hash": "wPHAdYsiH28uYAmbLdMqwvxE/TnncjwREBVEdy1ZYMY="
         }
       },
       "is_incremental": false,
@@ -1725,7 +1737,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Common.ObjectBuilders.Definitions.MyObjectBuilder_SurvivalKitDefinition.html",
-          "hash": "J04jJwkscWVx/Q0Z9HOVCYdHSHSkgrYuLyexZO3jMt0="
+          "hash": "tuA6fQozzTiwocY4W7u6deiJxbJoNbehwJ++fRLJXOA="
         }
       },
       "is_incremental": false,
@@ -1737,7 +1749,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Common.ObjectBuilders.Definitions.MyObjectBuilder_TargetDummyBlockDefinition.html",
-          "hash": "3Cg2Y6Au8jomxNGaB3mfbH17yK/UtYum4iuWFY8/OTw="
+          "hash": "qw0YZo/vMhTk8qGHvM1EFFU9+TuWLNWpFbLOd090Ba0="
         }
       },
       "is_incremental": false,
@@ -1749,7 +1761,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Common.ObjectBuilders.Definitions.MyObjectBuilder_TextPanelDefinition.html",
-          "hash": "oALuVZJSVJwWv1CVQDCGXMtbBj7tviU8+GAxW+a1Peg="
+          "hash": "NdRx3QWPSKLkcGRvBSHpkTW/3F/gxZe0VPjJQ0nqkP0="
         }
       },
       "is_incremental": false,
@@ -1761,7 +1773,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Common.ObjectBuilders.Definitions.MyObjectBuilder_TimerBlockDefinition.html",
-          "hash": "WuFLzgMVrKvJf0LdFEWr1w3me5/T/tb7Nk6CtjetfRY="
+          "hash": "bg+pSjFCMcO9rlyLPjLI0/+ywocWTMd8GrcmbvrRwzk="
         }
       },
       "is_incremental": false,
@@ -1773,7 +1785,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Common.ObjectBuilders.Definitions.MyObjectBuilder_TransponderBlockDefinition.html",
-          "hash": "R8GJAjbFMcVZsM2ZrOwaCbDp2KE9mm7Cl5qDW/rLQKs="
+          "hash": "45x8EA9jjeT/FDyh2z0ehikq6vSCrOP924Fl2UtWy1M="
         }
       },
       "is_incremental": false,
@@ -1785,7 +1797,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Common.ObjectBuilders.Definitions.MyObjectBuilder_VendingMachineDefinition.html",
-          "hash": "fv6wv9KgsOjj0MkMKoiZMJuX/mzG4n+Rb0ISMnDBJEs="
+          "hash": "L5jGhOJ2MExgayY4Ok0peD7RNVCN8sTWDbdLfEOIjZ8="
         }
       },
       "is_incremental": false,
@@ -1797,7 +1809,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Common.ObjectBuilders.Definitions.MyObjectBuilder_VirtualMassDefinition.html",
-          "hash": "xM5R2gsPuMUixymAA/pAUl0lrTawS9duk+CxWjrBft0="
+          "hash": "I63QNKmaJzKhxyRDfVoi/tKwPjOvyeLEjCh5Kcdq6dQ="
         }
       },
       "is_incremental": false,
@@ -1809,7 +1821,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Common.ObjectBuilders.Definitions.MyObjectBuilder_WarheadDefinition.html",
-          "hash": "FIsCPht26ks7fNWiCUG3MG8hV8dQWaGcE5thUVpNWRY="
+          "hash": "VCxzHPkkR8DdAPNCrlUvU1AARhphQ0Pkb+xTICAionM="
         }
       },
       "is_incremental": false,
@@ -1833,7 +1845,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Common.ObjectBuilders.Definitions.MyObjectBuilder_WeaponBlockDefinition.html",
-          "hash": "RA4TEaurx7a3eT3n5NrzieJvlTtyh7wEFcp9YG3qYMA="
+          "hash": "2sENL/aU9xwRK5+qZ8NUStzD+XzAKolZwrfeAXE6FCE="
         }
       },
       "is_incremental": false,
@@ -1857,7 +1869,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Common.ObjectBuilders.Definitions.MyObjectBuilder_WindTurbineDefinition.html",
-          "hash": "blO9tWjs7kkXxMJKwR7FAzqVT6i+BDYZLtLzBn+6hsY="
+          "hash": "qbqquu/Frx/pUj+bm/XpBHBHTlbf21TVpXaM4vp67i8="
         }
       },
       "is_incremental": false,
@@ -1894,6 +1906,18 @@
         ".html": {
           "relative_path": "api/Sandbox.Common.ObjectBuilders.Definitions.MyObjectbuilder_AutopilotPathfindingComponentDefinition.html",
           "hash": "Fcrpb2M50CjKehsqPoM+RcPVRQRdhqNhA4BLh2Ja/sU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sandbox.Common.ObjectBuilders.Definitions.MyObjectbuilder_GlobalEncountersGeneratorDefinition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sandbox.Common.ObjectBuilders.Definitions.MyObjectbuilder_GlobalEncountersGeneratorDefinition.html",
+          "hash": "pUfgVm/Yc/34iAPFouEKNP14mJk6EI5JQKOgVJYZXO4="
         }
       },
       "is_incremental": false,
@@ -1953,7 +1977,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Common.ObjectBuilders.Definitions.html",
-          "hash": "j12F1RWLjGvhu2whUh1ob9Brbt3y7Xw16PWSn7fb9KM="
+          "hash": "+7O/cu0z7muVaKLfERy1KlgTFVcavziU7b0M7Bvsdno="
         }
       },
       "is_incremental": false,
@@ -1978,6 +2002,18 @@
         ".html": {
           "relative_path": "api/Sandbox.Common.ObjectBuilders.HitAndRunState.html",
           "hash": "MN6lLMKsEifYEd2R2juLx5rc0ESRq1AvL910HU8Zt7w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sandbox.Common.ObjectBuilders.MyInstallation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sandbox.Common.ObjectBuilders.MyInstallation.html",
+          "hash": "FSgxODjf+iIm3wi0zh9IiHsdkyKMJ9G7mfmpD/+qje0="
         }
       },
       "is_incremental": false,
@@ -2037,7 +2073,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Common.ObjectBuilders.MyObjectBuilder_AirVent.html",
-          "hash": "abo9GEERmzSxBNWwhV48Wnmr/QFquiRvGj/0I26yyW4="
+          "hash": "SChslLG/896Qr7sUkJoc2Jj4vWPHLmw8QY05Aq5jZTY="
         }
       },
       "is_incremental": false,
@@ -2849,6 +2885,30 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Sandbox.Common.ObjectBuilders.MyObjectBuilder_GlobalEncounterComponent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sandbox.Common.ObjectBuilders.MyObjectBuilder_GlobalEncounterComponent.html",
+          "hash": "N9aKUdoE8Nugbt47EvgGZDZPu35aTJnktQuE3klRsWs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sandbox.Common.ObjectBuilders.MyObjectBuilder_GlobalEncounters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sandbox.Common.ObjectBuilders.MyObjectBuilder_GlobalEncounters.html",
+          "hash": "4Lv53+DMHgmqxstlZ3Sx8B7Fki32XNCDSWRVR8FwIkU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Sandbox.Common.ObjectBuilders.MyObjectBuilder_GravityGenerator.yml",
       "output": {
         ".html": {
@@ -3105,7 +3165,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Common.ObjectBuilders.MyObjectBuilder_MaintenancePanelComponent.html",
-          "hash": "Rt6MIWo6ilDNnuEqIq9dVYGwn4GFCxHHS8RnKQSJK+o="
+          "hash": "KQefvXAVIsorOlgnYeVE+Z/YBLBubFhBzjy+e9snAj4="
         }
       },
       "is_incremental": false,
@@ -3473,6 +3533,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Sandbox.Common.ObjectBuilders.MyObjectBuilder_PlanetaryEncounters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sandbox.Common.ObjectBuilders.MyObjectBuilder_PlanetaryEncounters.html",
+          "hash": "Ct3sOUzhvMr3G042OhGXqw6WNFf02TcBx04ItOQ99sY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Sandbox.Common.ObjectBuilders.MyObjectBuilder_Planter.yml",
       "output": {
         ".html": {
@@ -3526,6 +3598,18 @@
         ".html": {
           "relative_path": "api/Sandbox.Common.ObjectBuilders.MyObjectBuilder_RadioAntenna.html",
           "hash": "MYdMSmmgCLk7/nRW8ZJ9kmwzjCVYybqKTNVrWYkv9po="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sandbox.Common.ObjectBuilders.MyObjectBuilder_RandomCargoEntityComponent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sandbox.Common.ObjectBuilders.MyObjectBuilder_RandomCargoEntityComponent.html",
+          "hash": "bkpSlS4OGVgcnrgj+s6cdKelICMPla1niASMAzLudUU="
         }
       },
       "is_incremental": false,
@@ -4173,7 +4257,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Common.ObjectBuilders.html",
-          "hash": "mSKeaSIz7+nNMriRI8/yQxPTz/nn1G1Jqj9BkKlMiww="
+          "hash": "8J3Ak8rGzTDWhceUpQCtKxOQ27jX7PrLazuSPp0vEwY="
         }
       },
       "is_incremental": false,
@@ -4241,11 +4325,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Sandbox.Definitions.GlobalEncounterSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sandbox.Definitions.GlobalEncounterSettings.html",
+          "hash": "h/FU5C6oki/ZaxzcK568uO/+BS/gTFRb0heD58wBdIs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Sandbox.Definitions.MyAdvancedDoorDefinition.yml",
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Definitions.MyAdvancedDoorDefinition.html",
-          "hash": "2/owINz5bATIGgDe3P/CNYz34w8rfOGtiG4ssDbeJyA="
+          "hash": "NPVvcqy5l9P81/0FIYAAFOqLCSrUswXG/vyLvmF282U="
         }
       },
       "is_incremental": false,
@@ -4293,7 +4389,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Definitions.MyAirVentDefinition.html",
-          "hash": "ABcs/VNLV1RrO9eMaherYAPtEsRZyRcuo8OC1RDsTA8="
+          "hash": "lSYfzkUCZNnve2u2tOryy+Fiz0Xa+upOVQci4SHEad0="
         }
       },
       "is_incremental": false,
@@ -4305,7 +4401,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Definitions.MyAirtightDoorGenericDefinition.html",
-          "hash": "Yk9lBJ5+JaS9PQ07kbFmGdauHuF0v48LePloeoi7xbo="
+          "hash": "Ce0xKEoRMQJveJvjDvXLcr67sKf6InZdQlzQezJAqXI="
         }
       },
       "is_incremental": false,
@@ -4317,7 +4413,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Definitions.MyAirtightHangarDoorDefinition.html",
-          "hash": "fXljOqTLdANSvwaPc+dcoqo68kdqIrELukByJ/D6qPE="
+          "hash": "o1sZBXB5Ui2knNSijU7NWL2UTwKnkAL74GnIY+lKX/Y="
         }
       },
       "is_incremental": false,
@@ -4329,7 +4425,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Definitions.MyAirtightSlideDoorDefinition.html",
-          "hash": "Xj/OzM+L5CmwIcq7zLkq90/kccLJkJ17zbEdP7vaQ3Y="
+          "hash": "vzOAR71LPGJ96mdg22Uq+xiMLEE59+p+ioyeSgEf0Zs="
         }
       },
       "is_incremental": false,
@@ -4377,7 +4473,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Definitions.MyAssemblerDefinition.html",
-          "hash": "XyQ+6L2ZJq2qIfhrbGA0DtwlQDcHsIzkRvl3pmcPZaQ="
+          "hash": "qhNMi/FhxQlMXhti/ONe9cHUus/2T32J9O8cZeHX9Gg="
         }
       },
       "is_incremental": false,
@@ -4425,7 +4521,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Definitions.MyBasicMissionBlockDefinition.html",
-          "hash": "uehmFWPGgqwya9IbXESuOjYUoIVdl0kGptd3fG9Ch1w="
+          "hash": "PoAGpyrTk9CXkXBPBaFz4qp6P5DbQVlty972bYqeGZI="
         }
       },
       "is_incremental": false,
@@ -4437,7 +4533,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Definitions.MyBatteryBlockDefinition.html",
-          "hash": "xtMIvGPA/EId6nZqiqP68ZHRYa0/gbg11Qg1tGhWjKc="
+          "hash": "IDDh8fiX97K83xldXk9W1y8tO5QS3stNf87YUY9I13s="
         }
       },
       "is_incremental": false,
@@ -4449,7 +4545,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Definitions.MyBeaconDefinition.html",
-          "hash": "2XI+6nZWMfqXg5NUgGLzN2FQazhrGrUMC0OUFDPoPBo="
+          "hash": "k/xja33lgP1y/PuXb9qZqbqmHmjfDQ10SvxoF/1LkAs="
         }
       },
       "is_incremental": false,
@@ -4569,7 +4665,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Definitions.MyBroadcastControllerDefinition.html",
-          "hash": "+YGV0Z6YUl9QbPqiRo6mZaCfi2Iigb/T1Zesuz4KR6Q="
+          "hash": "zWGMWVPff0RX4UZGczcq1tq4DDpzffn82wILu2I7fio="
         }
       },
       "is_incremental": false,
@@ -4581,7 +4677,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Definitions.MyButtonPanelDefinition.html",
-          "hash": "UgO+mC6vKD9qmpW6n1cX1k4ZacWh4GibL0+BUXaB9v4="
+          "hash": "Y4OVYHesoO6IzWl5L0Q+pnACAfz9LnjYnDmiAOEPCms="
         }
       },
       "is_incremental": false,
@@ -4593,7 +4689,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Definitions.MyCameraBlockDefinition.html",
-          "hash": "OWNSJixkEvhRd7/1M2gkw8W9ozqkYcPn05Ys9SBH6TU="
+          "hash": "1/Qt7Glq1aqUvCBsKFGXbUSKgj3c+Xtt11VDVyYvgHI="
         }
       },
       "is_incremental": false,
@@ -4605,7 +4701,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Definitions.MyCargoContainerDefinition.html",
-          "hash": "fg32v9t95GH9p6oH48TOWOaDnYRQBpNc+RWswTrlza4="
+          "hash": "w5uMU/JwF2LlL3FzLrUyLxtrTHmvGI2TrBO1mSCQKlY="
         }
       },
       "is_incremental": false,
@@ -4641,7 +4737,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Definitions.MyCockpitDefinition.html",
-          "hash": "Kb410w2crst3IVQRxMdbamp0n5yEeFymIL5+hTu0KSk="
+          "hash": "hMQdZlgg6tICSAgxQ5AFkmdwUClCCrBL/sw7TZvkgyM="
         }
       },
       "is_incremental": false,
@@ -4749,7 +4845,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Definitions.MyContainerTypeDefinition.ContainerTypeItem.html",
-          "hash": "HOMq4BYfY18Mlq39q5IUHqfnM56KLe9IVPssoyg1SPc="
+          "hash": "QVD2lb4aKHwh999eV1gZQejHsJt+stzxn8yNG82Pci0="
         }
       },
       "is_incremental": false,
@@ -4773,7 +4869,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Definitions.MyContractBlockDefinition.html",
-          "hash": "SmxE1SMh2Uom3puDmYcqueRUp6c+ezV09lZOBEA9B4Y="
+          "hash": "31PTdMSXvze7jGCTxUn1AvhRdQ48cApRAVzKO/nLxlk="
         }
       },
       "is_incremental": false,
@@ -4893,7 +4989,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Definitions.MyConveyorSorterDefinition.html",
-          "hash": "8v+0cDKzNYsrjJO9Zd4vF25UyGN9a37GXzKmPX4cvw4="
+          "hash": "tZs+ddgsCFGfpsF5BdulYMHGbqtMKqwUmKj6fINRA5g="
         }
       },
       "is_incremental": false,
@@ -4905,7 +5001,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Definitions.MyCryoChamberDefinition.html",
-          "hash": "J+3UOAr9SdJ/evecswlJxahBw0tpMVkk+4JzAiWvZ+M="
+          "hash": "B14mV0PcBvddkDxd2b9wY+0qeVLkalAemEqqjH/3Ddo="
         }
       },
       "is_incremental": false,
@@ -4965,7 +5061,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Definitions.MyCubeBlockDefinition.html",
-          "hash": "mXWbSA94Nzk34CY77FVuK8U0Ys6NlazUM1nJgQs+TnE="
+          "hash": "43Yq5gv9GhAOclHVCy6rLPRtGwLkPwwkdVnfzeC7wPg="
         }
       },
       "is_incremental": false,
@@ -4978,6 +5074,18 @@
         ".html": {
           "relative_path": "api/Sandbox.Definitions.MyCubeBlockDefinitionGroup.html",
           "hash": "Mw3mo+DQRXre6cChB8pw21fDY0DSbNPON3go7E9bScs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sandbox.Definitions.MyCubeBlockTagDefinition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sandbox.Definitions.MyCubeBlockTagDefinition.html",
+          "hash": "xfWyCK2vdeZYAGtLAyUvLGeHTL+ncVJt+771c8gvZ3Y="
         }
       },
       "is_incremental": false,
@@ -5061,7 +5169,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Definitions.MyDebugSphere1Definition.html",
-          "hash": "p59y0oE3EHp8inTvLZ7NOaf3JWR2YnC5dCXqoz95rnI="
+          "hash": "8yVm0vnIPrqi25tXfCJvsFcpLOFr7lsAGFbiQ80FFoI="
         }
       },
       "is_incremental": false,
@@ -5073,7 +5181,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Definitions.MyDebugSphere2Definition.html",
-          "hash": "5nv+08vXej88GrediTeXUKEQeHmZkW7wH5rAtTygLRE="
+          "hash": "Ds9q2nViRbsaSwZV0YgMmELhH2zBWY5kqi6BHDc7w2U="
         }
       },
       "is_incremental": false,
@@ -5085,7 +5193,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Definitions.MyDebugSphere3Definition.html",
-          "hash": "NsyJUOyBw39dOomVg8gezHAAZLfAh5SKCBpIo7lzSK8="
+          "hash": "PJrxML4UlZeXa6STYn5rOUySBeGILIWxuspmrzeTABU="
         }
       },
       "is_incremental": false,
@@ -5097,7 +5205,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Definitions.MyDecoyDefinition.html",
-          "hash": "Sy9/+FL5SLBZhzwe1LnWqJyw3kd58cJ3+EFm35EO+8M="
+          "hash": "G+3p/1cYbNec5kWcwL1bgtgMksyvhO10sQLoJCMkm6w="
         }
       },
       "is_incremental": false,
@@ -5109,7 +5217,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Definitions.MyDefensiveCombatBlockDefinition.html",
-          "hash": "aVMv2vNcMIfVDO3kxj34Xp2sqr/T+eLhUzsFwm3mpdc="
+          "hash": "BH+hNa1u71+FMgLQxXrVpiDrsMiDNAjG25MTkPfooNg="
         }
       },
       "is_incremental": false,
@@ -5133,7 +5241,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Definitions.MyDefinitionManager.html",
-          "hash": "VbfNLmuMFYeyEK5uhOVrzvlZ/owaxvor9SzTpKSVeLc="
+          "hash": "8X3p1xbz55n3RLnWrT5sBgOt+S9YaC7VGxUjYwl8Lfc="
         }
       },
       "is_incremental": false,
@@ -5169,7 +5277,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Definitions.MyDoorDefinition.html",
-          "hash": "octKx8rnQwN5nM5xLkhDrCR+CfPPkh81fPx120vryU0="
+          "hash": "EXB3lbNToxCEjrU4rI42iJLFue2SOe+lZf6xJI+kz8w="
         }
       },
       "is_incremental": false,
@@ -5181,7 +5289,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Definitions.MyDropContainerDefinition.html",
-          "hash": "uTUnS5vVM5/EqBbbBWIiH/jzcg19TKMfYeKmcMDi93g="
+          "hash": "naRK+TcjZ4JQscFbo+Uxntksp3RM0I9Y5BkfEDZbq+g="
         }
       },
       "is_incremental": false,
@@ -5253,7 +5361,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Definitions.MyEmotionControllerBlockDefinition.html",
-          "hash": "oX51zexBmo996WIkMI9jS2LIyBcwk7vPoBSh0I8O2JQ="
+          "hash": "awq9vzZ21KqUNrd0eZPJtyTSMgRBb4LcsSFbFw0Astg="
         }
       },
       "is_incremental": false,
@@ -5337,7 +5445,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Definitions.MyEventControllerBlockDefinition.html",
-          "hash": "JtPsSRda/4HH8kRAJd05XH+SN961CsWPtdLqR057W6U="
+          "hash": "+N4iXEmU4yikxJu6hbRRBPNOEtfY8VJOkTo4FatHmUs="
         }
       },
       "is_incremental": false,
@@ -5349,7 +5457,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Definitions.MyExhaustBlockDefinition.html",
-          "hash": "KHa59h6QHhsI2PsPYZtd6NEBqt9o8q/YYl3nStZxrbw="
+          "hash": "97MAF628Hjvrzm8nj+BmAV5iTsB7gnAxIHtRcIGGMYY="
         }
       },
       "is_incremental": false,
@@ -5373,7 +5481,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Definitions.MyExtendedPistonBaseDefinition.html",
-          "hash": "syLC3SkKKYSDdwU4vLEeW8g6vbv0sjkq7i6JlWfOBEY="
+          "hash": "a3AXh1BD1dcHuxdzEQ3xkbQtUh2FGQNOYL613Y/FYX0="
         }
       },
       "is_incremental": false,
@@ -5385,7 +5493,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Definitions.MyFactionDefinition.html",
-          "hash": "/MKeoxgwJYnGcEJjOfMOnN8yrIqyPXG5jYic9K9kDJ4="
+          "hash": "6TxPGMXrWQfd11pvKQ6+kKx0JJCSsWlmdh/IcQ5jVdk="
         }
       },
       "is_incremental": false,
@@ -5397,7 +5505,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Definitions.MyFactionNameDefinition.html",
-          "hash": "kSmEFGWFnFrjDvUun08LEcvGQ/R35Idqf47RUEFGxyk="
+          "hash": "E8Mbs3J79FJT7MFEQsA9IzHySwokUHouijHRPWJeJQ8="
         }
       },
       "is_incremental": false,
@@ -5409,7 +5517,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Definitions.MyFactionTypeDefinition.html",
-          "hash": "pfgTtst+gktyh1USaRFwQYH0B5FWxjKZ3E8VqErRrCs="
+          "hash": "KzWK62VGHpkkM5vL5n4xmery2vY3J+xcao+giDqkKXs="
         }
       },
       "is_incremental": false,
@@ -5433,7 +5541,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Definitions.MyFlightMovementBlockDefinition.html",
-          "hash": "coXRpkcd20QzsYo62Kgu99P5zXk3TBfFNxor2EQxvkI="
+          "hash": "Tfz6XIJCsKX6GeGg+k2D5XitQ3tUc88JzzUO9gfw3wQ="
         }
       },
       "is_incremental": false,
@@ -5445,7 +5553,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Definitions.MyFueledPowerProducerDefinition.html",
-          "hash": "l9Vsci+rL0iggDhqv+2EVyXHUcMx3CQqOhpLn7Vl/L8="
+          "hash": "JY86TZF8THXQa/YEIK+phU6MSGM44FHBdZzTURkuoHE="
         }
       },
       "is_incremental": false,
@@ -5457,7 +5565,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Definitions.MyFunctionalBlockDefinition.html",
-          "hash": "uJmkmKss+ILJJFWZCJ6BMEpPfV0lr0bqUf1EGKW7K0w="
+          "hash": "8zmf4bBgr514E0RM15JCer+MKbqptDRz97HtsAKEEOE="
         }
       },
       "is_incremental": false,
@@ -5481,7 +5589,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Definitions.MyGasFueledPowerProducerDefinition.html",
-          "hash": "oaAX6LrlgLMV80SrP77Zvfv/vEj3fUVusQxzjRP5Nso="
+          "hash": "yeTvITHG3M3jVAW2neybwpO6Zg97anPg3wnmCYi7sSA="
         }
       },
       "is_incremental": false,
@@ -5505,7 +5613,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Definitions.MyGasTankDefinition.html",
-          "hash": "+tGKPWRaQzOSYVy9Y2tjx4AHAYHSBJM3VWR1QOinrrI="
+          "hash": "HhoG0mlWTePzB3C/mrUn5eeoKp/KJPn5uyB/YdCAhRw="
         }
       },
       "is_incremental": false,
@@ -5577,7 +5685,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Definitions.MyGravityGeneratorBaseDefinition.html",
-          "hash": "lAOYCTfMaGIaUYreXJb2SqZAtNqn5YLbIcL6i99FqRQ="
+          "hash": "X2fW0myaFcmAi9bDzqWzxCWiT4eBvehKSst7FodWaXc="
         }
       },
       "is_incremental": false,
@@ -5589,7 +5697,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Definitions.MyGravityGeneratorDefinition.html",
-          "hash": "aXQTaeXlXIrLpa7c+1Lhae6Rmk8yWeNSJSei0zSchRY="
+          "hash": "A7kGcv1NFcoVJh65LaXGUujEicDq1RcrjnNCgE2fVlk="
         }
       },
       "is_incremental": false,
@@ -5601,7 +5709,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Definitions.MyGravityGeneratorSphereDefinition.html",
-          "hash": "yKy7IWLzOfgPg1/vALRfY1LNwmrc9TWr7OcFgQos5G4="
+          "hash": "K/OF1ljuD7H1HtlfKkL2xBjXWpUp2b3ge2qPoWaz4dk="
         }
       },
       "is_incremental": false,
@@ -5637,7 +5745,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Definitions.MyGyroDefinition.html",
-          "hash": "W3q9WpzQ17hvvtSI7/aMhiVJdYw5LSG9F++svSH1gcY="
+          "hash": "5O/uuKWSOLMSME1rgwuZHmQaN39nijjtJ6cZqj8kKAI="
         }
       },
       "is_incremental": false,
@@ -5673,7 +5781,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Definitions.MyHeatVentBlockDefinition.html",
-          "hash": "/RHzeCe6vbKEdYieRvUHxEF20N0R8tyLxXIT5vptXhs="
+          "hash": "DvX/rWv+WIbbILmTQDjGsFYiFOBuxLYBLGZok6Leb78="
         }
       },
       "is_incremental": false,
@@ -5697,7 +5805,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Definitions.MyHydrogenEngineDefinition.html",
-          "hash": "ZH/g78A0ES0PcPFPPi3klnUKYxIBiJSss3RhrGePz88="
+          "hash": "/v5VbQ2srroldPt6x58AKPh2b5+7Sg6jDbitcZKH+mM="
         }
       },
       "is_incremental": false,
@@ -5709,7 +5817,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Definitions.MyJukeboxDefinition.html",
-          "hash": "YXhugYqawBrJ51FmLI56ockNCFpEwDaDxF2fNJJ/Fko="
+          "hash": "nJjTIB/AxFgctIGajG3jmc91ch1lNyI1qR5BK0Qw2Qw="
         }
       },
       "is_incremental": false,
@@ -5721,7 +5829,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Definitions.MyJumpDriveDefinition.html",
-          "hash": "ufoAAprT23ICMO1N4wUY3A+sPx51itV57SY1Cm/HYqo="
+          "hash": "sldHg+28rEOqiACcubIhFYhN2Lt8yJW2okPX0neQb2w="
         }
       },
       "is_incremental": false,
@@ -5733,7 +5841,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Definitions.MyKitchenDefinition.html",
-          "hash": "CW6xsAuWM6MtCzmFbeSsoDCGvFQu2KjFPztc23k+AWQ="
+          "hash": "9L+rOZ75KfqcDDb+QnsjP4T99kzJLOTNPowG/Lo0WfU="
         }
       },
       "is_incremental": false,
@@ -5745,7 +5853,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Definitions.MyLCDPanelsBlockDefinition.html",
-          "hash": "/A3ROcuo9VsqQFl143YSgEoyIa8ulvJuVCb3LvPFl2I="
+          "hash": "y+9jO3B6XdSJ/dRciSHHvymizfLmllc3F86QX1qiG5s="
         }
       },
       "is_incremental": false,
@@ -5769,7 +5877,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Definitions.MyLandingGearDefinition.html",
-          "hash": "aNQH94nl8rP1xCEnT30IZyU+w7qLhLFJn0f5HiJ4e/M="
+          "hash": "0EqyoVpGrPBAsO6C51r8IK+7oHI/QxfufhtYHYIPSsw="
         }
       },
       "is_incremental": false,
@@ -5781,7 +5889,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Definitions.MyLargeTurretBaseDefinition.html",
-          "hash": "HYf7IR6Y8JiBoC8S1RVsr8zr6avt6r7IVrTpEAxApr8="
+          "hash": "ZHh7BiV+juuGPZhRTQm3IGC4tKGL27Gx97GmuRe+ruw="
         }
       },
       "is_incremental": false,
@@ -5793,7 +5901,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Definitions.MyLaserAntennaDefinition.html",
-          "hash": "lhud7voOua/LsaQmx5aMk+KZXgJy//scZwIccARJkOw="
+          "hash": "iu2tPQEPLVBL21OadrXSeguNI4AWcpnECnJbMzIpEBU="
         }
       },
       "is_incremental": false,
@@ -5805,7 +5913,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Definitions.MyLightingBlockDefinition.html",
-          "hash": "GE/x22uEhvr618L8KqqPxx7w/R96XOzlksGdFBYjDKo="
+          "hash": "hOIieEr/pqaAISn7a39ebVc4hZguyjFvhscT+5plyVI="
         }
       },
       "is_incremental": false,
@@ -5817,7 +5925,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Definitions.MyLootBagDefinition.html",
-          "hash": "BFx3G1/nIuQsaDPh7h5PRqRPztRJVYi0eZLfTMgBsj0="
+          "hash": "jsilZ2UJPEY/QjWCPj5xTDh6ZJ3vKK4EMnVkju72RJ4="
         }
       },
       "is_incremental": false,
@@ -5853,7 +5961,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Definitions.MyMechanicalConnectionBlockBaseDefinition.html",
-          "hash": "+V1jDbGFNYHo+eFnpimkeGM3R2Fe8C8i1PhafB+kS5Q="
+          "hash": "Tynr8TbZ2XG+TY+foGLylfTShV908ArwpnpJeFeByxI="
         }
       },
       "is_incremental": false,
@@ -5865,7 +5973,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Definitions.MyMedicalRoomDefinition.html",
-          "hash": "3rKpLbgqArc5nDMn1t6HpKlMOjiAFBDhlPZP1RzBhFk="
+          "hash": "gMvsZSo8VT8Ki1lJduMP5SyVVD3v4bLE1ayK96JYLAw="
         }
       },
       "is_incremental": false,
@@ -5877,7 +5985,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Definitions.MyMergeBlockDefinition.html",
-          "hash": "8iZnm7FORxcKFwuw0C9JfxIGbwgYYR8BfVcYlnk1F/I="
+          "hash": "ANoPpGruDarmlZ93a33JZymXUDHQjmuQOKaUCg3JNpM="
         }
       },
       "is_incremental": false,
@@ -5901,7 +6009,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Definitions.MyMissileLauncherDefinition.html",
-          "hash": "KqOxJj/Ajei+jQKPGMhia1OtQP3LWm4cf+UaYxGN2L4="
+          "hash": "2rcSjd8c/KrhRW0cvFF/rm+xPpL6UjWOj5JpN1+p9DQ="
         }
       },
       "is_incremental": false,
@@ -5913,7 +6021,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Definitions.MyMotorAdvancedStatorDefinition.html",
-          "hash": "bD4l9TxUndfeSjs08/D1U3tYneWx1T8dQBxpXsLTRy0="
+          "hash": "fT/YE+QfNSF2JGp+zQXUYyNxzRslz19+fHF+1IEUD1M="
         }
       },
       "is_incremental": false,
@@ -5925,7 +6033,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Definitions.MyMotorStatorDefinition.html",
-          "hash": "6iwIPQxV24M06yPV8cbdQ5f1Zk89MWk1DLQ6uVUdp8E="
+          "hash": "cNoChxG7pqQBTNZeMig+48x7TWti3mcKanXk8Pp0xFw="
         }
       },
       "is_incremental": false,
@@ -5937,7 +6045,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Definitions.MyMotorSuspensionDefinition.html",
-          "hash": "BBCmGgDWEqx/v8l5tkjUIkVYfPNkd8AhdvCJQd1FHBo="
+          "hash": "mACGAYY/k8PMWTr44yxx3lzWv7U/Utab5t4FZuEtxeM="
         }
       },
       "is_incremental": false,
@@ -5973,7 +6081,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Definitions.MyOffensiveCombatBlockDefinition.html",
-          "hash": "E4SAwUL30sHIisRZatzHp3TgtA/eesD4YjAQuGM3Rdg="
+          "hash": "bO4ue6yapTXsuAFFOc4xjMkH0lnPh0yXhC0qvMfCN9U="
         }
       },
       "is_incremental": false,
@@ -5997,7 +6105,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Definitions.MyOreDetectorDefinition.html",
-          "hash": "MYqncaxQE7aa7hDkQk3tnTRIeppcK4syaTZP3IbRNEQ="
+          "hash": "hRbpj4pJG1hEszNpMu3AGhnF0AjjPRW+AXco5g0+i0M="
         }
       },
       "is_incremental": false,
@@ -6021,7 +6129,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Definitions.MyOxygenFarmDefinition.html",
-          "hash": "gO9Z0qcht2xM8gfG3V5ltMsrdl36fnETIP5Kded5xzQ="
+          "hash": "BPYcL7aSVokzCSMqutK1rtc+W9saMLKmEiWGXwPZuMU="
         }
       },
       "is_incremental": false,
@@ -6045,7 +6153,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Definitions.MyOxygenGeneratorDefinition.html",
-          "hash": "2BFpouUPg1AwR1/3PCBk15usB3jxZrEurl/E9DW0vpg="
+          "hash": "iavZ4QNhjreecDd4Gd48aC8Y9lSmUShsDhW6VkefWtU="
         }
       },
       "is_incremental": false,
@@ -6057,7 +6165,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Definitions.MyOxygenTankDefinition.html",
-          "hash": "jj2nZmiCF5iM0ZyajgJ3wB3Qj5dKR+bXPqUrpYcNg5A="
+          "hash": "83T1w3nszMbXhkRehhp+vbZ4uKbPgVBonIpWTHECthE="
         }
       },
       "is_incremental": false,
@@ -6081,7 +6189,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Definitions.MyParachuteDefinition.html",
-          "hash": "Eh9J2L+MYhvdcnwwbwDqUlWxs/1fSVQ9YV3BKVINTr8="
+          "hash": "U2K4sZuCUxVvkVcyNtbsfCZ3vq+uTFL1c9tZvrHB0Ww="
         }
       },
       "is_incremental": false,
@@ -6093,7 +6201,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Definitions.MyPathRecorderBlockDefinition.html",
-          "hash": "W+QztlC+2oxe9n1nGYRBq9acEfNmLykMY+fGm/fhdY4="
+          "hash": "G6qpwHqBPTRnTgEcFz55aHT97ozev4w7YXcmc0Q5g48="
         }
       },
       "is_incremental": false,
@@ -6213,7 +6321,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Definitions.MyPistonBaseDefinition.html",
-          "hash": "Wkxy2QMnnRcrpnYGm4ngvgkec9OY24eeW4ZzqWHED48="
+          "hash": "7KZNau4xuQsU9+KXf1eKhB57/CNZ09McGlyke2bJqzw="
         }
       },
       "is_incremental": false,
@@ -6273,7 +6381,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Definitions.MyPlanterDefinition.html",
-          "hash": "jQ9gwW3OOpRAblCd8bN3bpa6n8noydTwN91Q+dOKa+s="
+          "hash": "2a6gnUK52S0ZgqOhq8hsvieNeOKl93qizCPLvuzHc44="
         }
       },
       "is_incremental": false,
@@ -6285,7 +6393,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Definitions.MyPowerProducerDefinition.html",
-          "hash": "O6M3twta2qh9Z8bKviNXC314YDJ382JXu72k8fRqIOw="
+          "hash": "dToHQmv24hPaDxZ7PBWa7kCjx5kauEHk2RHZQxRRtMc="
         }
       },
       "is_incremental": false,
@@ -6297,7 +6405,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Definitions.MyPoweredCargoContainerDefinition.html",
-          "hash": "IvfZYEYnCz9IBbSvhI2mH5MegxQ9Iyxs41k0shA3qLs="
+          "hash": "43VPO/2X0XP4OT7L46RFdYzGLSmUGwsXz0iBCZ3VOU4="
         }
       },
       "is_incremental": false,
@@ -6333,7 +6441,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Definitions.MyProductionBlockDefinition.html",
-          "hash": "S4NpL2hF5QSgz2dXuW5ib7eyh8oZMyEirEqBFkj80Pw="
+          "hash": "jcQrcCnuTgc/hxiWr8WdGXDgdHzFJ29lyQ/ISe4TX68="
         }
       },
       "is_incremental": false,
@@ -6345,7 +6453,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Definitions.MyProgrammableBlockDefinition.html",
-          "hash": "4K+ywG3depcjY9auk8suGIOzHP3Y8+CSiwH0I6iAkCE="
+          "hash": "6qfDLvzJz3BmHNqMDMgRV1uoOhq3pc4MSNKew7E21AM="
         }
       },
       "is_incremental": false,
@@ -6369,7 +6477,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Definitions.MyProjectorDefinition.html",
-          "hash": "r11GVNDjpheMeFU8XSD6LHsVFiKCgQxwe79LkySy3bo="
+          "hash": "+IXZ4vF0lEsML7v40vzeCrIaDw3OiQVD5XeN2sckA4g="
         }
       },
       "is_incremental": false,
@@ -6393,7 +6501,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Definitions.MyRadioAntennaDefinition.html",
-          "hash": "XNu8UTaF4GT3ZLNDhDSLP7UohKWvwM+a2/ebk1Phgr8="
+          "hash": "VrBXoKnUWDDUL8Mv5+s2onkykIZndQ2/DOs2EHB7cDc="
         }
       },
       "is_incremental": false,
@@ -6417,7 +6525,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Definitions.MyReactorDefinition.html",
-          "hash": "VamsyUkQ/8zcUBOPD1BUuzSO5PRQZ6JVqRHtD/g90rQ="
+          "hash": "RP0Q/GV5aVJtx23LKddUoCT1BGL6pSAwEJbaVjGlRSo="
         }
       },
       "is_incremental": false,
@@ -6429,7 +6537,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Definitions.MyRefineryDefinition.html",
-          "hash": "crZ8S0cGojxvf0KaX2LrYJ/mc5Bb3asxbzianQDE8oo="
+          "hash": "5q8jvdlm6tZh7Ea13mN2fZE/D9wv4OuSBexUUwKJKqI="
         }
       },
       "is_incremental": false,
@@ -6441,7 +6549,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Definitions.MyReflectorBlockDefinition.html",
-          "hash": "EbA5V6G56OSm4HWXiQGMEYw8YhcChZf2CEtcocGnU/k="
+          "hash": "JQHCtuWwpiGcP+w0wQ0+/2jrDoUqVuot2EwavVZ1lAc="
         }
       },
       "is_incremental": false,
@@ -6453,7 +6561,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Definitions.MyRemoteControlDefinition.html",
-          "hash": "/phdglhg5Onr8mvpGiFJupDVa0yU89dj5Dnzjqc2gCE="
+          "hash": "j+nZ2EuWlps/iaUfe94XK8CtXi5gac9TEXGsqEQYp9U="
         }
       },
       "is_incremental": false,
@@ -6597,7 +6705,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Definitions.MySearchlightDefinition.html",
-          "hash": "Nk8Fjj/hox2SwvSupU7RL8n2IzbsqZAC/0ZLrJl5w5c="
+          "hash": "1Cym8ufFRijiNsCIzoSVOvQI0+gdTaPVLa0VP9795Fo="
         }
       },
       "is_incremental": false,
@@ -6609,7 +6717,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Definitions.MySensorBlockDefinition.html",
-          "hash": "nTILiTgRZZUQH9fjyha12CjHmno0y+LyDktmBgJkP9g="
+          "hash": "tyT8dws48kO2rbwtthvDO8P0wRkXHgi5T8F69R9ti2M="
         }
       },
       "is_incremental": false,
@@ -6633,7 +6741,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Definitions.MyShipConnectorDefinition.html",
-          "hash": "Qw6ky07tSwmFS3uQjzobwDWckoK+PTJC61CgvPZ/3ZY="
+          "hash": "Sb1RyqgKP8gst0gw6YNLBqeXHYkSjRZopon67c/HCm4="
         }
       },
       "is_incremental": false,
@@ -6645,7 +6753,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Definitions.MyShipControllerDefinition.html",
-          "hash": "IjcVWLtFH2cVqogKkuXLOCddCKsFNeJUZQ17V4KmzPU="
+          "hash": "UnS//KD9CZV3W7acGDfgYrXwU3YmCjl7eMlGmB/uoBA="
         }
       },
       "is_incremental": false,
@@ -6657,7 +6765,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Definitions.MyShipDrillDefinition.html",
-          "hash": "Z9vsKyp+qk8ILPzFtafhav0V1oz6unDpIXoZOSTPdKg="
+          "hash": "CgILzFjBZP3hQvd/bdsuo/GJUrq+9x7Z6eh/uwaHV6g="
         }
       },
       "is_incremental": false,
@@ -6669,7 +6777,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Definitions.MyShipGrinderDefinition.html",
-          "hash": "PhtEj5lesu6ZS1FU5B2u8ZdDq/U9t03fnRed2tKoXNo="
+          "hash": "hquzVONe23llUHOfSf20Tl+EVwhZR4aFICYYFq6ywm8="
         }
       },
       "is_incremental": false,
@@ -6705,7 +6813,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Definitions.MyShipToolDefinition.html",
-          "hash": "JdEEjuU16xBtPVmfzbzoc8p8uol01kIwAQ8TbPR9xDY="
+          "hash": "psJzzqY9B/+kLfBpQdcOYKF7jEwdZJLIiWV1G/eZjK4="
         }
       },
       "is_incremental": false,
@@ -6717,7 +6825,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Definitions.MyShipWelderDefinition.html",
-          "hash": "2e0g+bpYzRweH170KspM7LEyKX1ELvFV1CWq1a4YZdA="
+          "hash": "p33kPLo0YhOFqfgzVI47qeJKxp4bXuIr5iCbLiocQMU="
         }
       },
       "is_incremental": false,
@@ -6729,7 +6837,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Definitions.MySolarPanelDefinition.html",
-          "hash": "LQN04deEgUDtXUKkyjIBy6NOHaa+xfJ3K/EJv+BxTBs="
+          "hash": "T0FS+uPPLZoQbnmtoYKPrm6ojJzuBrdeQnQL1oFFVsI="
         }
       },
       "is_incremental": false,
@@ -6741,7 +6849,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Definitions.MySoundBlockDefinition.html",
-          "hash": "pnb2ZPIaiWFYktC3ZOaUcnF9L4wQgBFKGKhbbvxgNPs="
+          "hash": "F1V8U+2VboS2wjofxX7wxiWNwNLC2R3sQki1qEBM2qI="
         }
       },
       "is_incremental": false,
@@ -6777,7 +6885,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Definitions.MySpaceBallDefinition.html",
-          "hash": "IG4R9orzRSJqFkpDm//e5BOjOn34AaKbOCZKul6Cz58="
+          "hash": "uw4W4tgDhXczRTh51jCsnuX1NzLXRvAoTc18zeebE5E="
         }
       },
       "is_incremental": false,
@@ -6789,7 +6897,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Definitions.MySpawnGroupDefinition.SpawnGroupPrefab.html",
-          "hash": "qjazjvpFC7TRkO/Kbcdp64fcVWCl3Tl5mTQvxvm69Vc="
+          "hash": "536jauDGjv+B9WA7nf9raN1QFpJxYSBcKLskSJGDfaA="
         }
       },
       "is_incremental": false,
@@ -6801,7 +6909,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Definitions.MySpawnGroupDefinition.SpawnGroupVoxel.html",
-          "hash": "Z85MhEcCvvYNgwPtKRmqemCDhCFNv++TJkIT3PK1aMM="
+          "hash": "vB6toaUiNisWy+a1PnVOpwxlCDKCCQxBGevQGP12ajg="
         }
       },
       "is_incremental": false,
@@ -6813,7 +6921,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Definitions.MySpawnGroupDefinition.html",
-          "hash": "8YQQ8QVQTJqjzjMPwJnv45hVRqnxmlClITJfFwPDqPw="
+          "hash": "kl0bKhWFONt0bEtfpkCRpxrqXn+amrJ+pHjBxc6Eo80="
         }
       },
       "is_incremental": false,
@@ -6837,7 +6945,31 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Definitions.MyStoreBlockDefinition.html",
-          "hash": "sZenc+PoC7dC1HJgr9ABlkUOpjIAp53sR89bUAEWXKo="
+          "hash": "iw6i4zQbn45MfixS+MH/x5WA3AQ9+Dc4eV2W6EI7eLo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sandbox.Definitions.MyStoryCategoryDefinition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sandbox.Definitions.MyStoryCategoryDefinition.html",
+          "hash": "/OwbVqvoAgYaqFFyTFmL+UHaVHwS20T26Yt/PzZRU9c="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sandbox.Definitions.MyStoryDefinition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sandbox.Definitions.MyStoryDefinition.html",
+          "hash": "NTl3c0bwlmDazKfkzZh7kGP8IgJFi5yM49YFWeEgguo="
         }
       },
       "is_incremental": false,
@@ -6849,7 +6981,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Definitions.MySurvivalKitDefinition.html",
-          "hash": "HYQqRKGB0hufoSmi0l5rP7cOcQF7/zWq4cEOHomttFM="
+          "hash": "RnahO8UMG/DnnRfcTK2WfF7QF6c4kjvTI+kQKpmtckU="
         }
       },
       "is_incremental": false,
@@ -6873,7 +7005,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Definitions.MyTargetDummyBlockDefinition.html",
-          "hash": "UCIVOc+Cqs3RKXxqqmCfh6zYdQMKw2lOa/xEnCCL+sU="
+          "hash": "Wmb8sxl9g02ZJBqptggH27uHZFe/PcqWAAySPd+9q+I="
         }
       },
       "is_incremental": false,
@@ -6897,7 +7029,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Definitions.MyTextPanelDefinition.html",
-          "hash": "ZJAUTxi74LLy2Jdl6nq0qMYzH2FahGCLRCAoRwGiLgs="
+          "hash": "TcY0TBZVVA49jL0xfJUOAwgpRhTtEUbwnhGxyE6gemE="
         }
       },
       "is_incremental": false,
@@ -6909,7 +7041,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Definitions.MyThrustDefinition.html",
-          "hash": "+SphM/Y+GxAVsn2HdIhVhdZd7/EpeoPTFTwGd0mAJB4="
+          "hash": "BWin0S5/zYQCgdVmQ6IB314FYaB4dXMbCf36c91O7lQ="
         }
       },
       "is_incremental": false,
@@ -6933,7 +7065,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Definitions.MyTimerBlockDefinition.html",
-          "hash": "WklGfcRDaqPOHr9akK/1qhHbO8Jl2LZml1fNInSV3fk="
+          "hash": "gap+EpbluGf5yb+4+dJM818gzrk1VPTjcLdx9ZZAL/4="
         }
       },
       "is_incremental": false,
@@ -6993,7 +7125,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Definitions.MyTransponderBlockDefinition.html",
-          "hash": "O6BViHNGHuWI0tm9C+SQUJTlIru8B/BfoBFPPsWl2A4="
+          "hash": "xaKO+W278VY7oiBfKGF3FIgG0XHpx9khhHi4cA9TxFg="
         }
       },
       "is_incremental": false,
@@ -7017,7 +7149,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Definitions.MyTurretControlBlockDefinition.html",
-          "hash": "C/ZgOeaJFNZX7tqzA3onsY2m5uk6kpjSkqvkouOd5TU="
+          "hash": "Z5yYjqZ8Is3aDvBxeO8QMF0LdmcqSTEtWW744/XwbaY="
         }
       },
       "is_incremental": false,
@@ -7029,7 +7161,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Definitions.MyUpgradeModuleDefinition.html",
-          "hash": "o3R/YKfZ0wzwr3nRNFU7E2PRpeE3Xv5nq+Ws76JtZVs="
+          "hash": "xmRGF4ph9viPPEN4UtriO1y3Il9sD012phMXhF9inKQ="
         }
       },
       "is_incremental": false,
@@ -7053,7 +7185,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Definitions.MyVendingMachineDefinition.html",
-          "hash": "B2eBUTaN+w9bUWnX+UlsQuQD7fTIMSOopEu+PtjfgFc="
+          "hash": "u6BRyuDMYiXw9BKLx0aAh4kVS9+FuRZROW86/Dtdcgg="
         }
       },
       "is_incremental": false,
@@ -7065,7 +7197,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Definitions.MyVirtualMassDefinition.html",
-          "hash": "vXV7sNZvu1kAQj/RnwdfxD++/kbBSSFxGkC7rFNB0Ro="
+          "hash": "nOpR89t5h1yP+bLMoGZgZ0xGst5i4ZSc9pqVDqqP6aM="
         }
       },
       "is_incremental": false,
@@ -7125,7 +7257,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Definitions.MyWarheadDefinition.html",
-          "hash": "RtMZ+nRuujJSy2TUJhjgfez3WuxGbdi6sZrbr4ewVjE="
+          "hash": "5JFYRaIYvQFDdZDz7e059l02xazBQsaxxybq5dQkG8A="
         }
       },
       "is_incremental": false,
@@ -7137,7 +7269,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Definitions.MyWeaponBlockDefinition.html",
-          "hash": "CB+ddRg0lmoExwOoIOzreAaqFK+OCOcbPTVb141bzto="
+          "hash": "rtQ4oU6f8kxageXROef6GXmi0uVQ0HQMmTiSrjr+q1I="
         }
       },
       "is_incremental": false,
@@ -7221,7 +7353,31 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Definitions.MyWindTurbineDefinition.html",
-          "hash": "Tyy2OS7+qmFyeyKsgot9ccjZzas6Rgw3LYz0w+wHXao="
+          "hash": "dJTl83X5TndDiM25EWicHDJ/yz0GtcSyCvaRp7EXdnM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sandbox.Definitions.PlanetaryInstallationSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sandbox.Definitions.PlanetaryInstallationSettings.html",
+          "hash": "nM1K4MesHTFSJsXMz8ddW1vKZAgF7xStpr36eZODr6M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sandbox.Definitions.SubEncounter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sandbox.Definitions.SubEncounter.html",
+          "hash": "I2DK++J6RxHRKBoZIdFNrfTFn4FB6rz2ka71hU4BJPQ="
         }
       },
       "is_incremental": false,
@@ -7245,7 +7401,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Definitions.html",
-          "hash": "qVch4exEkHt/TuzpTXCICqwKt12VRU/DtXULiT3locc="
+          "hash": "mbIqYH3MPUlohiEkL0WcKbmMwnYky255E1SRAKawqVM="
         }
       },
       "is_incremental": false,
@@ -7593,7 +7749,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Game.Components.MyRenderComponentThrust.PropellerSubpart.html",
-          "hash": "bm5fHiVkeqTESFN3sRIqxxXtuvUb0soFFG/Dlp5eXnQ="
+          "hash": "INdSDiRrKxh79W25Ht3EBR8ECOJFKK2qOiEqvHkJyMw="
         }
       },
       "is_incremental": false,
@@ -7665,7 +7821,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Game.Components.MyUseObjectsComponent.DetectorData.html",
-          "hash": "tDA5nyHWPcUhmUNFTQSK5SZktf9ryHaFt88UFGRdRbM="
+          "hash": "SEFAC5R/fdfjsYMVpEG74XdhcSoVlY2C8Y+Zc3uJNtA="
         }
       },
       "is_incremental": false,
@@ -7677,7 +7833,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Game.Components.MyUseObjectsComponent.html",
-          "hash": "fudGYi0C/W+ZmChIzZ8qLGx06AOAHFmK8eA81TJNa1w="
+          "hash": "RdWjgIsNLtqv/zZBRMrHhnJoZJqxNiSbaueo3b4Yowg="
         }
       },
       "is_incremental": false,
@@ -7809,7 +7965,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Game.Entities.Character.Components.MyCharacterDetectorComponent.html",
-          "hash": "iAN8XbbWZPKarSLEz13VHG9WNXIEZNLbQzVBlRwL7Tk="
+          "hash": "h3O9MQOpMZX35IijWkt9xtMWiWfHfvHL7xmF+3J8P/M="
         }
       },
       "is_incremental": false,
@@ -7869,7 +8025,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Game.Entities.Character.Components.MyCharacterRaycastDetectorComponent.html",
-          "hash": "4sdIpSNbLrUSUrfZRLTRHAOsprbrVwSKH8QRzE1V9Lw="
+          "hash": "lWyhFAp9hxjRPjbFLfj9RYqHqVSVtzwsm7B3DLHjDNY="
         }
       },
       "is_incremental": false,
@@ -7881,7 +8037,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Game.Entities.Character.Components.MyCharacterShapecastDetectorComponent.html",
-          "hash": "lRYxf3cYo6x8V58FykFOS/knwu4Jir6szECP+/UFrL4="
+          "hash": "Az6gYjD0jnr1ZUpgUqWFg2SyHFkigDASJwomV1T+dM4="
         }
       },
       "is_incremental": false,
@@ -8109,7 +8265,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Game.Entities.MyAdvancedDoor.html",
-          "hash": "YBN9BaLDatpyVA9cFc2kQtO7r/8VTM/36wfnChC5Xpo="
+          "hash": "V/6pelR85lt03jidxi6gmH3rkl7OV0OAJxQHQWJRPNk="
         }
       },
       "is_incremental": false,
@@ -8121,7 +8277,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Game.Entities.MyAirtightDoorGeneric.html",
-          "hash": "pmYRJcIFg9PdUNq2ibRynisWL2tQKmcM7xHC0McXaTU="
+          "hash": "2mTrTkfyBMYCdx4wAlO6v/GLRiFN0HayRJHaR0ULU2M="
         }
       },
       "is_incremental": false,
@@ -8133,7 +8289,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Game.Entities.MyAirtightHangarDoor.html",
-          "hash": "4Shed7rLIQifT5ujZsS/V7KZg7GfXDs+ptfujwlNYmM="
+          "hash": "aYBnG6L05JksmS43lsQ5rdUDTxKmjRiwrTtqT6AyYhY="
         }
       },
       "is_incremental": false,
@@ -8145,7 +8301,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Game.Entities.MyAirtightSlideDoor.html",
-          "hash": "p/lubcac6Omc2I1yb7en3/cYdw1p/LkbWbf47yal89o="
+          "hash": "6IotQz9Pf87KWMzoXJUHHtuEVMNx9TC+rT+KEfULuNs="
         }
       },
       "is_incremental": false,
@@ -8181,7 +8337,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Game.Entities.MyAutopilotWaypoint.html",
-          "hash": "ZSPNpdXH+7HTbmLb5qLMFexfXWqQuBWcbcBJC+/Jjyk="
+          "hash": "C31lu5iuoDFZ7km34DKCwnZrJ+fvkBaoGLwYjbmCmQA="
         }
       },
       "is_incremental": false,
@@ -8193,7 +8349,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Game.Entities.MyBatteryBlock.html",
-          "hash": "ldBzlMTjFqWxzN4zJ0cmo2NR7oNkk4AIpTHltCDZ9Ns="
+          "hash": "fcNahlJow1SG+BMCxrvLxQawP64pLL9z7TOq72w2gpY="
         }
       },
       "is_incremental": false,
@@ -8237,6 +8393,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Sandbox.Game.Entities.MyBlueprintIdTracker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sandbox.Game.Entities.MyBlueprintIdTracker.html",
+          "hash": "/1OJRIO/j2b+i8P9E0Q2+DlLJSRTsK65sVxJGCSw3PQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Sandbox.Game.Entities.MyCameraBlock.RaycastInfo.yml",
       "output": {
         ".html": {
@@ -8253,7 +8421,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Game.Entities.MyCameraBlock.html",
-          "hash": "RNk3HGSwZr23IxPo6InPSDqCu4bZJq76TYiStskcL9Y="
+          "hash": "ggYgIeTvasNs9YzATOSvvSalHXQxPoB6YCrQNwUI1Kc="
         }
       },
       "is_incremental": false,
@@ -8265,7 +8433,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Game.Entities.MyCargoContainer.html",
-          "hash": "/2G+5KxWaSeE5XUyWAPUGi7vMF52290NbcuNhb2OCmc="
+          "hash": "9N/MGS7lmBd78BQLK0x3XdWbKg8Lp/clYgw+4MwnPrU="
         }
       },
       "is_incremental": false,
@@ -8277,7 +8445,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Game.Entities.MyCargoContainerInventoryBagEntity.html",
-          "hash": "ECyn4LcPi4gwptLqZGFicA84XguombhsT5gUbOFkCPk="
+          "hash": "Svqh5imX8wsK1ZeslRW5K9bZ38Fe1a07LRsInAFtTF8="
         }
       },
       "is_incremental": false,
@@ -8289,7 +8457,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Game.Entities.MyCockpit.html",
-          "hash": "Y7EG9Z5lPg7ndq8n9P4jgAojbbj45k3VSsDa7DQ3gtE="
+          "hash": "/f4YckeMAJ5XWKeOXt765FazOe/CYoWHk3/B3PAej3w="
         }
       },
       "is_incremental": false,
@@ -8349,7 +8517,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Game.Entities.MyCompoundCubeBlock.html",
-          "hash": "ZjtnpzUNhfAKaXwHgQPpVH3TEdw90TyNR9y/dKd5lcY="
+          "hash": "H2TkyLF0Gd85qInykHECrEmNBdJHWvrbgugh7YR8kVc="
         }
       },
       "is_incremental": false,
@@ -8385,7 +8553,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Game.Entities.MyConveyor.html",
-          "hash": "MUsdb/fRv+CFFj/5axUDoj57k3A0G6g3/4ya5F1Iqr0="
+          "hash": "JFuN4+ghlLAKSGorgyQKKxP4/NHUSUFTwEKC9qM3/7I="
         }
       },
       "is_incremental": false,
@@ -8397,7 +8565,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Game.Entities.MyConveyorConnector.html",
-          "hash": "7etm2XBEH0s8LQST9haOB+rnJmxw+IKjGL4m0nRev0c="
+          "hash": "cYUqf4CWbPptxtd/lRKc1rtkogTCGrLpBqYYVnNVlvE="
         }
       },
       "is_incremental": false,
@@ -8409,7 +8577,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Game.Entities.MyConveyorSorter.html",
-          "hash": "jep9xapCVYWOiaA6Omq/qj0cgOru1uzfZ5VjfanD7CI="
+          "hash": "ElySW/BrruH9nc2fQcIhDpnX1SjGwlVs5BjMhzLRKOo="
         }
       },
       "is_incremental": false,
@@ -8481,7 +8649,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Game.Entities.MyCubeBlock.html",
-          "hash": "MzOflrSNkS4CHqKqDAoBo/725KNdt6j9Z5wOjpkG17k="
+          "hash": "wVV/CMQMgP3jLDRC3kwNc6+ZTg4+dw7mhFVufFnJ0b8="
         }
       },
       "is_incremental": false,
@@ -8493,7 +8661,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Game.Entities.MyCubeBlockHighlightModes.html",
-          "hash": "heyJIQ8V2Q1bDjWvSW4jxfxvF3CwpdjuLaql2keE2KQ="
+          "hash": "1szHVCucAPHPu4/w8IQwaqG1crQnh/4/JfF9EiigEgU="
         }
       },
       "is_incremental": false,
@@ -8709,7 +8877,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Game.Entities.MyCubeGrid.MySingleOwnershipRequest.html",
-          "hash": "xIzQoQ5IXe6+Jc4CjMH8A20ct84Lljc+Whxs6KsKXCs="
+          "hash": "Os869g4ayJ4DXo/Esbq8m5xDITUFD3+ECqEAq4fygHI="
         }
       },
       "is_incremental": false,
@@ -8757,7 +8925,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Game.Entities.MyCubeGrid.html",
-          "hash": "uV9fmLw1KfXxMzOZhaECUjQ0zYG7VST0fK8wPFI6J+A="
+          "hash": "a/bExgIU55lz210RHdEQ+JMdQQl/tovjqemnKPZIk40="
         }
       },
       "is_incremental": false,
@@ -8769,7 +8937,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Game.Entities.MyCubeGridGroups.html",
-          "hash": "O4dWe1tjCaZd+uCscwxZ+WB7HOB6GxkT+945qUOhnJU="
+          "hash": "sxMUwrELIfAPaqVNbXL2rcBKJCQwhtp6w8wBGYiTq3A="
         }
       },
       "is_incremental": false,
@@ -8805,7 +8973,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Game.Entities.MyCustomRenderEntitySubpart-1.html",
-          "hash": "js8qQ/CPMFFOiYUoNGvHC2Ux6wqY+et6Uxy5Myq0jRQ="
+          "hash": "Fu+uwCop4SsAZi1AMJrQt1/7/i2fUZmYAVuhbovstIk="
         }
       },
       "is_incremental": false,
@@ -8865,7 +9033,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Game.Entities.MyDoor.html",
-          "hash": "QDrV6G+8jQUS7t50Obb7Vub5ebO+TUwXAgZrDgYaFEI="
+          "hash": "xE5NTltf9pWnIqMxL1URMIa+sMk6/MQrbKZ4eWCbLlU="
         }
       },
       "is_incremental": false,
@@ -8877,7 +9045,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Game.Entities.MyDoorBase.html",
-          "hash": "PG5MZK/wKMgbEZbycw7qrRQC7wkNvMn3JQQvhle/UMM="
+          "hash": "DkGGsY10U7+55JMo/t+UvJANhgvjLOw32euYwV50GxY="
         }
       },
       "is_incremental": false,
@@ -8889,7 +9057,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Game.Entities.MyEmissiveBlock.html",
-          "hash": "j6Bkogp0I7YZZ7WRsf/n9VI1DiLd8MvQAUjTp/P/bIs="
+          "hash": "NZ7tqTkZ66OBqoWG8N9idk0LF24N/SsouiTJCK+8ML0="
         }
       },
       "is_incremental": false,
@@ -8925,7 +9093,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Game.Entities.MyEntities.html",
-          "hash": "7c0bdu9ZzRU3SOQBXV5UYlXcnLIDU+mw/lNju+rxj4U="
+          "hash": "XJjguepQ1MMwzEZllL4Lru14jLrRUYylSxQz8cegyUM="
         }
       },
       "is_incremental": false,
@@ -9093,7 +9261,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Game.Entities.MyEntityList.html",
-          "hash": "PZNHTdnXLA8IXohIJoqv5do5ozv58qvc+33Qt1D6Qbs="
+          "hash": "mQszp2noAcAtJ7y+arSc92itGX1p+zjYf7swHdw5s7Y="
         }
       },
       "is_incremental": false,
@@ -9201,7 +9369,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Game.Entities.MyFloatingObject.html",
-          "hash": "qMoj2zeKIvgB0WFYZf7MT7FTLEjzK9Y34uYDsj0wTkA="
+          "hash": "u8R7HGGZGTuaCnJzHYqWiHesx+4J6gaeZuVUADWMX7A="
         }
       },
       "is_incremental": false,
@@ -9237,7 +9405,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Game.Entities.MyFracturedPiece.html",
-          "hash": "q51X8QkUA3BfJTjLmsSiMNSW6NnDNLAzKkVoqN2/UOg="
+          "hash": "ubqFkbZQUXA1ThcJEomB13YKTCDcMjYOE8Hmles64O8="
         }
       },
       "is_incremental": false,
@@ -9261,7 +9429,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Game.Entities.MyFueledPowerProducer.html",
-          "hash": "oKL9XR3g7pYZOob7PH3rfnDq0neNyzhOesRsRjjkyX0="
+          "hash": "7t9sAkDUTXz9ON9hfnIXOW70k8aOp+8xSkU1/HRsfog="
         }
       },
       "is_incremental": false,
@@ -9297,7 +9465,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Game.Entities.MyGridGroupsHelper.html",
-          "hash": "9J01MvbjQLrz/GSEgsv1ZojpdifZ4XwVLL08QLUP1wo="
+          "hash": "dz0sjXhAe1PcAnSe5IzVy8k5sfogIjwsG9zq1Jqb1vI="
         }
       },
       "is_incremental": false,
@@ -9381,7 +9549,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Game.Entities.MyGyro.html",
-          "hash": "qHCgPTOIg9ogU/IgPprE6aM4juk7Rh72j8HbxKViY2A="
+          "hash": "VP9F+So8EHMg5xZyUWeV7gJgFtfQnxRxNAJ02eTfsdg="
         }
       },
       "is_incremental": false,
@@ -9405,7 +9573,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Game.Entities.MyHandToolBase.html",
-          "hash": "tUiomgfutG2+tQkFhEl9L7e+MZIhlg43u2aogzkL3po="
+          "hash": "vV2x/AQ+Wh6mImONpqum2HoBDScST1CLAsuBpGWz4ac="
         }
       },
       "is_incremental": false,
@@ -9429,7 +9597,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Game.Entities.MyInventoryBagEntity.html",
-          "hash": "6JQG9kf7KAGd/5QUTJURrCoPJKy0ADaRsCHDScpVuww="
+          "hash": "OxjU/nX6OldAlRD1QdLbm04jO3SXHbvI9zZZDUgxdpY="
         }
       },
       "is_incremental": false,
@@ -9525,7 +9693,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Game.Entities.MyJumpDrive.html",
-          "hash": "tDxebVWyzDaB/171lxH6Q0jvywpJpOr/BAutQslRT/o="
+          "hash": "gHfIL2892vHNGbIl1DuRkPNioJGwl47cURzetZYHn6k="
         }
       },
       "is_incremental": false,
@@ -9537,7 +9705,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Game.Entities.MyKitchen.html",
-          "hash": "bCztr5bfT/tl29bX7+qECvFcVQcYbgheek+08+EfaV8="
+          "hash": "+5INRPFTafeJ41l9mixwB/8P242H0ZcdPxsb2FhABiA="
         }
       },
       "is_incremental": false,
@@ -9573,7 +9741,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Game.Entities.MyMeteor.html",
-          "hash": "S1F5dT1B2sd4FYEkaaUZGBkP3WZdyBzy+k2c5ICfKXI="
+          "hash": "rODWcwFx0kWzixwmN1ZP0XtIyhdfsgRCEvGaGwr1F4o="
         }
       },
       "is_incremental": false,
@@ -9597,7 +9765,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Game.Entities.MyModifiableEntity.html",
-          "hash": "F5cJ2QQNuXLqm5fxXILxwBR862rC/XsRXh6/URtFJc0="
+          "hash": "QlAXvMsyEtqDwFjFeEgW4DosbjZergSmFWh6XyQz07k="
         }
       },
       "is_incremental": false,
@@ -9657,7 +9825,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Game.Entities.MyPlanet.html",
-          "hash": "C0DSKqYRKo5dgFrc1aI539N5/oTvDyhtv2PGXU0bSMA="
+          "hash": "ue3SZYbvftZdUqgjv4Uzg7xkQIVBtPaFCBvB+qQiqLk="
         }
       },
       "is_incremental": false,
@@ -9681,7 +9849,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Game.Entities.MyPlanter.html",
-          "hash": "QkCK4i/iv+aVTUhnoxpdwrTA3L2k7THz9OlTTZK7XJ4="
+          "hash": "kPxQqdTpAcZFugMU2lHnbzg5KWifD7r31Uc1NXMQm3g="
         }
       },
       "is_incremental": false,
@@ -9717,7 +9885,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Game.Entities.MyReactor.html",
-          "hash": "6j/nxkotCZXg8bL2ZzwLaX8Dmyl8OshLqIgWiXVW4Xg="
+          "hash": "xUSY0Q6m4J+alMZ+/l/SIxsBopu9w59fCOi0NAcObDM="
         }
       },
       "is_incremental": false,
@@ -9729,7 +9897,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Game.Entities.MyReflectorLight.html",
-          "hash": "GnGSFDLIEU82saSHoHsmey4rFeqtOvM8uWBOwwPBFoo="
+          "hash": "hu+7iboFRdyIWIFM8p9kb5dLTPXypcjKKnYg2F3vi/M="
         }
       },
       "is_incremental": false,
@@ -9753,7 +9921,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Game.Entities.MyRemoteControl.html",
-          "hash": "48nI2ElZWeXmubNvJAW0pK7s+sB/9tm7ZgDAzril2qI="
+          "hash": "3vAgbV0nJFsSbcAvd9A22CmT7XmkFrnu/JJ4TCXTPdk="
         }
       },
       "is_incremental": false,
@@ -9765,7 +9933,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Game.Entities.MySafeZone.html",
-          "hash": "OGtJFh2VXjoIQINvJkEnBmqGhQ6NudDbOX0ET6JKkmo="
+          "hash": "soCP/kimvvy5RS3GlWW7k8mBDu1yrELJPznLIQ7h/WU="
         }
       },
       "is_incremental": false,
@@ -9777,7 +9945,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Game.Entities.MySessionComponentSafeZones.html",
-          "hash": "uZvpHq3m6RdYMnFfn6ylB4JyOCW2SttFcKKgSckFH1k="
+          "hash": "1n/r+VqzS/Jd5nLZi3xUpONu6Q63HXLALAsXDztzQX8="
         }
       },
       "is_incremental": false,
@@ -9789,7 +9957,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Game.Entities.MyShipController.html",
-          "hash": "ZUf+OC34TEwRwRI2vF/+KOHDHzqh3u7I+n2NwEg9MfY="
+          "hash": "++NpnZKMT6q+6azgR/blaSNO98b3ZK9IgWRo7yFX4BU="
         }
       },
       "is_incremental": false,
@@ -9801,7 +9969,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Game.Entities.MySkinnedEntity.html",
-          "hash": "JOsav+OGzp5LAXIwbzCfuOwQv+hV9srEIjrJKMumgLE="
+          "hash": "K3X/4/3/HuEgQlcJizmBzGcoYoB2Yzh4ZQs2NLH7kGE="
         }
       },
       "is_incremental": false,
@@ -9849,7 +10017,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Game.Entities.MyThrust.html",
-          "hash": "Qh7TA0UAGih3EemEvgce78I6Lr6OZ0LzA6fFYhj/7qI="
+          "hash": "//wogXCX1Le7FrYyn3KfLJdxp+ERnJ6oS0pjUh35pVg="
         }
       },
       "is_incremental": false,
@@ -9909,7 +10077,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Game.Entities.MyVoxelBase.html",
-          "hash": "e3zv18NjRgBAmO/NhZQgBXbnXAXkOUAGAxfXjhepaX0="
+          "hash": "2fqHNPLsKvMFu1/Y6+ZswoiPfsUJUfsmNi66z6zv1L4="
         }
       },
       "is_incremental": false,
@@ -9921,7 +10089,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Game.Entities.MyVoxelMap.html",
-          "hash": "GaqWgDTP3hP7aAGeREhbckMsmSn7PdoVRmFzM5WIt8o="
+          "hash": "wWlECUEwpU8azTc33LInXRoZ5qpibO2/d5Bmb8scwZw="
         }
       },
       "is_incremental": false,
@@ -9945,7 +10113,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Game.Entities.MyWaypoint.html",
-          "hash": "mDze3/Y8I3QQdh75pjp7TKx6XlcpblHBiTKPqpA8WzY="
+          "hash": "TfFhJvQCiN16MdQCDsalnfm2DIXgWlCOsLBr9Z0kzpA="
         }
       },
       "is_incremental": false,
@@ -9969,7 +10137,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Game.Entities.html",
-          "hash": "nTUGkqwIxeqIiSWzTRUtnJWdA+RnSoQ622+qcP+5o7w="
+          "hash": "UsQ9f4bMtdxumg+n3/yMjB+aCTfsx9NeOfHOBk4TaWE="
         }
       },
       "is_incremental": false,
@@ -10113,7 +10281,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Game.EntityComponents.MyAutopilotComponent.html",
-          "hash": "dOZE8+w4tbnEiwH6Kwh1qlz8ILr3KkQeRacufwnsqrM="
+          "hash": "xX1VuUbySvd2TdkYPlpAW/H0X3hjjODSHc8LD2ngreg="
         }
       },
       "is_incremental": false,
@@ -10173,7 +10341,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Game.EntityComponents.MyEntityCapacitorComponentDefinition.html",
-          "hash": "gwns4yBPopgch0Wo/tFFPubSDGtq1V21xaI+emt/aaM="
+          "hash": "FJQAFZSOh6acVdFOuRDSouEPQcRhKAipT4w8eSxIWZQ="
         }
       },
       "is_incremental": false,
@@ -10329,7 +10497,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Game.EntityComponents.MyGridTargeting.html",
-          "hash": "IoMY2Lv5d4Rdl8Bw2p/Leu72raV9uUOfyeHaaxnQO3g="
+          "hash": "K3RGCL4RDVPOhNvIsyxT3vPQgl4fjG8en2CQfd6nfDo="
         }
       },
       "is_incremental": false,
@@ -10365,7 +10533,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Game.EntityComponents.MyLightingLogic.LightLocalData.html",
-          "hash": "gCmf4GYyy8xg3lg2V5mKYynLXSrw0ugp3B0VhQLRHSI="
+          "hash": "20TgG1qDGkDIiL4LPxnCwJ7EQJkkrRVlfhZ/l+aSeBI="
         }
       },
       "is_incremental": false,
@@ -10557,7 +10725,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Game.EntityComponents.MyResourceSinkComponent.html",
-          "hash": "wos+UoInYZuQLUqALzsK7Zy0D0W7adz2l52BdsdtkDc="
+          "hash": "V/EmcYROADk421EMu3CuecoKPuyPfgkHiu9+hBBrww4="
         }
       },
       "is_incremental": false,
@@ -11025,7 +11193,19 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Game.Lights.MyLight.html",
-          "hash": "50DjhfLR5WViipv4fipDtmsNgMfCdNiJkxkHZG8rSEg="
+          "hash": "Kwsg0B4C4kABj+dllYKzhiTOrb0aQebgh/guZGT9Wdo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sandbox.Game.Lights.MyLightSourceType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sandbox.Game.Lights.MyLightSourceType.html",
+          "hash": "QgLX9/Xy82/YA1wLK8EgC8m24FpR7MeaSeCRAaXE2MA="
         }
       },
       "is_incremental": false,
@@ -11061,7 +11241,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Game.Lights.html",
-          "hash": "JULh245Jj/mNUozgZCflmLf3N77ZPjN/uAAUBfdsigA="
+          "hash": "aBeg4A3a5g7Y+ar4kligzhP/iQAxYIZtYJ/20vkbkwE="
         }
       },
       "is_incremental": false,
@@ -11193,7 +11373,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Game.MyCampaignManager.html",
-          "hash": "kmlT1eBzs/Cz66vjyoi8V3X4Ujgg4ddct+hV40EdNGM="
+          "hash": "hPpFZqZKxK9CCnrf0uqVlROZ8zsWYB3tYFUBzmE3f/Q="
         }
       },
       "is_incremental": false,
@@ -11481,7 +11661,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Game.MyInventory.html",
-          "hash": "YiDBsVP0TKSUtnHMba/ZCoou3AKbtSUKOC5njsRbRFQ="
+          "hash": "TgT1MTweTrBZf/w4Tdq6vsGTdLiAt1zUB4eZXMaQFjo="
         }
       },
       "is_incremental": false,
@@ -11601,7 +11781,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Game.MyPlatformGameSettings.html",
-          "hash": "Mp615N7ny781B74skAG2CljjriS6R2nmbnfqQS69vSw="
+          "hash": "LNgjDb9G5rDCJ/arcOry5JhrL1YEQhA5AisaDWEcpCs="
         }
       },
       "is_incremental": false,
@@ -11709,7 +11889,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Game.MyVisualScriptLogicProvider.html",
-          "hash": "LKHyZoyis/7MElWQNFFyBxtA9Qyj9kyI+M1X3oQHurk="
+          "hash": "GHqHVlxgKpPJZyrKCNmK4//uSAv14WH2FIht/yZ4uSk="
         }
       },
       "is_incremental": false,
@@ -11901,7 +12081,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Game.StringExtensions.html",
-          "hash": "yeQYEV/r8ShoMwQs+saUhXwvcao+veZwkK8lGs9MDLU="
+          "hash": "O/OVwckqH3TUDkfCTmJ1mlrwxrKGk4U498naTKHGkXg="
         }
       },
       "is_incremental": false,
@@ -12093,7 +12273,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Game.WorldEnvironment.MyEnvironmentSector.html",
-          "hash": "l/jbvZNTurSMcd8rfLti3YrXqgJl6GjfYvQmJ3BYhI8="
+          "hash": "/sj1PUdoeH74JyWgEZWGpC6/zze0MVZKpDjbx/l1lU0="
         }
       },
       "is_incremental": false,
@@ -12141,7 +12321,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.Game.WorldEnvironment.MyInstancedRenderSector.html",
-          "hash": "6x+TpQ7J9cjr5YXAWPZGboZjnVHqJ/4zrBNVYVHhCH0="
+          "hash": "SEju3bC7GxyQI8i4TXM5y6MCxTq9gG3ds6rAAptE7Ec="
         }
       },
       "is_incremental": false,
@@ -12825,7 +13005,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.ModAPI.IMyExtendedPistonBase.html",
-          "hash": "/9uZ2BA2FR/P+h10D4LBLyQl1pHqbQgyniH3Qx7leUk="
+          "hash": "lV8jzgEcCt9eF0+Ak1zkZ9MKfE0Yv82oZhcb+ngpBO8="
         }
       },
       "is_incremental": false,
@@ -12861,7 +13041,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.ModAPI.IMyGasGenerator.html",
-          "hash": "7Apl798ih66PIVQepi+3rS41Xt9AUHMFahEkqnPfK/M="
+          "hash": "hm23BbOODSDXnhjKOfNc8GKQ33G4MBm3kcrkYSjNCcg="
         }
       },
       "is_incremental": false,
@@ -12874,6 +13054,18 @@
         ".html": {
           "relative_path": "api/Sandbox.ModAPI.IMyGasTank.html",
           "hash": "kGBJ4O9SFsTAJGGLIw7QXEWDoUPbC2hF32l2jkUJ0Uk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sandbox.ModAPI.IMyGlobalEncounterComponent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sandbox.ModAPI.IMyGlobalEncounterComponent.html",
+          "hash": "YQqy37vmN1cHLEbxSy91hWLGQm4WP6T4hDja/XkNCEA="
         }
       },
       "is_incremental": false,
@@ -13065,7 +13257,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.ModAPI.IMyMotorAdvancedStator.html",
-          "hash": "ne76/7w9TPf7iSpFKactb/+tUm6uXULimnGI3oFyD9E="
+          "hash": "if60D0CKLEkWzN7jO963PpdGHqqXGGCo/wvD9RQ2OLw="
         }
       },
       "is_incremental": false,
@@ -13101,7 +13293,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.ModAPI.IMyMotorStator.html",
-          "hash": "pg9aQKXoaXdnimIfBF0LcasQzIoRFtqd9J921fBRjc8="
+          "hash": "PUGM2e46cwmPh8GrHoJUTaNngnpdE6oHiqdQbMTGpK4="
         }
       },
       "is_incremental": false,
@@ -13125,7 +13317,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.ModAPI.IMyNPCGridClaimSessionComponent.html",
-          "hash": "ixdJd2dsg6EQAZCq8BUTCk1VUBLuiceLnfgneD8TrFE="
+          "hash": "8cMZFdTtOGTMUSSYFl7HNEeHyNRJeSnD9SF6MbFYfBE="
         }
       },
       "is_incremental": false,
@@ -13205,18 +13397,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Sandbox.ModAPI.IMyOxygenGenerator.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Sandbox.ModAPI.IMyOxygenGenerator.html",
-          "hash": "6J13Lf7DPRR2MgqvQB1aQt/REas9nmg/xbyZ2E29F2g="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/Sandbox.ModAPI.IMyPassage.yml",
       "output": {
         ".html": {
@@ -13269,7 +13449,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.ModAPI.IMyPistonBase.html",
-          "hash": "i9TMnYczfqspUodL1vgmam0nmlK8PtPteTfsOUjKX8I="
+          "hash": "iqCA7Coz6AmOefRKzC5X0lDWm0m0f3pIwdSxgtcC7Lk="
         }
       },
       "is_incremental": false,
@@ -13373,6 +13553,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Sandbox.ModAPI.IMyRandomCargoEntityComponent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sandbox.ModAPI.IMyRandomCargoEntityComponent.html",
+          "hash": "0zZPah804X3GCdcAZg3aJN5oLRBMk4Qo9rwjBgnSRBk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Sandbox.ModAPI.IMyReactor.yml",
       "output": {
         ".html": {
@@ -13414,6 +13606,18 @@
         ".html": {
           "relative_path": "api/Sandbox.ModAPI.IMyRemoteControl.html",
           "hash": "D3U/IgMEXS9CauecR3Uso9jSySAUwQy1iuaq+GM4z9k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sandbox.ModAPI.IMyRespawnComponent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sandbox.ModAPI.IMyRespawnComponent.html",
+          "hash": "pxBINc8eznV5y2UuQlR8o6nxNx0arXTiY8qF8XH/tJs="
         }
       },
       "is_incremental": false,
@@ -14277,7 +14481,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.ModAPI.Ingame.IMyExtendedPistonBase.html",
-          "hash": "TTx0IdG6WPzzvagu9ekzUlVK2da7hjwpRLlmxvOK2w0="
+          "hash": "Jl9aE/9bHqDizFYfoXn/r83tApMxD+4xSGMyAuBiDlo="
         }
       },
       "is_incremental": false,
@@ -14313,7 +14517,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.ModAPI.Ingame.IMyGasGenerator.html",
-          "hash": "ARCdPXk6Zr1oR8R+C5vaQSFDWld48WHf1B6mM+GW/eA="
+          "hash": "ppouiBWVs74R4MWSb4r8HeBa4kgHULzQOfwdiPAPh+M="
         }
       },
       "is_incremental": false,
@@ -14469,7 +14673,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.ModAPI.Ingame.IMyMotorAdvancedStator.html",
-          "hash": "yMiJ9TLbOYjvH0SMLt7B0v+MKFLhnocaAYO9Bq0W5N0="
+          "hash": "HT19eCxgPUEY2be8c/dQUtLUqqqyTtg49I8CkaKf+a8="
         }
       },
       "is_incremental": false,
@@ -14505,7 +14709,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.ModAPI.Ingame.IMyMotorStator.html",
-          "hash": "knSTEOJctxTPh51LN6b9dORCqIy30YWTf1xiOVuq6AE="
+          "hash": "BY/dGGYfbuB7qQ4lqH/fUNfwVg4q33s2k2tIuzsqQs0="
         }
       },
       "is_incremental": false,
@@ -14597,18 +14801,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Sandbox.ModAPI.Ingame.IMyOxygenGenerator.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Sandbox.ModAPI.Ingame.IMyOxygenGenerator.html",
-          "hash": "fO7+vXxjsDXJhqiAAGJ9338B3/dj+KJPXFToj8kOlU0="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/Sandbox.ModAPI.Ingame.IMyPassage.yml",
       "output": {
         ".html": {
@@ -14649,7 +14841,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.ModAPI.Ingame.IMyPistonBase.html",
-          "hash": "fJ97ZAUPk1iwJla26q9KtShd+jlAvfLnHsxZ+4JlcYE="
+          "hash": "yQ8A/Jsa2NZWsACClZ5UvMvEvQi5mj3SVGouB8arNcI="
         }
       },
       "is_incremental": false,
@@ -15093,7 +15285,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.ModAPI.Ingame.IUserCustomizableTerminalAction.html",
-          "hash": "34/d+P+CnKUcvZIrfd7tWw/9icXTri4qQcFE73dpE0U="
+          "hash": "zyF4bb0QEEFj30N5Jg/ZM/2VsKg11DEbURA5nd1z40U="
         }
       },
       "is_incremental": false,
@@ -15226,6 +15418,18 @@
         ".html": {
           "relative_path": "api/Sandbox.ModAPI.Ingame.MyProductionItem.html",
           "hash": "JqOTgOi3YXwSt7/+J9g8NRXcERBGaoIDj1RUOoBVTD8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Sandbox.ModAPI.Ingame.MyRotationDirection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Sandbox.ModAPI.Ingame.MyRotationDirection.html",
+          "hash": "c2SwZmvlxtc2FDMpw0RymMY+GYQ+kJpPq72sYCIm0oM="
         }
       },
       "is_incremental": false,
@@ -15417,7 +15621,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.ModAPI.Ingame.html",
-          "hash": "TKCH+Zi485jcM5mHb79niBVPMuJI6hzKbtMDEkKJ7N8="
+          "hash": "MGh4SjEDbylGg9m4f+Qi4LvvfPAJBj6fgjH2SjAPSLk="
         }
       },
       "is_incremental": false,
@@ -15969,7 +16173,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Sandbox.ModAPI.html",
-          "hash": "fsJc2Ee0QI1hnPRcVyzUBmxq9U43xyv7VlV/2rTfZmQ="
+          "hash": "XzYZ7RCWapvddJP8/IXf+KcI81LsYqx7Z6i1Jp4qCgo="
         }
       },
       "is_incremental": false,
@@ -15981,7 +16185,7 @@
       "output": {
         ".html": {
           "relative_path": "api/SpaceEngineers.Game.Definitions.SafeZone.MySafeZoneBlockDefinition.html",
-          "hash": "QpoFQG3pq0UTX6L7gPvnSV79tv3gymY80xR0TTmO7h4="
+          "hash": "YkLGnY5FF26CK8uj5woLB0Og3DoDuixXm4E5vLsyF1o="
         }
       },
       "is_incremental": false,
@@ -17613,7 +17817,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VRage.Game.Components.MyComponentContainer.html",
-          "hash": "gl5fI3QkUx2yBisXQnoQX7ZG34tnmnLszvL0Q05LHYU="
+          "hash": "CBD5Tl+pSaMzN4d471HxPNIYXNeqjQyHWU2ulDXUqu8="
         }
       },
       "is_incremental": false,
@@ -17685,7 +17889,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VRage.Game.Components.MyEntityComponentContainer.html",
-          "hash": "JkveD4Of8jKyxG0OBF91q5H1BrMEDW0i6eMPgEYtiPY="
+          "hash": "1uUcEJ3NfJeJjhWjppJ0nd7JtlNjnFWwwQ3pInufuyc="
         }
       },
       "is_incremental": false,
@@ -17865,7 +18069,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VRage.Game.Components.MyHierarchyComponentBase.html",
-          "hash": "t/PpjI+qD9GSloNa10ag0BKK1S8RC/qE5+ks7WODYz4="
+          "hash": "rEpyCFveZHYt89AThLqqOtJx7CcxUPaZKLdjC8UveEA="
         }
       },
       "is_incremental": false,
@@ -18045,7 +18249,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VRage.Game.Components.MyRespawnComponent.html",
-          "hash": "COxxcEL7RxohXHWsQjfv6HH3lc3O4a9SxeuRdVHJ1Q4="
+          "hash": "uwDng8C25ZvSJChn/55tM1GAAMGIVPelUb2oAhWX3fg="
         }
       },
       "is_incremental": false,
@@ -18297,7 +18501,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VRage.Game.Definitions.MyGameDefinition.html",
-          "hash": "fPbbC6OzeoIhLY2qtYbecrdUmcgYXFRCp2H7wwxETBA="
+          "hash": "D1g9fTTUhLeG4SlxaH43/o7SZxEA34SFsVOPyNFSaqk="
         }
       },
       "is_incremental": false,
@@ -18461,6 +18665,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/VRage.Game.Definitions.SessionComponents.MySessionComponentAntiCheatDefinition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VRage.Game.Definitions.SessionComponents.MySessionComponentAntiCheatDefinition.html",
+          "hash": "1oaBuhzTD/YPKESOA0ITR0gEf0ifAxD9JDlWFEoI8jk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/VRage.Game.Definitions.SessionComponents.MySessionComponentContractSystemDefinition.yml",
       "output": {
         ".html": {
@@ -18477,7 +18693,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VRage.Game.Definitions.SessionComponents.MySessionComponentEconomyDefinition.html",
-          "hash": "LO2SrB/JH0d1P3DjzK5epwp9De7jnmbmQHX4Yo9Rhe8="
+          "hash": "JTVDatefN2Sl2nikii+nr0cP4/jm/rcXre673m5azCw="
         }
       },
       "is_incremental": false,
@@ -18501,7 +18717,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VRage.Game.Definitions.SessionComponents.html",
-          "hash": "kz91jgIIj7tYk57r+h2zyr7I3Xj/khKpsivAA1K/2KA="
+          "hash": "yjz5f2Zbr8WMsH7FGSFo/ckIgtDovp9hYhRB4/Jlc3c="
         }
       },
       "is_incremental": false,
@@ -18669,7 +18885,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VRage.Game.Entity.MyEntity.html",
-          "hash": "w7owGEjfiiA3wLXO9lfw6s6WaTvZvudtNDcbrLdZric="
+          "hash": "butQ0HIbGiLVIVvhk9Amlv6NtIL/xPP+9cfSG0zzo4Y="
         }
       },
       "is_incremental": false,
@@ -18693,7 +18909,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VRage.Game.Entity.MyEntitySubpart.html",
-          "hash": "tksd6KMW33VFugUIJempY6SmN9jyQoYnsHZe3xknS5s="
+          "hash": "bVa9IryH9gt0SXX40lBwJF1H4pAQzWAT4bHk1aDPz8w="
         }
       },
       "is_incremental": false,
@@ -18765,7 +18981,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VRage.Game.Entity.UseObject.IMyUseObject.html",
-          "hash": "kcTezcbaZmP4+EbeX4lLRdBaxMLTwt6FF7pjTv8RaX4="
+          "hash": "BcJ9dmBwVCdW1GHNZ+xXeuONuRTmrXAFR1tDIXQH6ak="
         }
       },
       "is_incremental": false,
@@ -18777,7 +18993,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VRage.Game.Entity.UseObject.MyActionDescription.html",
-          "hash": "SOs4G1QvzheV9pG9o6LSwpQJhi8aO+J9HyiytWnRiuI="
+          "hash": "E8l+E/86+joQs6VghqaR4Ui8xoM5FbLnOh6AzfIvhVs="
         }
       },
       "is_incremental": false,
@@ -18801,7 +19017,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VRage.Game.Entity.UseObject.MyUseObjectBase.html",
-          "hash": "27o+omajXxNe+cepq5Bmz76WLL7Iq79JSWkBD0kBGE4="
+          "hash": "X/Vtil+XGlM/pw2P7d7vZIapPVC1vavl2g/84AthXOc="
         }
       },
       "is_incremental": false,
@@ -19061,6 +19277,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/VRage.Game.GlobalEncounterSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VRage.Game.GlobalEncounterSettings.html",
+          "hash": "aTZ1179XNOc/4/JaLRTJ6dyNgrv/yQ0is+fFzq7dkwA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/VRage.Game.IMySkinnedEntity.yml",
       "output": {
         ".html": {
@@ -19125,7 +19353,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VRage.Game.ModAPI.GridLinkTypeEnum.html",
-          "hash": "CilZS9slwUMHB4m37A3fzjLnm8ZOdWOn2fyOCaUt4jA="
+          "hash": "mI9w32qyiOnyL+Sz7N7DQ9qcE2PkoX09Gg5mDVc+0DU="
         }
       },
       "is_incremental": false,
@@ -19341,7 +19569,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VRage.Game.ModAPI.IMyCubeGrid.html",
-          "hash": "DKRVv0R3F8qG0GtXbjKDnbWuDjTysJBZxtqlT/gc2kc="
+          "hash": "cONh021NmOrYEFRSOYXul7eZbZMiZg5lAPMlwfIxuDA="
         }
       },
       "is_incremental": false,
@@ -19401,7 +19629,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VRage.Game.ModAPI.IMyFaction.html",
-          "hash": "xpiczC8cy/aBYJDh8Zn/o5iPYJ8+A/NKvvRaxkzUMlk="
+          "hash": "J2k8kNySpyfzXpzimZZUb7v8wb/0Udzaf+DX1mxlY3c="
         }
       },
       "is_incremental": false,
@@ -19413,7 +19641,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VRage.Game.ModAPI.IMyFactionCollection.html",
-          "hash": "0U79xXpLX/8A4WakN6mXXy6znWBEBnDsi/Tf+ZLWA+0="
+          "hash": "KsB1ENN9cc8rw1iQ/x7ZjJLqNFqUrdkEGlk5bbawxjM="
         }
       },
       "is_incremental": false,
@@ -19521,7 +19749,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VRage.Game.ModAPI.IMyGridGroups.html",
-          "hash": "TKYMM5rk11woAnqEiVU8aCcxKxsPXEyhzn8eAdpMKW4="
+          "hash": "nT021ySFNbFQ35R+2Vxy+cH8l08sNRz1FitfEE5z9Bs="
         }
       },
       "is_incremental": false,
@@ -20517,7 +20745,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VRage.Game.ModAPI.Interfaces.IMyEntityCapacitorComponent.html",
-          "hash": "aTao+hGXw3G2oR0qaswORH3Ny2Z6exfnZxpqQh0Kfbg="
+          "hash": "hvvP5eOJK2UPC323t4OTnuOtXm8jTrNYNtkOt2NVJ1A="
         }
       },
       "is_incremental": false,
@@ -20541,7 +20769,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VRage.Game.ModAPI.Interfaces.html",
-          "hash": "vecKjRdC0/PVosa6EOQLgOGFqcnFgkVYM4XYwx5iM7M="
+          "hash": "ZBMqBrC8hnGCnSVIo7hH2M+URLbizuNsYsbvAXjekho="
         }
       },
       "is_incremental": false,
@@ -20985,7 +21213,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VRage.Game.ModAPI.SpawningOptions.html",
-          "hash": "bYPUDKqo7pVSXcq5a/gBP2vg0KIhnSLpeZ2OXGxK5BY="
+          "hash": "+ydQ/6d5ON5iPfg3cImP1fm7AtzhWtGY5843otq0tE4="
         }
       },
       "is_incremental": false,
@@ -21525,7 +21753,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VRage.Game.MyDefinitionBase.html",
-          "hash": "D2eJ66dFUiginfZhjt06958+sh8T1U6v7DwxusvCn8M="
+          "hash": "vjg3PueH/jdRLBXR/GosPrZ74YfAJbvUgBawPwp6sn0="
         }
       },
       "is_incremental": false,
@@ -21753,7 +21981,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VRage.Game.MyFactionTypes.html",
-          "hash": "XkSiAAHs89HfDch69RoX4np3YgJZ5xZQ2k9YmljnwQU="
+          "hash": "MqaZiBezm3GYCd1FP8KVfZ0+basGKGc+MSMCNe1isNQ="
         }
       },
       "is_incremental": false,
@@ -21873,7 +22101,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VRage.Game.MyGuiControlButtonStyleEnum.html",
-          "hash": "acRO1YirM58AzpklS8o10O7TBG0nBUPgAC5FfHq55kw="
+          "hash": "o/3iuaX4qE3XFmAJqtlaVYkgNeqnjVddRLM9TVfCTP8="
         }
       },
       "is_incremental": false,
@@ -22977,7 +23205,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VRage.Game.MyObjectBuilder_CargoContainerDefinition.html",
-          "hash": "7xpNDbCmihp7sZYNmO/J8h2ArNKd6sFRJWnkhalS854="
+          "hash": "DmEmA9ctXf3f/0tMARzOtyH/oh4vgj9D/KRAtak6StQ="
         }
       },
       "is_incremental": false,
@@ -23085,7 +23313,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VRage.Game.MyObjectBuilder_Checkpoint.ModItem.html",
-          "hash": "pn3zgbDjwVT5xtHUAAc64c+/HFRhTSTMhC2I/y4mCCY="
+          "hash": "wOkbv9VZkzwVQP/ryqTuJgQAlwKKKxs8jTLiGsDCA28="
         }
       },
       "is_incremental": false,
@@ -23181,7 +23409,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VRage.Game.MyObjectBuilder_ComponentDefinitionBase.html",
-          "hash": "Ges3VQXAu3zDMru2ogS9bZa4lC9sq0RO+GDpGAS97V0="
+          "hash": "HSp561QttzPTzvis4TjNvdZfiCJ1BybTHjFuCL6UsrU="
         }
       },
       "is_incremental": false,
@@ -23301,7 +23529,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VRage.Game.MyObjectBuilder_Configuration.LootBagDefinition.html",
-          "hash": "6v3KISgAlX+1iedzL5PpeQNzPrxyF8zL84F5M/ntdCw="
+          "hash": "sIfI9Avdo4y0ynNAahbNmaW/m+vapN50Fs4AnkdjTF0="
         }
       },
       "is_incremental": false,
@@ -23313,7 +23541,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VRage.Game.MyObjectBuilder_Configuration.html",
-          "hash": "1QkED9sT62Bth6PrWwxmqktFLiZx/8zx7ODq9fKm96M="
+          "hash": "PDDJMWJEGvDHmhqYlhxSsFGVdr+7hNdggDau9dgnhpw="
         }
       },
       "is_incremental": false,
@@ -23409,7 +23637,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VRage.Game.MyObjectBuilder_ContainerTypeDefinition.ContainerTypeItem.html",
-          "hash": "zcjHaqbe45Wd1gmjFxCf5lzh7qRB2FFUGnDSo5OchRY="
+          "hash": "fRjIBd31IygVFE3nLTbgGf4WUyhO0VB3vAIEploPKX8="
         }
       },
       "is_incremental": false,
@@ -23541,7 +23769,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VRage.Game.MyObjectBuilder_ConveyorSorterDefinition.html",
-          "hash": "tacnzQIwcB3L/aT9OF3AR4FwyZWvWOAbwo2V1CgxLGE="
+          "hash": "2n3wdaIItwsb5JcpqZSuuYl6SVfBXbdFiPM2Yy/iLnQ="
         }
       },
       "is_incremental": false,
@@ -23721,7 +23949,19 @@
       "output": {
         ".html": {
           "relative_path": "api/VRage.Game.MyObjectBuilder_CubeBlockDefinition.html",
-          "hash": "BIVP8Io9Q3FbYuz9CdTZs0rtfLHvyH5T3XcWtBiumvM="
+          "hash": "xJFFA40I3bVSTpG8ea9FGrCxak+UsAPQkACpv6A2zS4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VRage.Game.MyObjectBuilder_CubeBlockTagDefinition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VRage.Game.MyObjectBuilder_CubeBlockTagDefinition.html",
+          "hash": "nFJ7yyVAffKReMMFvlI7RgrzMvEZNN0rQ2/EkgZDSaE="
         }
       },
       "is_incremental": false,
@@ -23853,7 +24093,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VRage.Game.MyObjectBuilder_DebugSphere1Definition.html",
-          "hash": "rRd30KiwumdfbGlf5wsUD+9kS3jgCNnWyun8pAWw/F8="
+          "hash": "xjpYVnfyLcw3yKZe/7On+mTgkqUAtz8nmg4x6qqoOOk="
         }
       },
       "is_incremental": false,
@@ -23877,7 +24117,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VRage.Game.MyObjectBuilder_DebugSphere2Definition.html",
-          "hash": "MM96KC1g/CGEEDm4OZugIGzUGC30dSmnRTOdTpknIHo="
+          "hash": "WnljWAdKVMaETUce2CceySB8xIgsXNdwcPdUZ5g0ae4="
         }
       },
       "is_incremental": false,
@@ -23901,7 +24141,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VRage.Game.MyObjectBuilder_DebugSphere3Definition.html",
-          "hash": "uRI13AEr+/5smocpdsljqDwqDPfq1kP6gUQ3ogvdcZo="
+          "hash": "/FAuBgEh3gmXqwqstf/yVPEX9Sn2xIhNiPNbCnGIzgQ="
         }
       },
       "is_incremental": false,
@@ -23937,7 +24177,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VRage.Game.MyObjectBuilder_DecoyDefinition.html",
-          "hash": "qotIciX7msJ9SmLif7pM7nf7Mzj3TfRKiZDk6bOXJyc="
+          "hash": "81hChidiEcm23LxrrxiF+KMouFO4ARl8prsDnbYkULg="
         }
       },
       "is_incremental": false,
@@ -23949,7 +24189,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VRage.Game.MyObjectBuilder_DefinitionBase.html",
-          "hash": "egvgoaz4TmX0fzc2boHuzDTlzpFN14WmH9Y5l7woEuQ="
+          "hash": "8g3+tud4Yja4cL8kaaJ7LPap47AVxEshPQ9l7XUJHz4="
         }
       },
       "is_incremental": false,
@@ -23961,7 +24201,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VRage.Game.MyObjectBuilder_Definitions.html",
-          "hash": "r93wEKQ2lv9+Gu3kNPICbu/Wc5fd9eKIv7u2leka6wA="
+          "hash": "B3KmusJu71q+Qkn9hHgeot2f8fQCmG6/Epl4zCswVkQ="
         }
       },
       "is_incremental": false,
@@ -24045,7 +24285,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VRage.Game.MyObjectBuilder_DoorDefinition.html",
-          "hash": "1Cr/0yq0nyGmUrHKYMUrRpa8w3WxwCe3DrDbrJF84u4="
+          "hash": "ZTvSyFOCXezQISoASrjDLOLyuvOyHU/S2iTQUmItNu8="
         }
       },
       "is_incremental": false,
@@ -24057,7 +24297,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VRage.Game.MyObjectBuilder_DropContainerDefinition.html",
-          "hash": "AQDqAGohnabxFEQcMLHKZSE+TVstcjcVAb6KKHfz4vg="
+          "hash": "NaaOLLCeyPxmtDLFkIzIWj1Xyp4zp7odiZU3BID0cgs="
         }
       },
       "is_incremental": false,
@@ -24273,7 +24513,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VRage.Game.MyObjectBuilder_Faction.html",
-          "hash": "vcpU32YICC3KdDKk6DfirxclqXr1SHWW3CcLj+WmM8Y="
+          "hash": "2REWLBDP6HaYVH7btVJdP+YJAtFou+Mv8o/DvHVHFUs="
         }
       },
       "is_incremental": false,
@@ -24477,7 +24717,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VRage.Game.MyObjectBuilder_FracturedBlockDefinition.html",
-          "hash": "aevL9X5OfRLdMT/Ul1BtRM/MbwHCJNd5LXYeqRJ6p0Q="
+          "hash": "bF+wJtVK8UVTQopDWBtupsebT1HIGVpxvHLf57OSUBQ="
         }
       },
       "is_incremental": false,
@@ -24525,7 +24765,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VRage.Game.MyObjectBuilder_FueledPowerProducerDefinition.html",
-          "hash": "QoelUF1bebf+FsotRKUYRzKyZbzQPi2ZdoHJfmQXqgs="
+          "hash": "UUf+Y5Wd1l7iR44AFthft99JPTTDYBUmJ+Ovu91m7iA="
         }
       },
       "is_incremental": false,
@@ -24561,7 +24801,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VRage.Game.MyObjectBuilder_FunctionalBlockDefinition.html",
-          "hash": "k6RbYhDqu8PV1iAWSjGJTvXhFTfuI5JqgvdvWFxnftc="
+          "hash": "4q8t0ufBDvAg12a2xzm/X3al/QpiiB7HLBlOteDmq/A="
         }
       },
       "is_incremental": false,
@@ -24573,7 +24813,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VRage.Game.MyObjectBuilder_GasFueledPowerProducerDefinition.html",
-          "hash": "DDv8/i+NmrB96eUuE0gYxyuuBz/Hk0F06LzlR3HoIQ4="
+          "hash": "eeI0Z7B6bLb4EOgl/ojvEEDh8Q/CDXIOPxcK6BoYPT8="
         }
       },
       "is_incremental": false,
@@ -24681,7 +24921,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VRage.Game.MyObjectBuilder_Gps.Entry.html",
-          "hash": "wtKMPk0YCjf32VmaHSy4ORk5LNl5LN75lEnduFoEl+Q="
+          "hash": "EvoRvSBAaI+/WSJ/jr4cZFQAaMuYk1UpZbPEtAL8/yw="
         }
       },
       "is_incremental": false,
@@ -25125,7 +25365,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VRage.Game.MyObjectBuilder_Identity.html",
-          "hash": "ERCYUYMBymErVLCR6KzvcNTXOgW/aoN3879JVbHtLsA="
+          "hash": "gbAMYw1RYR/Wu1iSd0/omogWtNToDbBX+UFXdaVgCcY="
         }
       },
       "is_incremental": false,
@@ -25245,7 +25485,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VRage.Game.MyObjectBuilder_LockableDrumDefinition.html",
-          "hash": "LgamPOzOyQo+VTT56PfjP1IiWzS+1fwnQw9K+9TEeRE="
+          "hash": "JGf/QsxQENy+gPtwJEV8Sg3afUh8esibUXaJVuZaexM="
         }
       },
       "is_incremental": false,
@@ -25521,7 +25761,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VRage.Game.MyObjectBuilder_Planet.html",
-          "hash": "8MJYHOV4plHYNqDa9oDKWFMg52TOgqQ87ZVLtR3jEV4="
+          "hash": "eFIC1OnwzGWBj2wEeQj+tizFrmF6GMfhWpWnkDVXAhw="
         }
       },
       "is_incremental": false,
@@ -25557,7 +25797,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VRage.Game.MyObjectBuilder_Player.html",
-          "hash": "JfpeieYIMc8YHgtZQFsT3cp3KQ0UE0fMvzUVvvneAVE="
+          "hash": "mHvH5NAxCM6L/KITUA/hpb3I22FTfKCbggrozgoEHY4="
         }
       },
       "is_incremental": false,
@@ -25605,7 +25845,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VRage.Game.MyObjectBuilder_PowerProducerDefinition.html",
-          "hash": "XS1K65O/oTxmnkRNspYTcEFM8X9c5DJFgcO4gGggF8Q="
+          "hash": "Sy0FOeb+zLJ7q2WQHAA/cIPoR4pRzBPkRt1igoHtM6w="
         }
       },
       "is_incremental": false,
@@ -25617,7 +25857,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VRage.Game.MyObjectBuilder_PoweredCargoContainerDefinition.html",
-          "hash": "OFrBXWAgTyhrodD55eMiubcy8HwFQ8v+MjThZj9vGxA="
+          "hash": "Gr6kFjCZMFH7rs6lNrvnL8HZ1xjgW680iMrJTUaitWc="
         }
       },
       "is_incremental": false,
@@ -25677,7 +25917,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VRage.Game.MyObjectBuilder_ProductionBlockDefinition.html",
-          "hash": "rBS+E0eywCXmfpJ2OL0hO86I3Uo7YxwjmS27DytWwkI="
+          "hash": "PtWD+l2ORK1Wiln1AG1J1vf8F/1zYWRlL53IF+2ak9A="
         }
       },
       "is_incremental": false,
@@ -25977,7 +26217,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VRage.Game.MyObjectBuilder_SessionComponent.html",
-          "hash": "5Y7gUVRJDjt5fmz6bl5ENzRfQY5+R3JO8VsRLPKUf3Y="
+          "hash": "/f/myTuWxz/XxCdR6OHLrdRhZwkSFofJXkifTPaSzh4="
         }
       },
       "is_incremental": false,
@@ -26021,11 +26261,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/VRage.Game.MyObjectBuilder_SessionSettings.LimitBlocksByOption.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VRage.Game.MyObjectBuilder_SessionSettings.LimitBlocksByOption.html",
+          "hash": "UD3htP3gI6ua/eFK1ZvaP0DbdvDhro4RUscwnhYoPi4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/VRage.Game.MyObjectBuilder_SessionSettings.yml",
       "output": {
         ".html": {
           "relative_path": "api/VRage.Game.MyObjectBuilder_SessionSettings.html",
-          "hash": "eS0pQqOwAcKsGVGnKQE585cdSdJd7wtamfZ7f8Hxcec="
+          "hash": "TbB5sfTtYOlnCBihRAgaKg5W2529TdaUJVw/G6MJaRI="
         }
       },
       "is_incremental": false,
@@ -26073,7 +26325,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VRage.Game.MyObjectBuilder_SolarPanelDefinition.html",
-          "hash": "m4TDoPPfDRXaj4gPfwsGyTalPhCJUpHw+wgsNdVStSQ="
+          "hash": "qmvEdWu7Iiv5f7Cx//HDjuUfUSnxQKdpEQF4OEJ3Lvk="
         }
       },
       "is_incremental": false,
@@ -26109,7 +26361,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VRage.Game.MyObjectBuilder_SpawnGroupDefinition.SpawnGroupPrefab.html",
-          "hash": "jOVLXds4tAcGjVTLgKFKggXquRLU8msVWC6/8/iSi34="
+          "hash": "ayEg6FO3RhbwgmmRATjgxzEYBMK0Yy4WzN6tLsiRzKk="
         }
       },
       "is_incremental": false,
@@ -26121,7 +26373,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VRage.Game.MyObjectBuilder_SpawnGroupDefinition.SpawnGroupVoxel.html",
-          "hash": "MCNCLyjK7bARBUDQCZk48ABABPDsfhVYE7PtVDp4a0w="
+          "hash": "Lsh3EdwkN2v78k/ClliiJ+NviFh5ZukZUij3Yl+VcW8="
         }
       },
       "is_incremental": false,
@@ -26133,7 +26385,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VRage.Game.MyObjectBuilder_SpawnGroupDefinition.html",
-          "hash": "NPQVIOn773YF5clkv37KCyOYx4jUz9xEPpQdQh+bzj4="
+          "hash": "cTl3wwGMd/iDDsoZiYJJfIStXwZ7Rw422QKyEHW0ess="
         }
       },
       "is_incremental": false,
@@ -26158,6 +26410,30 @@
         ".html": {
           "relative_path": "api/VRage.Game.MyObjectBuilder_StockpileItem.html",
           "hash": "LImLiEGJ9zOjNIYPSH8LsFnPrqO4X8GQXnPNAc5Hi7E="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VRage.Game.MyObjectBuilder_StoryCategoryDefinition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VRage.Game.MyObjectBuilder_StoryCategoryDefinition.html",
+          "hash": "8eZC1pvXZ1e0RvthnLVDMguYcqiYQkfVOrJ1WUhh5ik="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VRage.Game.MyObjectBuilder_StoryDefinition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VRage.Game.MyObjectBuilder_StoryDefinition.html",
+          "hash": "kbREYdLewQC3SlA6I21c0u/b1J0airRAKQEOtOVel0s="
         }
       },
       "is_incremental": false,
@@ -26193,7 +26469,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VRage.Game.MyObjectBuilder_ThrustDefinition.html",
-          "hash": "ZLPa5Ok7y0oBV2Bo68+AW8bA8KFCBYDoucbTeWY63Uc="
+          "hash": "7nm2sINwDVwaNUP/k1iJOFEXc6kIPuwcEdXKQtSy3PQ="
         }
       },
       "is_incremental": false,
@@ -26781,7 +27057,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VRage.Game.MyObjectBuilder_VoxelMap.html",
-          "hash": "AdAo5i17IuLFj+PhaBXhJPxCkkZdAWd+dlWuRfZe+Go="
+          "hash": "5mdgPO4wQfgfaojptjSetS7eqBVH79Ztaaso5RCwbaA="
         }
       },
       "is_incremental": false,
@@ -27969,7 +28245,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VRage.Game.ObjectBuilders.ComponentSystem.MyObjectBuilder_ComponentBase.html",
-          "hash": "88Ieoic0dL38W/v0ZhaOcEhOglfiKNivV3yaW6ozM4U="
+          "hash": "K2TzvTxj1seXAkaUSIarT5+HLTGD/8rOdF9wEqfvQV8="
         }
       },
       "is_incremental": false,
@@ -28053,7 +28329,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VRage.Game.ObjectBuilders.ComponentSystem.MyObjectBuilder_EntityCapacitorComponentDefinition.html",
-          "hash": "TlAR/flcTMfiThHuhvFaUE0fK9nHa6YRQtyUNkz5Z54="
+          "hash": "SolGciY2LzXwxDFgBAf7QpD0mj+F00rjdEfpnr6ngkM="
         }
       },
       "is_incremental": false,
@@ -28589,6 +28865,30 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/VRage.Game.ObjectBuilders.Definitions.FactionRelation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VRage.Game.ObjectBuilders.Definitions.FactionRelation.html",
+          "hash": "d0btIbw7xd93nPrYfbfODQWBKSdR+qAr5lA9VH3vaOM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VRage.Game.ObjectBuilders.Definitions.FactionRelationVariant.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VRage.Game.ObjectBuilders.Definitions.FactionRelationVariant.html",
+          "hash": "hnRUZv38EcNI4zb9bI5ncKbPpQUZVptvmiJlkdwTCjk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/VRage.Game.ObjectBuilders.Definitions.ItemTypes.yml",
       "output": {
         ".html": {
@@ -28629,7 +28929,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VRage.Game.ObjectBuilders.Definitions.MyFactionNameTypeEnum.html",
-          "hash": "d5SN3R5JUXyuSVtj8cg94Yp3vghn1owsMwlAe44i5xw="
+          "hash": "DfecjkApqiThEefJtVWSpGTjF8lgph0errLHr74yvbA="
         }
       },
       "is_incremental": false,
@@ -28941,7 +29241,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VRage.Game.ObjectBuilders.Definitions.MyObjectBuilder_FactionDefinition.html",
-          "hash": "zsvT5WvM+tj09PUAO9M8bY0rkbTP4nz2gLJzvNKj5e8="
+          "hash": "2CqwgP629yC35QuM7gFr1DNy6IlYpbTwZfmS564Wzbo="
         }
       },
       "is_incremental": false,
@@ -28953,7 +29253,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VRage.Game.ObjectBuilders.Definitions.MyObjectBuilder_FactionNameDefinition.html",
-          "hash": "QEf78QiNqN6gaOUrQRcFcvwTBh8mcQNZQu1U/tpMrcw="
+          "hash": "LUuEu6WfS5lACdCXJkXrfZ30HokyxW8q9hoU55jGm6U="
         }
       },
       "is_incremental": false,
@@ -28965,7 +29265,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VRage.Game.ObjectBuilders.Definitions.MyObjectBuilder_FactionTypeDefinition.html",
-          "hash": "Iv+WBJQsMngGhy4mpCzIvBEbwceBmMEvnfNkGt28R5k="
+          "hash": "FL6r3wCpJh8+Mg/KPWNzKuHByosrsX3/zkxmgsQUWjY="
         }
       },
       "is_incremental": false,
@@ -29001,7 +29301,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VRage.Game.ObjectBuilders.Definitions.MyObjectBuilder_GameDefinition.html",
-          "hash": "bKiFg/s+J9qXn1ccQXg8R8jf8FMjYOyTGysXKR7iytw="
+          "hash": "gC78P3OCLo987Jgvqh1rwdM1W1vU3b2jAdtgY6pb6+g="
         }
       },
       "is_incremental": false,
@@ -29373,7 +29673,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VRage.Game.ObjectBuilders.Definitions.MyObjectBuilder_SessionComponentDefinition.html",
-          "hash": "qEK3WheGOTkDp8NQuFHTe9NTUg2ygqNbKH21kPsY8wQ="
+          "hash": "3nD76Ti7kbHL5KtslCxAw3nWcErtH+xnYDwo1CCodcM="
         }
       },
       "is_incremental": false,
@@ -29565,7 +29865,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VRage.Game.ObjectBuilders.Definitions.MyObjectBuilder_UpgradeModuleDefinition.html",
-          "hash": "B4HzP3vTG40ituXr2QhyHY/10Lm9ou1MS0PhyZLAfq8="
+          "hash": "0ZK1YG6mqVVJU3v1KPJo1PBvybK4V+PUKjZKRlE5ypU="
         }
       },
       "is_incremental": false,
@@ -29585,11 +29885,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/VRage.Game.ObjectBuilders.Definitions.MyObjectbuilder_SessionComponentAntiCheatDefinition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VRage.Game.ObjectBuilders.Definitions.MyObjectbuilder_SessionComponentAntiCheatDefinition.html",
+          "hash": "DkTcfn22a5FzLycV5wH7xdyLJK06vGp21TGGCJWi0JA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/VRage.Game.ObjectBuilders.Definitions.MyObjectbuilder_SessionComponentEconomyDefinition.yml",
       "output": {
         ".html": {
           "relative_path": "api/VRage.Game.ObjectBuilders.Definitions.MyObjectbuilder_SessionComponentEconomyDefinition.html",
-          "hash": "Eo7MBlvaG8RqVM/5W99gL7cdP0tyxeY/kRNWx+uVmVE="
+          "hash": "GD1FLkNfaDDB93GT9R69cI7r6e/aPcjhW6P7SDgxMMA="
         }
       },
       "is_incremental": false,
@@ -29697,7 +30009,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VRage.Game.ObjectBuilders.Definitions.ShipSystemSoundsEnum.html",
-          "hash": "c6nbEuKbqd3bsvPmdcO0jVc0dZ5B+C9xLSCvgXtcHlI="
+          "hash": "yp3FraTv2pBzlFzrwvVeREwIuUfOxQe7XGTRUkeqKRw="
         }
       },
       "is_incremental": false,
@@ -29769,7 +30081,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VRage.Game.ObjectBuilders.Definitions.html",
-          "hash": "eAQ8hqHma8BgEzZJlEwLNzIwgk+GyGoCog+wWp9fzlA="
+          "hash": "ylWlr0mwosIilGhYMEIPLI36IU3XXoEzH3AUhu/oA24="
         }
       },
       "is_incremental": false,
@@ -30437,6 +30749,30 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/VRage.Game.PlanetaryInstallationSettings.RandomizedOrientationData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VRage.Game.PlanetaryInstallationSettings.RandomizedOrientationData.html",
+          "hash": "BSvE2Xee3Ats7gdvs3g/NQW5ZQqsHd3BfOSoa1ZGru8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VRage.Game.PlanetaryInstallationSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VRage.Game.PlanetaryInstallationSettings.html",
+          "hash": "B7EowzuCINahyux9NSHUuFQ6BIOtbLmFnrUJyDAZ6ZE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/VRage.Game.PlatformPCAttribute.yml",
       "output": {
         ".html": {
@@ -30490,6 +30826,18 @@
         ".html": {
           "relative_path": "api/VRage.Game.SerializableLineSectionInformation.html",
           "hash": "DjLaEXZoqRgWHCu0lTIyXG+GYPOc+b1TTYXokhDzMwo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VRage.Game.SubEncounter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VRage.Game.SubEncounter.html",
+          "hash": "bMeRB/Ml98v6dfWLm/7c9wxLY70Komv7g1WvlSUnHDA="
         }
       },
       "is_incremental": false,
@@ -30561,7 +30909,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VRage.Game.html",
-          "hash": "XQW09AZmpbehF/YbzzKKyFRP3SSNJFA89GPGmmOV3MM="
+          "hash": "p/HTkuiJX2zwkBd325ch2X8/EmxzktCgWwLcDZQJcHA="
         }
       },
       "is_incremental": false,
@@ -30981,7 +31329,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VRage.ModAPI.IMyRemapHelper.html",
-          "hash": "beW4DNJifiSlgNOnOHdf2sh8qFBpT6PaXy65nZgjo48="
+          "hash": "izDYwDoSJjUoC2nyluvi2gKrUGfQ5GHuxKU727fKxIE="
         }
       },
       "is_incremental": false,
@@ -32097,7 +32445,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VRage.Utils.MyUtils.html",
-          "hash": "yZ3u1Z8IBCoArRHJ551c/NYvR6NmUd2KWvtS1bXKGfE="
+          "hash": "CewMjbaVuzLSUC/S37PdV6om7wd1hnxN1lOPxQXfkt0="
         }
       },
       "is_incremental": false,
@@ -32949,7 +33297,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VRageMath.MathHelper.html",
-          "hash": "sWColU+KdNt5pDKceeOzCRVpdPlrc/tBHAaISZMLHZU="
+          "hash": "uKtZwwdNtEYNJkktI37GLyZFz780MmqX4R/lRuY19Jw="
         }
       },
       "is_incremental": false,
@@ -33765,7 +34113,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "AUec/FsU29reqdSbnuib41S8KMODlB5EqqSVZ/gw8EA="
+          "hash": "DSppIGVKM/KERUQ7sm5wrB8lxa1hDOsoI1H3lbz97TU="
         }
       },
       "is_incremental": false,
@@ -33853,7 +34201,7 @@
           "can_incremental": false,
           "details": "Processor ManagedReferenceDocumentProcessor disable incremental build because last build doesn't contain version .",
           "incrementalPhase": "build",
-          "total_file_count": 2812,
+          "total_file_count": 2841,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

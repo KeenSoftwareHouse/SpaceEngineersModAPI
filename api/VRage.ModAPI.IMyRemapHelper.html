@@ -96,6 +96,34 @@
   </div>
   
   
+  <a id="VRage_ModAPI_IMyRemapHelper_GetRemapInfo_" data-uid="VRage.ModAPI.IMyRemapHelper.GetRemapInfo*"></a>
+  <h4 id="VRage_ModAPI_IMyRemapHelper_GetRemapInfo" data-uid="VRage.ModAPI.IMyRemapHelper.GetRemapInfo">GetRemapInfo()</h4>
+  <div class="markdown level1 summary"><p>Key - old, value - new id
+Used to track if id is still existing</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Dictionary&lt;long, long&gt; GetRemapInfo()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.Dictionary</span>&lt;<span class="xref">System.Int64</span>, <span class="xref">System.Int64</span>&gt;</td>
+        <td><p>Dictionary of remapping</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="VRage_ModAPI_IMyRemapHelper_RemapEntityId_" data-uid="VRage.ModAPI.IMyRemapHelper.RemapEntityId*"></a>
   <h4 id="VRage_ModAPI_IMyRemapHelper_RemapEntityId_System_Int64_" data-uid="VRage.ModAPI.IMyRemapHelper.RemapEntityId(System.Int64)">RemapEntityId(Int64)</h4>
   <div class="markdown level1 summary"><p>Returns a new entity ID for the entity with the given old entity ID.

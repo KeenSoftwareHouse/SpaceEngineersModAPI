@@ -447,7 +447,8 @@
   
   <a id="VRage_Game_ModAPI_IMyFactionCollection_CreateFaction_" data-uid="VRage.Game.ModAPI.IMyFactionCollection.CreateFaction*"></a>
   <h4 id="VRage_Game_ModAPI_IMyFactionCollection_CreateFaction_System_Int64_System_String_System_String_System_String_System_String_" data-uid="VRage.Game.ModAPI.IMyFactionCollection.CreateFaction(System.Int64,System.String,System.String,System.String,System.String)">CreateFaction(Int64, String, String, String, String)</h4>
-  <div class="markdown level1 summary"><p>Creates new faction with faction type <see ref="MyFactionTypes.None"></see>.</p>
+  <div class="markdown level1 summary"><p>Creates new faction with faction type <see ref="MyFactionTypes.None"></see>.
+Obsolete. Use <a class="xref" href="VRage.Game.ModAPI.IMyFactionCollection.html#VRage_Game_ModAPI_IMyFactionCollection_CreateFactionNew_System_Int64_System_String_System_String_System_String_System_String_System_String_">CreateFactionNew(Int64, String, String, String, String, String)</a></p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -503,7 +504,8 @@
   
   <a id="VRage_Game_ModAPI_IMyFactionCollection_CreateFaction_" data-uid="VRage.Game.ModAPI.IMyFactionCollection.CreateFaction*"></a>
   <h4 id="VRage_Game_ModAPI_IMyFactionCollection_CreateFaction_System_Int64_System_String_System_String_System_String_System_String_VRage_Game_MyFactionTypes_" data-uid="VRage.Game.ModAPI.IMyFactionCollection.CreateFaction(System.Int64,System.String,System.String,System.String,System.String,VRage.Game.MyFactionTypes)">CreateFaction(Int64, String, String, String, String, MyFactionTypes)</h4>
-  <div class="markdown level1 summary"><p>Creates new faction</p>
+  <div class="markdown level1 summary"><p>Creates new faction
+Obsolete. Use <a class="xref" href="VRage.Game.ModAPI.IMyFactionCollection.html#VRage_Game_ModAPI_IMyFactionCollection_CreateFactionNew_System_Int64_System_String_System_String_System_String_System_String_System_String_">CreateFactionNew(Int64, String, String, String, String, String)</a></p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -554,6 +556,65 @@
         <td><a class="xref" href="VRage.Game.MyFactionTypes.html">MyFactionTypes</a></td>
         <td><span class="parametername">type</span></td>
         <td><p>Faction type</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="VRage_Game_ModAPI_IMyFactionCollection_CreateFactionNew_" data-uid="VRage.Game.ModAPI.IMyFactionCollection.CreateFactionNew*"></a>
+  <h4 id="VRage_Game_ModAPI_IMyFactionCollection_CreateFactionNew_System_Int64_System_String_System_String_System_String_System_String_System_String_" data-uid="VRage.Game.ModAPI.IMyFactionCollection.CreateFactionNew(System.Int64,System.String,System.String,System.String,System.String,System.String)">CreateFactionNew(Int64, String, String, String, String, String)</h4>
+  <div class="markdown level1 summary"><p>Creates new faction</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void CreateFactionNew(long founderId, string tag, string name, string desc, string privateInfo, string type)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">founderId</span></td>
+        <td><p>IdentityId of faction founder</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">tag</span></td>
+        <td><p>Faction tag</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>Faction name</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">desc</span></td>
+        <td><p>Faction description</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">privateInfo</span></td>
+        <td><p>Faction private info</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">type</span></td>
+        <td><p>Faction type (FactionTypes_Economy.sbc Id/Subtype), not null. You can use MyFactionTypes.?.ToString()</p>
 </td>
       </tr>
     </tbody>

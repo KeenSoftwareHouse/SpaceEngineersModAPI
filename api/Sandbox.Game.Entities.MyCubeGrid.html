@@ -131,6 +131,9 @@ Blocks (turret, thrusts...) are rendered as child entities</p>
       <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_ReadyForReplicationAction">MyEntity.ReadyForReplicationAction</a>
     </div>
     <div>
+      <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_PropagateSubpartRotationThroughHieerarchy">MyEntity.PropagateSubpartRotationThroughHieerarchy</a>
+    </div>
+    <div>
       <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_ReplicationStarted">MyEntity.ReplicationStarted</a>
     </div>
     <div>
@@ -333,6 +336,9 @@ Blocks (turret, thrusts...) are rendered as child entities</p>
     </div>
     <div>
       <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_InstantiateSubpart_VRageRender_Import_MyModelDummy_VRage_Game_Entity_MyEntitySubpart_Data__">MyEntity.InstantiateSubpart(MyModelDummy, MyEntitySubpart.Data)</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_GetCubeBlockParent_VRage_Game_Entity_MyEntity_">MyEntity.GetCubeBlockParent(MyEntity)</a>
     </div>
     <div>
       <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_GetInventoryBase_System_Int32_">MyEntity.GetInventoryBase(Int32)</a>
@@ -785,6 +791,30 @@ public class MyCubeGrid : MyEntity, IMyGridConnectivityTest, IMyEventProxy, IMyE
   </h3>
   
   
+  <h4 id="Sandbox_Game_Entities_MyCubeGrid_BeingCreatedInSplit" data-uid="Sandbox.Game.Entities.MyCubeGrid.BeingCreatedInSplit">BeingCreatedInSplit</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool BeingCreatedInSplit</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <h4 id="Sandbox_Game_Entities_MyCubeGrid_BlockCounter" data-uid="Sandbox.Game.Entities.MyCubeGrid.BlockCounter">BlockCounter</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
@@ -838,7 +868,7 @@ public class MyCubeGrid : MyEntity, IMyGridConnectivityTest, IMyEventProxy, IMyE
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public List&lt;MyMechanicalConnectionBlockBase&gt; BlocksWaitingOnAttachUpdate</code></pre>
+    <pre><code class="lang-csharp hljs">public HashSet&lt;MyMechanicalConnectionBlockBase&gt; BlocksWaitingOnAttachUpdate</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -850,7 +880,7 @@ public class MyCubeGrid : MyEntity, IMyGridConnectivityTest, IMyEventProxy, IMyE
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">Sandbox.Game.Entities.Blocks.MyMechanicalConnectionBlockBase</span>&gt;</td>
+        <td><span class="xref">System.Collections.Generic.HashSet</span>&lt;<span class="xref">Sandbox.Game.Entities.Blocks.MyMechanicalConnectionBlockBase</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -996,6 +1026,30 @@ public class MyCubeGrid : MyEntity, IMyGridConnectivityTest, IMyEventProxy, IMyE
     <tbody>
       <tr>
         <td><span class="xref">System.Action</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Sandbox_Game_Entities_MyCubeGrid_HasMechanicalTopPenindingReattach" data-uid="Sandbox.Game.Entities.MyCubeGrid.HasMechanicalTopPenindingReattach">HasMechanicalTopPenindingReattach</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasMechanicalTopPenindingReattach</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -2287,6 +2341,31 @@ public class MyCubeGrid : MyEntity, IMyGridConnectivityTest, IMyEventProxy, IMyE
   </table>
   
   
+  <a id="Sandbox_Game_Entities_MyCubeGrid_HasCubeGridRender_" data-uid="Sandbox.Game.Entities.MyCubeGrid.HasCubeGridRender*"></a>
+  <h4 id="Sandbox_Game_Entities_MyCubeGrid_HasCubeGridRender" data-uid="Sandbox.Game.Entities.MyCubeGrid.HasCubeGridRender">HasCubeGridRender</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasCubeGridRender { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="Sandbox_Game_Entities_MyCubeGrid_HasMechanicalBlocksWaitingOnAttachUpdate_" data-uid="Sandbox.Game.Entities.MyCubeGrid.HasMechanicalBlocksWaitingOnAttachUpdate*"></a>
   <h4 id="Sandbox_Game_Entities_MyCubeGrid_HasMechanicalBlocksWaitingOnAttachUpdate" data-uid="Sandbox.Game.Entities.MyCubeGrid.HasMechanicalBlocksWaitingOnAttachUpdate">HasMechanicalBlocksWaitingOnAttachUpdate</h4>
   <div class="markdown level1 summary"></div>
@@ -2337,6 +2416,32 @@ public class MyCubeGrid : MyEntity, IMyGridConnectivityTest, IMyEventProxy, IMyE
   </table>
   
   
+  <a id="Sandbox_Game_Entities_MyCubeGrid_InitFromClipboard_" data-uid="Sandbox.Game.Entities.MyCubeGrid.InitFromClipboard*"></a>
+  <h4 id="Sandbox_Game_Entities_MyCubeGrid_InitFromClipboard" data-uid="Sandbox.Game.Entities.MyCubeGrid.InitFromClipboard">InitFromClipboard</h4>
+  <div class="markdown level1 summary"><p>True if created from <span class="xref">Sandbox.Game.Entities.Cube.MyGridClipboard</span>. Set earlier than IsProjected, before blocks/ec are handled</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool InitFromClipboard { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="Sandbox_Game_Entities_MyCubeGrid_Inventories_" data-uid="Sandbox.Game.Entities.MyCubeGrid.Inventories*"></a>
   <h4 id="Sandbox_Game_Entities_MyCubeGrid_Inventories" data-uid="Sandbox.Game.Entities.MyCubeGrid.Inventories">Inventories</h4>
   <div class="markdown level1 summary"></div>
@@ -2356,6 +2461,31 @@ public class MyCubeGrid : MyEntity, IMyGridConnectivityTest, IMyEventProxy, IMyE
     <tbody>
       <tr>
         <td><span class="xref">System.Collections.Generic.HashSet</span>&lt;<a class="xref" href="Sandbox.Game.Entities.MyCubeBlock.html">MyCubeBlock</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_Entities_MyCubeGrid_IsBlockAreaChange_" data-uid="Sandbox.Game.Entities.MyCubeGrid.IsBlockAreaChange*"></a>
+  <h4 id="Sandbox_Game_Entities_MyCubeGrid_IsBlockAreaChange" data-uid="Sandbox.Game.Entities.MyCubeGrid.IsBlockAreaChange">IsBlockAreaChange</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsBlockAreaChange { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -3890,7 +4020,7 @@ public class MyCubeGrid : MyEntity, IMyGridConnectivityTest, IMyEventProxy, IMyE
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Event(null, 4100)]
+    <pre><code class="lang-csharp hljs">[Event(null, 4157)]
 [Reliable]
 [Broadcast]
 public void BuildBlocksClient(MyCubeGrid.MyBlockVisuals visuals, HashSet&lt;MyCubeGrid.MyBlockLocation&gt; locations, long builderEntityId, bool instantBuild, long ownerId)</code></pre>
@@ -3940,7 +4070,7 @@ public void BuildBlocksClient(MyCubeGrid.MyBlockVisuals visuals, HashSet&lt;MyCu
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Event(null, 4093)]
+    <pre><code class="lang-csharp hljs">[Event(null, 4150)]
 [Reliable]
 [Client]
 public void BuildBlocksFailedNotify()</code></pre>
@@ -3953,7 +4083,7 @@ public void BuildBlocksFailedNotify()</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Event(null, 3978)]
+    <pre><code class="lang-csharp hljs">[Event(null, 4035)]
 [Reliable]
 [Broadcast]
 public void BuildBlockSucess(MyCubeGrid.MyBlockVisuals visuals, MyCubeGrid.MyBlockLocation location, [DynamicObjectBuilder(false)] MyObjectBuilder_CubeBlock blockObjectBuilder, long builderEntityId, bool instantBuild, long ownerId)</code></pre>
@@ -4367,6 +4497,46 @@ occupy - virtually - its place).</p>
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_Entities_MyCubeGrid_CancelPendingTransferRequestsServerSide_" data-uid="Sandbox.Game.Entities.MyCubeGrid.CancelPendingTransferRequestsServerSide*"></a>
+  <h4 id="Sandbox_Game_Entities_MyCubeGrid_CancelPendingTransferRequestsServerSide_System_Guid_System_Int64_System_Int64_" data-uid="Sandbox.Game.Entities.MyCubeGrid.CancelPendingTransferRequestsServerSide(System.Guid,System.Int64,System.Int64)">CancelPendingTransferRequestsServerSide(Guid, Int64, Int64)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Event(null, 11841)]
+[Reliable]
+[Server]
+public static void CancelPendingTransferRequestsServerSide(Guid requestBatchGuid, long gridId, long ownerId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Guid</span></td>
+        <td><span class="parametername">requestBatchGuid</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">gridId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">ownerId</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -5000,6 +5170,38 @@ occupy - virtually - its place).</p>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">localGridOnly</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_Entities_MyCubeGrid_ChangeShareRequest_" data-uid="Sandbox.Game.Entities.MyCubeGrid.ChangeShareRequest*"></a>
+  <h4 id="Sandbox_Game_Entities_MyCubeGrid_ChangeShareRequest_VRage_Game_MyOwnershipShareModeEnum_System_Collections_Generic_Dictionary_Sandbox_Game_Entities_MyCubeGrid_System_Collections_Generic_List_Sandbox_Game_Entities_MyCubeGrid_MySingleOwnershipRequest___" data-uid="Sandbox.Game.Entities.MyCubeGrid.ChangeShareRequest(VRage.Game.MyOwnershipShareModeEnum,System.Collections.Generic.Dictionary{Sandbox.Game.Entities.MyCubeGrid,System.Collections.Generic.List{Sandbox.Game.Entities.MyCubeGrid.MySingleOwnershipRequest}})">ChangeShareRequest(MyOwnershipShareModeEnum, Dictionary&lt;MyCubeGrid, List&lt;MyCubeGrid.MySingleOwnershipRequest&gt;&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void ChangeShareRequest(MyOwnershipShareModeEnum shareMode, Dictionary&lt;MyCubeGrid, List&lt;MyCubeGrid.MySingleOwnershipRequest&gt;&gt; requests)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRage.Game.MyOwnershipShareModeEnum.html">MyOwnershipShareModeEnum</a></td>
+        <td><span class="parametername">shareMode</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.Dictionary</span>&lt;<a class="xref" href="Sandbox.Game.Entities.MyCubeGrid.html">MyCubeGrid</a>, <span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Sandbox.Game.Entities.MyCubeGrid.MySingleOwnershipRequest.html">MyCubeGrid.MySingleOwnershipRequest</a>&gt;&gt;</td>
+        <td><span class="parametername">requests</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -5712,7 +5914,7 @@ wall which is used for checking.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Event(null, 12118)]
+    <pre><code class="lang-csharp hljs">[Event(null, 12672)]
 [Reliable]
 [Server]
 public void CompetetiveContainerOpened(long entityId, int time, Color color)</code></pre>
@@ -5820,7 +6022,7 @@ public void CompetetiveContainerOpened(long entityId, int time, Color color)</co
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Event(null, 12110)]
+    <pre><code class="lang-csharp hljs">[Event(null, 12664)]
 [Reliable]
 [Server]
 public void ContainerOpened(long entityId)</code></pre>
@@ -5873,7 +6075,7 @@ Sets up the Unsupported station state.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Event(null, 5886)]
+    <pre><code class="lang-csharp hljs">[Event(null, 5983)]
 [Reliable]
 [ServerInvoked]
 [Broadcast]
@@ -6033,7 +6235,7 @@ public void ConvertToStatic()</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Event(null, 1620)]
+    <pre><code class="lang-csharp hljs">[Event(null, 1668)]
 [Reliable]
 [Broadcast]
 public void CreateSplit_Implementation(List&lt;Vector3I&gt; blocks, long newEntityId)</code></pre>
@@ -6116,7 +6318,7 @@ public void CreateSplit_Implementation(List&lt;Vector3I&gt; blocks, long newEnti
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Event(null, 1762)]
+    <pre><code class="lang-csharp hljs">[Event(null, 1810)]
 [Reliable]
 [Broadcast]
 public void CreateSplits_Implementation(List&lt;Vector3I&gt; blocks, List&lt;MyDisconnectHelper.Group&gt; groups)</code></pre>
@@ -6235,7 +6437,7 @@ public void CreateSplits_Implementation(List&lt;Vector3I&gt; blocks, List&lt;MyD
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Event(null, 11886)]
+    <pre><code class="lang-csharp hljs">[Event(null, 12440)]
 [Reliable]
 [ServerInvoked]
 [Broadcast]
@@ -8892,6 +9094,26 @@ Returns the merged grid (which does not necessarily have to be this grid)</p>
   </table>
   
   
+  <a id="Sandbox_Game_Entities_MyCubeGrid_GunShooting_" data-uid="Sandbox.Game.Entities.MyCubeGrid.GunShooting*"></a>
+  <h4 id="Sandbox_Game_Entities_MyCubeGrid_GunShooting" data-uid="Sandbox.Game.Entities.MyCubeGrid.GunShooting">GunShooting()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GunShooting()</code></pre>
+  </div>
+  
+  
+  <a id="Sandbox_Game_Entities_MyCubeGrid_HandleRemovalOfOwnershipTransferRequests_" data-uid="Sandbox.Game.Entities.MyCubeGrid.HandleRemovalOfOwnershipTransferRequests*"></a>
+  <h4 id="Sandbox_Game_Entities_MyCubeGrid_HandleRemovalOfOwnershipTransferRequests" data-uid="Sandbox.Game.Entities.MyCubeGrid.HandleRemovalOfOwnershipTransferRequests">HandleRemovalOfOwnershipTransferRequests()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void HandleRemovalOfOwnershipTransferRequests()</code></pre>
+  </div>
+  
+  
   <a id="Sandbox_Game_Entities_MyCubeGrid_HasMainCockpit_" data-uid="Sandbox.Game.Entities.MyCubeGrid.HasMainCockpit*"></a>
   <h4 id="Sandbox_Game_Entities_MyCubeGrid_HasMainCockpit" data-uid="Sandbox.Game.Entities.MyCubeGrid.HasMainCockpit">HasMainCockpit()</h4>
   <div class="markdown level1 summary"></div>
@@ -9910,6 +10132,46 @@ Returns the merged grid (which does not necessarily have to be this grid)</p>
   <div><a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_OnAddedToScene_System_Object_">MyEntity.OnAddedToScene(Object)</a></div>
   
   
+  <a id="Sandbox_Game_Entities_MyCubeGrid_OnChangeOwnersRequestConfirmation_" data-uid="Sandbox.Game.Entities.MyCubeGrid.OnChangeOwnersRequestConfirmation*"></a>
+  <h4 id="Sandbox_Game_Entities_MyCubeGrid_OnChangeOwnersRequestConfirmation_System_Guid_System_Int64_System_Boolean_" data-uid="Sandbox.Game.Entities.MyCubeGrid.OnChangeOwnersRequestConfirmation(System.Guid,System.Int64,System.Boolean)">OnChangeOwnersRequestConfirmation(Guid, Int64, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Event(null, 11803)]
+[Reliable]
+[Server]
+public static void OnChangeOwnersRequestConfirmation(Guid requestBatchGuid, long gridId, bool confirmation)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Guid</span></td>
+        <td><span class="parametername">requestBatchGuid</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">gridId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">confirmation</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="Sandbox_Game_Entities_MyCubeGrid_OnClosedMessageBox_" data-uid="Sandbox.Game.Entities.MyCubeGrid.OnClosedMessageBox*"></a>
   <h4 id="Sandbox_Game_Entities_MyCubeGrid_OnClosedMessageBox_Sandbox_Graphics_GUI_MyGuiScreenMessageBox_ResultEnum_" data-uid="Sandbox.Game.Entities.MyCubeGrid.OnClosedMessageBox(Sandbox.Graphics.GUI.MyGuiScreenMessageBox.ResultEnum)">OnClosedMessageBox(MyGuiScreenMessageBox.ResultEnum)</h4>
   <div class="markdown level1 summary"></div>
@@ -9943,7 +10205,7 @@ Returns the merged grid (which does not necessarily have to be this grid)</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Event(null, 10993)]
+    <pre><code class="lang-csharp hljs">[Event(null, 11096)]
 [Reliable]
 [Server]
 public void OnConvertedToStationRequest()</code></pre>
@@ -9959,7 +10221,7 @@ Sets up the Unsupported station state.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Event(null, 5851)]
+    <pre><code class="lang-csharp hljs">[Event(null, 5948)]
 [Reliable]
 [ServerInvoked]
 [Broadcast]
@@ -10032,7 +10294,7 @@ public void OnConvertToDynamic()</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Event(null, 11875)]
+    <pre><code class="lang-csharp hljs">[Event(null, 12429)]
 [Reliable]
 [Server]
 public void OnLogHierarchy()</code></pre>
@@ -10228,13 +10490,40 @@ public void OnLogHierarchy()</code></pre>
   </table>
   
   
+  <a id="Sandbox_Game_Entities_MyCubeGrid_Players_PlayerRemoved_" data-uid="Sandbox.Game.Entities.MyCubeGrid.Players_PlayerRemoved*"></a>
+  <h4 id="Sandbox_Game_Entities_MyCubeGrid_Players_PlayerRemoved_Sandbox_Game_World_MyPlayer_PlayerId_" data-uid="Sandbox.Game.Entities.MyCubeGrid.Players_PlayerRemoved(Sandbox.Game.World.MyPlayer.PlayerId)">Players_PlayerRemoved(MyPlayer.PlayerId)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Players_PlayerRemoved(MyPlayer.PlayerId obj)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Sandbox.Game.World.MyPlayer.PlayerId</span></td>
+        <td><span class="parametername">obj</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="Sandbox_Game_Entities_MyCubeGrid_PlayParticleBroadcast_" data-uid="Sandbox.Game.Entities.MyCubeGrid.PlayParticleBroadcast*"></a>
   <h4 id="Sandbox_Game_Entities_MyCubeGrid_PlayParticleBroadcast_System_String_System_Boolean_" data-uid="Sandbox.Game.Entities.MyCubeGrid.PlayParticleBroadcast(System.String,System.Boolean)">PlayParticleBroadcast(String, Boolean)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Event(null, 12057)]
+    <pre><code class="lang-csharp hljs">[Event(null, 12611)]
 [Reliable]
 [ServerInvoked]
 [Broadcast]
@@ -10612,7 +10901,7 @@ user is used only if locally invoked, if invoked from client, sender steam id is
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Event(null, 4743)]
+    <pre><code class="lang-csharp hljs">[Event(null, 4840)]
 [Reliable]
 [Broadcast]
 public void RazeBlocksClient(List&lt;Vector3I&gt; locations)</code></pre>
@@ -10680,7 +10969,7 @@ public void RazeBlocksClient(List&lt;Vector3I&gt; locations)</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Event(null, 4723)]
+    <pre><code class="lang-csharp hljs">[Event(null, 4808)]
 [Reliable]
 [Server]
 public void RazeBlocksRequest(List&lt;Vector3I&gt; locations, long builderEntityId = 0L, ulong user = 0UL)</code></pre>
@@ -10821,7 +11110,7 @@ public void RazeBlocksRequest(List&lt;Vector3I&gt; locations, long builderEntity
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Event(null, 11101)]
+    <pre><code class="lang-csharp hljs">[Event(null, 11204)]
 [Reliable]
 [Client]
 public void ReceiveHandbrakeRequestResult(MyCubeGrid.HandbrakeToggleResult result, string message)</code></pre>
@@ -10856,7 +11145,7 @@ public void ReceiveHandbrakeRequestResult(MyCubeGrid.HandbrakeToggleResult resul
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Event(null, 11155)]
+    <pre><code class="lang-csharp hljs">[Event(null, 11258)]
 [Reliable]
 [Client]
 public void ReceiveParkRequestResult(MyCubeGrid.HandbrakeToggleResult result, string message)</code></pre>
@@ -11025,18 +11314,18 @@ public void ReceiveParkRequestResult(MyCubeGrid.HandbrakeToggleResult result, st
   </table>
   
   
-  <a id="Sandbox_Game_Entities_MyCubeGrid_RemoveBlocksBuiltByID_" data-uid="Sandbox.Game.Entities.MyCubeGrid.RemoveBlocksBuiltByID*"></a>
-  <h4 id="Sandbox_Game_Entities_MyCubeGrid_RemoveBlocksBuiltByID_System_Int64_" data-uid="Sandbox.Game.Entities.MyCubeGrid.RemoveBlocksBuiltByID(System.Int64)">RemoveBlocksBuiltByID(Int64)</h4>
+  <a id="Sandbox_Game_Entities_MyCubeGrid_RemoveBlocksBuiltByIDs_" data-uid="Sandbox.Game.Entities.MyCubeGrid.RemoveBlocksBuiltByIDs*"></a>
+  <h4 id="Sandbox_Game_Entities_MyCubeGrid_RemoveBlocksBuiltByIDs_System_Collections_Generic_List_System_Int64__" data-uid="Sandbox.Game.Entities.MyCubeGrid.RemoveBlocksBuiltByIDs(System.Collections.Generic.List{System.Int64})">RemoveBlocksBuiltByIDs(List&lt;Int64&gt;)</h4>
   <div class="markdown level1 summary"><p>Remove all blocks from the grid built by specific player</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Event(null, 3866)]
+    <pre><code class="lang-csharp hljs">[Event(null, 3920)]
 [Reliable]
 [ServerInvoked]
 [Broadcast]
-public void RemoveBlocksBuiltByID(long identityID)</code></pre>
+public void RemoveBlocksBuiltByIDs(List&lt;long&gt; identityIDs)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -11049,8 +11338,8 @@ public void RemoveBlocksBuiltByID(long identityID)</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int64</span></td>
-        <td><span class="parametername">identityID</span></td>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">System.Int64</span>&gt;</td>
+        <td><span class="parametername">identityIDs</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -11161,30 +11450,13 @@ Won't update physics!</p>
   
   
   <a id="Sandbox_Game_Entities_MyCubeGrid_RemoveNPCBlocks_" data-uid="Sandbox.Game.Entities.MyCubeGrid.RemoveNPCBlocks*"></a>
-  <h4 id="Sandbox_Game_Entities_MyCubeGrid_RemoveNPCBlocks_System_Boolean_" data-uid="Sandbox.Game.Entities.MyCubeGrid.RemoveNPCBlocks(System.Boolean)">RemoveNPCBlocks(Boolean)</h4>
+  <h4 id="Sandbox_Game_Entities_MyCubeGrid_RemoveNPCBlocks" data-uid="Sandbox.Game.Entities.MyCubeGrid.RemoveNPCBlocks">RemoveNPCBlocks()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void RemoveNPCBlocks(bool removeForConnectedGrids = true)</code></pre>
+    <pre><code class="lang-csharp hljs">public void RemoveNPCBlocks()</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">removeForConnectedGrids</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   
   
   <a id="Sandbox_Game_Entities_MyCubeGrid_RemoveSplit_" data-uid="Sandbox.Game.Entities.MyCubeGrid.RemoveSplit*"></a>
@@ -11496,7 +11768,7 @@ Won't update physics!</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Event(null, 10669)]
+    <pre><code class="lang-csharp hljs">[Event(null, 10772)]
 [Reliable]
 [Client]
 public static void SendHudNotificationAfterPaste()</code></pre>
@@ -11789,7 +12061,7 @@ public static void SendHudNotificationAfterPaste()</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Event(null, 1806)]
+    <pre><code class="lang-csharp hljs">[Event(null, 1854)]
 [Reliable]
 [Client]
 public static void ShowMessageGridsRemovedWhilePasting()</code></pre>
@@ -11812,7 +12084,7 @@ public static void ShowMessageGridsRemovedWhilePasting()</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Event(null, 10663)]
+    <pre><code class="lang-csharp hljs">[Event(null, 10766)]
 [Reliable]
 [Client]
 public static void ShowPasteFailedOperation()</code></pre>
@@ -12171,7 +12443,7 @@ Grid size is already used inside calculation.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Event(null, 12094)]
+    <pre><code class="lang-csharp hljs">[Event(null, 12648)]
 [Reliable]
 [ServerInvoked]
 [Broadcast]
@@ -12450,6 +12722,210 @@ public void StopSmoke()</code></pre>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static bool TestBlockPlacementArea(MyCubeGrid targetGrid, ref MyGridPlacementSettings settings, MyBlockOrientation blockOrientation, MyCubeBlockDefinition blockDefinition, ref Vector3D translationObsolete, ref Quaternion rotation, ref Vector3 halfExtentsObsolete, ref BoundingBoxD localAabb, out MyCubeGrid touchingGrid, ulong placingPlayer = 0UL, MyEntity ignoredEntity = null, bool ignoreFracturedPieces = false, bool testVoxel = true, bool isProjected = false, bool forceCheck = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Sandbox.Game.Entities.MyCubeGrid.html">MyCubeGrid</a></td>
+        <td><span class="parametername">targetGrid</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">VRage.Game.ObjectBuilders.Definitions.SessionComponents.MyGridPlacementSettings</span></td>
+        <td><span class="parametername">settings</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="VRageMath.MyBlockOrientation.html">MyBlockOrientation</a></td>
+        <td><span class="parametername">blockOrientation</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Sandbox.Definitions.MyCubeBlockDefinition.html">MyCubeBlockDefinition</a></td>
+        <td><span class="parametername">blockDefinition</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="VRageMath.Vector3D.html">Vector3D</a></td>
+        <td><span class="parametername">translationObsolete</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="VRageMath.Quaternion.html">Quaternion</a></td>
+        <td><span class="parametername">rotation</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="VRageMath.Vector3.html">Vector3</a></td>
+        <td><span class="parametername">halfExtentsObsolete</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="VRageMath.BoundingBoxD.html">BoundingBoxD</a></td>
+        <td><span class="parametername">localAabb</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Sandbox.Game.Entities.MyCubeGrid.html">MyCubeGrid</a></td>
+        <td><span class="parametername">touchingGrid</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt64</span></td>
+        <td><span class="parametername">placingPlayer</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="VRage.Game.Entity.MyEntity.html">MyEntity</a></td>
+        <td><span class="parametername">ignoredEntity</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">ignoreFracturedPieces</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">testVoxel</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">isProjected</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">forceCheck</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_Entities_MyCubeGrid_TestBlockPlacementArea_" data-uid="Sandbox.Game.Entities.MyCubeGrid.TestBlockPlacementArea*"></a>
+  <h4 id="Sandbox_Game_Entities_MyCubeGrid_TestBlockPlacementArea_Sandbox_Game_Entities_MyCubeGrid_VRage_Game_ObjectBuilders_Definitions_SessionComponents_MyGridPlacementSettings__VRageMath_MyBlockOrientation_Sandbox_Definitions_MyCubeBlockDefinition_VRageMath_Vector3D__VRageMath_Quaternion__VRageMath_Vector3__VRageMath_BoundingBoxD__System_UInt64_VRage_Game_Entity_MyEntity_System_Boolean_" data-uid="Sandbox.Game.Entities.MyCubeGrid.TestBlockPlacementArea(Sandbox.Game.Entities.MyCubeGrid,VRage.Game.ObjectBuilders.Definitions.SessionComponents.MyGridPlacementSettings@,VRageMath.MyBlockOrientation,Sandbox.Definitions.MyCubeBlockDefinition,VRageMath.Vector3D@,VRageMath.Quaternion@,VRageMath.Vector3@,VRageMath.BoundingBoxD@,System.UInt64,VRage.Game.Entity.MyEntity,System.Boolean)">TestBlockPlacementArea(MyCubeGrid, ref MyGridPlacementSettings, MyBlockOrientation, MyCubeBlockDefinition, ref Vector3D, ref Quaternion, ref Vector3, ref BoundingBoxD, UInt64, MyEntity, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool TestBlockPlacementArea(MyCubeGrid targetGrid, ref MyGridPlacementSettings settings, MyBlockOrientation blockOrientation, MyCubeBlockDefinition blockDefinition, ref Vector3D translation, ref Quaternion rotation, ref Vector3 halfExtents, ref BoundingBoxD localAabb, ulong placingPlayer = 0UL, MyEntity ignoredEntity = null, bool isProjected = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Sandbox.Game.Entities.MyCubeGrid.html">MyCubeGrid</a></td>
+        <td><span class="parametername">targetGrid</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">VRage.Game.ObjectBuilders.Definitions.SessionComponents.MyGridPlacementSettings</span></td>
+        <td><span class="parametername">settings</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="VRageMath.MyBlockOrientation.html">MyBlockOrientation</a></td>
+        <td><span class="parametername">blockOrientation</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Sandbox.Definitions.MyCubeBlockDefinition.html">MyCubeBlockDefinition</a></td>
+        <td><span class="parametername">blockDefinition</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="VRageMath.Vector3D.html">Vector3D</a></td>
+        <td><span class="parametername">translation</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="VRageMath.Quaternion.html">Quaternion</a></td>
+        <td><span class="parametername">rotation</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="VRageMath.Vector3.html">Vector3</a></td>
+        <td><span class="parametername">halfExtents</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="VRageMath.BoundingBoxD.html">BoundingBoxD</a></td>
+        <td><span class="parametername">localAabb</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt64</span></td>
+        <td><span class="parametername">placingPlayer</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="VRage.Game.Entity.MyEntity.html">MyEntity</a></td>
+        <td><span class="parametername">ignoredEntity</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">isProjected</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_Entities_MyCubeGrid_TestBlockPlacementAreaVanilla_" data-uid="Sandbox.Game.Entities.MyCubeGrid.TestBlockPlacementAreaVanilla*"></a>
+  <h4 id="Sandbox_Game_Entities_MyCubeGrid_TestBlockPlacementAreaVanilla_Sandbox_Game_Entities_MyCubeGrid_VRage_Game_ObjectBuilders_Definitions_SessionComponents_MyGridPlacementSettings__VRageMath_MyBlockOrientation_Sandbox_Definitions_MyCubeBlockDefinition_VRageMath_Vector3D__VRageMath_Quaternion__VRageMath_Vector3__VRageMath_BoundingBoxD__Sandbox_Game_Entities_MyCubeGrid__System_UInt64_VRage_Game_Entity_MyEntity_System_Boolean_System_Boolean_System_Boolean_System_Boolean_" data-uid="Sandbox.Game.Entities.MyCubeGrid.TestBlockPlacementAreaVanilla(Sandbox.Game.Entities.MyCubeGrid,VRage.Game.ObjectBuilders.Definitions.SessionComponents.MyGridPlacementSettings@,VRageMath.MyBlockOrientation,Sandbox.Definitions.MyCubeBlockDefinition,VRageMath.Vector3D@,VRageMath.Quaternion@,VRageMath.Vector3@,VRageMath.BoundingBoxD@,Sandbox.Game.Entities.MyCubeGrid@,System.UInt64,VRage.Game.Entity.MyEntity,System.Boolean,System.Boolean,System.Boolean,System.Boolean)">TestBlockPlacementAreaVanilla(MyCubeGrid, ref MyGridPlacementSettings, MyBlockOrientation, MyCubeBlockDefinition, ref Vector3D, ref Quaternion, ref Vector3, ref BoundingBoxD, out MyCubeGrid, UInt64, MyEntity, Boolean, Boolean, Boolean, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool TestBlockPlacementAreaVanilla(MyCubeGrid targetGrid, ref MyGridPlacementSettings settings, MyBlockOrientation blockOrientation, MyCubeBlockDefinition blockDefinition, ref Vector3D translationObsolete, ref Quaternion rotation, ref Vector3 halfExtentsObsolete, ref BoundingBoxD localAabb, out MyCubeGrid touchingGrid, ulong placingPlayer = 0UL, MyEntity ignoredEntity = null, bool ignoreFracturedPieces = false, bool testVoxel = true, bool isProjected = false, bool forceCheck = false)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -13225,7 +13701,7 @@ public void StopSmoke()</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Event(null, 11080)]
+    <pre><code class="lang-csharp hljs">[Event(null, 11183)]
 [Reliable]
 [Server]
 public void ToggleHandbrakeRequest()</code></pre>
@@ -13238,7 +13714,7 @@ public void ToggleHandbrakeRequest()</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Event(null, 11134)]
+    <pre><code class="lang-csharp hljs">[Event(null, 11237)]
 [Reliable]
 [Server]
 public void ToggleParkStateRequest()</code></pre>
@@ -13316,7 +13792,7 @@ public void ToggleParkStateRequest()</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Event(null, 3878)]
+    <pre><code class="lang-csharp hljs">[Event(null, 3935)]
 [Reliable]
 [ServerInvoked]
 [Broadcast]
@@ -13476,7 +13952,7 @@ of the block.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Event(null, 10575)]
+    <pre><code class="lang-csharp hljs">[Event(null, 10678)]
 [Reliable]
 [Server]
 public static void TryPasteGrid_Implementation(MyCubeGrid.MyPasteGridParameters parameters)</code></pre>
@@ -13948,7 +14424,7 @@ public static void TryPasteGrid_Implementation(MyCubeGrid.MyPasteGridParameters 
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Event(null, 1812)]
+    <pre><code class="lang-csharp hljs">[Event(null, 1860)]
 [Reliable]
 [ServerInvoked]
 [BroadcastTerminalInfo]
@@ -14173,6 +14649,31 @@ public void UpdateTimeOnClients(int secondsRemaining)</code></pre>
   </table>
   
   
+  <h4 id="Sandbox_Game_Entities_MyCubeGrid_OnBlockAddedGlobally" data-uid="Sandbox.Game.Entities.MyCubeGrid.OnBlockAddedGlobally">OnBlockAddedGlobally</h4>
+  <div class="markdown level1 summary"><p>Called only for single block changes</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event Action&lt;MySlimBlock&gt; OnBlockAddedGlobally</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<span class="xref">Sandbox.Game.Entities.Cube.MySlimBlock</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <h4 id="Sandbox_Game_Entities_MyCubeGrid_OnBlockClosed" data-uid="Sandbox.Game.Entities.MyCubeGrid.OnBlockClosed">OnBlockClosed</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
@@ -14269,6 +14770,56 @@ public void UpdateTimeOnClients(int secondsRemaining)</code></pre>
   </table>
   
   
+  <h4 id="Sandbox_Game_Entities_MyCubeGrid_OnBlockRemovedGlobally" data-uid="Sandbox.Game.Entities.MyCubeGrid.OnBlockRemovedGlobally">OnBlockRemovedGlobally</h4>
+  <div class="markdown level1 summary"><p>Not called on grid split, or when closing grid</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event Action&lt;MySlimBlock&gt; OnBlockRemovedGlobally</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<span class="xref">Sandbox.Game.Entities.Cube.MySlimBlock</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Sandbox_Game_Entities_MyCubeGrid_OnBlocksChangeFinishedGlobally" data-uid="Sandbox.Game.Entities.MyCubeGrid.OnBlocksChangeFinishedGlobally">OnBlocksChangeFinishedGlobally</h4>
+  <div class="markdown level1 summary"><p>Called on multi block changes. Both arguments may be null. First from where blocks where removed, second - where added</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static event Action&lt;MyCubeGrid, MyCubeGrid&gt; OnBlocksChangeFinishedGlobally</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Sandbox.Game.Entities.MyCubeGrid.html">MyCubeGrid</a>, <a class="xref" href="Sandbox.Game.Entities.MyCubeGrid.html">MyCubeGrid</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <h4 id="Sandbox_Game_Entities_MyCubeGrid_OnConnectionChangeCompleted" data-uid="Sandbox.Game.Entities.MyCubeGrid.OnConnectionChangeCompleted">OnConnectionChangeCompleted</h4>
   <div class="markdown level1 summary"><p>Event triggered, when one of GridLinkTypeEnum connections changed. Used to determine changes in connections. Use may also need react to OnGridMerge/OnGridSplit
 Event different from OnConnectivityChanged.</p>
@@ -14342,6 +14893,30 @@ Event different from OnConnectivityChanged.</p>
     <tbody>
       <tr>
         <td><span class="xref">System.Action</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Sandbox_Game_Entities_MyCubeGrid_OnDynamicNPCGridOrSubgridShooting" data-uid="Sandbox.Game.Entities.MyCubeGrid.OnDynamicNPCGridOrSubgridShooting">OnDynamicNPCGridOrSubgridShooting</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action&lt;MyCubeGrid&gt; OnDynamicNPCGridOrSubgridShooting</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="Sandbox.Game.Entities.MyCubeGrid.html">MyCubeGrid</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>

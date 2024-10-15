@@ -72,14 +72,14 @@
   
   <h1 id="VRage_Game_ModAPI_Interfaces_IMyEntityCapacitorComponent" data-uid="VRage.Game.ModAPI.Interfaces.IMyEntityCapacitorComponent" class="text-break">Interface IMyEntityCapacitorComponent
   </h1>
-  <div class="markdown level0 summary"><p>ModAPI Describes component, that can charge like a battery, and have ability to lose stored power</p>
+  <div class="markdown level0 summary"><p>Describes a component that can charge like a battery and has the ability to lose stored power.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <h6><strong>Namespace</strong>: <a class="xref" href="VRage.Game.ModAPI.Interfaces.html">VRage.Game.ModAPI.Interfaces</a></h6>
   <h6><strong>Assembly</strong>: VRage.Game.dll</h6>
   <h5 id="VRage_Game_ModAPI_Interfaces_IMyEntityCapacitorComponent_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public interface IMyEntityCapacitorComponent : IMyGameLogicComponent</code></pre>
+    <pre><code class="lang-csharp hljs">public interface IMyEntityCapacitorComponent</code></pre>
   </div>
   <h3 id="properties">Properties
   </h3>
@@ -87,7 +87,7 @@
   
   <a id="VRage_Game_ModAPI_Interfaces_IMyEntityCapacitorComponent_Capacity_" data-uid="VRage.Game.ModAPI.Interfaces.IMyEntityCapacitorComponent.Capacity*"></a>
   <h4 id="VRage_Game_ModAPI_Interfaces_IMyEntityCapacitorComponent_Capacity" data-uid="VRage.Game.ModAPI.Interfaces.IMyEntityCapacitorComponent.Capacity">Capacity</h4>
-  <div class="markdown level1 summary"><p>Gets or sets max capacity in MWh</p>
+  <div class="markdown level1 summary"><p>Gets or sets maximum capacity in MWh.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -113,7 +113,7 @@
   
   <a id="VRage_Game_ModAPI_Interfaces_IMyEntityCapacitorComponent_IsCharged_" data-uid="VRage.Game.ModAPI.Interfaces.IMyEntityCapacitorComponent.IsCharged*"></a>
   <h4 id="VRage_Game_ModAPI_Interfaces_IMyEntityCapacitorComponent_IsCharged" data-uid="VRage.Game.ModAPI.Interfaces.IMyEntityCapacitorComponent.IsCharged">IsCharged</h4>
-  <div class="markdown level1 summary"><p>Gets or whether capacitor is fully charged</p>
+  <div class="markdown level1 summary"><p>Gets whether the capacitor is fully charged.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -139,7 +139,7 @@
   
   <a id="VRage_Game_ModAPI_Interfaces_IMyEntityCapacitorComponent_RechargeDraw_" data-uid="VRage.Game.ModAPI.Interfaces.IMyEntityCapacitorComponent.RechargeDraw*"></a>
   <h4 id="VRage_Game_ModAPI_Interfaces_IMyEntityCapacitorComponent_RechargeDraw" data-uid="VRage.Game.ModAPI.Interfaces.IMyEntityCapacitorComponent.RechargeDraw">RechargeDraw</h4>
-  <div class="markdown level1 summary"><p>Gets or sets max recharge rate in megawatts. When it is charged, it start using entity default consumption</p>
+  <div class="markdown level1 summary"><p>Gets or sets maximum recharge rate in megawatts. When it is fully charged, it starts using entity default consumption.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -165,7 +165,7 @@
   
   <a id="VRage_Game_ModAPI_Interfaces_IMyEntityCapacitorComponent_StoredPower_" data-uid="VRage.Game.ModAPI.Interfaces.IMyEntityCapacitorComponent.StoredPower*"></a>
   <h4 id="VRage_Game_ModAPI_Interfaces_IMyEntityCapacitorComponent_StoredPower" data-uid="VRage.Game.ModAPI.Interfaces.IMyEntityCapacitorComponent.StoredPower">StoredPower</h4>
-  <div class="markdown level1 summary"><p>Gets or sets currently stored amount of energy. Setter should be called on server</p>
+  <div class="markdown level1 summary"><p>Gets or sets the currently stored amount of energy. Setter should be called on server.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -191,7 +191,7 @@
   
   <a id="VRage_Game_ModAPI_Interfaces_IMyEntityCapacitorComponent_TimeRemaining_" data-uid="VRage.Game.ModAPI.Interfaces.IMyEntityCapacitorComponent.TimeRemaining*"></a>
   <h4 id="VRage_Game_ModAPI_Interfaces_IMyEntityCapacitorComponent_TimeRemaining" data-uid="VRage.Game.ModAPI.Interfaces.IMyEntityCapacitorComponent.TimeRemaining">TimeRemaining</h4>
-  <div class="markdown level1 summary"><p>Gets or sets time in second till full charge of block. Updated each 100 frames</p>
+  <div class="markdown level1 summary"><p>Gets or sets time in seconds until the block is fully charged. Updated every 100 frames.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -218,7 +218,7 @@
   
   
   <h4 id="VRage_Game_ModAPI_Interfaces_IMyEntityCapacitorComponent_OnCharged" data-uid="VRage.Game.ModAPI.Interfaces.IMyEntityCapacitorComponent.OnCharged">OnCharged</h4>
-  <div class="markdown level1 summary"><p>Called on server and client when capacitor is charged</p>
+  <div class="markdown level1 summary"><p>Called on server and client when capacitor is fully charged.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>

@@ -135,6 +135,9 @@
       <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_ReadyForReplicationAction">MyEntity.ReadyForReplicationAction</a>
     </div>
     <div>
+      <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_PropagateSubpartRotationThroughHieerarchy">MyEntity.PropagateSubpartRotationThroughHieerarchy</a>
+    </div>
+    <div>
       <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_ReplicationStarted">MyEntity.ReplicationStarted</a>
     </div>
     <div>
@@ -364,6 +367,9 @@
     </div>
     <div>
       <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_InstantiateSubpart_VRageRender_Import_MyModelDummy_VRage_Game_Entity_MyEntitySubpart_Data__">MyEntity.InstantiateSubpart(MyModelDummy, MyEntitySubpart.Data)</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_GetCubeBlockParent_VRage_Game_Entity_MyEntity_">MyEntity.GetCubeBlockParent(MyEntity)</a>
     </div>
     <div>
       <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_ToString">MyEntity.ToString()</a>
@@ -1060,6 +1066,30 @@
     <tbody>
       <tr>
         <td><a class="xref" href="Sandbox.Game.Entities.MyEntity3DSoundEmitter.html">MyEntity3DSoundEmitter</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Sandbox_Game_Entities_MyCubeBlock_MAX_CUSTOM_NAME_LENGTH" data-uid="Sandbox.Game.Entities.MyCubeBlock.MAX_CUSTOM_NAME_LENGTH">MAX_CUSTOM_NAME_LENGTH</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int MAX_CUSTOM_NAME_LENGTH = 512</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -4259,7 +4289,7 @@ has to remove some other attached block (like motors).</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void UpdateEmissiveParts(uint renderObjectId, float emissivity, Color emissivePartColor, Color displayPartColor)</code></pre>
+    <pre><code class="lang-csharp hljs">public void UpdateEmissiveParts(uint renderObjectId, float emissivity, Color emissivePartColor, Color displayPartColor)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">

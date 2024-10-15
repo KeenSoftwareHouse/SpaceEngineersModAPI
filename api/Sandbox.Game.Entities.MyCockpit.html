@@ -699,6 +699,9 @@
       <a class="xref" href="Sandbox.Game.Entities.MyShipController.html#Sandbox_Game_Entities_MyShipController_Sandbox_ModAPI_IMyShipController_IsShooting">MyShipController.IMyShipController.IsShooting</a>
     </div>
     <div>
+      <a class="xref" href="Sandbox.Game.Entities.MyCubeBlock.html#Sandbox_Game_Entities_MyCubeBlock_MAX_CUSTOM_NAME_LENGTH">MyCubeBlock.MAX_CUSTOM_NAME_LENGTH</a>
+    </div>
+    <div>
       <a class="xref" href="Sandbox.Game.Entities.MyCubeBlock.html#Sandbox_Game_Entities_MyCubeBlock_DUMMY_SUBBLOCK_ID">MyCubeBlock.DUMMY_SUBBLOCK_ID</a>
     </div>
     <div>
@@ -825,7 +828,13 @@
       <a class="xref" href="Sandbox.Game.Entities.MyCubeBlock.html#Sandbox_Game_Entities_MyCubeBlock_OnBuildSuccess_System_Int64_System_Boolean_">MyCubeBlock.OnBuildSuccess(Int64, Boolean)</a>
     </div>
     <div>
+      <a class="xref" href="Sandbox.Game.Entities.MyCubeBlock.html#Sandbox_Game_Entities_MyCubeBlock_OnRemovedByCubeBuilder">MyCubeBlock.OnRemovedByCubeBuilder()</a>
+    </div>
+    <div>
       <a class="xref" href="Sandbox.Game.Entities.MyCubeBlock.html#Sandbox_Game_Entities_MyCubeBlock_ContactPointCallback_Sandbox_Game_Entities_Cube_MyGridContactInfo__">MyCubeBlock.ContactPointCallback(MyGridContactInfo)</a>
+    </div>
+    <div>
+      <a class="xref" href="Sandbox.Game.Entities.MyCubeBlock.html#Sandbox_Game_Entities_MyCubeBlock_OnDestroy">MyCubeBlock.OnDestroy()</a>
     </div>
     <div>
       <a class="xref" href="Sandbox.Game.Entities.MyCubeBlock.html#Sandbox_Game_Entities_MyCubeBlock_ChangeBlockOwnerRequest_System_Int64_VRage_Game_MyOwnershipShareModeEnum_">MyCubeBlock.ChangeBlockOwnerRequest(Int64, MyOwnershipShareModeEnum)</a>
@@ -1170,6 +1179,9 @@
       <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_ReadyForReplicationAction">MyEntity.ReadyForReplicationAction</a>
     </div>
     <div>
+      <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_PropagateSubpartRotationThroughHieerarchy">MyEntity.PropagateSubpartRotationThroughHieerarchy</a>
+    </div>
+    <div>
       <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_ReplicationStarted">MyEntity.ReplicationStarted</a>
     </div>
     <div>
@@ -1381,6 +1393,9 @@
     </div>
     <div>
       <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_InstantiateSubpart_VRageRender_Import_MyModelDummy_VRage_Game_Entity_MyEntitySubpart_Data__">MyEntity.InstantiateSubpart(MyModelDummy, MyEntitySubpart.Data)</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_GetCubeBlockParent_VRage_Game_Entity_MyEntity_">MyEntity.GetCubeBlockParent(MyEntity)</a>
     </div>
     <div>
       <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_ToString">MyEntity.ToString()</a>
@@ -2756,7 +2771,7 @@ public class MyCockpit : MyShipController, IMyComponentOwner&lt;MyIDModule&gt;, 
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Event(null, 2500)]
+    <pre><code class="lang-csharp hljs">[Event(null, 2488)]
 [Reliable]
 [Server]
 public void AttachPilotEvent(UseActionEnum actionEnum, long characterID, int animation)</code></pre>
@@ -3736,18 +3751,6 @@ public void OnChangeDescription(int panelId, string description)</code></pre>
   <div><a class="xref" href="Sandbox.Game.Entities.MyShipController.html#Sandbox_Game_Entities_MyShipController_OnControlReleased_UpdateCamera">MyShipController.OnControlReleased_UpdateCamera()</a></div>
   
   
-  <a id="Sandbox_Game_Entities_MyCockpit_OnDestroy_" data-uid="Sandbox.Game.Entities.MyCockpit.OnDestroy*"></a>
-  <h4 id="Sandbox_Game_Entities_MyCockpit_OnDestroy" data-uid="Sandbox.Game.Entities.MyCockpit.OnDestroy">OnDestroy()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void OnDestroy()</code></pre>
-  </div>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="Sandbox.Game.Entities.MyCubeBlock.html#Sandbox_Game_Entities_MyCubeBlock_OnDestroy">MyCubeBlock.OnDestroy()</a></div>
-  
-  
   <a id="Sandbox_Game_Entities_MyCockpit_OnInputChanged_" data-uid="Sandbox.Game.Entities.MyCockpit.OnInputChanged*"></a>
   <h4 id="Sandbox_Game_Entities_MyCockpit_OnInputChanged_VRage_Game_MyDefinitionId_System_Single_Sandbox_Game_EntityComponents_MyResourceSinkComponent_" data-uid="Sandbox.Game.Entities.MyCockpit.OnInputChanged(VRage.Game.MyDefinitionId,System.Single,Sandbox.Game.EntityComponents.MyResourceSinkComponent)">OnInputChanged(MyDefinitionId, Single, MyResourceSinkComponent)</h4>
   <div class="markdown level1 summary"></div>
@@ -3848,18 +3851,6 @@ public void OnChangeDescription(int panelId, string description)</code></pre>
   </table>
   
   
-  <a id="Sandbox_Game_Entities_MyCockpit_OnRemovedByCubeBuilder_" data-uid="Sandbox.Game.Entities.MyCockpit.OnRemovedByCubeBuilder*"></a>
-  <h4 id="Sandbox_Game_Entities_MyCockpit_OnRemovedByCubeBuilder" data-uid="Sandbox.Game.Entities.MyCockpit.OnRemovedByCubeBuilder">OnRemovedByCubeBuilder()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void OnRemovedByCubeBuilder()</code></pre>
-  </div>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="Sandbox.Game.Entities.MyCubeBlock.html#Sandbox_Game_Entities_MyCubeBlock_OnRemovedByCubeBuilder">MyCubeBlock.OnRemovedByCubeBuilder()</a></div>
-  
-  
   <a id="Sandbox_Game_Entities_MyCockpit_OnRemovedFromScene_" data-uid="Sandbox.Game.Entities.MyCockpit.OnRemovedFromScene*"></a>
   <h4 id="Sandbox_Game_Entities_MyCockpit_OnRemovedFromScene_System_Object_" data-uid="Sandbox.Game.Entities.MyCockpit.OnRemovedFromScene(System.Object)">OnRemovedFromScene(Object)</h4>
   <div class="markdown level1 summary"></div>
@@ -3895,7 +3886,7 @@ public void OnChangeDescription(int panelId, string description)</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Event(null, 1603)]
+    <pre><code class="lang-csharp hljs">[Event(null, 1591)]
 [Reliable]
 [Server]
 public void OnRequestRemovePilot()</code></pre>

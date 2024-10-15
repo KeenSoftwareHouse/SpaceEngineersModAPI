@@ -125,6 +125,9 @@
       <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_ReadyForReplicationAction">MyEntity.ReadyForReplicationAction</a>
     </div>
     <div>
+      <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_PropagateSubpartRotationThroughHieerarchy">MyEntity.PropagateSubpartRotationThroughHieerarchy</a>
+    </div>
+    <div>
       <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_ReplicationStarted">MyEntity.ReplicationStarted</a>
     </div>
     <div>
@@ -366,6 +369,9 @@
     </div>
     <div>
       <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_InstantiateSubpart_VRageRender_Import_MyModelDummy_VRage_Game_Entity_MyEntitySubpart_Data__">MyEntity.InstantiateSubpart(MyModelDummy, MyEntitySubpart.Data)</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_GetCubeBlockParent_VRage_Game_Entity_MyEntity_">MyEntity.GetCubeBlockParent(MyEntity)</a>
     </div>
     <div>
       <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_ToString">MyEntity.ToString()</a>
@@ -2245,7 +2251,8 @@ public class MySafeZone : MyEntity, IMyEntity, IMyEntity, IMyEventProxy, IMyEven
   
   <a id="Sandbox_Game_Entities_MySafeZone_RecreatePhysics_" data-uid="Sandbox.Game.Entities.MySafeZone.RecreatePhysics*"></a>
   <h4 id="Sandbox_Game_Entities_MySafeZone_RecreatePhysics_System_Boolean_System_Boolean_" data-uid="Sandbox.Game.Entities.MySafeZone.RecreatePhysics(System.Boolean,System.Boolean)">RecreatePhysics(Boolean, Boolean)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>When physics are recreated (shape / size), this should be triggered so entities would be re-added</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -2264,12 +2271,14 @@ public class MySafeZone : MyEntity, IMyEntity, IMyEntity, IMyEventProxy, IMyEven
       <tr>
         <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">insertEntities</span></td>
-        <td></td>
+        <td><p>Should be true</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">triggerNotification</span></td>
-        <td></td>
+        <td><p>Does nothing, kept for Mods</p>
+</td>
       </tr>
     </tbody>
   </table>

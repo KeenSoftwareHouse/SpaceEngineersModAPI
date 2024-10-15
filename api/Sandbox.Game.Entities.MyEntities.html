@@ -1410,12 +1410,12 @@ DoneHandler is invoked from update thread when the object is added into scene.</
   
   
   <a id="Sandbox_Game_Entities_MyEntities_FindFreePlace_" data-uid="Sandbox.Game.Entities.MyEntities.FindFreePlace*"></a>
-  <h4 id="Sandbox_Game_Entities_MyEntities_FindFreePlace_VRageMath_MatrixD__VRageMath_Vector3_System_Single_System_Int32_System_Int32_System_Single_" data-uid="Sandbox.Game.Entities.MyEntities.FindFreePlace(VRageMath.MatrixD@,VRageMath.Vector3,System.Single,System.Int32,System.Int32,System.Single)">FindFreePlace(ref MatrixD, Vector3, Single, Int32, Int32, Single)</h4>
+  <h4 id="Sandbox_Game_Entities_MyEntities_FindFreePlace_VRageMath_MatrixD__VRageMath_Vector3_System_Single_System_Int32_System_Int32_System_Single_System_Boolean_" data-uid="Sandbox.Game.Entities.MyEntities.FindFreePlace(VRageMath.MatrixD@,VRageMath.Vector3,System.Single,System.Int32,System.Int32,System.Single,System.Boolean)">FindFreePlace(ref MatrixD, Vector3, Single, Int32, Int32, Single, Boolean)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Nullable&lt;Vector3D&gt; FindFreePlace(ref MatrixD matrix, Vector3 axis, float radius, int maxTestCount = 20, int testsPerDistance = 5, float stepSize = 1F)</code></pre>
+    <pre><code class="lang-csharp hljs">public static Nullable&lt;Vector3D&gt; FindFreePlace(ref MatrixD matrix, Vector3 axis, float radius, int maxTestCount = 20, int testsPerDistance = 5, float stepSize = 1F, bool allowSafezones = false)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1459,6 +1459,11 @@ DoneHandler is invoked from update thread when the object is added into scene.</
         <td><span class="parametername">stepSize</span></td>
         <td></td>
       </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">allowSafezones</span></td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
   <h5 class="returns">Returns</h5>
@@ -1479,14 +1484,14 @@ DoneHandler is invoked from update thread when the object is added into scene.</
   
   
   <a id="Sandbox_Game_Entities_MyEntities_FindFreePlace_" data-uid="Sandbox.Game.Entities.MyEntities.FindFreePlace*"></a>
-  <h4 id="Sandbox_Game_Entities_MyEntities_FindFreePlace_VRageMath_Vector3D_System_Single_System_Int32_System_Int32_System_Single_VRage_Game_Entity_MyEntity_" data-uid="Sandbox.Game.Entities.MyEntities.FindFreePlace(VRageMath.Vector3D,System.Single,System.Int32,System.Int32,System.Single,VRage.Game.Entity.MyEntity)">FindFreePlace(Vector3D, Single, Int32, Int32, Single, MyEntity)</h4>
+  <h4 id="Sandbox_Game_Entities_MyEntities_FindFreePlace_VRageMath_Vector3D_System_Single_System_Int32_System_Int32_System_Single_VRage_Game_Entity_MyEntity_System_Boolean_" data-uid="Sandbox.Game.Entities.MyEntities.FindFreePlace(VRageMath.Vector3D,System.Single,System.Int32,System.Int32,System.Single,VRage.Game.Entity.MyEntity,System.Boolean)">FindFreePlace(Vector3D, Single, Int32, Int32, Single, MyEntity, Boolean)</h4>
   <div class="markdown level1 summary"><p>Finds free place for objects defined by position and radius.
 StepSize is how fast to increase radius, 0.5f means by half radius</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Nullable&lt;Vector3D&gt; FindFreePlace(Vector3D basePos, float radius, int maxTestCount = 20, int testsPerDistance = 5, float stepSize = 1F, MyEntity ignoreEnt = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public static Nullable&lt;Vector3D&gt; FindFreePlace(Vector3D basePos, float radius, int maxTestCount = 20, int testsPerDistance = 5, float stepSize = 1F, MyEntity ignoreEnt = null, bool allowSafezones = false)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1528,6 +1533,11 @@ StepSize is how fast to increase radius, 0.5f means by half radius</p>
         <td><span class="parametername">ignoreEnt</span></td>
         <td></td>
       </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">allowSafezones</span></td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
   <h5 class="returns">Returns</h5>
@@ -1548,12 +1558,12 @@ StepSize is how fast to increase radius, 0.5f means by half radius</p>
   
   
   <a id="Sandbox_Game_Entities_MyEntities_FindFreePlaceCustom_" data-uid="Sandbox.Game.Entities.MyEntities.FindFreePlaceCustom*"></a>
-  <h4 id="Sandbox_Game_Entities_MyEntities_FindFreePlaceCustom_VRageMath_Vector3D_System_Single_System_Int32_System_Int32_System_Single_System_Single_VRage_Game_Entity_MyEntity_" data-uid="Sandbox.Game.Entities.MyEntities.FindFreePlaceCustom(VRageMath.Vector3D,System.Single,System.Int32,System.Int32,System.Single,System.Single,VRage.Game.Entity.MyEntity)">FindFreePlaceCustom(Vector3D, Single, Int32, Int32, Single, Single, MyEntity)</h4>
+  <h4 id="Sandbox_Game_Entities_MyEntities_FindFreePlaceCustom_VRageMath_Vector3D_System_Single_System_Int32_System_Int32_System_Single_System_Single_VRage_Game_Entity_MyEntity_System_Boolean_" data-uid="Sandbox.Game.Entities.MyEntities.FindFreePlaceCustom(VRageMath.Vector3D,System.Single,System.Int32,System.Int32,System.Single,System.Single,VRage.Game.Entity.MyEntity,System.Boolean)">FindFreePlaceCustom(Vector3D, Single, Int32, Int32, Single, Single, MyEntity, Boolean)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Nullable&lt;Vector3D&gt; FindFreePlaceCustom(Vector3D basePos, float radius, int maxTestCount = 20, int testsPerDistance = 5, float stepSize = 1F, float radiusIncrement = 0F, MyEntity ignoreEnt = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public static Nullable&lt;Vector3D&gt; FindFreePlaceCustom(Vector3D basePos, float radius, int maxTestCount = 20, int testsPerDistance = 5, float stepSize = 1F, float radiusIncrement = 0F, MyEntity ignoreEnt = null, bool allowSafezones = false)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1600,6 +1610,11 @@ StepSize is how fast to increase radius, 0.5f means by half radius</p>
         <td><span class="parametername">ignoreEnt</span></td>
         <td></td>
       </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">allowSafezones</span></td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
   <h5 class="returns">Returns</h5>
@@ -1625,7 +1640,7 @@ StepSize is how fast to increase radius, 0.5f means by half radius</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Event(null, 2903)]
+    <pre><code class="lang-csharp hljs">[Event(null, 2883)]
 [Reliable]
 [Broadcast]
 public static void ForceCloseEntityOnClients(long entityId)</code></pre>
@@ -2863,48 +2878,6 @@ If you are modder, you better use IMyEntities method. It is safe to use.</p>
   </table>
   
   
-  <a id="Sandbox_Game_Entities_MyEntities_IsInsideWorld_" data-uid="Sandbox.Game.Entities.MyEntities.IsInsideWorld*"></a>
-  <h4 id="Sandbox_Game_Entities_MyEntities_IsInsideWorld_VRageMath_Vector3D_" data-uid="Sandbox.Game.Entities.MyEntities.IsInsideWorld(VRageMath.Vector3D)">IsInsideWorld(Vector3D)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool IsInsideWorld(Vector3D pos)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="VRageMath.Vector3D.html">Vector3D</a></td>
-        <td><span class="parametername">pos</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
   <a id="Sandbox_Game_Entities_MyEntities_IsNameExists_" data-uid="Sandbox.Game.Entities.MyEntities.IsNameExists*"></a>
   <h4 id="Sandbox_Game_Entities_MyEntities_IsNameExists_VRage_Game_Entity_MyEntity_System_String_" data-uid="Sandbox.Game.Entities.MyEntities.IsNameExists(VRage.Game.Entity.MyEntity,System.String)">IsNameExists(MyEntity, String)</h4>
   <div class="markdown level1 summary"></div>
@@ -3000,12 +2973,12 @@ If you are modder, you better use IMyEntities method. It is safe to use.</p>
   
   
   <a id="Sandbox_Game_Entities_MyEntities_IsShapePenetrating_" data-uid="Sandbox.Game.Entities.MyEntities.IsShapePenetrating*"></a>
-  <h4 id="Sandbox_Game_Entities_MyEntities_IsShapePenetrating_Havok_HkShape_VRageMath_Vector3D__VRageMath_Quaternion__System_Func_VRage_ModAPI_IMyEntity_System_Boolean__System_Int32_" data-uid="Sandbox.Game.Entities.MyEntities.IsShapePenetrating(Havok.HkShape,VRageMath.Vector3D@,VRageMath.Quaternion@,System.Func{VRage.ModAPI.IMyEntity,System.Boolean},System.Int32)">IsShapePenetrating(HkShape, ref Vector3D, ref Quaternion, Func&lt;IMyEntity, Boolean&gt;, Int32)</h4>
+  <h4 id="Sandbox_Game_Entities_MyEntities_IsShapePenetrating_Havok_HkShape_VRageMath_Vector3D__VRageMath_Quaternion__System_Func_VRage_ModAPI_IMyEntity_System_Boolean__System_Int32_System_Boolean_" data-uid="Sandbox.Game.Entities.MyEntities.IsShapePenetrating(Havok.HkShape,VRageMath.Vector3D@,VRageMath.Quaternion@,System.Func{VRage.ModAPI.IMyEntity,System.Boolean},System.Int32,System.Boolean)">IsShapePenetrating(HkShape, ref Vector3D, ref Quaternion, Func&lt;IMyEntity, Boolean&gt;, Int32, Boolean)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool IsShapePenetrating(HkShape shape, ref Vector3D position, ref Quaternion rotation, Func&lt;IMyEntity, bool&gt; entityFilter, int filter = 15)</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool IsShapePenetrating(HkShape shape, ref Vector3D position, ref Quaternion rotation, Func&lt;IMyEntity, bool&gt; entityFilter, int filter = 15, bool allowSafezones = false)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -3042,6 +3015,11 @@ If you are modder, you better use IMyEntities method. It is safe to use.</p>
         <td><span class="parametername">filter</span></td>
         <td></td>
       </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">allowSafezones</span></td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
   <h5 class="returns">Returns</h5>
@@ -3062,12 +3040,12 @@ If you are modder, you better use IMyEntities method. It is safe to use.</p>
   
   
   <a id="Sandbox_Game_Entities_MyEntities_IsShapePenetrating_" data-uid="Sandbox.Game.Entities.MyEntities.IsShapePenetrating*"></a>
-  <h4 id="Sandbox_Game_Entities_MyEntities_IsShapePenetrating_Havok_HkShape_VRageMath_Vector3D__VRageMath_Quaternion__System_Int32_VRage_Game_Entity_MyEntity_" data-uid="Sandbox.Game.Entities.MyEntities.IsShapePenetrating(Havok.HkShape,VRageMath.Vector3D@,VRageMath.Quaternion@,System.Int32,VRage.Game.Entity.MyEntity)">IsShapePenetrating(HkShape, ref Vector3D, ref Quaternion, Int32, MyEntity)</h4>
+  <h4 id="Sandbox_Game_Entities_MyEntities_IsShapePenetrating_Havok_HkShape_VRageMath_Vector3D__VRageMath_Quaternion__System_Int32_VRage_Game_Entity_MyEntity_System_Boolean_" data-uid="Sandbox.Game.Entities.MyEntities.IsShapePenetrating(Havok.HkShape,VRageMath.Vector3D@,VRageMath.Quaternion@,System.Int32,VRage.Game.Entity.MyEntity,System.Boolean)">IsShapePenetrating(HkShape, ref Vector3D, ref Quaternion, Int32, MyEntity, Boolean)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool IsShapePenetrating(HkShape shape, ref Vector3D position, ref Quaternion rotation, int filter = 15, MyEntity ignoreEnt = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool IsShapePenetrating(HkShape shape, ref Vector3D position, ref Quaternion rotation, int filter = 15, MyEntity ignoreEnt = null, bool allowSafezones = false)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -3104,6 +3082,11 @@ If you are modder, you better use IMyEntities method. It is safe to use.</p>
         <td><span class="parametername">ignoreEnt</span></td>
         <td></td>
       </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">allowSafezones</span></td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
   <h5 class="returns">Returns</h5>
@@ -3124,12 +3107,12 @@ If you are modder, you better use IMyEntities method. It is safe to use.</p>
   
   
   <a id="Sandbox_Game_Entities_MyEntities_IsSpherePenetrating_" data-uid="Sandbox.Game.Entities.MyEntities.IsSpherePenetrating*"></a>
-  <h4 id="Sandbox_Game_Entities_MyEntities_IsSpherePenetrating_VRageMath_BoundingSphereD__" data-uid="Sandbox.Game.Entities.MyEntities.IsSpherePenetrating(VRageMath.BoundingSphereD@)">IsSpherePenetrating(ref BoundingSphereD)</h4>
+  <h4 id="Sandbox_Game_Entities_MyEntities_IsSpherePenetrating_VRageMath_BoundingSphereD__System_Boolean_" data-uid="Sandbox.Game.Entities.MyEntities.IsSpherePenetrating(VRageMath.BoundingSphereD@,System.Boolean)">IsSpherePenetrating(ref BoundingSphereD, Boolean)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool IsSpherePenetrating(ref BoundingSphereD bs)</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool IsSpherePenetrating(ref BoundingSphereD bs, bool allowSafezones = false)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -3144,6 +3127,11 @@ If you are modder, you better use IMyEntities method. It is safe to use.</p>
       <tr>
         <td><a class="xref" href="VRageMath.BoundingSphereD.html">BoundingSphereD</a></td>
         <td><span class="parametername">bs</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">allowSafezones</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -3257,31 +3245,6 @@ If you are modder, you better use IMyEntities method. It is safe to use.</p>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Sandbox_Game_Entities_MyEntities_IsWorldLimited_" data-uid="Sandbox.Game.Entities.MyEntities.IsWorldLimited*"></a>
-  <h4 id="Sandbox_Game_Entities_MyEntities_IsWorldLimited" data-uid="Sandbox.Game.Entities.MyEntities.IsWorldLimited">IsWorldLimited()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool IsWorldLimited()</code></pre>
-  </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -3572,7 +3535,7 @@ If you are modder, you better use IMyEntities method. It is safe to use.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void RemapObjectBuilder(MyObjectBuilder_EntityBase objectBuilder)</code></pre>
+    <pre><code class="lang-csharp hljs">public static IMyRemapHelper RemapObjectBuilder(MyObjectBuilder_EntityBase objectBuilder)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -3587,6 +3550,21 @@ If you are modder, you better use IMyEntities method. It is safe to use.</p>
       <tr>
         <td><a class="xref" href="VRage.ObjectBuilders.MyObjectBuilder_EntityBase.html">MyObjectBuilder_EntityBase</a></td>
         <td><span class="parametername">objectBuilder</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRage.ModAPI.IMyRemapHelper.html">IMyRemapHelper</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -4334,60 +4312,6 @@ If you are modder, you better use IMyEntities method. It is safe to use.</p>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void UpdatingStopped()</code></pre>
   </div>
-  
-  
-  <a id="Sandbox_Game_Entities_MyEntities_WorldHalfExtent_" data-uid="Sandbox.Game.Entities.MyEntities.WorldHalfExtent*"></a>
-  <h4 id="Sandbox_Game_Entities_MyEntities_WorldHalfExtent" data-uid="Sandbox.Game.Entities.MyEntities.WorldHalfExtent">WorldHalfExtent()</h4>
-  <div class="markdown level1 summary"><p>Returns shortest distance (i.e. axis-aligned) to the world border from the world center.
-Will be 0 if world is borderless</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static float WorldHalfExtent()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Single</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Sandbox_Game_Entities_MyEntities_WorldSafeHalfExtent_" data-uid="Sandbox.Game.Entities.MyEntities.WorldSafeHalfExtent*"></a>
-  <h4 id="Sandbox_Game_Entities_MyEntities_WorldSafeHalfExtent" data-uid="Sandbox.Game.Entities.MyEntities.WorldSafeHalfExtent">WorldSafeHalfExtent()</h4>
-  <div class="markdown level1 summary"><p>Returns shortest distance (i.e. axis-aligned) to the world border from the world center, minus 600m to make spawning somewhat safer.
-WIll be 0 if world is borderless</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static float WorldSafeHalfExtent()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Single</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="events">Events
   </h3>
   

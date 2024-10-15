@@ -742,6 +742,9 @@
       <a class="xref" href="Sandbox.Game.Entities.MyShipController.html#Sandbox_Game_Entities_MyShipController_Sandbox_ModAPI_IMyShipController_IsShooting">MyShipController.IMyShipController.IsShooting</a>
     </div>
     <div>
+      <a class="xref" href="Sandbox.Game.Entities.MyCubeBlock.html#Sandbox_Game_Entities_MyCubeBlock_MAX_CUSTOM_NAME_LENGTH">MyCubeBlock.MAX_CUSTOM_NAME_LENGTH</a>
+    </div>
+    <div>
       <a class="xref" href="Sandbox.Game.Entities.MyCubeBlock.html#Sandbox_Game_Entities_MyCubeBlock_DUMMY_SUBBLOCK_ID">MyCubeBlock.DUMMY_SUBBLOCK_ID</a>
     </div>
     <div>
@@ -1228,6 +1231,9 @@
       <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_ReadyForReplicationAction">MyEntity.ReadyForReplicationAction</a>
     </div>
     <div>
+      <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_PropagateSubpartRotationThroughHieerarchy">MyEntity.PropagateSubpartRotationThroughHieerarchy</a>
+    </div>
+    <div>
       <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_ReplicationStarted">MyEntity.ReplicationStarted</a>
     </div>
     <div>
@@ -1442,6 +1448,9 @@
     </div>
     <div>
       <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_InstantiateSubpart_VRageRender_Import_MyModelDummy_VRage_Game_Entity_MyEntitySubpart_Data__">MyEntity.InstantiateSubpart(MyModelDummy, MyEntitySubpart.Data)</a>
+    </div>
+    <div>
+      <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_GetCubeBlockParent_VRage_Game_Entity_MyEntity_">MyEntity.GetCubeBlockParent(MyEntity)</a>
     </div>
     <div>
       <a class="xref" href="VRage.Game.Entity.MyEntity.html#VRage_Game_Entity_MyEntity_ToString">MyEntity.ToString()</a>
@@ -2260,6 +2269,33 @@ public class MyRemoteControl : MyShipController, IMyComponentOwner&lt;MyIDModule
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void AdvanceWaypoint()</code></pre>
   </div>
+  
+  
+  <a id="Sandbox_Game_Entities_MyRemoteControl_AssignControl_" data-uid="Sandbox.Game.Entities.MyRemoteControl.AssignControl*"></a>
+  <h4 id="Sandbox_Game_Entities_MyRemoteControl_AssignControl_Sandbox_Game_Entities_IMyControllableEntity_" data-uid="Sandbox.Game.Entities.MyRemoteControl.AssignControl(Sandbox.Game.Entities.IMyControllableEntity)">AssignControl(IMyControllableEntity)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void AssignControl(IMyControllableEntity user)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Sandbox.Game.Entities.IMyControllableEntity.html">IMyControllableEntity</a></td>
+        <td><span class="parametername">user</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <a id="Sandbox_Game_Entities_MyRemoteControl_CanControl_" data-uid="Sandbox.Game.Entities.MyRemoteControl.CanControl*"></a>
@@ -3148,38 +3184,6 @@ public class MyRemoteControl : MyShipController, IMyComponentOwner&lt;MyIDModule
   </div>
   <h5 class="overrides">Overrides</h5>
   <div><a class="xref" href="Sandbox.Game.Entities.MyShipController.html#Sandbox_Game_Entities_MyShipController_ShowTerminal">MyShipController.ShowTerminal()</a></div>
-  
-  
-  <a id="Sandbox_Game_Entities_MyRemoteControl_sync_UseSuccess_" data-uid="Sandbox.Game.Entities.MyRemoteControl.sync_UseSuccess*"></a>
-  <h4 id="Sandbox_Game_Entities_MyRemoteControl_sync_UseSuccess_VRage_Game_Entity_UseObject_UseActionEnum_Sandbox_Game_Entities_IMyControllableEntity_" data-uid="Sandbox.Game.Entities.MyRemoteControl.sync_UseSuccess(VRage.Game.Entity.UseObject.UseActionEnum,Sandbox.Game.Entities.IMyControllableEntity)">sync_UseSuccess(UseActionEnum, IMyControllableEntity)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected void sync_UseSuccess(UseActionEnum actionEnum, IMyControllableEntity user)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="VRage.Game.Entity.UseObject.UseActionEnum.html">UseActionEnum</a></td>
-        <td><span class="parametername">actionEnum</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="Sandbox.Game.Entities.IMyControllableEntity.html">IMyControllableEntity</a></td>
-        <td><span class="parametername">user</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   
   
   <a id="Sandbox_Game_Entities_MyRemoteControl_UpdateAfterSimulation10_" data-uid="Sandbox.Game.Entities.MyRemoteControl.UpdateAfterSimulation10*"></a>

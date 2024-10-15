@@ -87,6 +87,7 @@
     <div><a class="xref" href="VRage.Game.ModAPI.Interfaces.IMyCameraController.html">IMyCameraController</a></div>
     <div><a class="xref" href="Sandbox.Game.Entities.IMyControllableEntity.html">IMyControllableEntity</a></div>
     <div><a class="xref" href="VRage.Game.ModAPI.Interfaces.IMyControllableEntity.html">IMyControllableEntity</a></div>
+    <div><a class="xref" href="Sandbox.ModAPI.IMyRespawnComponent.html">IMyRespawnComponent</a></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -359,8 +360,9 @@
   <h6><strong>Assembly</strong>: SpaceEngineers.Game.dll</h6>
   <h5 id="VRage_Game_Components_MyRespawnComponent_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[MyComponentBuilder]
-public class MyRespawnComponent : MyEntityRespawnComponentBase, IMyEntityComponentBase, IMyComponentBase, IMyCameraController, IMyControllableEntity, IMyControllableEntity</code></pre>
+    <pre><code class="lang-csharp hljs">[MyComponentType]
+[MyComponentBuilder]
+public class MyRespawnComponent : MyEntityRespawnComponentBase, IMyEntityComponentBase, IMyCameraController, IMyControllableEntity, IMyControllableEntity, IMyRespawnComponent, IMyComponentBase</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
@@ -634,6 +636,9 @@ public class MyRespawnComponent : MyEntityRespawnComponentBase, IMyEntityCompone
   </div>
   <div>
       <a class="xref" href="VRage.Game.ModAPI.Interfaces.IMyControllableEntity.html">IMyControllableEntity</a>
+  </div>
+  <div>
+      <a class="xref" href="Sandbox.ModAPI.IMyRespawnComponent.html">IMyRespawnComponent</a>
   </div>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>

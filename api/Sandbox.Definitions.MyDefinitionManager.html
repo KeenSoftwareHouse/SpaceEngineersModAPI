@@ -422,6 +422,96 @@ public class MyDefinitionManager : MyDefinitionManagerBase</code></pre>
   </table>
   
   
+  <a id="Sandbox_Definitions_MyDefinitionManager_GetAllStoriesDefinition_" data-uid="Sandbox.Definitions.MyDefinitionManager.GetAllStoriesDefinition*"></a>
+  <h4 id="Sandbox_Definitions_MyDefinitionManager_GetAllStoriesDefinition_VRage_Game_MyDefinitionId_" data-uid="Sandbox.Definitions.MyDefinitionManager.GetAllStoriesDefinition(VRage.Game.MyDefinitionId)">GetAllStoriesDefinition(MyDefinitionId)</h4>
+  <div class="markdown level1 summary"><p>Get all stories</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DictionaryReader&lt;MyDefinitionId, MyStoryDefinition&gt; GetAllStoriesDefinition(MyDefinitionId categoryDefinition)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRage.Game.MyDefinitionId.html">MyDefinitionId</a></td>
+        <td><span class="parametername">categoryDefinition</span></td>
+        <td><p>MyObjectBuilder_StoryCategoryDefinition/Subtype</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRage.Collections.DictionaryReader-2.html">DictionaryReader</a>&lt;<a class="xref" href="VRage.Game.MyDefinitionId.html">MyDefinitionId</a>, <a class="xref" href="Sandbox.Definitions.MyStoryDefinition.html">MyStoryDefinition</a>&gt;</td>
+        <td><p>Dictionary of all story definitions</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Definitions_MyDefinitionManager_GetAllStoryCategoriesDefinition_" data-uid="Sandbox.Definitions.MyDefinitionManager.GetAllStoryCategoriesDefinition*"></a>
+  <h4 id="Sandbox_Definitions_MyDefinitionManager_GetAllStoryCategoriesDefinition_VRage_Game_MyDefinitionId_" data-uid="Sandbox.Definitions.MyDefinitionManager.GetAllStoryCategoriesDefinition(VRage.Game.MyDefinitionId)">GetAllStoryCategoriesDefinition(MyDefinitionId)</h4>
+  <div class="markdown level1 summary"><p>Get all story categories id</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DictionaryReader&lt;MyDefinitionId, MyStoryCategoryDefinition&gt; GetAllStoryCategoriesDefinition(MyDefinitionId categoryDefinition)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRage.Game.MyDefinitionId.html">MyDefinitionId</a></td>
+        <td><span class="parametername">categoryDefinition</span></td>
+        <td><p>MyObjectBuilder_StoryCategoryDefinition/Subtype</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRage.Collections.DictionaryReader-2.html">DictionaryReader</a>&lt;<a class="xref" href="VRage.Game.MyDefinitionId.html">MyDefinitionId</a>, <a class="xref" href="Sandbox.Definitions.MyStoryCategoryDefinition.html">MyStoryCategoryDefinition</a>&gt;</td>
+        <td><p>Dictionary of story definitions or empty list</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="Sandbox_Definitions_MyDefinitionManager_GetAmmoDefinition_" data-uid="Sandbox.Definitions.MyDefinitionManager.GetAmmoDefinition*"></a>
   <h4 id="Sandbox_Definitions_MyDefinitionManager_GetAmmoDefinition_VRage_Game_MyDefinitionId_" data-uid="Sandbox.Definitions.MyDefinitionManager.GetAmmoDefinition(VRage.Game.MyDefinitionId)">GetAmmoDefinition(MyDefinitionId)</h4>
   <div class="markdown level1 summary"></div>
@@ -3116,13 +3206,30 @@ public class MyDefinitionManager : MyDefinitionManagerBase</code></pre>
   
   
   <a id="Sandbox_Definitions_MyDefinitionManager_GetLootBagDefinition_" data-uid="Sandbox.Definitions.MyDefinitionManager.GetLootBagDefinition*"></a>
-  <h4 id="Sandbox_Definitions_MyDefinitionManager_GetLootBagDefinition" data-uid="Sandbox.Definitions.MyDefinitionManager.GetLootBagDefinition">GetLootBagDefinition()</h4>
+  <h4 id="Sandbox_Definitions_MyDefinitionManager_GetLootBagDefinition_VRage_Game_MyCubeSize_" data-uid="Sandbox.Definitions.MyDefinitionManager.GetLootBagDefinition(VRage.Game.MyCubeSize)">GetLootBagDefinition(MyCubeSize)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public MyLootBagDefinition GetLootBagDefinition()</code></pre>
+    <pre><code class="lang-csharp hljs">public MyLootBagDefinition GetLootBagDefinition(MyCubeSize size)</code></pre>
   </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRage.Game.MyCubeSize.html">MyCubeSize</a></td>
+        <td><span class="parametername">size</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -3887,6 +3994,51 @@ public class MyDefinitionManager : MyDefinitionManagerBase</code></pre>
   </table>
   
   
+  <a id="Sandbox_Definitions_MyDefinitionManager_GetRandomStoryDefinition_" data-uid="Sandbox.Definitions.MyDefinitionManager.GetRandomStoryDefinition*"></a>
+  <h4 id="Sandbox_Definitions_MyDefinitionManager_GetRandomStoryDefinition_VRage_Game_MyDefinitionId_" data-uid="Sandbox.Definitions.MyDefinitionManager.GetRandomStoryDefinition(VRage.Game.MyDefinitionId)">GetRandomStoryDefinition(MyDefinitionId)</h4>
+  <div class="markdown level1 summary"><p>Get random story in category</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MyStoryDefinition GetRandomStoryDefinition(MyDefinitionId categoryDefinition)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRage.Game.MyDefinitionId.html">MyDefinitionId</a></td>
+        <td><span class="parametername">categoryDefinition</span></td>
+        <td><p>MyObjectBuilder_StoryCategoryDefinition/Subtype</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Sandbox.Definitions.MyStoryDefinition.html">MyStoryDefinition</a></td>
+        <td><p>Random story definition or null</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="Sandbox_Definitions_MyDefinitionManager_GetResearchBlock_" data-uid="Sandbox.Definitions.MyDefinitionManager.GetResearchBlock*"></a>
   <h4 id="Sandbox_Definitions_MyDefinitionManager_GetResearchBlock_VRage_Game_MyDefinitionId_" data-uid="Sandbox.Definitions.MyDefinitionManager.GetResearchBlock(VRage.Game.MyDefinitionId)">GetResearchBlock(MyDefinitionId)</h4>
   <div class="markdown level1 summary"></div>
@@ -4402,6 +4554,186 @@ public class MyDefinitionManager : MyDefinitionManagerBase</code></pre>
       <tr>
         <td><a class="xref" href="VRage.Collections.ListReader-1.html">ListReader</a>&lt;<a class="xref" href="Sandbox.Definitions.MySpawnGroupDefinition.html">MySpawnGroupDefinition</a>&gt;</td>
         <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Definitions_MyDefinitionManager_GetStoryCategoryDefinition_" data-uid="Sandbox.Definitions.MyDefinitionManager.GetStoryCategoryDefinition*"></a>
+  <h4 id="Sandbox_Definitions_MyDefinitionManager_GetStoryCategoryDefinition_VRage_Game_MyDefinitionId_" data-uid="Sandbox.Definitions.MyDefinitionManager.GetStoryCategoryDefinition(VRage.Game.MyDefinitionId)">GetStoryCategoryDefinition(MyDefinitionId)</h4>
+  <div class="markdown level1 summary"><p>Get story category by id</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MyStoryCategoryDefinition GetStoryCategoryDefinition(MyDefinitionId id)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRage.Game.MyDefinitionId.html">MyDefinitionId</a></td>
+        <td><span class="parametername">id</span></td>
+        <td><p>MyObjectBuilder_StoryCategoryDefinition/Subtype</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Sandbox.Definitions.MyStoryCategoryDefinition.html">MyStoryCategoryDefinition</a></td>
+        <td><p>Definition or null</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Definitions_MyDefinitionManager_GetStoryDefinition_" data-uid="Sandbox.Definitions.MyDefinitionManager.GetStoryDefinition*"></a>
+  <h4 id="Sandbox_Definitions_MyDefinitionManager_GetStoryDefinition_VRage_Game_MyDefinitionId_" data-uid="Sandbox.Definitions.MyDefinitionManager.GetStoryDefinition(VRage.Game.MyDefinitionId)">GetStoryDefinition(MyDefinitionId)</h4>
+  <div class="markdown level1 summary"><p>Get story by id</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MyStoryDefinition GetStoryDefinition(MyDefinitionId id)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRage.Game.MyDefinitionId.html">MyDefinitionId</a></td>
+        <td><span class="parametername">id</span></td>
+        <td><p>MyObjectBuilder_StoryDefinition/Subtype</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Sandbox.Definitions.MyStoryDefinition.html">MyStoryDefinition</a></td>
+        <td><p>Definition or null</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Definitions_MyDefinitionManager_GetStoryDefinitions_" data-uid="Sandbox.Definitions.MyDefinitionManager.GetStoryDefinitions*"></a>
+  <h4 id="Sandbox_Definitions_MyDefinitionManager_GetStoryDefinitions_VRage_Game_MyDefinitionId_" data-uid="Sandbox.Definitions.MyDefinitionManager.GetStoryDefinitions(VRage.Game.MyDefinitionId)">GetStoryDefinitions(MyDefinitionId)</h4>
+  <div class="markdown level1 summary"><p>Get stories by category id</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ListReader&lt;MyStoryDefinition&gt; GetStoryDefinitions(MyDefinitionId categoryDefinition)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRage.Game.MyDefinitionId.html">MyDefinitionId</a></td>
+        <td><span class="parametername">categoryDefinition</span></td>
+        <td><p>MyObjectBuilder_StoryCategoryDefinition/Subtype</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRage.Collections.ListReader-1.html">ListReader</a>&lt;<a class="xref" href="Sandbox.Definitions.MyStoryDefinition.html">MyStoryDefinition</a>&gt;</td>
+        <td><p>List of story definitions or empty list</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Definitions_MyDefinitionManager_GetTagDefinition_" data-uid="Sandbox.Definitions.MyDefinitionManager.GetTagDefinition*"></a>
+  <h4 id="Sandbox_Definitions_MyDefinitionManager_GetTagDefinition_System_String_" data-uid="Sandbox.Definitions.MyDefinitionManager.GetTagDefinition(System.String)">GetTagDefinition(String)</h4>
+  <div class="markdown level1 summary"><p>Get blocks tag defenition</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public MyCubeBlockTagDefinition GetTagDefinition(string blockTypeKey)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">blockTypeKey</span></td>
+        <td><p>SubtypeId of Tag</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Sandbox.Definitions.MyCubeBlockTagDefinition.html">MyCubeBlockTagDefinition</a></td>
+        <td><p>Tag definition</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -6379,6 +6711,53 @@ public class MyDefinitionManager : MyDefinitionManagerBase</code></pre>
       <tr>
         <td><a class="xref" href="Sandbox.Definitions.MyPhysicalItemDefinition.html">MyPhysicalItemDefinition</a></td>
         <td><span class="parametername">definition</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Definitions_MyDefinitionManager_TryGetSpawnGroupDefinition_" data-uid="Sandbox.Definitions.MyDefinitionManager.TryGetSpawnGroupDefinition*"></a>
+  <h4 id="Sandbox_Definitions_MyDefinitionManager_TryGetSpawnGroupDefinition_System_String_Sandbox_Definitions_MySpawnGroupDefinition__" data-uid="Sandbox.Definitions.MyDefinitionManager.TryGetSpawnGroupDefinition(System.String,Sandbox.Definitions.MySpawnGroupDefinition@)">TryGetSpawnGroupDefinition(String, out MySpawnGroupDefinition)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool TryGetSpawnGroupDefinition(string spawnGroupSubtypeName, out MySpawnGroupDefinition spawnGroupDefinition)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">spawnGroupSubtypeName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Sandbox.Definitions.MySpawnGroupDefinition.html">MySpawnGroupDefinition</a></td>
+        <td><span class="parametername">spawnGroupDefinition</span></td>
         <td></td>
       </tr>
     </tbody>

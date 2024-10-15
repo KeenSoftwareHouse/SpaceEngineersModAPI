@@ -137,6 +137,71 @@
   </table>
   
   
+  <a id="VRage_Game_ModAPI_IMyGridGroups_FindConnection_" data-uid="VRage.Game.ModAPI.IMyGridGroups.FindConnection*"></a>
+  <h4 id="VRage_Game_ModAPI_IMyGridGroups_FindConnection_VRage_Game_ModAPI_GridLinkTypeEnum_VRage_Game_ModAPI_IMyCubeGrid_System_Func_VRage_Game_ModAPI_IMyCubeGrid_VRage_Game_ModAPI_IMyCubeGrid_System_Int64_System_Boolean__" data-uid="VRage.Game.ModAPI.IMyGridGroups.FindConnection(VRage.Game.ModAPI.GridLinkTypeEnum,VRage.Game.ModAPI.IMyCubeGrid,System.Func{VRage.Game.ModAPI.IMyCubeGrid,VRage.Game.ModAPI.IMyCubeGrid,System.Int64,System.Boolean})">FindConnection(GridLinkTypeEnum, IMyCubeGrid, Func&lt;IMyCubeGrid, IMyCubeGrid, Int64, Boolean&gt;)</h4>
+  <div class="markdown level1 summary"><p>Dijkstra search  over grid-to-grid connections until searcher is return true
+NOTE: pretty expensive function on large grid-groups, don't call it often.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">List&lt;KeyValuePair&lt;long, IMyCubeGrid&gt;&gt; FindConnection(GridLinkTypeEnum linking, IMyCubeGrid from, Func&lt;IMyCubeGrid, IMyCubeGrid, long, bool&gt; searcher)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="VRage.Game.ModAPI.GridLinkTypeEnum.html">GridLinkTypeEnum</a></td>
+        <td><span class="parametername">linking</span></td>
+        <td><p>Type of grid-group connection</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="VRage.Game.ModAPI.IMyCubeGrid.html">IMyCubeGrid</a></td>
+        <td><span class="parametername">from</span></td>
+        <td><p>Initial grid, from which search would start</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<a class="xref" href="VRage.Game.ModAPI.IMyCubeGrid.html">IMyCubeGrid</a>, <a class="xref" href="VRage.Game.ModAPI.IMyCubeGrid.html">IMyCubeGrid</a>, <span class="xref">System.Int64</span>, <span class="xref">System.Boolean</span>&gt;</td>
+        <td><span class="parametername">searcher</span></td>
+        <td><p>When this function returns true - search is stopped, and result is returned.</p>
+<p>First arg - new grid</p>
+<p>Second - previous grid</p>
+<p>Last - block, that creates connection between those 2 grids. Note: There could be only one block per Grid-Grid connection</p>
+<p>Note: first call would be called with (from, null, 0)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">System.Collections.Generic.KeyValuePair</span>&lt;<span class="xref">System.Int64</span>, <a class="xref" href="VRage.Game.ModAPI.IMyCubeGrid.html">IMyCubeGrid</a>&gt;&gt;</td>
+        <td><p>Null if linking is <code data-dev-comment-type="paramref" class="paramref">linking</code> is incorrect.</p>
+<p>Null if <code data-dev-comment-type="paramref" class="paramref">searcher</code> hasn&apos;t returned true.</p>
+<p>Otherwise list of connections, where long is block entityId, and IMyCubeGrid - grid, where search is hopped</p>
+<p>Note: first element would be always (from, 0)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="VRage_Game_ModAPI_IMyGridGroups_GetGridGroup_" data-uid="VRage.Game.ModAPI.IMyGridGroups.GetGridGroup*"></a>
   <h4 id="VRage_Game_ModAPI_IMyGridGroups_GetGridGroup_VRage_Game_ModAPI_GridLinkTypeEnum_VRage_Game_ModAPI_IMyCubeGrid_" data-uid="VRage.Game.ModAPI.IMyGridGroups.GetGridGroup(VRage.Game.ModAPI.GridLinkTypeEnum,VRage.Game.ModAPI.IMyCubeGrid)">GetGridGroup(GridLinkTypeEnum, IMyCubeGrid)</h4>
   <div class="markdown level1 summary"><p>Gets grid-group for provided grid</p>

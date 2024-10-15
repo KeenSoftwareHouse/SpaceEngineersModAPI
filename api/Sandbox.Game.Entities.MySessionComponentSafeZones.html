@@ -442,7 +442,7 @@ public class MySessionComponentSafeZones : MySessionComponentBase, IMyUserInputC
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Event(null, 199)]
+    <pre><code class="lang-csharp hljs">[Event(null, 306)]
 [Reliable]
 [Server]
 public static void CreateSafeZone_Implementation(Vector3D position)</code></pre>
@@ -529,7 +529,7 @@ public static void CreateSafeZone_Implementation(Vector3D position)</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Event(null, 359)]
+    <pre><code class="lang-csharp hljs">[Event(null, 464)]
 [Reliable]
 [Server]
 public static void DeleteSafeZone_Implementation(long entityId)</code></pre>
@@ -584,6 +584,38 @@ public static void DeleteSafeZone_Implementation(long entityId)</code></pre>
       <tr>
         <td><span class="xref">System.UInt64</span></td>
         <td><span class="parametername">steamId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Sandbox_Game_Entities_MySessionComponentSafeZones_GetBelongingSafezones_" data-uid="Sandbox.Game.Entities.MySessionComponentSafeZones.GetBelongingSafezones*"></a>
+  <h4 id="Sandbox_Game_Entities_MySessionComponentSafeZones_GetBelongingSafezones_System_Int64_System_Collections_Generic_ICollection_Sandbox_Game_Entities_MySafeZone__" data-uid="Sandbox.Game.Entities.MySessionComponentSafeZones.GetBelongingSafezones(System.Int64,System.Collections.Generic.ICollection{Sandbox.Game.Entities.MySafeZone})">GetBelongingSafezones(Int64, ICollection&lt;MySafeZone&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void GetBelongingSafezones(long entity, ICollection&lt;MySafeZone&gt; where)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">entity</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.ICollection</span>&lt;<a class="xref" href="Sandbox.Game.Entities.MySafeZone.html">MySafeZone</a>&gt;</td>
+        <td><span class="parametername">where</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -1040,6 +1072,53 @@ public static void DeleteSafeZone_Implementation(long entityId)</code></pre>
   </table>
   
   
+  <a id="Sandbox_Game_Entities_MySessionComponentSafeZones_IsInSafezone_" data-uid="Sandbox.Game.Entities.MySessionComponentSafeZones.IsInSafezone*"></a>
+  <h4 id="Sandbox_Game_Entities_MySessionComponentSafeZones_IsInSafezone_System_Int64_Sandbox_Game_Entities_MySafeZone_" data-uid="Sandbox.Game.Entities.MySessionComponentSafeZones.IsInSafezone(System.Int64,Sandbox.Game.Entities.MySafeZone)">IsInSafezone(Int64, MySafeZone)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsInSafezone(long entityId, MySafeZone safeZone)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">entityId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Sandbox.Game.Entities.MySafeZone.html">MySafeZone</a></td>
+        <td><span class="parametername">safeZone</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="Sandbox_Game_Entities_MySessionComponentSafeZones_IsPlayerValid_" data-uid="Sandbox.Game.Entities.MySessionComponentSafeZones.IsPlayerValid*"></a>
   <h4 id="Sandbox_Game_Entities_MySessionComponentSafeZones_IsPlayerValid_System_UInt64_System_Int64_Sandbox_Game_World_MyIdentity__Sandbox_Game_Entities_MyCubeBlock__" data-uid="Sandbox.Game.Entities.MySessionComponentSafeZones.IsPlayerValid(System.UInt64,System.Int64,Sandbox.Game.World.MyIdentity@,Sandbox.Game.Entities.MyCubeBlock@)">IsPlayerValid(UInt64, Int64, out MyIdentity, out MyCubeBlock)</h4>
   <div class="markdown level1 summary"><p>Validates player and beacon associated with beacon id.</p>
@@ -1470,7 +1549,7 @@ public static void DeleteSafeZone_Implementation(long entityId)</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Event(null, 596)]
+    <pre><code class="lang-csharp hljs">[Event(null, 713)]
 [Reliable]
 [Server]
 [Broadcast]
@@ -1535,7 +1614,7 @@ public static void UpdateGlobalSafeZone_Implementation(MySafeZoneAction allowedA
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Event(null, 403)]
+    <pre><code class="lang-csharp hljs">[Event(null, 508)]
 [Reliable]
 [Server]
 [Broadcast]
@@ -1566,7 +1645,7 @@ public static void UpdateSafeZone_Implementation(MyObjectBuilder_SafeZone ob)</c
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Event(null, 458)]
+    <pre><code class="lang-csharp hljs">[Event(null, 569)]
 [Reliable]
 [Server]
 [Broadcast]
@@ -1602,7 +1681,7 @@ public static void UpdateSafeZone_ImplementationPlayer(long safezoneBlockId, MyO
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Event(null, 410)]
+    <pre><code class="lang-csharp hljs">[Event(null, 515)]
 [Reliable]
 [Server]
 [Broadcast]
@@ -1638,7 +1717,7 @@ public static void UpdateSafeZonePlayer_Implementation(long safeZoneBlockId, MyO
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Event(null, 491)]
+    <pre><code class="lang-csharp hljs">[Event(null, 602)]
 [Reliable]
 [Server]
 [Broadcast]
